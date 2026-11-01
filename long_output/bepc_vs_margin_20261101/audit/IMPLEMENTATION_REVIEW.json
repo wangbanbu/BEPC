@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "scope": "Independent implementation and pre-launch design review; no final performance/quality approval",
+  "reviewer": "/root/margin_comparison_audit",
+  "created_utc": "2026-11-01T07:54:59.202866+00:00",
+  "blocking_findings": [],
+  "checks": [
+    {
+      "id": "plain_margin_definition",
+      "status": "pass",
+      "evidence": "refined_controller.native_margins casts native top1 and candidate logits independently to FP32 before subtraction; T2 accepts finite g<=1. CompactTreeLogits preserves the same indexing and cast order."
+    },
+    {
+      "id": "controller_routing",
+      "status": "pass",
+      "evidence": "run_comparison.factory dispatches T2 to NoResponseCapMargin and REFINED_BEPC to NoResponseCapBEPC."
+    },
+    {
+      "id": "no_BEPC_overhead_for_margin",
+      "status": "pass",
+      "evidence": "T2 parent constructor installs no epcc, visual or Draft-distribution observer; constructor asserts all three are None. Shared call-count hooks are present in both arms."
+    },
+    {
+      "id": "matched_tree_and_engineering",
+      "status": "pass",
+      "evidence": "Both arms inherit SpeedController.evaluate, the same budgeted_scan/update, native compact logits, TerminalUpdate and CPU selection hints; no source forward, KV, position, tree mask or stopping implementation changes."
+    },
+    {
+      "id": "matched_budgets",
+      "status": "pass",
+      "evidence": "All frozen task arms have round2 and no response cap. Init-only response4 satisfies frozen constructor checks; live response_budget=math.inf before any forward or decision; final JSON uses null."
+    },
+    {
+      "id": "independent_new_tests",
+      "status": "pass",
+      "evidence": "Previously executed in this independent audit: python -B -m unittest discover -s tests -p test_margin_control.py -v. Three tests passed in 0.004 s. Tests cover native compact/expanded FP32 agreement, threshold/nonfinite behavior/no hooks, first-longest tie, selected-path accounting and cumulative mismatches above four. No rerun during artifact persistence."
+    },
+    {
+      "id": "frozen_design_and_sampling",
+      "status": "pass",
+      "evidence": "Same three task inputs/prompts, T=0, 20 dev and 100 test groups/task, one pass; per-question method order shuffled with a fixed seed; no threshold selection or test-label tuning. Historical Strict is context only, not a concurrent arm."
+    },
+    {
+      "id": "runtime_validation_and_historical_parity",
+      "status": "pass_design_only",
+      "evidence": "Generation asserts BEPC input/raw/returned tokens and acceptance-path parity with the prior run; validation checks both-arm input equality, round2 counting, no cap binding, Target calls=rounds+prefill, one vision call, no extra Target forward and request cleanup. Completed run evidence remains pending."
+    },
+    {
+      "id": "scoring_sequence",
+      "status": "pass_design_only",
+      "evidence": "Pipeline waits for GPU worker exit before validation and CPU official scoring. Development evaluator runs explicitly; analyze_comparison.main calls score_phase(main) for main scoring. No official scoring was invoked by this reviewer."
+    }
+  ],
+  "notes": [
+    {
+      "severity": "non_blocking_metadata",
+      "finding": "NoResponseCapBEPC.final_stats inherits all_relaxed_methods_same_budget=False from the previous cap4-versus-uncapped experiment. In this experiment the flag is stale and non-operative: both live budgets are infinity and authoritative frozen per-arm configurations specify round2/no response cap. No controller change is required; report this interpretation."
+    },
+    {
+      "severity": "non_blocking_operations",
+      "finding": "The pipeline raises on a GPU worker failure without terminating a still-running peer. Root is monitoring workers and will manually clean up a peer if necessary; this does not affect a successful paired run."
+    },
+    {
+      "severity": "interpretation_limit",
+      "finding": "This is a fixed tau=1 rule ablation with matched engine/budgets. It does not establish an acceptance-rate-matched or quality-matched Pareto optimum. Single-pass timing and automatic quality have the protocol-stated limitations."
+    }
+  ],
+  "authoritative_config_sha256": "a33d3450554a96ed8240678896894d0b9a0dd09f3974afbf72b9261e57171006",
+  "two_arm_configs_by_task": {
+    "scienceqa": {
+      "bepc_no_response_cap": {
+        "compact_logits": true,
+        "terminal_skip": true,
+        "controller": "speed",
+        "round_mismatch_budget": 2,
+        "response_mismatch_budget": null,
+        "rich_diagnostics": false,
+        "family": "REFINED_BEPC",
+        "rank_u": 8,
+        "rank_p": 4,
+        "text_window": 32,
+        "visual_pool_size": 64,
+        "gamma": 0.5,
+        "kappa": 1.0,
+        "eta": 0.0001,
+        "residual_attenuation": false,
+        "correction_mode": "both",
+        "tau": 1.0,
+        "solver": "fast",
+        "prune": true,
+        "visual_first_prune": true,
+        "experimental_bepc": true,
+        "gamma_rescue": 0.5,
+        "gamma_protection": 0.5,
+        "no_response_cap": true
+      },
+      "margin_no_response_cap": {
+        "family": "T2",
+        "tau": 1.0,
+        "controller": "speed",
+        "compact_logits": true,
+        "terminal_skip": true,
+        "round_mismatch_budget": 2,
+        "response_mismatch_budget": null,
+        "no_response_cap": true,
+        "rich_diagnostics": false,
+        "visual_first_prune": false,
+        "residual_attenuation": false
+      }
+    },
+    "coco": {
+      "bepc_no_response_cap": {
+        "compact_logits": true,
+        "terminal_skip": true,
+        "controller": "speed",
+        "round_mismatch_budget": 2,
+        "response_mismatch_budget": null,
+        "rich_diagnostics": false,
+        "family": "REFINED_BEPC",
+        "rank_u": 8,
+        "rank_p": 4,
+        "text_window": 32,
+        "visual_pool_size": 64,
+        "gamma": 0.5,
+        "kappa": 1.0,
+        "eta": 0.0001,
+        "residual_attenuation": false,
+        "correction_mode": "both",
+        "tau": 1.0,
+        "solver": "fast",
+        "prune": true,
+        "visual_first_prune": true,
+        "experimental_bepc": true,
+        "gamma_rescue": 0.5,
+        "gamma_protection": 0.5,
+        "no_response_cap": true
+      },
+      "margin_no_response_cap": {
+        "family": "T2",
+        "tau": 1.0,
+        "controller": "speed",
+        "compact_logits": true,
+        "terminal_skip": true,
+        "round_mismatch_budget": 2,
+        "response_mismatch_budget": null,
+        "no_response_cap": true,
+        "rich_diagnostics": false,
+        "visual_first_prune": false,
+        "residual_attenuation": false
+      }
+    },
+    "textvqa": {
+      "bepc_no_response_cap": {
+        "compact_logits": true,
+        "terminal_skip": true,
+        "controller": "speed",
+        "round_mismatch_budget": 2,
+        "response_mismatch_budget": null,
+        "rich_diagnostics": false,
+        "family": "REFINED_BEPC",
+        "rank_u": 8,
+        "rank_p": 4,
+        "text_window": 32,
+        "visual_pool_size": 64,
+        "gamma": 0.5,
+        "kappa": 1.0,
+        "eta": 0.0001,
+        "residual_attenuation": false,
+        "correction_mode": "both",
+        "tau": 1.0,
+        "solver": "fast",
+        "prune": true,
+        "visual_first_prune": true,
+        "experimental_bepc": true,
+        "gamma_rescue": 0.5,
+        "gamma_protection": 0.5,
+        "no_response_cap": true
+      },
+      "margin_no_response_cap": {
+        "family": "T2",
+        "tau": 1.0,
+        "controller": "speed",
+        "compact_logits": true,
+        "terminal_skip": true,
+        "round_mismatch_budget": 2,
+        "response_mismatch_budget": null,
+        "no_response_cap": true,
+        "rich_diagnostics": false,
+        "visual_first_prune": false,
+        "residual_attenuation": false
+      }
+    }
+  },
+  "source_sha256": {
+    "EXPERIMENT_PROTOCOL.md": "44fbaa46ba7dfc376149d5e1d176bc033a9bc5f74011c2799a02211b785ada05",
+    "configs/frozen_config.json": "a33d3450554a96ed8240678896894d0b9a0dd09f3974afbf72b9261e57171006",
+    "configs/design_config.json": "a33d3450554a96ed8240678896894d0b9a0dd09f3974afbf72b9261e57171006",
+    "harness/margin_controller.py": "1ab09d9b1bc1f4decf6c1336ead22b2dde9e923e617ec61a73b344126f582cc9",
+    "harness/run_comparison.py": "4ff908a9eb788ed30279c35b1b5d55f185700c7d213c2ab4f76ade72512b95ee",
+    "harness/prepare_comparison.py": "f787eb56a5ee689047ed9ae8494301def8370d99865322fe43adf04fd3dd74e0",
+    "harness/validate_comparison.py": "eea1f6f9529f841ed1070c05ecad017cdd4ae706696cc5633c7dd5f25fceaef9",
+    "harness/run_comparison_pipeline.py": "e17b4ec1bc1821f9dfd685becfb37b705e7d612b0f53da7b753c8edd42c10ffd",
+    "tests/test_margin_control.py": "f3dc9ff2caac1e51c683d70ac1a70286a056568ce2e30ab5b847c886f7c0242a",
+    "harness/run_benchmark.py": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a",
+    "harness/refined_controller.py": "ea913766a7e223cc3f2fb224fb73bfafbd392401a2e374e01155b38a9f12e3b6",
+    "harness/speed_controller.py": "5de69957079f114a08b91d014147ba33be72ea90b2f8b881c9df1f1320091c9b",
+    "harness/uncapped_controller.py": "072df734bda294d5962170ebdf792484a8044c7eda4847040f79ccb9e02b4b8f",
+    "harness/bepc_experimental.py": "bfd8e46951c390cf08c15761d6b923262773e1456b57a36d306701ebc0b44534",
+    "harness/online_controller.py": "c60248ddd72e42f1eb6be1a24e527077cd7e6cf438fb9e0ffa415777655adc82",
+    "harness/compact_logits.py": "e92c9bfaa73537d3c5aad48fabbee7741c127f0488d283a4e1358e421cafdbb3",
+    "harness/terminal_update.py": "efc7f305489b5e5b0fe3ed1bc59885efbeaea52618936b340f164dfed38c4304"
+  },
+  "mutations": "Only audit/IMPLEMENTATION_REVIEW.md and audit/IMPLEMENTATION_REVIEW.json written; source files read-only; no GPU jobs or official scoring started; tests not rerun during persistence."
+}

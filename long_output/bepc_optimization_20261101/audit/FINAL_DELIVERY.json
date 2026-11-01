@@ -1,0 +1,162 @@
+{
+  "status": "ready_for_independent_final_review",
+  "created_utc": "2026-11-01T06:36:35.329108+00:00",
+  "old_files_unchanged": 137,
+  "score_seals": [
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/scienceqa/strict_shared/SCORING_SEAL.json",
+      "sha256": "4d046c61ac48e5c32f38798c5f59a173de1f1b250358fd99b2cea78e4187a05c"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/scienceqa/bepc_original/SCORING_SEAL.json",
+      "sha256": "999e708d39c636a188d79c42964c06724bd5488e9284047cb3e79680074a4ffc"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/scienceqa/bepc_fast/SCORING_SEAL.json",
+      "sha256": "f2e9ca61c42e8671ebec22ae95b5740c184490bb66754ad776635e41b0d79efc"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/scienceqa/bepc_rescue0625/SCORING_SEAL.json",
+      "sha256": "10c8cf81bfe6c4b67d7235b8aebac41e2ab0d25ce39bf1843fdd116fe1b11801"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/coco/strict_shared/SCORING_SEAL.json",
+      "sha256": "75bb77f5160309cbd8693c2085f3af9aa0e4b6bec9e42a27354a12dc1421a703"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/coco/bepc_original/SCORING_SEAL.json",
+      "sha256": "73ac5a2a07b94cf3ded259ea286522a1ca322d3321d452577b18dff8bf241656"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/coco/bepc_fast/SCORING_SEAL.json",
+      "sha256": "3fd9a5fc6b1934348cca5378a462d9b3fe3d5299f5e21b897183eb1fe86d53dc"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/coco/bepc_rescue0625/SCORING_SEAL.json",
+      "sha256": "5beca0b825c20848b7f480ea9ffda2ea8ed30f4b7b0242a5c4952a0df265043d"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/textvqa/strict_shared/SCORING_SEAL.json",
+      "sha256": "fb772b2d7243cc0e5e7a1af653fd42a72b1abe7187275501dde0122a76b45245"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/textvqa/bepc_original/SCORING_SEAL.json",
+      "sha256": "d0010ab923b2d5c20e68dec78b14626de93f9a7c08536bc31a7ee76983875a18"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/textvqa/bepc_fast/SCORING_SEAL.json",
+      "sha256": "477129a3bac6f12e56139726f8dbf16d3fcad733f4f51052910dc4c36d591c53"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/textvqa/bepc_rescue0625/SCORING_SEAL.json",
+      "sha256": "cb650e22c58ffc7aff2ff90fee201817ff55fd45a9a988d676ba277da852c4f0"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/scienceqa/strict_shared/SCORING_SEAL.json",
+      "sha256": "c1d80ae6f97b076f9ee86db7cd47553a22bb961f470e9473d315783014378aaa"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/scienceqa/bepc_original/SCORING_SEAL.json",
+      "sha256": "d3612871b19b9dc149738137415cefb8cc7d8da807a8480dbfded4c72178dd56"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/scienceqa/bepc_fast/SCORING_SEAL.json",
+      "sha256": "204387d5d096b32054dcd205b11a663ea6e68e30d7e1e8602547404e83b9cf24"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/scienceqa/bepc_rescue0625/SCORING_SEAL.json",
+      "sha256": "759ce5773e4d89de63b6c44c84737886dbf05fb094e9f91a902b2e7177b7b8c3"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/coco/strict_shared/SCORING_SEAL.json",
+      "sha256": "2dd198306afe2bb6df92824f020d7cd816dfd2d6715aacb1850c52e5d36459f1"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/coco/bepc_original/SCORING_SEAL.json",
+      "sha256": "a4ca219617b6e978bb08444416654830a42ccc0a5de58e626ec89402d5692b50"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/coco/bepc_fast/SCORING_SEAL.json",
+      "sha256": "18bb316bff5618a7dd82bea3793f603b95dfec4af1441fb6a55670a1276917a6"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/coco/bepc_rescue0625/SCORING_SEAL.json",
+      "sha256": "08a7b701136ecccc9d7f3964df14e97c588200d24e9ee9c4e7d718f3de174c09"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/textvqa/strict_shared/SCORING_SEAL.json",
+      "sha256": "d017e9bb83782a32f07a005fa2df4bf37848e29dbdcbc872612a3702ec9aa73a"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/textvqa/bepc_original/SCORING_SEAL.json",
+      "sha256": "aec40f954ac6bf42f77160048d7ecba87e494cdee215ec5f699f61d41b072c93"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/textvqa/bepc_fast/SCORING_SEAL.json",
+      "sha256": "71d80195e880617ca2bcf66cef312a125a4f5645e4bcca0d3e2bae9354c83e3c"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/main/textvqa/bepc_rescue0625/SCORING_SEAL.json",
+      "sha256": "82935457ef2a10e507dc61a5581134117ecefed0fc038f729a8ecc49ceb9818e"
+    }
+  ],
+  "changed_output_pairs": 20,
+  "artifacts": [
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/BENCHMARK_PERFORMANCE.pdf",
+      "sha256": "abaeabbb8c47b0673958d633f68220fea96862c5a68367bfa0daa611527dfbb2"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/BENCHMARK_QUALITY.pdf",
+      "sha256": "2c31a0943940e958804e5ab26aa86fcc3be94d7edb4b468da767d9eb024a445d"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/BENCHMARK_SUMMARY.csv",
+      "sha256": "5668c135714108268bfdb53b95cdceda517183904652b0df4f5305c71afb6c28"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/CHANGED_OUTPUT_PAIRS.jsonl",
+      "sha256": "0a3667c4d5cd555f630c55f9d8fb55beb28ab1f5d5757028b33418cc0983aed4"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/FULL_EXPERIMENT_REPORT.md",
+      "sha256": "2bbbcb62f8e8f5ededcf1d5f8767d6ef6e08d4437e14ef86a58c07c18541a85b"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/HISTORICAL_PREVIOUS_SUMMARY.csv",
+      "sha256": "c52004a9fe9781ca9ff78fc6600d8b01d4bbe3ac18b272a6377c4370738a8b52"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/PAIRED_COMPARISONS.csv",
+      "sha256": "2cf6d54843e2bce856824a709fc41e0594b093d77ae0be917e320a7333937a28"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/audit/MAIN_VALIDATION.json",
+      "sha256": "935b866186ae3a285e60f12baefdc372b3156c0c4a4e6ef702f07afa9f092d92"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/audit/DEVELOPMENT_VALIDATION.json",
+      "sha256": "4e0786d237125250d2c202e93547205cc8ab115f2415d803f7017b6959be9698"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/audit/STATISTICAL_ANALYSIS.json",
+      "sha256": "ad9457360a30b2f1809806b010951a4c6772a0fe0dc7d8592d069c259050e276"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/audit/MECHANISM_DIAGNOSTICS.json",
+      "sha256": "e18346e1eb2111271a5f3eae55d3e18f57e13b71d3a103239e37bb19484e8995"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/configs/frozen_config.json",
+      "sha256": "722f40106ec3f0452f3b4cd239beda2cd12e03a8bcbd150cfee7839d8074d87f"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/EXPERIMENT_PROTOCOL.md",
+      "sha256": "066a322c091bd32373c897ba180cc1607f09d26fbdf4e5bcb7e8cd40fbe6a9b6"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/harness/finalize_experiment.py",
+      "sha256": "d099db3f56e4c0374ad4dfdcbe5f0badb1cbb1e41250279a9921a09139dfdcab"
+    }
+  ]
+}

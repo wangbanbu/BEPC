@@ -1,0 +1,344 @@
+{
+  "status": "pass",
+  "phase": "development",
+  "tasks": {
+    "scienceqa": {
+      "records": 60,
+      "questions": 20,
+      "historical_control_parity": 40,
+      "uncapped_over_four": 19,
+      "uncapped_mean_mismatches": 12.85,
+      "uncapped_max_mismatches": 25,
+      "first_divergent_paths": [
+        {
+          "question_id": "13456",
+          "first_divergent_round": 18,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "4865",
+          "first_divergent_round": 7,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "9811",
+          "first_divergent_round": 8,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "9134",
+          "first_divergent_round": 14,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "5801",
+          "first_divergent_round": 8,
+          "shared_committed_mismatches": 3
+        },
+        {
+          "question_id": "20189",
+          "first_divergent_round": 15,
+          "shared_committed_mismatches": 3
+        },
+        {
+          "question_id": "3629",
+          "first_divergent_round": 12,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "18344",
+          "first_divergent_round": 5,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "18722",
+          "first_divergent_round": 7,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "12587",
+          "first_divergent_round": 10,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "16881",
+          "first_divergent_round": 14,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "2186",
+          "first_divergent_round": 23,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "10017",
+          "first_divergent_round": 14,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "9784",
+          "first_divergent_round": 19,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "9783",
+          "first_divergent_round": 15,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "15044",
+          "first_divergent_round": 21,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "6502",
+          "first_divergent_round": 12,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "20145",
+          "first_divergent_round": 30,
+          "shared_committed_mismatches": 3
+        },
+        {
+          "question_id": "2828",
+          "first_divergent_round": 9,
+          "shared_committed_mismatches": 4
+        }
+      ]
+    },
+    "coco": {
+      "records": 60,
+      "questions": 20,
+      "historical_control_parity": 40,
+      "uncapped_over_four": 20,
+      "uncapped_mean_mismatches": 23.9,
+      "uncapped_max_mismatches": 39,
+      "first_divergent_paths": [
+        {
+          "question_id": "109434",
+          "first_divergent_round": 9,
+          "shared_committed_mismatches": 3
+        },
+        {
+          "question_id": "556545",
+          "first_divergent_round": 5,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "214184",
+          "first_divergent_round": 11,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "559440",
+          "first_divergent_round": 18,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "156282",
+          "first_divergent_round": 11,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "419371",
+          "first_divergent_round": 8,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "528905",
+          "first_divergent_round": 7,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "365094",
+          "first_divergent_round": 5,
+          "shared_committed_mismatches": 3
+        },
+        {
+          "question_id": "323356",
+          "first_divergent_round": 12,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "234902",
+          "first_divergent_round": 7,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "488219",
+          "first_divergent_round": 8,
+          "shared_committed_mismatches": 3
+        },
+        {
+          "question_id": "185487",
+          "first_divergent_round": 11,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "50443",
+          "first_divergent_round": 7,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "25603",
+          "first_divergent_round": 6,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "19888",
+          "first_divergent_round": 9,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "148444",
+          "first_divergent_round": 10,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "365325",
+          "first_divergent_round": 22,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "492469",
+          "first_divergent_round": 8,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "16521",
+          "first_divergent_round": 5,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "415020",
+          "first_divergent_round": 6,
+          "shared_committed_mismatches": 4
+        }
+      ]
+    },
+    "textvqa": {
+      "records": 60,
+      "questions": 20,
+      "historical_control_parity": 40,
+      "uncapped_over_four": 19,
+      "uncapped_mean_mismatches": 14.05,
+      "uncapped_max_mismatches": 28,
+      "first_divergent_paths": [
+        {
+          "question_id": "39282",
+          "first_divergent_round": 3,
+          "shared_committed_mismatches": 3
+        },
+        {
+          "question_id": "36381",
+          "first_divergent_round": 15,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "37997",
+          "first_divergent_round": 12,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "39043",
+          "first_divergent_round": 6,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "34807",
+          "first_divergent_round": 9,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "35022",
+          "first_divergent_round": 10,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "39152",
+          "first_divergent_round": 9,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "38163",
+          "first_divergent_round": 9,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "38699",
+          "first_divergent_round": 27,
+          "shared_committed_mismatches": 3
+        },
+        {
+          "question_id": "38038",
+          "first_divergent_round": 9,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "34991",
+          "first_divergent_round": 14,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "38906",
+          "first_divergent_round": 14,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "36162",
+          "first_divergent_round": 7,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "34956",
+          "first_divergent_round": 17,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "35616",
+          "first_divergent_round": 11,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "39047",
+          "first_divergent_round": 10,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "34848",
+          "first_divergent_round": 16,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "38921",
+          "first_divergent_round": 13,
+          "shared_committed_mismatches": 4
+        },
+        {
+          "question_id": "38940",
+          "first_divergent_round": 17,
+          "shared_committed_mismatches": 4
+        }
+      ]
+    }
+  },
+  "records": 180,
+  "historical_files_unchanged": 213,
+  "frozen_sources_verified": 23,
+  "resource_checks": [
+    {
+      "physical_gpu": "0",
+      "pid": 3150749,
+      "checks": 114,
+      "events": []
+    },
+    {
+      "physical_gpu": "1",
+      "pid": 3150750,
+      "checks": 123,
+      "events": []
+    }
+  ],
+  "config_sha256": "54f5873e24ace29f2cbb4aadcc4963914081390b29b793e968cbda6c9bb4fbe5"
+}

@@ -1,0 +1,1125 @@
+[
+  {
+    "case_id": "coco_pair_000",
+    "image_id": 136572,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/136572.jpg",
+    "image_checked": true,
+    "image_sha256": "88729cc541b0172bd1e30a66c931e46d797d6368fbc5dd6b91c7c1c31e687020",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "object/attribute",
+        "A_span": "a visible windshield and handlebars",
+        "B_span": "a black seat, and a visible front wheel",
+        "assessment": "The scooter seat and wheel are visible. A separate transparent windshield is not clearly visible; the large white front panel is not itself a windshield.",
+        "favored": "B"
+      },
+      {
+        "category": "scene inference",
+        "A_span": "a tiled area",
+        "B_span": "wet in some areas, suggesting recent rain or water spillage",
+        "assessment": "Tiled paving is visible. Dark pavement patches do not establish rain or a wet surface.",
+        "favored": "A"
+      }
+    ],
+    "shared_issues": [
+      "Both call the foreground bike a BMW, but its tank has a Yamaha-style tuning-fork emblem. Both describe the rear wheel as obscured by a barrier, while the prominent curved barrier is around the front-wheel area."
+    ],
+    "rationale": "Mixed changes: B avoids a poorly supported windshield but adds a weather/surface inference. Both retain important pre-existing identification and spatial errors.",
+    "question_id": "136572",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.42857142857142855,
+    "margin_CHAIRi": 0.2857142857142857,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_001",
+    "image_id": 136642,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/136642.jpg",
+    "image_checked": true,
+    "image_sha256": "6ce13ec0e8cb1c61461dba08fbace2bde870958fc5c6280c1233805e2f626f91",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "action",
+        "A_span": "a runner attempting to score",
+        "B_span": "possibly having just hit the ball",
+        "assessment": "A dropped bat is near home plate and the player runs leftward away from the catcher. B is a better-qualified account; scoring at home is not supported.",
+        "favored": "B"
+      },
+      {
+        "category": "attribute/action",
+        "A_span": "black and gray",
+        "B_span": "black and white; crouched in a typical stance",
+        "assessment": "The umpire has a gray top/dark trousers; the catcher is rising rather than in a deep crouch. Neither uniform description is fully precise; B adds a questionable catcher posture.",
+        "favored": "neither"
+      }
+    ],
+    "shared_issues": [
+      "Statements that home plate is clearly visible and that the catcher is ready to receive a ball are not securely established from the still image."
+    ],
+    "rationale": "B improves the runner-action interpretation but introduces posture and uniform inaccuracies, so no clean overall preference is assigned.",
+    "question_id": "136642",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.2857142857142857,
+    "margin_CHAIRi": 0.5,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_002",
+    "image_id": 167122,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/167122.jpg",
+    "image_checked": true,
+    "image_sha256": "9a86c4231709eb0432dadfa7e3c1ff3bea7bb310da1023343ec53525c9f37c89",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "low",
+    "changed_facts": [
+      {
+        "category": "object/existence",
+        "A_span": "indistinct figures or objects near the building",
+        "B_span": "a fence and what appears to be a doorway; no visible people",
+        "assessment": "The dark, noisy image supports the car, illuminated wall/building and exterior lamps. Fine background objects and the presence or absence of people cannot be resolved confidently.",
+        "favored": "uncertain"
+      },
+      {
+        "category": "linguistic",
+        "A_span": "parked in what appears to be a parking lot",
+        "B_span": "dark, possibly parked car",
+        "assessment": "Both appropriately hedge location or motion. The wording does not establish a material factual difference.",
+        "favored": "both"
+      }
+    ],
+    "shared_issues": [
+      "Both emphasize the car rear/rear lights; the visible view is predominantly a dark side/body view and this specific orientation/lighting interpretation is uncertain."
+    ],
+    "rationale": "Low visibility prevents reliable fine-grained protection judgments; neither added fence/door details nor absolute no-person claims should be promoted to facts.",
+    "question_id": "167122",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.0,
+    "margin_CHAIRi": 0.16666666666666666,
+    "bepc_CHAIRs": 0,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_003",
+    "image_id": 199403,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/199403.jpg",
+    "image_checked": true,
+    "image_sha256": "fe508cc8fb0a7c73b71afae2c927cc473119e186cbc484ce4fb5cc1b8479783d",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "attribute",
+        "A_span": "short, dark hair styled in a bob",
+        "B_span": "short, dark purple hair",
+        "assessment": "The hair is short and dark with visible purplish highlights. B adds a plausible supported color qualification, while A is also broadly compatible.",
+        "favored": "both"
+      },
+      {
+        "category": "object",
+        "A_span": "a countertop with various objects",
+        "B_span": "a bowl and what looks like a box of cereal",
+        "assessment": "The background is cluttered but the small food-container identities are not sufficiently legible to verify the cereal claim.",
+        "favored": "uncertain"
+      }
+    ],
+    "shared_issues": [
+      "Both describe the main clothing and kitchen setting accurately. Fine background object names and inferred lighting source remain uncertain."
+    ],
+    "rationale": "Mostly compatible wording with an added fine-grained background guess; no clear consequential factual protection.",
+    "question_id": "199403",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.3333333333333333,
+    "margin_CHAIRi": 0.0,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 0,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_004",
+    "image_id": 200567,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/200567.jpg",
+    "image_checked": true,
+    "image_sha256": "c4c3b85cd2c93b6097f87002121b7351d84a985d683ed8eddd8d26f67a5decdd",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "A_slightly_better",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "action",
+        "A_span": "having just thrown the ball",
+        "B_span": "mid-throw, with his arm extended towards the batter",
+        "assessment": "The pitcher is seen in follow-through with a raised trailing leg; the asserted arm extended toward the batter is not visible. A is more compatible with the visible phase.",
+        "favored": "A"
+      },
+      {
+        "category": "object/relation",
+        "A_span": "the dirt of the pitcher's mound",
+        "B_span": "a clear boundary line marking the edge of the field",
+        "assessment": "Dirt areas are visible; a clear field-boundary line is not evident in this crop.",
+        "favored": "A"
+      }
+    ],
+    "shared_issues": [
+      "Both say the batter is in the act of swinging, although the bat is held upright in a prepared stance. Both include uncertain uniform-number/home-plate details."
+    ],
+    "rationale": "A avoids two additional unsupported specifics in B, but it is not an entirely correct caption and shares a central action error.",
+    "question_id": "200567",
+    "A_method": "bepc",
+    "B_method": "margin",
+    "bepc_relation": "better",
+    "bepc_CHAIRi": 0.4,
+    "margin_CHAIRi": 0.0,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 0,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_005",
+    "image_id": 202913,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/202913.jpg",
+    "image_checked": true,
+    "image_sha256": "1f84960750e78b04d93688ba53b995e85242a090fc5e1517c50cbcbe0c9a4e19",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "B_slightly_better",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "quantity/state",
+        "A_span": "The cake is cut into a triangular slice",
+        "B_span": "A slice has been removed",
+        "assessment": "The displayed cake has a substantial missing section. B captures the visible missing-section state; A misleadingly describes the remaining large cake as a triangular slice.",
+        "favored": "B"
+      },
+      {
+        "category": "relation",
+        "A_span": "rests on the cake",
+        "B_span": "resting on the tray",
+        "assessment": "The serving utensil lies on the exposed tray with cake/icing on it. B gives the more accurate location.",
+        "favored": "B"
+      }
+    ],
+    "shared_issues": [
+      "The filling includes a pale yellow band; broad all-white interior language should not be read as an exact color annotation."
+    ],
+    "rationale": "B improves two clearly checkable state/location claims while preserving the cake and coconut content.",
+    "question_id": "202913",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "better",
+    "bepc_CHAIRi": 0.0,
+    "margin_CHAIRi": 0.14285714285714285,
+    "bepc_CHAIRs": 0,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_006",
+    "image_id": 202923,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/202923.jpg",
+    "image_checked": true,
+    "image_sha256": "0507be2f283400b7295ee2df6198c60423875bf98ea249b8aa3ded1c6ee16e40",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "action",
+        "A_span": "mid-swing; The ball is visible in the air",
+        "B_span": "poised to swing",
+        "assessment": "The bat is held raised in a prepared posture, and no clear airborne ball is identifiable. B avoids these unsupported action/ball assertions.",
+        "favored": "B"
+      },
+      {
+        "category": "attribute",
+        "A_span": "wearing protective gear",
+        "B_span": "batter, dressed in a white uniform",
+        "assessment": "Protective catcher gear is evident; the batter uniform appears gray rather than white.",
+        "favored": "A"
+      }
+    ],
+    "shared_issues": [
+      "Both call the distant player a pitcher in a pitching motion, although the visible distant player looks set in an infield position and a pitch cannot be established. The umpire is low/crouched rather than clearly standing."
+    ],
+    "rationale": "B improves the principal batting phase but adds color imprecision; both retain action/role guesses, so the complete-caption ordering remains uncertain.",
+    "question_id": "202923",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.0,
+    "margin_CHAIRi": 0.75,
+    "bepc_CHAIRs": 0,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_007",
+    "image_id": 205183,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/205183.jpg",
+    "image_checked": true,
+    "image_sha256": "71a85127af827852c9921ed57ee3e23d119a063de00deefbeb93d54733b831cc",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "object/scene",
+        "A_span": "a blurred body of water ... a pond or lake",
+        "B_span": "a park or a similar outdoor setting",
+        "assessment": "Paving, grass and leaves are visible. A distinct body of water is not securely identifiable; B uses a broader, appropriately qualified setting.",
+        "favored": "B"
+      },
+      {
+        "category": "attribute/inference",
+        "A_span": "shadows ... sun ... from the side",
+        "B_span": "indicating it might be autumn",
+        "assessment": "Visible light/shade is supported, but season is only a qualified inference and not directly determined by scattered leaves.",
+        "favored": "uncertain"
+      }
+    ],
+    "shared_issues": [
+      "Both preserve the goose and walking posture. Brown is concentrated along the head/top of neck, rather than uniformly covering the neck."
+    ],
+    "rationale": "B removes an uncertain water feature but the changes are small and include additional inference; no confident overall quality winner.",
+    "question_id": "205183",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.16666666666666666,
+    "margin_CHAIRi": 0.3333333333333333,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_008",
+    "image_id": 23117,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/23117.jpg",
+    "image_checked": true,
+    "image_sha256": "a934ac18024796421cfdea9ca4b2cc7d4756566fbdd9611c19ff7e174cf69c40",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "A_slightly_better",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "object/action",
+        "A_span": "one of them is holding a pipe",
+        "B_span": "both are holding their umbrellas ... presenting them",
+        "assessment": "A conspicuous curved yellow pipe is visible at the right person's mouth/hand. A includes a supported distinctive object omitted by B.",
+        "favored": "A"
+      },
+      {
+        "category": "attribute",
+        "A_span": "umbrellas ... blue",
+        "B_span": "umbrellas ... appear to have a cloud-like pattern",
+        "assessment": "The umbrellas have dark outer canopies and illuminated blue undersides; the obvious cloud pattern is on the suits, not clearly on the umbrellas.",
+        "favored": "A"
+      }
+    ],
+    "shared_issues": [
+      "Both call the setting outdoors at night; darkness and event surroundings do not conclusively establish indoors versus outdoors."
+    ],
+    "rationale": "A has a modest supported-information advantage, not proof of an entirely factual caption.",
+    "question_id": "23117",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "worse",
+    "bepc_CHAIRi": 0.2,
+    "margin_CHAIRi": 0.16666666666666666,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_009",
+    "image_id": 252573,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/252573.jpg",
+    "image_checked": true,
+    "image_sha256": "00b412c7633bb91e37c99e6958518f8ac1dbf1b8d82c971e329192cae6188b17",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "object/action",
+        "A_span": "chewing on a black cord ... a black electrical outlet",
+        "B_span": "resting ... head resting on a black cable ... possibly a power adapter or charger",
+        "assessment": "The cat's mouth is against a flat black object beside a cable. No wall electrical outlet is visible. The precise object identity and chewing versus resting cannot be reliably resolved.",
+        "favored": "uncertain"
+      }
+    ],
+    "shared_issues": [
+      "Both assert closed eyes and a collar/tag; the eye is largely obscured and the small blue item near the paw does not unequivocally establish a neck tag. The small remote at lower right is visible."
+    ],
+    "rationale": "B is more hedged about device identity, but neither caption securely resolves the interaction; avoid labeling this as definite action protection.",
+    "question_id": "252573",
+    "A_method": "bepc",
+    "B_method": "margin",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.1,
+    "margin_CHAIRi": 0.0,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 0,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_010",
+    "image_id": 282224,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/282224.jpg",
+    "image_checked": true,
+    "image_sha256": "a42705d97315abe0b0c41718d523fdd739fa140ba120509d52ce1f9a85a6e249",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "B_slightly_better",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "object/action",
+        "A_span": "gesturing with his hand",
+        "B_span": "holding a phone to his ear",
+        "assessment": "The far-left player has a hand at his ear and a small dark object consistent with a phone. B captures the distinctive apparent phone interaction, but the partly occluded device warrants moderate confidence.",
+        "favored": "B"
+      },
+      {
+        "category": "linguistic/coverage",
+        "A_span": "four individuals ... smiling ... conversation",
+        "B_span": "four individuals ... friendly interaction",
+        "assessment": "Most remaining changes restate the same visible group, rackets and court scene.",
+        "favored": "both"
+      }
+    ],
+    "shared_issues": [
+      "Inferred friendship, conversation and match phase cannot be proven from the image alone."
+    ],
+    "rationale": "B plausibly adds a visible action/object detail; the claim is sufficiently small/occluded that human confirmation is still useful.",
+    "question_id": "282224",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "better",
+    "bepc_CHAIRi": 0.1111111111111111,
+    "margin_CHAIRi": 0.0,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 0,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_011",
+    "image_id": 28377,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/28377.jpg",
+    "image_checked": true,
+    "image_sha256": "155eb025412931d8338b9ac1d5bd83ce24855594108c087423d2849fecfc7504",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "A_slightly_better",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "attribute/binding",
+        "A_span": "right ... bright yellow; left ... muted gray",
+        "B_span": "buildings with a warm, yellowish hue",
+        "assessment": "The nearest left building is gray and the right buildings yellow. A gives the more accurate color-to-building binding.",
+        "favored": "A"
+      },
+      {
+        "category": "object",
+        "A_span": "bell tower with a clock",
+        "B_span": "clock tower ... with a flag at the top",
+        "assessment": "Both identify the clock/tower; a very small flag-like feature is visible above it. This addition does not negate B's overbroad building-color claim.",
+        "favored": "both"
+      }
+    ],
+    "shared_issues": [
+      "The precise geographic region is inferred, not established by pixels."
+    ],
+    "rationale": "A preserves a clear left/right color distinction that B collapses.",
+    "question_id": "28377",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "worse",
+    "bepc_CHAIRi": 0.3333333333333333,
+    "margin_CHAIRi": 0.0,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 0,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_012",
+    "image_id": 289260,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/289260.jpg",
+    "image_checked": true,
+    "image_sha256": "ea513f0e086e1394414d8880048e33b5bf4660ab607632bf014e2d058927a0a0",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "object/relation",
+        "A_span": "foreground ... woven basket ... round plate with a lid",
+        "B_span": "table ... small bowl of fruit, a plate of eggs ... loaf of bread or a cake",
+        "assessment": "Fruit and eggs are visible on the rear-left work table, while two covered-looking dishes/bowls are on the foreground table. A's woven basket is below/rear of that table, and B ambiguously conflates table locations.",
+        "favored": "uncertain"
+      },
+      {
+        "category": "attribute",
+        "A_span": "well-lit",
+        "B_span": "dimly-lit",
+        "assessment": "The indoor scene is subdued but sufficiently lit; these are subjective and not a strong factual distinction.",
+        "favored": "uncertain"
+      }
+    ],
+    "shared_issues": [
+      "Both infer smoke/steam and active cooking from a blackened wall/stove region; visible soot is not evidence of currently rising smoke. The sign begins with wording ending in modern kitchens?, so quoting only modern kitchens loses the questioning/contextual wording."
+    ],
+    "rationale": "Several objects exist but are relocated or overinterpreted; shared smoke hallucination is more important than the changed style.",
+    "question_id": "289260",
+    "A_method": "bepc",
+    "B_method": "margin",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.0,
+    "margin_CHAIRi": 0.14285714285714285,
+    "bepc_CHAIRs": 0,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_013",
+    "image_id": 298699,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/298699.jpg",
+    "image_checked": true,
+    "image_sha256": "525e081c6b663bc1e3ba7beebda4e300a5110f5700972134712a9b42b1ccaf53",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "A_slightly_better",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "quantity/binding",
+        "A_span": "two tall, modern buildings ... one ... Encore",
+        "B_span": "a tall ... building with a curved facade ... Encore visible on it",
+        "assessment": "Two major building volumes are visible. Encore is on the wider right building, rather than the narrow tall central tower; B risks binding the label to the wrong building.",
+        "favored": "A"
+      },
+      {
+        "category": "object",
+        "A_span": "traffic lights and street signs",
+        "B_span": "a pedestrian crossing sign; a palm tree",
+        "assessment": "Traffic lights and a palm tree are visible. A specifically identifiable pedestrian-crossing sign is not clear in the supplied view.",
+        "favored": "uncertain"
+      }
+    ],
+    "shared_issues": [
+      "Motion of the monorail is inferred from a still image."
+    ],
+    "rationale": "A better preserves building count and label binding; B adds a real palm tree but loses the two-building distinction.",
+    "question_id": "298699",
+    "A_method": "bepc",
+    "B_method": "margin",
+    "bepc_relation": "better",
+    "bepc_CHAIRi": 0.0,
+    "margin_CHAIRi": 0.5,
+    "bepc_CHAIRs": 0,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_014",
+    "image_id": 301837,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/301837.jpg",
+    "image_checked": true,
+    "image_sha256": "9183b02f87a73b58b26c5e639c3a995ae817fd37edd06950158bf4eda933a9c3",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "coverage/object",
+        "A_span": "stovetop ... range hood ... partially visible",
+        "B_span": "white ... cabinets; built-in sink ... modern faucet; plate with food",
+        "assessment": "The white cabinets, sink/faucet and left-counter fruit/food plate are visible and add supported coverage. A separate range hood is not clearly exposed.",
+        "favored": "B"
+      },
+      {
+        "category": "object/inference",
+        "A_span": "no visible clutter",
+        "B_span": "dish rack; towel ... suggesting recent use",
+        "assessment": "The small metallic counter appliance cannot confidently be called a dish rack; a hanging towel does not establish recent use.",
+        "favored": "A"
+      }
+    ],
+    "shared_issues": [
+      "Both overstate a refrigerator top control panel and describe the floor as dark gray; the floor is relatively light gray and the refrigerator-top row appears to be small items."
+    ],
+    "rationale": "B adds useful visible content alongside additional object/use inferences. Recall and precision trade off, so overall is uncertain.",
+    "question_id": "301837",
+    "A_method": "bepc",
+    "B_method": "margin",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.0,
+    "margin_CHAIRi": 0.2,
+    "bepc_CHAIRs": 0,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_015",
+    "image_id": 314370,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/314370.jpg",
+    "image_checked": true,
+    "image_sha256": "4afa77bf8bc176de407eb5feb9bfda35a30dafaf1c15a81882fefdb66208c391",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "object/coverage",
+        "A_span": "more groceries ... carton of milk and a box of eggs",
+        "B_span": "right ... refrigerator; ... geometric design",
+        "assessment": "A small refrigerator at lower right and a geometric tile pattern are visible; B adds supported background details. Milk and egg cartons are also visible.",
+        "favored": "both"
+      },
+      {
+        "category": "object",
+        "A_span": "cheese ... various packaged goods",
+        "B_span": "bag of flour ... box of pasta",
+        "assessment": "Cheese and packaged groceries are visible. The particular flour/pasta identities are not clearly legible enough to verify.",
+        "favored": "A"
+      }
+    ],
+    "shared_issues": [
+      "Both mention a microwave on the left; no microwave is visible in the crop. A's description of open upper cabinets is imprecise for the visible open shelving."
+    ],
+    "rationale": "B improves some background coverage but adds uncertain ingredient identities; shared microwave error remains.",
+    "question_id": "314370",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.2857142857142857,
+    "margin_CHAIRi": 0.25,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_016",
+    "image_id": 317244,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/317244.jpg",
+    "image_checked": true,
+    "image_sha256": "56e780a6fdfa26f7efbb9c51ea45b31b8cd6d3c2bb77ea1f5f2304831c63df00",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "B_slightly_better",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "relation/coverage",
+        "A_span": "a few other vehicles and a distant building",
+        "B_span": "front facing the left ... yellow line ... orange and white cylindrical objects",
+        "assessment": "The truck faces left; parking lines and orange cylindrical barriers in the left background are visible. B adds mostly supported spatial/context details.",
+        "favored": "B"
+      }
+    ],
+    "shared_issues": [
+      "Both describe a single large front camper window and a smaller side window. The camper has two visible front windows plus side windows, so exact window count/layout is not fully correct in either."
+    ],
+    "rationale": "B offers modest additional supported coverage while retaining the same main vehicle description and shared window imprecision.",
+    "question_id": "317244",
+    "A_method": "bepc",
+    "B_method": "margin",
+    "bepc_relation": "worse",
+    "bepc_CHAIRi": 0.125,
+    "margin_CHAIRi": 0.1111111111111111,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_017",
+    "image_id": 35738,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/35738.jpg",
+    "image_checked": true,
+    "image_sha256": "faa95199ae63f19b65361e764091931bf645f91fc185e36db76c83cab3d9892c",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "tie",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "object/coverage",
+        "A_span": "a small, rectangular object ... possibly a book or a box",
+        "B_span": "boy's tie is loosely tied",
+        "assessment": "A small red book-like object is visible on the TV and the tie has a loose collar arrangement. Both captions retain the same salient boy/tie/TV/lamp content.",
+        "favored": "both"
+      },
+      {
+        "category": "linguistic",
+        "A_span": "smiling; soft and even",
+        "B_span": "cheerful expression; soft",
+        "assessment": "Compatible paraphrases without a material factual change.",
+        "favored": "both"
+      }
+    ],
+    "shared_issues": [
+      "The floor lamp shade is gray/metallic rather than clearly white; the lighting-source interpretation is inferential."
+    ],
+    "rationale": "A is longer and has a minor supported extra object; there is no clear consequential improvement or regression.",
+    "question_id": "35738",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "tie",
+    "bepc_CHAIRi": 0.0,
+    "margin_CHAIRi": 0.1111111111111111,
+    "bepc_CHAIRs": 0,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "improved"
+  },
+  {
+    "case_id": "coco_pair_018",
+    "image_id": 358664,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/358664.jpg",
+    "image_checked": true,
+    "image_sha256": "9b462cc1970061dac3c1186002b37a2faeb82e7a0aaf7e2c7ca0301794c3b62c",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "B_slightly_better",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "action/relation",
+        "A_span": "possibly a grind, with their skateboard on the edge of the ramp",
+        "B_span": "actively engaged in skateboarding ... concrete bowl",
+        "assessment": "The active skater is riding in the lower bowl, away from the rim; no grind on an edge is visible. B removes that unsupported action/location.",
+        "favored": "B"
+      },
+      {
+        "category": "coverage",
+        "A_span": "left ... walking ... holding a skateboard",
+        "B_span": "foreground ... holding a skateboard",
+        "assessment": "Both correctly describe the nearer standing/walking person holding a skateboard.",
+        "favored": "both"
+      }
+    ],
+    "shared_issues": [
+      "The shirt colors are light gray/white and the exact maneuver cannot be determined from a single image."
+    ],
+    "rationale": "B preserves the two people while avoiding a meaningful action and spatial hallucination.",
+    "question_id": "358664",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "better",
+    "bepc_CHAIRi": 0.375,
+    "margin_CHAIRi": 0.0,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 0,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_019",
+    "image_id": 3716,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/3716.jpg",
+    "image_checked": true,
+    "image_sha256": "276ad47e5320c12b1cb4d4a7c9de6705947efba03b62343667f57efe297072d1",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "posture/relation",
+        "A_span": "legs crossed",
+        "B_span": "edge of the bed, with one leg crossed over the other",
+        "assessment": "One bent, raised knee is visible; the other leg and precise edge/crossed relation are occluded, so neither stronger posture claim is established.",
+        "favored": "uncertain"
+      },
+      {
+        "category": "linguistic",
+        "A_span": "light-colored bedding ... blue blanket",
+        "B_span": "light-colored blanket ... blue blanket ... foreground",
+        "assessment": "Both capture the same visible furnishings and laptop activity.",
+        "favored": "both"
+      }
+    ],
+    "shared_issues": [
+      "Both call the map the Americas, but the displayed map is principally South America. Bed versus sofa/daybed is not unambiguous from the visible upholstered backing. A stove is not clearly identifiable in the left kitchen area."
+    ],
+    "rationale": "The changed posture language is not verifiable and the main content/shared errors are unchanged.",
+    "question_id": "3716",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.1111111111111111,
+    "margin_CHAIRi": 0.1,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_020",
+    "image_id": 431570,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/431570.jpg",
+    "image_checked": true,
+    "image_sha256": "f91f7a02e40862c91f2fb07ab992c13bb41fda0dbd1726a446649dbd2ac74882",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "B_slightly_better",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "text/object",
+        "A_span": "logos, including Rizla and Gulf Oil",
+        "B_span": "sponsor logos and the number 14",
+        "assessment": "Rizla and a small 14 are visible. The oil logo reads like Q8 Oils rather than Gulf Oil. B avoids the wrong brand and includes a visible number, although prominently displayed exaggerates its size.",
+        "favored": "B"
+      },
+      {
+        "category": "scene",
+        "A_span": "trees and a clear sky",
+        "B_span": "grass ... trees ... motion blur",
+        "assessment": "Trees and grass are visible; no substantial clear sky is shown, and motion blur/speed is not clearly established.",
+        "favored": "uncertain"
+      }
+    ],
+    "shared_issues": [
+      "Both say the rider is leaning into a turn; the motorcycle appears relatively upright in this side view, and a turn/high speed cannot be securely inferred."
+    ],
+    "rationale": "B avoids a checkable wrong logo while retaining unsupported action interpretation; the preference is limited.",
+    "question_id": "431570",
+    "A_method": "bepc",
+    "B_method": "margin",
+    "bepc_relation": "worse",
+    "bepc_CHAIRi": 0.25,
+    "margin_CHAIRi": 0.2,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_021",
+    "image_id": 497438,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/497438.jpg",
+    "image_checked": true,
+    "image_sha256": "193468793c90ad66fef58feadff857719a1220813ec36970435b253bc1124d7f",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "A_slightly_better",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "attribute/object",
+        "A_span": "child on the right ... pink outfit",
+        "B_span": "headband with cat ears",
+        "assessment": "The right child has a pointed party-hat-like piece/hat above the head. A cat-ear headband is not supported by the visible shape; A avoids this specific misidentification.",
+        "favored": "A"
+      },
+      {
+        "category": "gaze/relation",
+        "A_span": "looking towards the left",
+        "B_span": "child in the center ... looking at the camera",
+        "assessment": "The center child's gaze is directed toward the left of the frame, rather than clearly at the camera.",
+        "favored": "A"
+      }
+    ],
+    "shared_issues": [
+      "Expressions of joy and active celebration are inferred; several children have neutral expressions. The image is strongly color-cast and age/style interpretations should remain cautious."
+    ],
+    "rationale": "A avoids B's new fine-grained hat and gaze claims while preserving the same central children/party scene.",
+    "question_id": "497438",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "worse",
+    "bepc_CHAIRi": 0.18181818181818182,
+    "margin_CHAIRi": 0.0,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 0,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_022",
+    "image_id": 49984,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/49984.jpg",
+    "image_checked": true,
+    "image_sha256": "c183d9ed4455260686d91b07e39f412bc2742b6e555ac0ee73da7d55c88b2bda",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "medium",
+    "changed_facts": [
+      {
+        "category": "attribute/object",
+        "A_span": "light wooden countertop ... soap dispenser",
+        "B_span": "light-colored countertop ... hairdryer",
+        "assessment": "The counter is light-colored but not visibly wooden. A corded wall-side device is compatible with a hairdryer, although small and partially occluded; soap/pump bottles are also present.",
+        "favored": "B"
+      },
+      {
+        "category": "coverage",
+        "A_span": "mirror ... above the vanity",
+        "B_span": "no mirror mention",
+        "assessment": "A large mirror is clearly visible; A retains this salient fixture that B omits.",
+        "favored": "A"
+      }
+    ],
+    "shared_issues": [
+      "Both place the white towel on the toilet tank, but the white hand towel hangs on the wall rack beside the beige towel."
+    ],
+    "rationale": "B improves uncertain material wording, while A includes the visible mirror. The precision/coverage tradeoff does not yield a clear overall preference.",
+    "question_id": "49984",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.2857142857142857,
+    "margin_CHAIRi": 0.16666666666666666,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_023",
+    "image_id": 535602,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/535602.jpg",
+    "image_checked": true,
+    "image_sha256": "5b066089649e779b605ab3fc1484e9794289b228ef7a4cd973a9230c8502efc7",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "tie",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "object/coverage",
+        "A_span": "clear plastic bag with a red object inside",
+        "B_span": "partially used roll of paper towels ... small plastic container",
+        "assessment": "A paper-towel roll is clearly visible at left, and transparent packaging/food containers are also on the floor. These are different mostly compatible secondary details.",
+        "favored": "both"
+      },
+      {
+        "category": "linguistic",
+        "A_span": "single slice of pizza",
+        "B_span": "small slice of pizza",
+        "assessment": "Both capture the remaining irregular pizza portion in the open box; precise slice geometry is not important to the changed claim.",
+        "favored": "both"
+      }
+    ],
+    "shared_issues": [
+      "Both infer a casual/lived-in scene, which is descriptive rather than a verified activity or time of day."
+    ],
+    "rationale": "The cat, open pizza box, laptop/map and clutter are maintained; no clear factual or salient-content loss is evident.",
+    "question_id": "535602",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "tie",
+    "bepc_CHAIRi": 0.1111111111111111,
+    "margin_CHAIRi": 0.0,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 0,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_024",
+    "image_id": 537574,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/537574.jpg",
+    "image_checked": true,
+    "image_sha256": "420537e96cecd3cab515b3bb9f5dd9f5ea6820cf6f61facb957851c7af0cdd1e",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "uncertain",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "attribute/binding",
+        "A_span": "wearing a black harness",
+        "B_span": "a black collar ... leash ... attached to the collar",
+        "assessment": "A black neck collar with an attached leash is visible, rather than a body harness. B corrects a checkable equipment identification.",
+        "favored": "B"
+      },
+      {
+        "category": "text/relation",
+        "A_span": "digital display showing the date and time",
+        "B_span": "date 14 ... 12:05 PM ... 32°F ... leash is secured to the car's interior",
+        "assessment": "Small display text is not fully reliable; the leading display symbol could be a track indicator, not a date. The far end of the leash is not visible, so its securing point is unverified.",
+        "favored": "uncertain"
+      }
+    ],
+    "shared_issues": [
+      "Both place the dog near the driver's seat despite the dog being on the passenger-side floor/seat area; exact seating assignment is not fully shown. A's claim that harness and bottle are the only objects contradicts the visible dashboard/controls and its own preceding text."
+    ],
+    "rationale": "B has a clear collar-over-harness factual improvement, but extra OCR/security assertions prevent treating the full-caption difference as unambiguously beneficial.",
+    "question_id": "537574",
+    "A_method": "bepc",
+    "B_method": "margin",
+    "bepc_relation": "uncertain",
+    "bepc_CHAIRi": 0.1111111111111111,
+    "margin_CHAIRi": 0.10526315789473684,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  },
+  {
+    "case_id": "coco_pair_025",
+    "image_id": 578314,
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/578314.jpg",
+    "image_checked": true,
+    "image_sha256": "db68c8ddf542db6ad76a911d6108e1f02b583e5831c3f52c717b76215ab5ea81",
+    "review_type": "blind_model_assisted_visual_audit",
+    "not_human_ground_truth": true,
+    "method_identity_seen": false,
+    "automatic_metric_values_seen": false,
+    "counterfactual_token_attribution": "not_established_from_whole_caption_pair",
+    "reviewer_independence": "one model-assisted reviewer; not two humans or independent repeated judges",
+    "overall_relation": "B_slightly_better",
+    "confidence": "high",
+    "changed_facts": [
+      {
+        "category": "object/existence/coverage",
+        "A_span": "no visible clutter or additional objects",
+        "B_span": "a trash bin is visible to the left of the toilet",
+        "assessment": "A lidded trash bin is clearly visible on the left. B adds the real object and avoids A's overbroad no-additional-objects statement.",
+        "favored": "B"
+      }
+    ],
+    "shared_issues": [
+      "Both claim a flush handle on the left; the tank instead shows a top-right rectangular flush panel. Both place the brush holder on the wall, but it stands on the floor at right."
+    ],
+    "rationale": "B improves a visible object omission while retaining important shared accessory-location and flush-control errors.",
+    "question_id": "578314",
+    "A_method": "margin",
+    "B_method": "bepc",
+    "bepc_relation": "better",
+    "bepc_CHAIRi": 0.3333333333333333,
+    "margin_CHAIRi": 0.25,
+    "bepc_CHAIRs": 1,
+    "margin_CHAIRs": 1,
+    "CHAIRi_direction": "degraded"
+  }
+]

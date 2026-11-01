@@ -1,0 +1,990 @@
+{
+  "status": "completed_three_task_isolated_BEPC_analysis",
+  "created_utc": "2026-11-01T06:35:44.022036+00:00",
+  "config_sha256": "722f40106ec3f0452f3b4cd239beda2cd12e03a8bcbd150cfee7839d8074d87f",
+  "analyzer_sha256": "f17d217cb2485bb5be10a940af489a2163012639dd1b1ef9d9424fe9989c925a",
+  "evaluator_sha256": "4f8932defc431baf30061d758dae1c5f251366ce194f6e856e005c992414902a",
+  "legacy_statistical_math_sha256": "6c811435411ee15c0e241070f9adea9cb0d4d595e853d1903eb862a38ed73154",
+  "result_sha256": {
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/results/main/main_scienceqa_shard0.jsonl": "4cf29f0b4f103955841ddb2611bec91f360e8d32c1f4ea8775ef7599ddc00cc3",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/results/main/main_scienceqa_shard1.jsonl": "595fabc7f1c65543e2e888a28425a71af0ad729134b27d88426299f9ec65d209",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/results/main/main_coco_shard0.jsonl": "b582b9690d120019811bc2301d039c3d813e672d8851799b1366327741d961d2",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/results/main/main_coco_shard1.jsonl": "19adec940b65ee9cbf2732847b1a7a71c282a6f3b898f07b5a2f2dc5e3afeb4b",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/results/main/main_textvqa_shard0.jsonl": "419e7308b43dbe02041b115a78272b1be830d4af75366cdc397929eb33464ba0",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/results/main/main_textvqa_shard1.jsonl": "79d5e4b845b55e2ca919cf5986bd4d2e4f6014fd77f4754937ebfb7cc70a348c"
+  },
+  "scoring_seals": {
+    "scienceqa": {
+      "strict_shared": "c1d80ae6f97b076f9ee86db7cd47553a22bb961f470e9473d315783014378aaa",
+      "bepc_original": "d3612871b19b9dc149738137415cefb8cc7d8da807a8480dbfded4c72178dd56",
+      "bepc_fast": "204387d5d096b32054dcd205b11a663ea6e68e30d7e1e8602547404e83b9cf24",
+      "bepc_rescue0625": "759ce5773e4d89de63b6c44c84737886dbf05fb094e9f91a902b2e7177b7b8c3"
+    },
+    "coco": {
+      "strict_shared": "2dd198306afe2bb6df92824f020d7cd816dfd2d6715aacb1850c52e5d36459f1",
+      "bepc_original": "a4ca219617b6e978bb08444416654830a42ccc0a5de58e626ec89402d5692b50",
+      "bepc_fast": "18bb316bff5618a7dd82bea3793f603b95dfec4af1441fb6a55670a1276917a6",
+      "bepc_rescue0625": "08a7b701136ecccc9d7f3964df14e97c588200d24e9ee9c4e7d718f3de174c09"
+    },
+    "textvqa": {
+      "strict_shared": "d017e9bb83782a32f07a005fa2df4bf37848e29dbdcbc872612a3702ec9aa73a",
+      "bepc_original": "aec40f954ac6bf42f77160048d7ecba87e494cdee215ec5f699f61d41b072c93",
+      "bepc_fast": "71d80195e880617ca2bcf66cef312a125a4f5645e4bcca0d3e2bae9354c83e3c",
+      "bepc_rescue0625": "82935457ef2a10e507dc61a5581134117ecefed0fc038f729a8ecc49ceb9818e"
+    }
+  },
+  "bootstrap": 5000,
+  "bootstrap_unit": "physical image/group",
+  "draws": {
+    "scienceqa": {
+      "seed": 2026103109,
+      "unit": "physical image/group",
+      "groups": [
+        "scienceqa:0:scienceqa:test:6391",
+        "scienceqa:1:scienceqa:test:21044",
+        "scienceqa:2:scienceqa:test:8371",
+        "scienceqa:3:scienceqa:test:13263",
+        "scienceqa:4:scienceqa:test:10307",
+        "scienceqa:5:scienceqa:test:4340",
+        "scienceqa:6:scienceqa:test:9750",
+        "scienceqa:7:scienceqa:test:8090",
+        "scienceqa:8:scienceqa:test:14865",
+        "scienceqa:9:scienceqa:test:3327",
+        "scienceqa:10:scienceqa:test:20734",
+        "scienceqa:11:scienceqa:test:11715",
+        "scienceqa:12:scienceqa:test:14112",
+        "scienceqa:13:scienceqa:test:14270",
+        "scienceqa:14:scienceqa:test:10283",
+        "scienceqa:15:scienceqa:test:10523",
+        "scienceqa:16:scienceqa:test:15279",
+        "scienceqa:17:scienceqa:test:16319",
+        "scienceqa:18:scienceqa:test:6387",
+        "scienceqa:19:scienceqa:test:17319",
+        "scienceqa:20:scienceqa:test:16868",
+        "scienceqa:21:scienceqa:test:21192",
+        "scienceqa:22:scienceqa:test:17078",
+        "scienceqa:23:scienceqa:test:18454",
+        "scienceqa:24:scienceqa:test:14694",
+        "scienceqa:25:scienceqa:test:11955",
+        "scienceqa:26:scienceqa:test:9003",
+        "scienceqa:27:scienceqa:test:15024",
+        "scienceqa:28:scienceqa:test:15457",
+        "scienceqa:29:scienceqa:test:1009",
+        "scienceqa:30:scienceqa:test:11060",
+        "scienceqa:31:scienceqa:test:2845",
+        "scienceqa:32:scienceqa:test:2165",
+        "scienceqa:33:scienceqa:test:13503",
+        "scienceqa:34:scienceqa:test:2921",
+        "scienceqa:35:scienceqa:test:17936",
+        "scienceqa:36:scienceqa:test:17979",
+        "scienceqa:37:scienceqa:test:17125",
+        "scienceqa:38:scienceqa:test:21070",
+        "scienceqa:39:scienceqa:test:16725",
+        "scienceqa:40:scienceqa:test:20176",
+        "scienceqa:41:scienceqa:test:19122",
+        "scienceqa:42:scienceqa:test:7059",
+        "scienceqa:43:scienceqa:test:18687",
+        "scienceqa:44:scienceqa:test:5389",
+        "scienceqa:45:scienceqa:test:16744",
+        "scienceqa:46:scienceqa:test:2343",
+        "scienceqa:47:scienceqa:test:17464",
+        "scienceqa:48:scienceqa:test:10614",
+        "scienceqa:49:scienceqa:test:15810",
+        "scienceqa:50:scienceqa:test:5694",
+        "scienceqa:51:scienceqa:test:6717",
+        "scienceqa:52:scienceqa:test:1043",
+        "scienceqa:53:scienceqa:test:6685",
+        "scienceqa:54:scienceqa:test:20542",
+        "scienceqa:55:scienceqa:test:10616",
+        "scienceqa:56:scienceqa:test:13643",
+        "scienceqa:57:scienceqa:test:17228",
+        "scienceqa:58:scienceqa:test:7531",
+        "scienceqa:59:scienceqa:test:4084",
+        "scienceqa:60:scienceqa:test:4851",
+        "scienceqa:61:scienceqa:test:6338",
+        "scienceqa:62:scienceqa:test:1951",
+        "scienceqa:63:scienceqa:test:3455",
+        "scienceqa:64:scienceqa:test:16723",
+        "scienceqa:65:scienceqa:test:11181",
+        "scienceqa:66:scienceqa:test:14096",
+        "scienceqa:67:scienceqa:test:6145",
+        "scienceqa:68:scienceqa:test:16731",
+        "scienceqa:69:scienceqa:test:12397",
+        "scienceqa:70:scienceqa:test:6326",
+        "scienceqa:71:scienceqa:test:18288",
+        "scienceqa:72:scienceqa:test:10569",
+        "scienceqa:73:scienceqa:test:1586",
+        "scienceqa:74:scienceqa:test:3773",
+        "scienceqa:75:scienceqa:test:6964",
+        "scienceqa:76:scienceqa:test:11772",
+        "scienceqa:77:scienceqa:test:7405",
+        "scienceqa:78:scienceqa:test:3219",
+        "scienceqa:79:scienceqa:test:5667",
+        "scienceqa:80:scienceqa:test:21149",
+        "scienceqa:81:scienceqa:test:13392",
+        "scienceqa:82:scienceqa:test:10271",
+        "scienceqa:83:scienceqa:test:11022",
+        "scienceqa:84:scienceqa:test:13461",
+        "scienceqa:85:scienceqa:test:6129",
+        "scienceqa:86:scienceqa:test:3654",
+        "scienceqa:87:scienceqa:test:6323",
+        "scienceqa:88:scienceqa:test:4187",
+        "scienceqa:89:scienceqa:test:18284",
+        "scienceqa:90:scienceqa:test:14407",
+        "scienceqa:91:scienceqa:test:19408",
+        "scienceqa:92:scienceqa:test:20600",
+        "scienceqa:93:scienceqa:test:15923",
+        "scienceqa:94:scienceqa:test:11120",
+        "scienceqa:95:scienceqa:test:12117",
+        "scienceqa:96:scienceqa:test:19922",
+        "scienceqa:97:scienceqa:test:3604",
+        "scienceqa:98:scienceqa:test:6091",
+        "scienceqa:99:scienceqa:test:19271"
+      ],
+      "shape": [
+        5000,
+        100
+      ],
+      "sha256": "8ea230a890f5035c70470252d5ccbd3276611e2fd6c46ae52535c8a519b1d4dc"
+    },
+    "coco": {
+      "seed": 2026203112,
+      "unit": "physical image/group",
+      "groups": [
+        "coco:0:147915",
+        "coco:1:461278",
+        "coco:2:117690",
+        "coco:3:9156",
+        "coco:4:202913",
+        "coco:5:537939",
+        "coco:6:71929",
+        "coco:7:167122",
+        "coco:8:301102",
+        "coco:9:578314",
+        "coco:10:318618",
+        "coco:11:48924",
+        "coco:12:27226",
+        "coco:13:535602",
+        "coco:14:97754",
+        "coco:15:361177",
+        "coco:16:129637",
+        "coco:17:124952",
+        "coco:18:202923",
+        "coco:19:400317",
+        "coco:20:494404",
+        "coco:21:252573",
+        "coco:22:457717",
+        "coco:23:341409",
+        "coco:24:288435",
+        "coco:25:497438",
+        "coco:26:532403",
+        "coco:27:23117",
+        "coco:28:536725",
+        "coco:29:199403",
+        "coco:30:537574",
+        "coco:31:335810",
+        "coco:32:358664",
+        "coco:33:145751",
+        "coco:34:533013",
+        "coco:35:151081",
+        "coco:36:205183",
+        "coco:37:28377",
+        "coco:38:58329",
+        "coco:39:241373",
+        "coco:40:513567",
+        "coco:41:332096",
+        "coco:42:19308",
+        "coco:43:84889",
+        "coco:44:557732",
+        "coco:45:4760",
+        "coco:46:183970",
+        "coco:47:269058",
+        "coco:48:398067",
+        "coco:49:296707",
+        "coco:50:39081",
+        "coco:51:68408",
+        "coco:52:473318",
+        "coco:53:385194",
+        "coco:54:210273",
+        "coco:55:225494",
+        "coco:56:525763",
+        "coco:57:431570",
+        "coco:58:298699",
+        "coco:59:33638",
+        "coco:60:114317",
+        "coco:61:525373",
+        "coco:62:118260",
+        "coco:63:424998",
+        "coco:64:317244",
+        "coco:65:282224",
+        "coco:66:358982",
+        "coco:67:301837",
+        "coco:68:574316",
+        "coco:69:131847",
+        "coco:70:51576",
+        "coco:71:42526",
+        "coco:72:28157",
+        "coco:73:410428",
+        "coco:74:155488",
+        "coco:75:3716",
+        "coco:76:136642",
+        "coco:77:443583",
+        "coco:78:580835",
+        "coco:79:298628",
+        "coco:80:314370",
+        "coco:81:532211",
+        "coco:82:200567",
+        "coco:83:30925",
+        "coco:84:136572",
+        "coco:85:49984",
+        "coco:86:215356",
+        "coco:87:31981",
+        "coco:88:186518",
+        "coco:89:34811",
+        "coco:90:289260",
+        "coco:91:288202",
+        "coco:92:553154",
+        "coco:93:20470",
+        "coco:94:35738",
+        "coco:95:537053",
+        "coco:96:34617",
+        "coco:97:184139",
+        "coco:98:420666",
+        "coco:99:253964"
+      ],
+      "shape": [
+        5000,
+        100
+      ],
+      "sha256": "81e649ceb8fdd516af4c6a39d2f7e7f49ec4a8b57a35988dde5b85b58fb7b5ad"
+    },
+    "textvqa": {
+      "seed": 2026303115,
+      "unit": "physical image/group",
+      "groups": [
+        "textvqa:0:e8a58d6a31e12445",
+        "textvqa:1:821b5664142bc1b2",
+        "textvqa:2:c38407369b19347a",
+        "textvqa:3:a195538a7b65179a",
+        "textvqa:4:ecb64a19c7398c8e",
+        "textvqa:5:20864a669da54759",
+        "textvqa:6:bb66130552280e6b",
+        "textvqa:7:2cd2e8a48409b787",
+        "textvqa:8:bc902e477f5afbd2",
+        "textvqa:9:b00e419be374801c",
+        "textvqa:10:9a54e4e2bc6c57be",
+        "textvqa:11:ef45a7b16461aa19",
+        "textvqa:12:4182c65b030c236b",
+        "textvqa:13:039fce4cdc594316",
+        "textvqa:14:039da94c7b4a3104",
+        "textvqa:15:46759c073f68adb2",
+        "textvqa:16:2aafcb12b2ce977e",
+        "textvqa:17:f8356984577dff65",
+        "textvqa:18:2d22463bbb238136",
+        "textvqa:19:a29264dfa5c11b31",
+        "textvqa:20:ecba4f9e3fe02b17",
+        "textvqa:21:200c68cea4db98eb",
+        "textvqa:22:996137f933ef63c2",
+        "textvqa:23:1a8746200ed47472",
+        "textvqa:24:03e02116803b7581",
+        "textvqa:25:21947330165b5c88",
+        "textvqa:26:895a8b2cf8263382",
+        "textvqa:27:f812b2ebbec82b9a",
+        "textvqa:28:74d135a5df49b04d",
+        "textvqa:29:9152949a52506c35",
+        "textvqa:30:7751d3a7ced10598",
+        "textvqa:31:a3366a6b509bfa01",
+        "textvqa:32:c0165f98ac53e0eb",
+        "textvqa:33:00dd785b54674737",
+        "textvqa:34:8de8a2b786a447c3",
+        "textvqa:35:58cb4402bdd932d2",
+        "textvqa:36:266eae2b02331a87",
+        "textvqa:37:04ef980e5caff21f",
+        "textvqa:38:22907eebf26f3304",
+        "textvqa:39:65f66b9f147f1596",
+        "textvqa:40:1e7f31fd2be304a6",
+        "textvqa:41:c99aaef9025b20aa",
+        "textvqa:42:8f255fcf31f22e34",
+        "textvqa:43:d3a3150761068f75",
+        "textvqa:44:7a59dba3e2b42d4d",
+        "textvqa:45:68c5c5f0f84ae84e",
+        "textvqa:46:ba38f2c46029b41e",
+        "textvqa:47:105bb5dae2923dea",
+        "textvqa:48:16800cb9cdbd89ed",
+        "textvqa:49:24c438f1db2149b5",
+        "textvqa:50:7b5d2a652d00bc95",
+        "textvqa:51:25776b27892b7b6a",
+        "textvqa:52:013aaeeee730a054",
+        "textvqa:53:95fdfa4c9e58a1da",
+        "textvqa:54:3d9e5a5b18fe5930",
+        "textvqa:55:52e397095216d3ff",
+        "textvqa:56:33ab6ce7a34dffcd",
+        "textvqa:57:2d79f46fe590fa4a",
+        "textvqa:58:986ecc217fb89bc7",
+        "textvqa:59:62b8d0cad97f0897",
+        "textvqa:60:70fbac7e1cf4c585",
+        "textvqa:61:0927336eea258d3e",
+        "textvqa:62:9c695f32b8127957",
+        "textvqa:63:7b5260c602c2842b",
+        "textvqa:64:e76545f5fae2e38e",
+        "textvqa:65:988b2fa56cdd7702",
+        "textvqa:66:1e829ff28332f23c",
+        "textvqa:67:4ca9d2d3d49c9e95",
+        "textvqa:68:24534957f36e5a1c",
+        "textvqa:69:52cf145eb46fe41e",
+        "textvqa:70:2d02c441eb5347e7",
+        "textvqa:71:43e3bdf5255ebbc6",
+        "textvqa:72:ca279fcde178427f",
+        "textvqa:73:7be55c6c7b223f2c",
+        "textvqa:74:27bd54a16593bd89",
+        "textvqa:75:020a30ada37ca2d4",
+        "textvqa:76:5672162112fd4d65",
+        "textvqa:77:c65cdb6fa5ee5aae",
+        "textvqa:78:39a9925a3a8f4c4b",
+        "textvqa:79:a7ec58b2c2373f03",
+        "textvqa:80:2881d731e55ee507",
+        "textvqa:81:0675447696bece71",
+        "textvqa:82:ef8086221ab0e99f",
+        "textvqa:83:e081deec0d8211a0",
+        "textvqa:84:0d510e343e205774",
+        "textvqa:85:d23a26a545c16f78",
+        "textvqa:86:1fec632a0f189f0c",
+        "textvqa:87:8ac2480ef3e92c96",
+        "textvqa:88:bb9428d39f8c2bc7",
+        "textvqa:89:9276c03a71bed858",
+        "textvqa:90:b45fef2565bc76e4",
+        "textvqa:91:235e3feb178ed158",
+        "textvqa:92:28429e3df3abbe28",
+        "textvqa:93:391a6d50a130f00b",
+        "textvqa:94:1a8d4bedfde14995",
+        "textvqa:95:a93c8fe0e15346d6",
+        "textvqa:96:59de43c665d0c405",
+        "textvqa:97:e8d4b34171630d37",
+        "textvqa:98:0058241de1f2e430",
+        "textvqa:99:c06af499315e4b07"
+      ],
+      "shape": [
+        5000,
+        100
+      ],
+      "sha256": "7dea7c655f018f6ac9f495956ec62a0860802851c0ff0be820ebd608bb6829c0"
+    }
+  },
+  "comparisons": [
+    [
+      "bepc_fast",
+      "bepc_original",
+      "engineering_equivalence_speed"
+    ],
+    [
+      "bepc_rescue0625",
+      "bepc_fast",
+      "directional_rescue_increment"
+    ],
+    [
+      "bepc_original",
+      "strict_shared",
+      "original_relaxation_vs_strict"
+    ],
+    [
+      "bepc_rescue0625",
+      "strict_shared",
+      "rescue_vs_strict"
+    ]
+  ],
+  "p_method": "two-sided centered paired-bootstrap add-one Monte Carlo approximation",
+  "multiple_comparisons": "Holm within task/metric, four frozen pairs; not global across tasks/metrics",
+  "CI_scope": "pointwise paired image/group sampling; no repeated-run timing uncertainty; fixed official per-image scores",
+  "measured_main_requests": 1200,
+  "repetitions": 1,
+  "numerical_environment": {
+    "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+    "numpy": "2.1.2"
+  },
+  "immutable_previous_source_manifest_sha256": "be21528bc7838adc3a96bd9d61b17d7a741a58a077fc3254f459cf9d36830fb7",
+  "engineering_parity": {
+    "scienceqa": {
+      "questions": 100,
+      "exact_fields": [
+        "raw_token_ids",
+        "returned_token_ids",
+        "output_text",
+        "acceptance_length",
+        "acceptance_paths",
+        "eos_index",
+        "cap_reached"
+      ],
+      "fast_original_exact_questions": 100,
+      "fast_original_differences": [],
+      "original_historical_exact_questions": 100,
+      "original_historical_differences": [],
+      "historical_input_differences": []
+    },
+    "coco": {
+      "questions": 100,
+      "exact_fields": [
+        "raw_token_ids",
+        "returned_token_ids",
+        "output_text",
+        "acceptance_length",
+        "acceptance_paths",
+        "eos_index",
+        "cap_reached"
+      ],
+      "fast_original_exact_questions": 100,
+      "fast_original_differences": [],
+      "original_historical_exact_questions": 100,
+      "original_historical_differences": [],
+      "historical_input_differences": []
+    },
+    "textvqa": {
+      "questions": 100,
+      "exact_fields": [
+        "raw_token_ids",
+        "returned_token_ids",
+        "output_text",
+        "acceptance_length",
+        "acceptance_paths",
+        "eos_index",
+        "cap_reached"
+      ],
+      "fast_original_exact_questions": 100,
+      "fast_original_differences": [],
+      "original_historical_exact_questions": 100,
+      "original_historical_differences": [],
+      "historical_input_differences": []
+    }
+  },
+  "quality_diagnostics": [
+    {
+      "task": "scienceqa",
+      "method": "bepc_fast",
+      "baseline": "bepc_original",
+      "automatic_proxy_pass": true,
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": 0.0,
+          "bound_type": "one_sided_95_lower",
+          "bound": 0.0,
+          "permitted_decline": 0.02,
+          "proxy_pass": true
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "not_evaluated"
+    },
+    {
+      "task": "scienceqa",
+      "method": "bepc_rescue0625",
+      "baseline": "bepc_fast",
+      "automatic_proxy_pass": true,
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": 0.0,
+          "bound_type": "one_sided_95_lower",
+          "bound": 0.0,
+          "permitted_decline": 0.02,
+          "proxy_pass": true
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "not_evaluated"
+    },
+    {
+      "task": "scienceqa",
+      "method": "bepc_original",
+      "baseline": "strict_shared",
+      "automatic_proxy_pass": false,
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": -0.020000000000000018,
+          "bound_type": "one_sided_95_lower",
+          "bound": -0.06000000000000005,
+          "permitted_decline": 0.02,
+          "proxy_pass": false
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "not_evaluated"
+    },
+    {
+      "task": "scienceqa",
+      "method": "bepc_rescue0625",
+      "baseline": "strict_shared",
+      "automatic_proxy_pass": false,
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": -0.020000000000000018,
+          "bound_type": "one_sided_95_lower",
+          "bound": -0.06000000000000005,
+          "permitted_decline": 0.02,
+          "proxy_pass": false
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "not_evaluated"
+    },
+    {
+      "task": "coco",
+      "method": "bepc_fast",
+      "baseline": "bepc_original",
+      "automatic_proxy_pass": true,
+      "conditions": [
+        {
+          "metric": "SPICE",
+          "difference": 0.0,
+          "bound_type": "one_sided_95_lower",
+          "bound": 0.006422009469882682,
+          "baseline_multiplier": 0.95,
+          "permitted_difference": 0.0,
+          "proxy_pass": true
+        },
+        {
+          "metric": "CHAIRs",
+          "difference": 0.0,
+          "bound_type": "one_sided_95_upper",
+          "bound": 0.0,
+          "baseline_multiplier": 1.0,
+          "permitted_difference": 0.02,
+          "proxy_pass": true
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "pending"
+    },
+    {
+      "task": "coco",
+      "method": "bepc_rescue0625",
+      "baseline": "bepc_fast",
+      "automatic_proxy_pass": true,
+      "conditions": [
+        {
+          "metric": "SPICE",
+          "difference": -0.00017741131382295605,
+          "bound_type": "one_sided_95_lower",
+          "bound": 0.004735433700425891,
+          "baseline_multiplier": 0.95,
+          "permitted_difference": 0.0,
+          "proxy_pass": true
+        },
+        {
+          "metric": "CHAIRs",
+          "difference": 0.0,
+          "bound_type": "one_sided_95_upper",
+          "bound": 0.0,
+          "baseline_multiplier": 1.0,
+          "permitted_difference": 0.02,
+          "proxy_pass": true
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "pending"
+    },
+    {
+      "task": "coco",
+      "method": "bepc_original",
+      "baseline": "strict_shared",
+      "automatic_proxy_pass": true,
+      "conditions": [
+        {
+          "metric": "SPICE",
+          "difference": 0.0016131282889456644,
+          "bound_type": "one_sided_95_lower",
+          "bound": 0.0027705538869630996,
+          "baseline_multiplier": 0.95,
+          "permitted_difference": 0.0,
+          "proxy_pass": true
+        },
+        {
+          "metric": "CHAIRs",
+          "difference": -0.05000000000000002,
+          "bound_type": "one_sided_95_upper",
+          "bound": 0.010000000000000009,
+          "baseline_multiplier": 1.0,
+          "permitted_difference": 0.02,
+          "proxy_pass": true
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "pending"
+    },
+    {
+      "task": "coco",
+      "method": "bepc_rescue0625",
+      "baseline": "strict_shared",
+      "automatic_proxy_pass": true,
+      "conditions": [
+        {
+          "metric": "SPICE",
+          "difference": 0.0014357169751227083,
+          "bound_type": "one_sided_95_lower",
+          "bound": 0.0027317961971060982,
+          "baseline_multiplier": 0.95,
+          "permitted_difference": 0.0,
+          "proxy_pass": true
+        },
+        {
+          "metric": "CHAIRs",
+          "difference": -0.05000000000000002,
+          "bound_type": "one_sided_95_upper",
+          "bound": 0.010000000000000009,
+          "baseline_multiplier": 1.0,
+          "permitted_difference": 0.02,
+          "proxy_pass": true
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "pending"
+    },
+    {
+      "task": "textvqa",
+      "method": "bepc_fast",
+      "baseline": "bepc_original",
+      "automatic_proxy_pass": true,
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": 0.0,
+          "bound_type": "one_sided_95_lower",
+          "bound": 0.0,
+          "permitted_decline": 0.02,
+          "proxy_pass": true
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "not_evaluated"
+    },
+    {
+      "task": "textvqa",
+      "method": "bepc_rescue0625",
+      "baseline": "bepc_fast",
+      "automatic_proxy_pass": true,
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": 0.005999999999999894,
+          "bound_type": "one_sided_95_lower",
+          "bound": 0.0,
+          "permitted_decline": 0.02,
+          "proxy_pass": true
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "not_evaluated"
+    },
+    {
+      "task": "textvqa",
+      "method": "bepc_original",
+      "baseline": "strict_shared",
+      "automatic_proxy_pass": false,
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": 0.007000000000000006,
+          "bound_type": "one_sided_95_lower",
+          "bound": -0.030000000000000027,
+          "permitted_decline": 0.02,
+          "proxy_pass": false
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "not_evaluated"
+    },
+    {
+      "task": "textvqa",
+      "method": "bepc_rescue0625",
+      "baseline": "strict_shared",
+      "automatic_proxy_pass": false,
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": 0.0129999999999999,
+          "bound_type": "one_sided_95_lower",
+          "bound": -0.02399999999999991,
+          "permitted_decline": 0.02,
+          "proxy_pass": false
+        }
+      ],
+      "scope": "predeclared finite pilot automatic-metric diagnostic; no human safety/equivalence claim",
+      "zero_discordance_nonparametric_bootstrap_can_be_degenerate": true,
+      "human_caption_reliability": "not_evaluated"
+    }
+  ],
+  "output_transitions": {
+    "scienceqa": {
+      "counts": {
+        "outputs_unchanged": 97,
+        "score_tie": 100,
+        "1_to_1": 83,
+        "0_to_0": 17,
+        "outputs_changed": 3
+      },
+      "changed_cases": [
+        {
+          "question_id": "6685",
+          "group_id": "scienceqa:53:scienceqa:test:6685",
+          "image_id": "scienceqa:test:6685",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/scienceqa/6685.png",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "D",
+          "rescue_answer": "D"
+        },
+        {
+          "question_id": "7405",
+          "group_id": "scienceqa:77:scienceqa:test:7405",
+          "image_id": "scienceqa:test:7405",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/scienceqa/7405.png",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "A",
+          "rescue_answer": "A"
+        },
+        {
+          "question_id": "10271",
+          "group_id": "scienceqa:82:scienceqa:test:10271",
+          "image_id": "scienceqa:test:10271",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/scienceqa/10271.png",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "A",
+          "rescue_answer": "A"
+        }
+      ],
+      "selection": "all changed outputs retained; no harmful-case filtering"
+    },
+    "coco": {
+      "counts": {
+        "outputs_unchanged": 95,
+        "SPICE_equal": 95,
+        "CHAIRs_equal": 100,
+        "CHAIRi_equal": 99,
+        "CIDEr_equal": 95,
+        "outputs_changed": 5,
+        "SPICE_increased": 4,
+        "CIDEr_decreased": 3,
+        "SPICE_decreased": 1,
+        "CHAIRi_decreased": 1,
+        "CIDEr_increased": 2
+      },
+      "changed_cases": [
+        {
+          "question_id": "537939",
+          "group_id": "coco:5:537939",
+          "image_id": 537939,
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/537939.jpg",
+          "SPICE": 0.00876881147055339,
+          "CHAIRs": 0,
+          "CHAIRi": 0.0,
+          "CIDEr": -1.2634758541922682e-81
+        },
+        {
+          "question_id": "301102",
+          "group_id": "coco:8:301102",
+          "image_id": 301102,
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/301102.jpg",
+          "SPICE": -0.09130434782608693,
+          "CHAIRs": 0,
+          "CHAIRi": 0.0,
+          "CIDEr": -3.2884065505354125e-110
+        },
+        {
+          "question_id": "202923",
+          "group_id": "coco:18:202923",
+          "image_id": 202923,
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/202923.jpg",
+          "SPICE": 0.004759779860181473,
+          "CHAIRs": 0,
+          "CHAIRi": -0.16666666666666669,
+          "CIDEr": 1.386634406572784e-78
+        },
+        {
+          "question_id": "513567",
+          "group_id": "coco:40:513567",
+          "image_id": 513567,
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/513567.jpg",
+          "SPICE": 0.0561877667140825,
+          "CHAIRs": 0,
+          "CHAIRi": 0.0,
+          "CIDEr": -2.589380295330128e-64
+        },
+        {
+          "question_id": "298628",
+          "group_id": "coco:79:298628",
+          "image_id": 298628,
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/coco/298628.jpg",
+          "SPICE": 0.003846858398974168,
+          "CHAIRs": 0,
+          "CHAIRi": 0.0,
+          "CIDEr": 5.1141579475052834e-166
+        }
+      ],
+      "selection": "all changed outputs retained; no harmful-case filtering"
+    },
+    "textvqa": {
+      "counts": {
+        "outputs_unchanged": 88,
+        "score_tie": 99,
+        "outputs_changed": 12,
+        "score_improved": 1
+      },
+      "changed_cases": [
+        {
+          "question_id": "35543",
+          "group_id": "textvqa:22:996137f933ef63c2",
+          "image_id": "996137f933ef63c2",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/35543.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "13",
+          "rescue_answer": "13"
+        },
+        {
+          "question_id": "39292",
+          "group_id": "textvqa:32:c0165f98ac53e0eb",
+          "image_id": "c0165f98ac53e0eb",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/39292.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 0.0,
+          "rescue_score": 0.0,
+          "baseline_answer": "Leather",
+          "rescue_answer": "Belts"
+        },
+        {
+          "question_id": "37539",
+          "group_id": "textvqa:33:00dd785b54674737",
+          "image_id": "00dd785b54674737",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/37539.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 0.0,
+          "rescue_score": 0.0,
+          "baseline_answer": "Relieves",
+          "rescue_answer": "Relieves"
+        },
+        {
+          "question_id": "38397",
+          "group_id": "textvqa:35:58cb4402bdd932d2",
+          "image_id": "58cb4402bdd932d2",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/38397.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "8J54993",
+          "rescue_answer": "8J54993"
+        },
+        {
+          "question_id": "35630",
+          "group_id": "textvqa:40:1e7f31fd2be304a6",
+          "image_id": "1e7f31fd2be304a6",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/35630.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "A1A",
+          "rescue_answer": "A1A"
+        },
+        {
+          "question_id": "37136",
+          "group_id": "textvqa:45:68c5c5f0f84ae84e",
+          "image_id": "68c5c5f0f84ae84e",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/37136.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "Sony",
+          "rescue_answer": "Sony"
+        },
+        {
+          "question_id": "36234",
+          "group_id": "textvqa:52:013aaeeee730a054",
+          "image_id": "013aaeeee730a054",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/36234.jpg",
+          "score_delta": 0.6,
+          "baseline_score": 0.0,
+          "rescue_score": 0.6,
+          "baseline_answer": "Tenuta Sant'Antonio",
+          "rescue_answer": "Fontana"
+        },
+        {
+          "question_id": "38359",
+          "group_id": "textvqa:59:62b8d0cad97f0897",
+          "image_id": "62b8d0cad97f0897",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/38359.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "800",
+          "rescue_answer": "800"
+        },
+        {
+          "question_id": "37315",
+          "group_id": "textvqa:60:70fbac7e1cf4c585",
+          "image_id": "70fbac7e1cf4c585",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/37315.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 0.0,
+          "rescue_score": 0.0,
+          "baseline_answer": "Data",
+          "rescue_answer": "Data"
+        },
+        {
+          "question_id": "39465",
+          "group_id": "textvqa:64:e76545f5fae2e38e",
+          "image_id": "e76545f5fae2e38e",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/39465.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "Pyrex",
+          "rescue_answer": "Pyrex"
+        },
+        {
+          "question_id": "37229",
+          "group_id": "textvqa:76:5672162112fd4d65",
+          "image_id": "5672162112fd4d65",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/37229.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "Stop",
+          "rescue_answer": "Stop"
+        },
+        {
+          "question_id": "37717",
+          "group_id": "textvqa:86:1fec632a0f189f0c",
+          "image_id": "1fec632a0f189f0c",
+          "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/37717.jpg",
+          "score_delta": 0.0,
+          "baseline_score": 1.0,
+          "rescue_score": 1.0,
+          "baseline_answer": "Ginger",
+          "rescue_answer": "Ginger"
+        }
+      ],
+      "selection": "all changed outputs retained; no harmful-case filtering"
+    }
+  },
+  "human_ground_truth_status": "not available; no new human annotations or VLM Judge labels",
+  "independent_unseen_test_claim": false,
+  "historical_data_reused_by_user_request": true,
+  "prior_timing_not_used_in_primary_comparisons": true
+}

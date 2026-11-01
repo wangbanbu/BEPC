@@ -1,0 +1,402 @@
+[
+  {
+    "task": "textvqa",
+    "ordinal": 0,
+    "global_ordinal": 60,
+    "group_ordinal": 0,
+    "question_id": "39282",
+    "image_id": "4979ef8ffddf3f51",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/39282.jpg",
+    "group_id": "textvqa:0:4979ef8ffddf3f51",
+    "prompt_text": "what does his shirt say above number?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "f1bc37da71af8139bb2f15d90769a64db63a9df94de6437e0fe5159dfbcce1c0",
+    "image_rgb_sha256": "5d87224479e110a4bc03de79ddad39ed6421e9b2a3774be54c16ab4f22a491c6",
+    "image_size": [
+      763,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 1,
+    "global_ordinal": 61,
+    "group_ordinal": 1,
+    "question_id": "36381",
+    "image_id": "faf47627827b0b39",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/36381.jpg",
+    "group_id": "textvqa:1:faf47627827b0b39",
+    "prompt_text": "what is the alcohol percentage on the bottle?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "b82049d0777aa5c56d606b13e50772b09cb7108a1d41e3799c8effe814de0431",
+    "image_rgb_sha256": "ebdf8b964e1295179522aec5ed519d179362fa95b9c81eef801bdca7afbfe645",
+    "image_size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 2,
+    "global_ordinal": 62,
+    "group_ordinal": 2,
+    "question_id": "37997",
+    "image_id": "a803592ab7ec97e5",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/37997.jpg",
+    "group_id": "textvqa:2:a803592ab7ec97e5",
+    "prompt_text": "does this offer a credit?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "eca9a1526a4770a39c7181308a2aa74b6cbb9bb502a09f6f366daf43c02928e6",
+    "image_rgb_sha256": "4536c1521db67683aad93d9b4dc82f91f31fadbcfac470fb53573413335011b0",
+    "image_size": [
+      1024,
+      576
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 3,
+    "global_ordinal": 63,
+    "group_ordinal": 3,
+    "question_id": "39043",
+    "image_id": "b194c1d4d687fd6e",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/39043.jpg",
+    "group_id": "textvqa:3:b194c1d4d687fd6e",
+    "prompt_text": "what kind of connection does the calculator have?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "19e7ae17ed4c16db6439dfd7a6d691d7d36790ddd34a95c279572cad54b7ffef",
+    "image_rgb_sha256": "b3d6e301ef2e8f48d9004a554360b5ee8f9cb5af27c141766d25ed127ee76889",
+    "image_size": [
+      768,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 4,
+    "global_ordinal": 64,
+    "group_ordinal": 4,
+    "question_id": "34807",
+    "image_id": "753e596cd20fd631",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/34807.jpg",
+    "group_id": "textvqa:4:753e596cd20fd631",
+    "prompt_text": "what does the abbreviation say?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "aae73a01e715462bd54009d94b1eef6be41dc86220d96965ea6f92c5ddd94c15",
+    "image_rgb_sha256": "6ca0b80cc6e9289f3848a495097fb5028f2ca5a6862369aaf736d3e59ac4cc76",
+    "image_size": [
+      727,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 5,
+    "global_ordinal": 65,
+    "group_ordinal": 5,
+    "question_id": "35022",
+    "image_id": "c8dda228bcc4ca78",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/35022.jpg",
+    "group_id": "textvqa:5:c8dda228bcc4ca78",
+    "prompt_text": "what city does the white book 4th from the top say?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "cb7185b554add1575e418671610d00ca0cc39efad778726995ff919e7e028299",
+    "image_rgb_sha256": "b41629fef51c595146f9e17ed71bb33155916df6096541e9ddcf21d0a8d844d3",
+    "image_size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 6,
+    "global_ordinal": 66,
+    "group_ordinal": 6,
+    "question_id": "39152",
+    "image_id": "cae18a2a67cc4035",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/39152.jpg",
+    "group_id": "textvqa:6:cae18a2a67cc4035",
+    "prompt_text": "what country is this bottled in?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "00858a45047131b3149250894175b004df3d63ed2e8e63bd80c9907b97f77445",
+    "image_rgb_sha256": "8c13ac72c5eb025e32cbfd5aa9c9780be94bceee32e0f6e70c68608dd4f94cd4",
+    "image_size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 7,
+    "global_ordinal": 67,
+    "group_ordinal": 7,
+    "question_id": "38163",
+    "image_id": "cbf35b61f360bc1f",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/38163.jpg",
+    "group_id": "textvqa:7:cbf35b61f360bc1f",
+    "prompt_text": "what number is written on the picture?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "d9cc79931c1b2a9b5585ce9c4786be1821761d5737c95b94af7a0200b7950e60",
+    "image_rgb_sha256": "ff7b7bf844cb801b8aa550d3ef02182e45a1d9ec73e0682238cf4afdc285190e",
+    "image_size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 8,
+    "global_ordinal": 68,
+    "group_ordinal": 8,
+    "question_id": "38699",
+    "image_id": "a85c9148747ada87",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/38699.jpg",
+    "group_id": "textvqa:8:a85c9148747ada87",
+    "prompt_text": "where was this beer brewed?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "6ea5fb09e6fd28ce863013946710e13cf9cb5af2f6ddac3659580bef22324573",
+    "image_rgb_sha256": "a2350777827ff7e531a96ecccb2a56b06b2677d910c80978dc5a673db56d5bc1",
+    "image_size": [
+      683,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 9,
+    "global_ordinal": 69,
+    "group_ordinal": 9,
+    "question_id": "38038",
+    "image_id": "00d199d2990fab59",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/38038.jpg",
+    "group_id": "textvqa:9:00d199d2990fab59",
+    "prompt_text": "what year was the coin made?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "717758c7922ace34e774607c7fe918cf8f56349218a1551f7a29259ec6660301",
+    "image_rgb_sha256": "f86ac4d3547223d5c78c04f5982a73190c1e6be5962eac92c1bcd890fbb5868e",
+    "image_size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 10,
+    "global_ordinal": 70,
+    "group_ordinal": 10,
+    "question_id": "34991",
+    "image_id": "caef3d1e97c2cf15",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/34991.jpg",
+    "group_id": "textvqa:10:caef3d1e97c2cf15",
+    "prompt_text": "is this by mark hillary?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "553d0bb24a1dcb2a46b09ec09728ce9237f447ac860418e1279799a0a6a7a07e",
+    "image_rgb_sha256": "998c364bcc0dc114ec0e078f5808b4cca7c69c907c0c202cf9439f2e051d3573",
+    "image_size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 11,
+    "global_ordinal": 71,
+    "group_ordinal": 11,
+    "question_id": "38906",
+    "image_id": "b09dd0e7fad13f08",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/38906.jpg",
+    "group_id": "textvqa:11:b09dd0e7fad13f08",
+    "prompt_text": "this periodic table?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "c7e49b8a899d48d522d980b10b7d1853406e9615940c3af994c5ea14779703ac",
+    "image_rgb_sha256": "f4863f07eddb0e736031225247822473756caa8531f24ca2b5a4fcacb44bb0d2",
+    "image_size": [
+      770,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 12,
+    "global_ordinal": 72,
+    "group_ordinal": 12,
+    "question_id": "36162",
+    "image_id": "2db1b4e8115e36ee",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/36162.jpg",
+    "group_id": "textvqa:12:2db1b4e8115e36ee",
+    "prompt_text": "what is the title?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "e6822afd3596946ab1303d270a3eb7495279062dd100ac6f6ddf0836ee21e830",
+    "image_rgb_sha256": "fe1f36c85c6b32b756bdb23cee046a6bed618f9a532f3f0ea3d2d26e479a7728",
+    "image_size": [
+      768,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 13,
+    "global_ordinal": 73,
+    "group_ordinal": 13,
+    "question_id": "34956",
+    "image_id": "f78aaf3268a66fec",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/34956.jpg",
+    "group_id": "textvqa:13:f78aaf3268a66fec",
+    "prompt_text": "how many pence is that coin?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "f2c2e7d735f382060ce3a59f8c2dff13d1eaf5f5ddf2ee4c7747ab7d4de73ea1",
+    "image_rgb_sha256": "cdb58d37ac0d43be303c619d9aae781b85154e6f485ea4f5a7a3640b064755c1",
+    "image_size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 14,
+    "global_ordinal": 74,
+    "group_ordinal": 14,
+    "question_id": "35616",
+    "image_id": "02df4a726c2bb5a5",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/35616.jpg",
+    "group_id": "textvqa:14:02df4a726c2bb5a5",
+    "prompt_text": "what is the large word on the orange backdrop?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "ab5e9b908c25bb2dd85d98ab2548055c334d647ab4fa0792e0af14161df98ea1",
+    "image_rgb_sha256": "7970b4de98e6370052eaed771e6d131ec087da3b6f15c816d096a5dad2a3376a",
+    "image_size": [
+      1024,
+      654
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 15,
+    "global_ordinal": 75,
+    "group_ordinal": 15,
+    "question_id": "39047",
+    "image_id": "8d69bf28a03c73b8",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/39047.jpg",
+    "group_id": "textvqa:15:8d69bf28a03c73b8",
+    "prompt_text": "what team does this player play for?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "2e9ebd487fae9d493ee8a95bc3e36f234b13af8fc59500fccb29fb07080c12e7",
+    "image_rgb_sha256": "7dc93a21ca94a619f71437642f312357e538a3d7c5247253b1258b854432f9d6",
+    "image_size": [
+      1024,
+      680
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 16,
+    "global_ordinal": 76,
+    "group_ordinal": 16,
+    "question_id": "34848",
+    "image_id": "3f29c81295834db8",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/34848.jpg",
+    "group_id": "textvqa:16:3f29c81295834db8",
+    "prompt_text": "what triathlon is he running?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "a0114a08ad26aceb08bc37ed59c1a1bc8b9c723526fd54f3fad2d4ffb547cd57",
+    "image_rgb_sha256": "9694ee442f33941584c641eaffdf53908b07e5fa009bf535b146bf9ae70d97f9",
+    "image_size": [
+      683,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 17,
+    "global_ordinal": 77,
+    "group_ordinal": 17,
+    "question_id": "38921",
+    "image_id": "473535e08285a342",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/38921.jpg",
+    "group_id": "textvqa:17:473535e08285a342",
+    "prompt_text": "what is the name of the magazine in the picture?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "c2ecd7572796620464a98d924bf3c14bff3586bb82c7c6e63f95687b2371999e",
+    "image_rgb_sha256": "b74ce1f2db5ee83de6d76c849a7895bd7ec35f4c13406b43313a4d8d64b31671",
+    "image_size": [
+      1024,
+      927
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 18,
+    "global_ordinal": 78,
+    "group_ordinal": 18,
+    "question_id": "38940",
+    "image_id": "3d27ed4334548acc",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/38940.jpg",
+    "group_id": "textvqa:18:3d27ed4334548acc",
+    "prompt_text": "what is the number on the jersey?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "4dd3f8268b0b2de506f715695c82c2527502e5337ffd99c9769cd26f6751f35a",
+    "image_rgb_sha256": "927815b56befb03f06736c2e2bae3716dd04bc5aa95e1957d977da70ed33a543",
+    "image_size": [
+      680,
+      1024
+    ]
+  },
+  {
+    "task": "textvqa",
+    "ordinal": 19,
+    "global_ordinal": 79,
+    "group_ordinal": 19,
+    "question_id": "37059",
+    "image_id": "4fec049ce9dde806",
+    "image_path": "/data/wbb/vispec-clean-benchmark-20261031/data/assets/textvqa/37059.jpg",
+    "group_id": "textvqa:19:4fec049ce9dde806",
+    "prompt_text": "what date was the memo released?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "7b70b74b194b0e646b84a01bffbe750f192ac9cfed21b34c61da4dc46e58aade",
+    "image_rgb_sha256": "baaf7e8b23a5f004e2076faf4cd5a6436ef38d3e58f903a81176a04516a13d4b",
+    "image_size": [
+      1024,
+      912
+    ]
+  }
+]

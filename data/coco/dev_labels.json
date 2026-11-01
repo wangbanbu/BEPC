@@ -1,0 +1,2024 @@
+{
+  "109434": {
+    "cocoid": 109434,
+    "sentences": [
+      {
+        "imgid": 33837,
+        "raw": "A bathroom with a large mirror above a white sink.",
+        "sentid": 338068,
+        "tokens": [
+          "a",
+          "bathroom",
+          "with",
+          "a",
+          "large",
+          "mirror",
+          "above",
+          "a",
+          "white",
+          "sink"
+        ]
+      },
+      {
+        "imgid": 33837,
+        "raw": "A birdcage is near the sink in the bathroom.",
+        "sentid": 340192,
+        "tokens": [
+          "a",
+          "birdcage",
+          "is",
+          "near",
+          "the",
+          "sink",
+          "in",
+          "the",
+          "bathroom"
+        ]
+      },
+      {
+        "imgid": 33837,
+        "raw": "A three piece bathroom with a single vanity.",
+        "sentid": 341734,
+        "tokens": [
+          "a",
+          "three",
+          "piece",
+          "bathroom",
+          "with",
+          "a",
+          "single",
+          "vanity"
+        ]
+      },
+      {
+        "imgid": 33837,
+        "raw": "A bathroom with a green wall and a sink encased in dark wood cabinets.",
+        "sentid": 341896,
+        "tokens": [
+          "a",
+          "bathroom",
+          "with",
+          "a",
+          "green",
+          "wall",
+          "and",
+          "a",
+          "sink",
+          "encased",
+          "in",
+          "dark",
+          "wood",
+          "cabinets"
+        ]
+      },
+      {
+        "imgid": 33837,
+        "raw": "a bathroom with a sink and a bath tub in it.",
+        "sentid": 343645,
+        "tokens": [
+          "a",
+          "bathroom",
+          "with",
+          "a",
+          "sink",
+          "and",
+          "a",
+          "bath",
+          "tub",
+          "in",
+          "it"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000109434.jpg",
+    "source_row": 2756,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00000-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "c0cf6896dbbf66ca535a6262cb34808b9927cabee044506545993be2129cd488"
+  },
+  "556545": {
+    "cocoid": 556545,
+    "sentences": [
+      {
+        "imgid": 17527,
+        "raw": "A skateboard resting against a wall with a photo sitting next to it. ",
+        "sentid": 60667,
+        "tokens": [
+          "a",
+          "skateboard",
+          "resting",
+          "against",
+          "a",
+          "wall",
+          "with",
+          "a",
+          "photo",
+          "sitting",
+          "next",
+          "to",
+          "it"
+        ]
+      },
+      {
+        "imgid": 17527,
+        "raw": "a framed picture leaning against the wall next to a skateboard.",
+        "sentid": 60694,
+        "tokens": [
+          "a",
+          "framed",
+          "picture",
+          "leaning",
+          "against",
+          "the",
+          "wall",
+          "next",
+          "to",
+          "a",
+          "skateboard"
+        ]
+      },
+      {
+        "imgid": 17527,
+        "raw": "A skateboard and portrait photograph of a young man, on the floor.",
+        "sentid": 62446,
+        "tokens": [
+          "a",
+          "skateboard",
+          "and",
+          "portrait",
+          "photograph",
+          "of",
+          "a",
+          "young",
+          "man",
+          "on",
+          "the",
+          "floor"
+        ]
+      },
+      {
+        "imgid": 17527,
+        "raw": "a skateboard and a framed portrait leaning against a wall",
+        "sentid": 63337,
+        "tokens": [
+          "a",
+          "skateboard",
+          "and",
+          "a",
+          "framed",
+          "portrait",
+          "leaning",
+          "against",
+          "a",
+          "wall"
+        ]
+      },
+      {
+        "imgid": 17527,
+        "raw": "A photo and a skateboard sitting on the floor.",
+        "sentid": 65428,
+        "tokens": [
+          "a",
+          "photo",
+          "and",
+          "a",
+          "skateboard",
+          "sitting",
+          "on",
+          "the",
+          "floor"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000556545.jpg",
+    "source_row": 579,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00000-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "ad7babbaed7723e47185c81cf1aec45619719ef233456c2c4b7c2e0d80afefe6"
+  },
+  "214184": {
+    "cocoid": 214184,
+    "sentences": [
+      {
+        "imgid": 32883,
+        "raw": "The black cat is laying on top of books on the shelf. ",
+        "sentid": 630881,
+        "tokens": [
+          "the",
+          "black",
+          "cat",
+          "is",
+          "laying",
+          "on",
+          "top",
+          "of",
+          "books",
+          "on",
+          "the",
+          "shelf"
+        ]
+      },
+      {
+        "imgid": 32883,
+        "raw": "The cat is lying on top of the books on the shelf.",
+        "sentid": 631265,
+        "tokens": [
+          "the",
+          "cat",
+          "is",
+          "lying",
+          "on",
+          "top",
+          "of",
+          "the",
+          "books",
+          "on",
+          "the",
+          "shelf"
+        ]
+      },
+      {
+        "imgid": 32883,
+        "raw": "A cat is lying on top of books on the bookshelf.",
+        "sentid": 633605,
+        "tokens": [
+          "a",
+          "cat",
+          "is",
+          "lying",
+          "on",
+          "top",
+          "of",
+          "books",
+          "on",
+          "the",
+          "bookshelf"
+        ]
+      },
+      {
+        "imgid": 32883,
+        "raw": "A cat lays down on a row of books",
+        "sentid": 637103,
+        "tokens": [
+          "a",
+          "cat",
+          "lays",
+          "down",
+          "on",
+          "a",
+          "row",
+          "of",
+          "books"
+        ]
+      },
+      {
+        "imgid": 32883,
+        "raw": "A black cat laying on top of a set of books.",
+        "sentid": 638471,
+        "tokens": [
+          "a",
+          "black",
+          "cat",
+          "laying",
+          "on",
+          "top",
+          "of",
+          "a",
+          "set",
+          "of",
+          "books"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000214184.jpg",
+    "source_row": 1939,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00001-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "523a3d7f0536b1cca85fc110e43c6dde1e1afa9d6ed9f04828498626ae5c9c37"
+  },
+  "559440": {
+    "cocoid": 559440,
+    "sentences": [
+      {
+        "imgid": 36937,
+        "raw": "very small bath with stand-up shower, commode and sink",
+        "sentid": 366764,
+        "tokens": [
+          "very",
+          "small",
+          "bath",
+          "with",
+          "stand",
+          "up",
+          "shower",
+          "commode",
+          "and",
+          "sink"
+        ]
+      },
+      {
+        "imgid": 36937,
+        "raw": "a bathroom with a corner shower a white toilet and a black sink",
+        "sentid": 367286,
+        "tokens": [
+          "a",
+          "bathroom",
+          "with",
+          "a",
+          "corner",
+          "shower",
+          "a",
+          "white",
+          "toilet",
+          "and",
+          "a",
+          "black",
+          "sink"
+        ]
+      },
+      {
+        "imgid": 36937,
+        "raw": "A white toilet sitting in a bathroom next to a shower and a sink.",
+        "sentid": 368402,
+        "tokens": [
+          "a",
+          "white",
+          "toilet",
+          "sitting",
+          "in",
+          "a",
+          "bathroom",
+          "next",
+          "to",
+          "a",
+          "shower",
+          "and",
+          "a",
+          "sink"
+        ]
+      },
+      {
+        "imgid": 36937,
+        "raw": "A shot of a bathroom with a dark pained sink and closed toilet. ",
+        "sentid": 369011,
+        "tokens": [
+          "a",
+          "shot",
+          "of",
+          "a",
+          "bathroom",
+          "with",
+          "a",
+          "dark",
+          "pained",
+          "sink",
+          "and",
+          "closed",
+          "toilet"
+        ]
+      },
+      {
+        "imgid": 36937,
+        "raw": "That looks like the compact bathroom of a hotel room.",
+        "sentid": 372248,
+        "tokens": [
+          "that",
+          "looks",
+          "like",
+          "the",
+          "compact",
+          "bathroom",
+          "of",
+          "a",
+          "hotel",
+          "room"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000559440.jpg",
+    "source_row": 2976,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00000-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "86998cec8ab02c9fa25bc745e0f77360fac367ba61cc88afdcb08d00edc27b13"
+  },
+  "156282": {
+    "cocoid": 156282,
+    "sentences": [
+      {
+        "imgid": 29539,
+        "raw": "A woman standing in a field flying a kite.",
+        "sentid": 200376,
+        "tokens": [
+          "a",
+          "woman",
+          "standing",
+          "in",
+          "a",
+          "field",
+          "flying",
+          "a",
+          "kite"
+        ]
+      },
+      {
+        "imgid": 29539,
+        "raw": "The woman is flying a kite at the beach.",
+        "sentid": 212301,
+        "tokens": [
+          "the",
+          "woman",
+          "is",
+          "flying",
+          "a",
+          "kite",
+          "at",
+          "the",
+          "beach"
+        ]
+      },
+      {
+        "imgid": 29539,
+        "raw": "A person on a beach holding a kite string and a kite is in the air.",
+        "sentid": 214338,
+        "tokens": [
+          "a",
+          "person",
+          "on",
+          "a",
+          "beach",
+          "holding",
+          "a",
+          "kite",
+          "string",
+          "and",
+          "a",
+          "kite",
+          "is",
+          "in",
+          "the",
+          "air"
+        ]
+      },
+      {
+        "imgid": 29539,
+        "raw": "A person is flying a kite on a beach.",
+        "sentid": 219786,
+        "tokens": [
+          "a",
+          "person",
+          "is",
+          "flying",
+          "a",
+          "kite",
+          "on",
+          "a",
+          "beach"
+        ]
+      },
+      {
+        "imgid": 29539,
+        "raw": "A woman flys a kite against a blue clear sky.",
+        "sentid": 224142,
+        "tokens": [
+          "a",
+          "woman",
+          "flys",
+          "a",
+          "kite",
+          "against",
+          "a",
+          "blue",
+          "clear",
+          "sky"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000156282.jpg",
+    "source_row": 159,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00011-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b234e64e7775834be4660f25d605f3cc7da38695d64ed0152b01015619aa2fe6"
+  },
+  "419371": {
+    "cocoid": 419371,
+    "sentences": [
+      {
+        "imgid": 17926,
+        "raw": "A zebra standing next to a lush green forest.",
+        "sentid": 202224,
+        "tokens": [
+          "a",
+          "zebra",
+          "standing",
+          "next",
+          "to",
+          "a",
+          "lush",
+          "green",
+          "forest"
+        ]
+      },
+      {
+        "imgid": 17926,
+        "raw": "A zebra eating something off of the dirt. ",
+        "sentid": 203955,
+        "tokens": [
+          "a",
+          "zebra",
+          "eating",
+          "something",
+          "off",
+          "of",
+          "the",
+          "dirt"
+        ]
+      },
+      {
+        "imgid": 17926,
+        "raw": "A zebra has its head down near the ground.",
+        "sentid": 204864,
+        "tokens": [
+          "a",
+          "zebra",
+          "has",
+          "its",
+          "head",
+          "down",
+          "near",
+          "the",
+          "ground"
+        ]
+      },
+      {
+        "imgid": 17926,
+        "raw": "A zebra curiously probes the sandy ground of an enclosure.",
+        "sentid": 209922,
+        "tokens": [
+          "a",
+          "zebra",
+          "curiously",
+          "probes",
+          "the",
+          "sandy",
+          "ground",
+          "of",
+          "an",
+          "enclosure"
+        ]
+      },
+      {
+        "imgid": 17926,
+        "raw": "A lone zebra is looking toward the ground in its enclosure.",
+        "sentid": 211455,
+        "tokens": [
+          "a",
+          "lone",
+          "zebra",
+          "is",
+          "looking",
+          "toward",
+          "the",
+          "ground",
+          "in",
+          "its",
+          "enclosure"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000419371.jpg",
+    "source_row": 2706,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00006-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "38d70d9e496d4b40976363d38e3be07816ae71d17ad88ac542dba682477792a4"
+  },
+  "528905": {
+    "cocoid": 528905,
+    "sentences": [
+      {
+        "imgid": 15900,
+        "raw": "A GROUP OF PEOPLE PLAYING FRISBEE IN A GRASSY FIELD",
+        "sentid": 50149,
+        "tokens": [
+          "a",
+          "group",
+          "of",
+          "people",
+          "playing",
+          "frisbee",
+          "in",
+          "a",
+          "grassy",
+          "field"
+        ]
+      },
+      {
+        "imgid": 15900,
+        "raw": "Two players watch as a team member catches the frisbee mid-air.",
+        "sentid": 51820,
+        "tokens": [
+          "two",
+          "players",
+          "watch",
+          "as",
+          "a",
+          "team",
+          "member",
+          "catches",
+          "the",
+          "frisbee",
+          "mid",
+          "air"
+        ]
+      },
+      {
+        "imgid": 15900,
+        "raw": "a man jumping in the air catching a frisbee in a park",
+        "sentid": 52138,
+        "tokens": [
+          "a",
+          "man",
+          "jumping",
+          "in",
+          "the",
+          "air",
+          "catching",
+          "a",
+          "frisbee",
+          "in",
+          "a",
+          "park"
+        ]
+      },
+      {
+        "imgid": 15900,
+        "raw": "People playing a game in a wood gated field.",
+        "sentid": 52153,
+        "tokens": [
+          "people",
+          "playing",
+          "a",
+          "game",
+          "in",
+          "a",
+          "wood",
+          "gated",
+          "field"
+        ]
+      },
+      {
+        "imgid": 15900,
+        "raw": "Players are on a grassy field and one is catching a frisbee.",
+        "sentid": 54436,
+        "tokens": [
+          "players",
+          "are",
+          "on",
+          "a",
+          "grassy",
+          "field",
+          "and",
+          "one",
+          "is",
+          "catching",
+          "a",
+          "frisbee"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000528905.jpg",
+    "source_row": 1392,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00006-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "59f5905212064cd2452ec101d27e780a96ed8faf57b3633e83d7764e28c2a930"
+  },
+  "365094": {
+    "cocoid": 365094,
+    "sentences": [
+      {
+        "imgid": 38873,
+        "raw": "A group of many statues in red on a table.",
+        "sentid": 389208,
+        "tokens": [
+          "a",
+          "group",
+          "of",
+          "many",
+          "statues",
+          "in",
+          "red",
+          "on",
+          "a",
+          "table"
+        ]
+      },
+      {
+        "imgid": 38873,
+        "raw": "A big display of holiday items some using musical instruments.",
+        "sentid": 389748,
+        "tokens": [
+          "a",
+          "big",
+          "display",
+          "of",
+          "holiday",
+          "items",
+          "some",
+          "using",
+          "musical",
+          "instruments"
+        ]
+      },
+      {
+        "imgid": 38873,
+        "raw": "several holiday statuettes of teddy bears, snow covered evergreens, and Santa Clauses.",
+        "sentid": 390663,
+        "tokens": [
+          "several",
+          "holiday",
+          "statuettes",
+          "of",
+          "teddy",
+          "bears",
+          "snow",
+          "covered",
+          "evergreens",
+          "and",
+          "santa",
+          "clauses"
+        ]
+      },
+      {
+        "imgid": 38873,
+        "raw": "Christmas decorations featuring three Santas and bears playing horn instruments",
+        "sentid": 391809,
+        "tokens": [
+          "christmas",
+          "decorations",
+          "featuring",
+          "three",
+          "santas",
+          "and",
+          "bears",
+          "playing",
+          "horn",
+          "instruments"
+        ]
+      },
+      {
+        "imgid": 38873,
+        "raw": "The Christmas figurines are each playing different instruments.",
+        "sentid": 392523,
+        "tokens": [
+          "the",
+          "christmas",
+          "figurines",
+          "are",
+          "each",
+          "playing",
+          "different",
+          "instruments"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000365094.jpg",
+    "source_row": 1650,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00011-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "68238e385b1d6a634276d65ee1be0d8b99d3e06d12d240b54c5ca49057c8091e"
+  },
+  "323356": {
+    "cocoid": 323356,
+    "sentences": [
+      {
+        "imgid": 3868,
+        "raw": "A close up of a tooth brush and a blurred background of a man in a blue jacket facing the opposite direction. ",
+        "sentid": 413117,
+        "tokens": [
+          "a",
+          "close",
+          "up",
+          "of",
+          "a",
+          "tooth",
+          "brush",
+          "and",
+          "a",
+          "blurred",
+          "background",
+          "of",
+          "a",
+          "man",
+          "in",
+          "a",
+          "blue",
+          "jacket",
+          "facing",
+          "the",
+          "opposite",
+          "direction"
+        ]
+      },
+      {
+        "imgid": 3868,
+        "raw": "A toothbrush with an out-of-focus background behind it.",
+        "sentid": 414062,
+        "tokens": [
+          "a",
+          "toothbrush",
+          "with",
+          "an",
+          "out",
+          "of",
+          "focus",
+          "background",
+          "behind",
+          "it"
+        ]
+      },
+      {
+        "imgid": 3868,
+        "raw": "Blue and white toothbrush in focus in front of a man.",
+        "sentid": 417347,
+        "tokens": [
+          "blue",
+          "and",
+          "white",
+          "toothbrush",
+          "in",
+          "focus",
+          "in",
+          "front",
+          "of",
+          "a",
+          "man"
+        ]
+      },
+      {
+        "imgid": 3868,
+        "raw": "a close up of a tooth brush with a person",
+        "sentid": 417689,
+        "tokens": [
+          "a",
+          "close",
+          "up",
+          "of",
+          "a",
+          "tooth",
+          "brush",
+          "with",
+          "a",
+          "person"
+        ]
+      },
+      {
+        "imgid": 3868,
+        "raw": "A man kneels in the dirt behind a toothbrush tied to the ground.",
+        "sentid": 419825,
+        "tokens": [
+          "a",
+          "man",
+          "kneels",
+          "in",
+          "the",
+          "dirt",
+          "behind",
+          "a",
+          "toothbrush",
+          "tied",
+          "to",
+          "the",
+          "ground"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000323356.jpg",
+    "source_row": 1469,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00009-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "da881e154227484f7dbee6c4e1a8792116296778358925c043c35dfdb0b731a4"
+  },
+  "234902": {
+    "cocoid": 234902,
+    "sentences": [
+      {
+        "imgid": 12739,
+        "raw": "A man in a elevator taking a self portrait.",
+        "sentid": 522,
+        "tokens": [
+          "a",
+          "man",
+          "in",
+          "a",
+          "elevator",
+          "taking",
+          "a",
+          "self",
+          "portrait"
+        ]
+      },
+      {
+        "imgid": 12739,
+        "raw": "A man in an elevator taking a picture of himself.",
+        "sentid": 3687,
+        "tokens": [
+          "a",
+          "man",
+          "in",
+          "an",
+          "elevator",
+          "taking",
+          "a",
+          "picture",
+          "of",
+          "himself"
+        ]
+      },
+      {
+        "imgid": 12739,
+        "raw": "a man takes a selfie in an elevator with his phone",
+        "sentid": 4128,
+        "tokens": [
+          "a",
+          "man",
+          "takes",
+          "a",
+          "selfie",
+          "in",
+          "an",
+          "elevator",
+          "with",
+          "his",
+          "phone"
+        ]
+      },
+      {
+        "imgid": 12739,
+        "raw": "A man taking a selfie with his smart phone.",
+        "sentid": 5850,
+        "tokens": [
+          "a",
+          "man",
+          "taking",
+          "a",
+          "selfie",
+          "with",
+          "his",
+          "smart",
+          "phone"
+        ]
+      },
+      {
+        "imgid": 12739,
+        "raw": "A man is using his smart phone in an elevator.",
+        "sentid": 6606,
+        "tokens": [
+          "a",
+          "man",
+          "is",
+          "using",
+          "his",
+          "smart",
+          "phone",
+          "in",
+          "an",
+          "elevator"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000234902.jpg",
+    "source_row": 646,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00004-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "2e55133ed4006f69c954ca8ae0ff012f590c6633ea33e4009a845ab6fffffba4"
+  },
+  "488219": {
+    "cocoid": 488219,
+    "sentences": [
+      {
+        "imgid": 23413,
+        "raw": "A man is standing on a sunny beach",
+        "sentid": 165410,
+        "tokens": [
+          "a",
+          "man",
+          "is",
+          "standing",
+          "on",
+          "a",
+          "sunny",
+          "beach"
+        ]
+      },
+      {
+        "imgid": 23413,
+        "raw": "A man walks down the beach near the ocean.",
+        "sentid": 167318,
+        "tokens": [
+          "a",
+          "man",
+          "walks",
+          "down",
+          "the",
+          "beach",
+          "near",
+          "the",
+          "ocean"
+        ]
+      },
+      {
+        "imgid": 23413,
+        "raw": "A man standing on a beach next to the ocean.",
+        "sentid": 169370,
+        "tokens": [
+          "a",
+          "man",
+          "standing",
+          "on",
+          "a",
+          "beach",
+          "next",
+          "to",
+          "the",
+          "ocean"
+        ]
+      },
+      {
+        "imgid": 23413,
+        "raw": "A person holding a clock is walking on the beach.",
+        "sentid": 169748,
+        "tokens": [
+          "a",
+          "person",
+          "holding",
+          "a",
+          "clock",
+          "is",
+          "walking",
+          "on",
+          "the",
+          "beach"
+        ]
+      },
+      {
+        "imgid": 23413,
+        "raw": "A man on a beach holding a clock.",
+        "sentid": 169976,
+        "tokens": [
+          "a",
+          "man",
+          "on",
+          "a",
+          "beach",
+          "holding",
+          "a",
+          "clock"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000488219.jpg",
+    "source_row": 2993,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00010-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f0c8fb29ceffdf12ca9cb77ccd824866b5d5f6edd9c508ec7b69a6647f3c6f1f"
+  },
+  "185487": {
+    "cocoid": 185487,
+    "sentences": [
+      {
+        "imgid": 12980,
+        "raw": "a person with green clothes and green board snowboarding.",
+        "sentid": 796260,
+        "tokens": [
+          "a",
+          "person",
+          "with",
+          "green",
+          "clothes",
+          "and",
+          "green",
+          "board",
+          "snowboarding"
+        ]
+      },
+      {
+        "imgid": 12980,
+        "raw": "A man kite snowboarding on a sunny day",
+        "sentid": 797694,
+        "tokens": [
+          "a",
+          "man",
+          "kite",
+          "snowboarding",
+          "on",
+          "a",
+          "sunny",
+          "day"
+        ]
+      },
+      {
+        "imgid": 12980,
+        "raw": "a person riding a snow board in the air ",
+        "sentid": 798192,
+        "tokens": [
+          "a",
+          "person",
+          "riding",
+          "a",
+          "snow",
+          "board",
+          "in",
+          "the",
+          "air"
+        ]
+      },
+      {
+        "imgid": 12980,
+        "raw": "A snowboarder holding a wind sail lifts from the ground.",
+        "sentid": 799200,
+        "tokens": [
+          "a",
+          "snowboarder",
+          "holding",
+          "a",
+          "wind",
+          "sail",
+          "lifts",
+          "from",
+          "the",
+          "ground"
+        ]
+      },
+      {
+        "imgid": 12980,
+        "raw": "A snowboard with a kite for surfing in the air ",
+        "sentid": 800076,
+        "tokens": [
+          "a",
+          "snowboard",
+          "with",
+          "a",
+          "kite",
+          "for",
+          "surfing",
+          "in",
+          "the",
+          "air"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000185487.jpg",
+    "source_row": 1433,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00010-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "cd034f1118c707d6b2efa9ae7e3ae2c891fa9dc7bbda46d354f46ed50f7675e1"
+  },
+  "50443": {
+    "cocoid": 50443,
+    "sentences": [
+      {
+        "imgid": 3196,
+        "raw": "A filthy sink and toilet are seen from above.",
+        "sentid": 425826,
+        "tokens": [
+          "a",
+          "filthy",
+          "sink",
+          "and",
+          "toilet",
+          "are",
+          "seen",
+          "from",
+          "above"
+        ]
+      },
+      {
+        "imgid": 3196,
+        "raw": "A toilet with a wooden cover, and a dirty sink.",
+        "sentid": 430836,
+        "tokens": [
+          "a",
+          "toilet",
+          "with",
+          "a",
+          "wooden",
+          "cover",
+          "and",
+          "a",
+          "dirty",
+          "sink"
+        ]
+      },
+      {
+        "imgid": 3196,
+        "raw": "The sink next to the small toilet is very dirty.",
+        "sentid": 432285,
+        "tokens": [
+          "the",
+          "sink",
+          "next",
+          "to",
+          "the",
+          "small",
+          "toilet",
+          "is",
+          "very",
+          "dirty"
+        ]
+      },
+      {
+        "imgid": 3196,
+        "raw": "An extremely dirty sink and toilet in a bathroom",
+        "sentid": 437835,
+        "tokens": [
+          "an",
+          "extremely",
+          "dirty",
+          "sink",
+          "and",
+          "toilet",
+          "in",
+          "a",
+          "bathroom"
+        ]
+      },
+      {
+        "imgid": 3196,
+        "raw": "A toilet has the lid down by a sink.",
+        "sentid": 438876,
+        "tokens": [
+          "a",
+          "toilet",
+          "has",
+          "the",
+          "lid",
+          "down",
+          "by",
+          "a",
+          "sink"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000050443.jpg",
+    "source_row": 339,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00001-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b5d1706ec2aac925dbbc7108075fa5006c0a07b1735baa87c3c01c613f463abb"
+  },
+  "25603": {
+    "cocoid": 25603,
+    "sentences": [
+      {
+        "imgid": 33576,
+        "raw": "A girl with some food and drink at a table.",
+        "sentid": 542142,
+        "tokens": [
+          "a",
+          "girl",
+          "with",
+          "some",
+          "food",
+          "and",
+          "drink",
+          "at",
+          "a",
+          "table"
+        ]
+      },
+      {
+        "imgid": 33576,
+        "raw": "A YOUNG GIRL EATING PIZZA DRESSED AS A EGYPTION",
+        "sentid": 544143,
+        "tokens": [
+          "a",
+          "young",
+          "girl",
+          "eating",
+          "pizza",
+          "dressed",
+          "as",
+          "a",
+          "egyption"
+        ]
+      },
+      {
+        "imgid": 33576,
+        "raw": "A girl sitting around a table in a restaurant eating a pizza.  ",
+        "sentid": 545517,
+        "tokens": [
+          "a",
+          "girl",
+          "sitting",
+          "around",
+          "a",
+          "table",
+          "in",
+          "a",
+          "restaurant",
+          "eating",
+          "a",
+          "pizza"
+        ]
+      },
+      {
+        "imgid": 33576,
+        "raw": "A young girl eating pizza in a restaurant.",
+        "sentid": 546654,
+        "tokens": [
+          "a",
+          "young",
+          "girl",
+          "eating",
+          "pizza",
+          "in",
+          "a",
+          "restaurant"
+        ]
+      },
+      {
+        "imgid": 33576,
+        "raw": "A girl in a Cleopatra outfit eating pizza at a table.",
+        "sentid": 551166,
+        "tokens": [
+          "a",
+          "girl",
+          "in",
+          "a",
+          "cleopatra",
+          "outfit",
+          "eating",
+          "pizza",
+          "at",
+          "a",
+          "table"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000025603.jpg",
+    "source_row": 2510,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00009-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f75a5898681ea62ef547b8c002e8e0eec00c50aa6b995334ab967798cff6e6dc"
+  },
+  "19888": {
+    "cocoid": 19888,
+    "sentences": [
+      {
+        "imgid": 15086,
+        "raw": "A bed sitting on a hard wood floor.",
+        "sentid": 668040,
+        "tokens": [
+          "a",
+          "bed",
+          "sitting",
+          "on",
+          "a",
+          "hard",
+          "wood",
+          "floor"
+        ]
+      },
+      {
+        "imgid": 15086,
+        "raw": "a thrown together bed beside a very large picture picture window",
+        "sentid": 676989,
+        "tokens": [
+          "a",
+          "thrown",
+          "together",
+          "bed",
+          "beside",
+          "a",
+          "very",
+          "large",
+          "picture",
+          "picture",
+          "window"
+        ]
+      },
+      {
+        "imgid": 15086,
+        "raw": "An empty bed with a teddy bear laying on it.",
+        "sentid": 677259,
+        "tokens": [
+          "an",
+          "empty",
+          "bed",
+          "with",
+          "a",
+          "teddy",
+          "bear",
+          "laying",
+          "on",
+          "it"
+        ]
+      },
+      {
+        "imgid": 15086,
+        "raw": "A bed with grey sheets in a room with wooden floors. ",
+        "sentid": 679011,
+        "tokens": [
+          "a",
+          "bed",
+          "with",
+          "grey",
+          "sheets",
+          "in",
+          "a",
+          "room",
+          "with",
+          "wooden",
+          "floors"
+        ]
+      },
+      {
+        "imgid": 15086,
+        "raw": "a bed with a big grey comforter on it ",
+        "sentid": 682026,
+        "tokens": [
+          "a",
+          "bed",
+          "with",
+          "a",
+          "big",
+          "grey",
+          "comforter",
+          "on",
+          "it"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000019888.jpg",
+    "source_row": 415,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00010-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "c396521808bfde59b56d14b48c6e41a42f51f761b24432fac297e4867582cf18"
+  },
+  "148444": {
+    "cocoid": 148444,
+    "sentences": [
+      {
+        "imgid": 20470,
+        "raw": "A close-up of a plate of food that has been eaten.",
+        "sentid": 169427,
+        "tokens": [
+          "a",
+          "close",
+          "up",
+          "of",
+          "a",
+          "plate",
+          "of",
+          "food",
+          "that",
+          "has",
+          "been",
+          "eaten"
+        ]
+      },
+      {
+        "imgid": 20470,
+        "raw": "A white plate topped with a piece of food sitting next to plastic glasses.",
+        "sentid": 171764,
+        "tokens": [
+          "a",
+          "white",
+          "plate",
+          "topped",
+          "with",
+          "a",
+          "piece",
+          "of",
+          "food",
+          "sitting",
+          "next",
+          "to",
+          "plastic",
+          "glasses"
+        ]
+      },
+      {
+        "imgid": 20470,
+        "raw": "A white dinner plate with some food still on it.",
+        "sentid": 177848,
+        "tokens": [
+          "a",
+          "white",
+          "dinner",
+          "plate",
+          "with",
+          "some",
+          "food",
+          "still",
+          "on",
+          "it"
+        ]
+      },
+      {
+        "imgid": 20470,
+        "raw": "The last slice of cheesy mexican pie on a plate at the table",
+        "sentid": 178388,
+        "tokens": [
+          "the",
+          "last",
+          "slice",
+          "of",
+          "cheesy",
+          "mexican",
+          "pie",
+          "on",
+          "a",
+          "plate",
+          "at",
+          "the",
+          "table"
+        ]
+      },
+      {
+        "imgid": 20470,
+        "raw": "A most-eaten plate of food has a few bites left.",
+        "sentid": 183272,
+        "tokens": [
+          "a",
+          "most",
+          "eaten",
+          "plate",
+          "of",
+          "food",
+          "has",
+          "a",
+          "few",
+          "bites",
+          "left"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000148444.jpg",
+    "source_row": 2160,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00012-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "ff118fbb5c75ceaf118e828366d3e49ba90f8b97eb57907ae0d8447a798e30d9"
+  },
+  "365325": {
+    "cocoid": 365325,
+    "sentences": [
+      {
+        "imgid": 3883,
+        "raw": "A little boy sleeping on a couch holding a Wii controller.",
+        "sentid": 335353,
+        "tokens": [
+          "a",
+          "little",
+          "boy",
+          "sleeping",
+          "on",
+          "a",
+          "couch",
+          "holding",
+          "a",
+          "wii",
+          "controller"
+        ]
+      },
+      {
+        "imgid": 3883,
+        "raw": "A sleeping child holding a Wii controller in hand.",
+        "sentid": 336973,
+        "tokens": [
+          "a",
+          "sleeping",
+          "child",
+          "holding",
+          "a",
+          "wii",
+          "controller",
+          "in",
+          "hand"
+        ]
+      },
+      {
+        "imgid": 3883,
+        "raw": "A toddler sleeping on a couch with a video game controller in his hand.",
+        "sentid": 339580,
+        "tokens": [
+          "a",
+          "toddler",
+          "sleeping",
+          "on",
+          "a",
+          "couch",
+          "with",
+          "a",
+          "video",
+          "game",
+          "controller",
+          "in",
+          "his",
+          "hand"
+        ]
+      },
+      {
+        "imgid": 3883,
+        "raw": "a baby boy falls asleep sitting up with a wii remote in his hand",
+        "sentid": 342367,
+        "tokens": [
+          "a",
+          "baby",
+          "boy",
+          "falls",
+          "asleep",
+          "sitting",
+          "up",
+          "with",
+          "a",
+          "wii",
+          "remote",
+          "in",
+          "his",
+          "hand"
+        ]
+      },
+      {
+        "imgid": 3883,
+        "raw": "a close up of a child sleeping with holding a nintendo wii controller",
+        "sentid": 342652,
+        "tokens": [
+          "a",
+          "close",
+          "up",
+          "of",
+          "a",
+          "child",
+          "sleeping",
+          "with",
+          "holding",
+          "a",
+          "nintendo",
+          "wii",
+          "controller"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000365325.jpg",
+    "source_row": 864,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00009-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "99d70bfcc1472950008b5b1ddf211776ebf8dd00476b036b2ddf5d63aa527286"
+  },
+  "492469": {
+    "cocoid": 492469,
+    "sentences": [
+      {
+        "imgid": 32296,
+        "raw": "A horse poses for a picture while walking through the desert.",
+        "sentid": 149592,
+        "tokens": [
+          "a",
+          "horse",
+          "poses",
+          "for",
+          "a",
+          "picture",
+          "while",
+          "walking",
+          "through",
+          "the",
+          "desert"
+        ]
+      },
+      {
+        "imgid": 32296,
+        "raw": "A horse walks across a scarce grass patch in a desert.",
+        "sentid": 156354,
+        "tokens": [
+          "a",
+          "horse",
+          "walks",
+          "across",
+          "a",
+          "scarce",
+          "grass",
+          "patch",
+          "in",
+          "a",
+          "desert"
+        ]
+      },
+      {
+        "imgid": 32296,
+        "raw": "A horse walks through the grass near sand. ",
+        "sentid": 158766,
+        "tokens": [
+          "a",
+          "horse",
+          "walks",
+          "through",
+          "the",
+          "grass",
+          "near",
+          "sand"
+        ]
+      },
+      {
+        "imgid": 32296,
+        "raw": "A sturdy, small brown horse looks back as he walks through the hot sands.",
+        "sentid": 161007,
+        "tokens": [
+          "a",
+          "sturdy",
+          "small",
+          "brown",
+          "horse",
+          "looks",
+          "back",
+          "as",
+          "he",
+          "walks",
+          "through",
+          "the",
+          "hot",
+          "sands"
+        ]
+      },
+      {
+        "imgid": 32296,
+        "raw": "A brown horse standing on a grass covered desert field.",
+        "sentid": 162726,
+        "tokens": [
+          "a",
+          "brown",
+          "horse",
+          "standing",
+          "on",
+          "a",
+          "grass",
+          "covered",
+          "desert",
+          "field"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000492469.jpg",
+    "source_row": 2291,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00006-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "e2a2cf54c6e81d3d0d2fd06073e8817a47d24f29bb82aaecdfa96b568d9a75d6"
+  },
+  "16521": {
+    "cocoid": 16521,
+    "sentences": [
+      {
+        "imgid": 24129,
+        "raw": "Two women are on a set of brown stairs.",
+        "sentid": 117096,
+        "tokens": [
+          "two",
+          "women",
+          "are",
+          "on",
+          "a",
+          "set",
+          "of",
+          "brown",
+          "stairs"
+        ]
+      },
+      {
+        "imgid": 24129,
+        "raw": "Two young women walking down brown carpeted stairs.",
+        "sentid": 119091,
+        "tokens": [
+          "two",
+          "young",
+          "women",
+          "walking",
+          "down",
+          "brown",
+          "carpeted",
+          "stairs"
+        ]
+      },
+      {
+        "imgid": 24129,
+        "raw": "Two girls coming down steps in heels and dresses.",
+        "sentid": 125100,
+        "tokens": [
+          "two",
+          "girls",
+          "coming",
+          "down",
+          "steps",
+          "in",
+          "heels",
+          "and",
+          "dresses"
+        ]
+      },
+      {
+        "imgid": 24129,
+        "raw": "Two women on a staircase, one eating a banana and the other one reaching for a peel.",
+        "sentid": 126030,
+        "tokens": [
+          "two",
+          "women",
+          "on",
+          "a",
+          "staircase",
+          "one",
+          "eating",
+          "a",
+          "banana",
+          "and",
+          "the",
+          "other",
+          "one",
+          "reaching",
+          "for",
+          "a",
+          "peel"
+        ]
+      },
+      {
+        "imgid": 24129,
+        "raw": "A woman walking down the stairs with another trying to pick up a banana peel.",
+        "sentid": 133416,
+        "tokens": [
+          "a",
+          "woman",
+          "walking",
+          "down",
+          "the",
+          "stairs",
+          "with",
+          "another",
+          "trying",
+          "to",
+          "pick",
+          "up",
+          "a",
+          "banana",
+          "peel"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000016521.jpg",
+    "source_row": 2019,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00006-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b165b27a17520b89cea5f1483aedd57c8190abc1bfaeb9e6a02e8f582806d518"
+  },
+  "415020": {
+    "cocoid": 415020,
+    "sentences": [
+      {
+        "imgid": 18274,
+        "raw": "A hand holding an open remote control next to the arm of a couch.",
+        "sentid": 208236,
+        "tokens": [
+          "a",
+          "hand",
+          "holding",
+          "an",
+          "open",
+          "remote",
+          "control",
+          "next",
+          "to",
+          "the",
+          "arm",
+          "of",
+          "a",
+          "couch"
+        ]
+      },
+      {
+        "imgid": 18274,
+        "raw": "a hand is holding a remote without a cover",
+        "sentid": 229554,
+        "tokens": [
+          "a",
+          "hand",
+          "is",
+          "holding",
+          "a",
+          "remote",
+          "without",
+          "a",
+          "cover"
+        ]
+      },
+      {
+        "imgid": 18274,
+        "raw": "A hand holding a green electronic remote control.",
+        "sentid": 230091,
+        "tokens": [
+          "a",
+          "hand",
+          "holding",
+          "a",
+          "green",
+          "electronic",
+          "remote",
+          "control"
+        ]
+      },
+      {
+        "imgid": 18274,
+        "raw": "Person holding a remote control without the cover.",
+        "sentid": 230910,
+        "tokens": [
+          "person",
+          "holding",
+          "a",
+          "remote",
+          "control",
+          "without",
+          "the",
+          "cover"
+        ]
+      },
+      {
+        "imgid": 18274,
+        "raw": "A hand is holding a remote control with the cover off.",
+        "sentid": 233700,
+        "tokens": [
+          "a",
+          "hand",
+          "is",
+          "holding",
+          "a",
+          "remote",
+          "control",
+          "with",
+          "the",
+          "cover",
+          "off"
+        ]
+      }
+    ],
+    "source": "/data/wbb/vispec-official-reproduction/reference/dataset_coco.json",
+    "source_split": "Karpathy_test",
+    "source_question_id": "COCO_val2014_000000415020.jpg",
+    "source_row": 3057,
+    "source_parquet": "/data/wbb/data/COCO/data/val-00008-of-00013.parquet",
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b562d45448ce6ba0b1e0e51a9bf1f15af16aee0b2dcc381c5d5239a2fcb00326"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "seed": 2026103109,
+  "tasks": [
+    "mme",
+    "gqa",
+    "textvqa",
+    "scienceqa",
+    "coco"
+  ],
+  "aliases": {
+    "sqa": "scienceqa",
+    "coco_caption": "coco"
+  },
+  "splits": {
+    "mme/dev": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/mme/dev.json",
+      "sha256": "a32d4d46777564bf6efc9ec0f9a49a9aa7eea3a505607853d68582059f2f93f6",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/mme/dev_labels.json",
+      "labels_sha256": "33bc6f754fd391fca24f5f64d0c6745cbe2ffffb2bcb74fce90b90c916c827d0",
+      "groups": 20,
+      "questions": 40,
+      "unique_rgb_images": 20
+    },
+    "mme/test": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/mme/test.json",
+      "sha256": "848bd951810155882a22cf3cb3fecb925fbdd2ea8e9c184bad55b735d05fc61c",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/mme/test_labels.json",
+      "labels_sha256": "e1d49dba6496def109a4d5469bffe463e4da7292a5c288381a3227124efc7af8",
+      "groups": 100,
+      "questions": 200,
+      "unique_rgb_images": 100
+    },
+    "gqa/dev": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/gqa/dev.json",
+      "sha256": "55c8b0678e4e53009d09757e209204d303af3cf22bcd139865f8207bf675785f",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/gqa/dev_labels.json",
+      "labels_sha256": "e3d943e8b7aa97b380ffec62310dcbf6033f0f91c8315f70f9941d195aa03250",
+      "groups": 20,
+      "questions": 20,
+      "unique_rgb_images": 20
+    },
+    "gqa/test": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/gqa/test.json",
+      "sha256": "25e22dc3f51ef5794648c9b2ad0c6dce4e50651aa941eaead5d30b66dcf82dd8",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/gqa/test_labels.json",
+      "labels_sha256": "306f713ebeffc05bb9c48e1e88bc952ca1b27b1eec45db900e12cdaad9943534",
+      "groups": 100,
+      "questions": 100,
+      "unique_rgb_images": 100
+    },
+    "textvqa/dev": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/textvqa/dev.json",
+      "sha256": "089f22e3ff99eeacea1cf1c9d97e93d2364677257187f87ca2bb0d78059cc249",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/textvqa/dev_labels.json",
+      "labels_sha256": "1c56741dd72edfced601489005379c5c71044e7461b45324386c0e6e8ef76ebe",
+      "groups": 20,
+      "questions": 20,
+      "unique_rgb_images": 20
+    },
+    "textvqa/test": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/textvqa/test.json",
+      "sha256": "1bfaeb0d6c80712b3fac3de1df9b7be0be8440a6e19684fd5da25da9540e0017",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/textvqa/test_labels.json",
+      "labels_sha256": "7ea5f9fed1cdd0c6adcfa7d2d7f214f408f4c55c290e6f872d8c63809d11e971",
+      "groups": 100,
+      "questions": 100,
+      "unique_rgb_images": 100
+    },
+    "scienceqa/dev": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/scienceqa/dev.json",
+      "sha256": "d93f97f222a1795d2ce8a60ef1a4505b43e8789a8e506063fe942d62047602aa",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/scienceqa/dev_labels.json",
+      "labels_sha256": "05a9bcbca9e81adf3a90b85202a222bf8dd25c6fb7e6eac2e56e0257d56af137",
+      "groups": 20,
+      "questions": 20,
+      "unique_rgb_images": 20
+    },
+    "scienceqa/test": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/scienceqa/test.json",
+      "sha256": "461df4283e0105c951e136afb75b82bd8b448121ce5d8332f525bf30be653329",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/scienceqa/test_labels.json",
+      "labels_sha256": "844ebff4d2c80e8e527f25db1754cbe0d51f9ca7a8801168d8c424d38751a0e1",
+      "groups": 100,
+      "questions": 100,
+      "unique_rgb_images": 100
+    },
+    "coco/dev": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/coco/dev.json",
+      "sha256": "59208115e991c6b2eb90fea923b14bf0be116fac5c39266ebbbbdc4184384ebf",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/coco/dev_labels.json",
+      "labels_sha256": "546eb8612e45dfba6feca6f674f7f6dc8c8adb79a8a5667e7fdd9e67acd992d9",
+      "groups": 20,
+      "questions": 20,
+      "unique_rgb_images": 20
+    },
+    "coco/test": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/data/coco/test.json",
+      "sha256": "1e5db1ae595b324bd616252351193edda754d348bdce17986140a6b72e5a73e5",
+      "labels_path": "/data/wbb/vispec-clean-benchmark-20261031/data/coco/test_labels.json",
+      "labels_sha256": "86c2fde95a9b5456861f8248412db326f33ed9cebdeb53affbe1e27bada4b723",
+      "groups": 100,
+      "questions": 100,
+      "unique_rgb_images": 100
+    }
+  },
+  "development_groups_per_task": 20,
+  "test_groups_per_task": 100,
+  "MME_questions_per_group": 2,
+  "all_generation_repetitions": 3,
+  "runtime_records_contain_gold_labels": false,
+  "explicit_history_reuse_tasks": [
+    "mme"
+  ],
+  "prompt_agreement": "root standard short prompts confirmed before preparation",
+  "official_helper_explanation_prompts_replaced": true,
+  "old_results_quality_not_used": true
+}

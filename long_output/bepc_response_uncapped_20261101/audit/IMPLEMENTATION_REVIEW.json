@@ -1,0 +1,74 @@
+{
+  "status": "PASS_PRELAUNCH_CORE",
+  "reviewer": "independent uncapped_review agent",
+  "created_utc": "2026-11-01T06:59:25.754023+00:00",
+  "scope": "Read-only control-flow and source-preservation audit plus independent CPU-only unit execution; no GPU execution or result-quality review",
+  "checks": [
+    {
+      "name": "single_factor",
+      "status": "pass",
+      "evidence": "Only active self.response_budget changes from 4 to positive infinity. Symmetric gamma .5, tau1, U8/P4/W32/pool64, kappa1, eta1e-4 and residual attenuation off remain frozen."
+    },
+    {
+      "name": "bootstrap_init_only",
+      "status": "pass",
+      "evidence": "online Controller/RefinedController/SpeedController/ExperimentalBEPC constructors only initialize state/install hooks; no original initialize_tree/tree_decoding/update calls. math.inf replaces bootstrap4 before any input forward or candidate decision."
+    },
+    {
+      "name": "old_score_path",
+      "status": "pass",
+      "evidence": "Equal rescue/protection scales use SpeedController.allowed verbatim, unchanged native margins, shortcut bounds, full score and legal parent contexts."
+    },
+    {
+      "name": "branch_and_round_rules",
+      "status": "pass",
+      "evidence": "Frozen budgeted_scan retained. finite committed+branch mismatch count cannot reach infinity; round budget2 and all padding/EOS/visible-boundary logic unchanged. First-longest tie rule and selected-path-only commit unchanged."
+    },
+    {
+      "name": "observer_lifecycle",
+      "status": "pass",
+      "evidence": "ExperimentalBEPC.evaluate cap-exhausted fast path never enters; update retirement condition finite count >= infinity never true. Observer stays alive until normal restore."
+    },
+    {
+      "name": "statistics_and_json",
+      "status": "pass",
+      "evidence": "final_stats overwrites inherited infinity with JSON null before caller serialization; explicit no-cap/retirement false fields. Committed counters remain integers. json.dumps allow_nan=False exercised at 12 mismatches."
+    },
+    {
+      "name": "inherited_forward_and_stopping",
+      "status": "pass",
+      "evidence": "Inherited run_benchmark generation, original native Target/Draft, tree/KV/update, max_new_tokens/EOS and terminal-update implementation are byte-identical copied files; no new overrides."
+    },
+    {
+      "name": "concurrent_controls",
+      "status": "pass",
+      "evidence": "run_uncapped factory selects uncapped subclass only by explicit config flag; capped/strict controls checked byte-for-byte against prior raw and returned tokens, input, acceptance lengths and paths."
+    },
+    {
+      "name": "cpu_tests",
+      "status": "pass",
+      "evidence": "6/6 tests passed in spec Python with CUDA_VISIBLE_DEVICES empty. Includes 10,000 independent randomized scan checks, 12 committed mismatches, no retirement, round2, off-path accounting, capped4 control and parameter guards."
+    },
+    {
+      "name": "previous_preservation",
+      "status": "pass",
+      "evidence": "All 213 prior file SHA256 entries match; ten key inherited files are real byte-identical copies, not symlinks."
+    }
+  ],
+  "source_sha256": {
+    "harness/uncapped_controller.py": "072df734bda294d5962170ebdf792484a8044c7eda4847040f79ccb9e02b4b8f",
+    "harness/run_uncapped.py": "64b73b081423c1d6dd7165275c800c95633d1f243b4f735ceaa7ecf0ef099a51",
+    "tests/test_uncapped.py": "e6ffc8c59644b6fa60978ea7c55b3a98d364d13e72b61bf876335ed1ff46cc5a",
+    "harness/bepc_experimental.py": "bfd8e46951c390cf08c15761d6b923262773e1456b57a36d306701ebc0b44534",
+    "harness/speed_controller.py": "5de69957079f114a08b91d014147ba33be72ea90b2f8b881c9df1f1320091c9b",
+    "harness/refined_controller.py": "ea913766a7e223cc3f2fb224fb73bfafbd392401a2e374e01155b38a9f12e3b6",
+    "harness/online_controller.py": "c60248ddd72e42f1eb6be1a24e527077cd7e6cf438fb9e0ffa415777655adc82",
+    "harness/run_benchmark.py": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a"
+  },
+  "limitations": [
+    "No GPU numerical/decoding claim established by this review; concurrent capped/strict historical parity must pass at runtime.",
+    "Frozen config/protocol/entry source seal must be finalized before generation; this core review does not approve an unseen configuration.",
+    "Removing the response cap can increase cumulative relaxed decisions and active BEPC feature overhead. Speed and quality are empirical and are not guaranteed.",
+    "No human factual-ground-truth conclusion; quality conclusions require official task evaluation and uncertainty reporting."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "pass",
+  "records": [
+    {
+      "task": "mme",
+      "shard": 0,
+      "source_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/results/development/development_mme_shard0.jsonl",
+      "source_sha256": "7ac9403939c36f37bc79f31658eed220213e3d07523a6aadf62723599ba77f59",
+      "newly_imported_records": 180,
+      "total_single_pass_records": 180,
+      "excluded_parent_repeat1_or_repeat2_records": 360,
+      "incomplete_parent_trailing_lines": 0,
+      "expected_records": 180
+    },
+    {
+      "task": "gqa",
+      "shard": 0,
+      "source_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/results/development/development_gqa_shard0.jsonl",
+      "source_sha256": "bf9ada1fef2123f6005eda3ba3cf71d6b4388f87e11790d0cf022ce0d8430551",
+      "newly_imported_records": 90,
+      "total_single_pass_records": 90,
+      "excluded_parent_repeat1_or_repeat2_records": 180,
+      "incomplete_parent_trailing_lines": 0,
+      "expected_records": 90
+    },
+    {
+      "task": "textvqa",
+      "shard": 0,
+      "source_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/results/development/development_textvqa_shard0.jsonl",
+      "source_sha256": "2090ee2b99a4b8677759b3035685ebc78d856118fec201bc5bb6be1c2f6f65bd",
+      "newly_imported_records": 90,
+      "total_single_pass_records": 90,
+      "excluded_parent_repeat1_or_repeat2_records": 180,
+      "incomplete_parent_trailing_lines": 0,
+      "expected_records": 90
+    },
+    {
+      "task": "scienceqa",
+      "shard": 0,
+      "source_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/results/development/development_scienceqa_shard0.jsonl",
+      "source_sha256": "42d79aa985b576db510e4ba75859e5cb8268c486f4227928632e017eeb8b5e53",
+      "newly_imported_records": 90,
+      "total_single_pass_records": 90,
+      "excluded_parent_repeat1_or_repeat2_records": 180,
+      "incomplete_parent_trailing_lines": 0,
+      "expected_records": 90
+    },
+    {
+      "task": "coco",
+      "shard": 0,
+      "source_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/results/development/development_coco_shard0.jsonl",
+      "source_sha256": "40a3daeca4733189508195c89c4f2fa0aadac8bbe1d5ec477188ec22d9c7fc5e",
+      "newly_imported_records": 45,
+      "total_single_pass_records": 45,
+      "excluded_parent_repeat1_or_repeat2_records": 82,
+      "incomplete_parent_trailing_lines": 0,
+      "expected_records": 90
+    }
+  ],
+  "new_config_sha256": "bd5162ccb589a61ebd576f13978e6d7a0996e91d7e27c23997349f703f0ee5a0",
+  "parent_config_sha256": "52bcf6ab5ac2638681f133841c5582e7b470c9ec70a33ae449ee5538880cd2e5",
+  "inherited_generation_core_sha256": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a"
+}

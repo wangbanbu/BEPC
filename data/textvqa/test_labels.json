@@ -1,0 +1,2996 @@
+{
+  "38686": {
+    "answers": [
+      "2108, 3110",
+      "ydr2108/ydr3110",
+      "ydr2018 / ydr3110",
+      "ydr2108 / ydr3110",
+      "ydr2108/ydr3110",
+      "ydr2108/ydr3110",
+      "ydr2108 / ydr3110",
+      "ydr2108/ydr3110",
+      "rush",
+      "ydr2108 and ydr3110"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38686,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3422528960,
+      "compressed_size": 198467,
+      "uncompressed_size": 198772,
+      "crc32": 2435171682,
+      "method": 8
+    },
+    "image_sha256": "81e465e9b9f28f987e971bcc50e86131ca2e25ce3d8540f71e0fac995df55193"
+  },
+  "36619": {
+    "answers": [
+      "gracie barra",
+      "gracie barra",
+      "gracie barra",
+      "graccie barra",
+      "gracie barra",
+      "gracie barra",
+      "barra",
+      "gracie barra",
+      "gracie barra",
+      "gracie barra"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36619,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4505599105,
+      "compressed_size": 198499,
+      "uncompressed_size": 198549,
+      "crc32": 113615689,
+      "method": 8
+    },
+    "image_sha256": "65f77997fcd32117836fa71f16a1cba9cbc307199c10f87c198aa7f9931a797c"
+  },
+  "39071": {
+    "answers": [
+      "boston",
+      "boston",
+      "boston",
+      "boston",
+      "boston",
+      "boston",
+      "boston",
+      "boston",
+      "boston",
+      "boston"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39071,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1786605084,
+      "compressed_size": 1256803,
+      "uncompressed_size": 1257253,
+      "crc32": 2891504138,
+      "method": 8
+    },
+    "image_sha256": "2394eca2ad0d64d2d0ab92d3fa3f76c16d4e0c3ecbb5acac49c4d30bb6c34b54"
+  },
+  "37577": {
+    "answers": [
+      "thea kliros",
+      "thea kliros",
+      "thea kliros",
+      "thea kliros",
+      "thea kliros",
+      "thea kilros",
+      "thea kliros",
+      "thea kliros",
+      "thea kliros",
+      "thea kliros"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37577,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 806451176,
+      "compressed_size": 205863,
+      "uncompressed_size": 205945,
+      "crc32": 2527618885,
+      "method": 8
+    },
+    "image_sha256": "3ab1410ea7cd03c070f4b68f4a6b3b9ac77d53dde87603d61b441acf53df9933"
+  },
+  "38860": {
+    "answers": [
+      "florida",
+      "florida",
+      "florida",
+      "florida",
+      "florida",
+      "florida ",
+      "florida",
+      "florida",
+      "florida",
+      "florida"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38860,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4906006787,
+      "compressed_size": 86430,
+      "uncompressed_size": 86713,
+      "crc32": 1011752633,
+      "method": 8
+    },
+    "image_sha256": "2406b282bc358b69eb4dc9e6c0a1a669226cdaa265874af59c9b4da77b3bde77"
+  },
+  "37691": {
+    "answers": [
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "new zealand",
+      "now",
+      "yes",
+      "yes"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37691,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2978886252,
+      "compressed_size": 95649,
+      "uncompressed_size": 95737,
+      "crc32": 3857524498,
+      "method": 8
+    },
+    "image_sha256": "45000db3d19365d909fe6772682c2ff252b29d6335a46f5ffd33984bdac6274b"
+  },
+  "38432": {
+    "answers": [
+      "8:22",
+      "8:22",
+      "0822",
+      "0822",
+      "0822",
+      "8:22",
+      "0822",
+      "8:22",
+      "08:22",
+      "08:22"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38432,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6229732921,
+      "compressed_size": 158716,
+      "uncompressed_size": 158759,
+      "crc32": 2434142922,
+      "method": 8
+    },
+    "image_sha256": "ebcca8ae6b547183e1a089abb13c37a5adba588620bb0699ef570496875d39dc"
+  },
+  "35070": {
+    "answers": [
+      "2w media cafe",
+      "media cafe",
+      "media cafe",
+      "media cafe",
+      "w2 media cafe",
+      "media cafe",
+      "the media cafe",
+      "w2 media cafe",
+      "media cafe",
+      "media cafe"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35070,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1834993687,
+      "compressed_size": 85941,
+      "uncompressed_size": 86444,
+      "crc32": 2328850627,
+      "method": 8
+    },
+    "image_sha256": "7f7d9b2c4389596c2b94e087b348c7a499c8a5b742005491f230c6846bdda165"
+  },
+  "37336": {
+    "answers": [
+      "coffee",
+      "coffee",
+      "coffee",
+      "coffee",
+      "coffee",
+      "coffee",
+      "coffee",
+      "coffee",
+      "coffee",
+      "coffee"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37336,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2411307391,
+      "compressed_size": 102283,
+      "uncompressed_size": 102346,
+      "crc32": 3607565601,
+      "method": 8
+    },
+    "image_sha256": "d4294971a133c810edd69fd66d0aa4ea37c32eff09325164f925c0c895e51f1b"
+  },
+  "38279": {
+    "answers": [
+      "spring",
+      "spring",
+      "spring",
+      "spring 2013",
+      "spring",
+      "spring",
+      "spring",
+      "spring",
+      "spring",
+      "spring"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38279,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 840443858,
+      "compressed_size": 193443,
+      "uncompressed_size": 193506,
+      "crc32": 417492713,
+      "method": 8
+    },
+    "image_sha256": "88832c94eac3049a602ec3df8675d5e6d94573dcd08f680ea65930075ca39154"
+  },
+  "35918": {
+    "answers": [
+      "50",
+      "50",
+      "50",
+      "50",
+      "50",
+      "ferrell ",
+      "50",
+      "50",
+      "50",
+      "50"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35918,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4591727308,
+      "compressed_size": 240143,
+      "uncompressed_size": 240693,
+      "crc32": 1944504509,
+      "method": 8
+    },
+    "image_sha256": "9171b0f7857d16f5594d6bb8a6a693695dd7fb46a7b7cea20466de6ab8053d6a"
+  },
+  "35554": {
+    "answers": [
+      "unanswerable",
+      "it was like tolkien",
+      "this is the first work of high heroic fantasy i've seen that has taken the work of tolkien. assimilated it totally and deeply and absolutely, and produced something altogether new and yet incontestably based on the master... i'm deeply impressed.",
+      "elizabeth",
+      "she's deeply impressed",
+      "this is the first work of high heroic fantasy i've seen that has taken the work of tolkien, assimilated in totally and deeply and absolutely and produced something altogether new and yet incontestably based on the master.. i'm deeply impressed.",
+      "impacted",
+      "i'm deeply impressed",
+      "this is the first work of high heroic fantasy i've seen that has taken the work of tolkien, assimilated it totally and deeply and absolutely, and produced something altogether new and yet incontestably base don the msater... i'm deeply impressed.",
+      "this is the first work of high heroic fantasy i've seen that has taken the work of tolkien, assimilated it totally and deeply and absolutely, and produced something altougheter new and yet incontestably based on the master... i'm deeply impressed\""
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35554,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3333236005,
+      "compressed_size": 63253,
+      "uncompressed_size": 64031,
+      "crc32": 4056390471,
+      "method": 8
+    },
+    "image_sha256": "eae4a86aa8d7a54d1116233fb2467b4aabda312415f2f542c19f28fff6c6acd6"
+  },
+  "35305": {
+    "answers": [
+      "10:10",
+      "10:10",
+      "10:10",
+      "10:10",
+      "10:10",
+      "10:10",
+      "10:10",
+      "10:10",
+      "10:10",
+      "ten minutes after ten"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35305,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5936147623,
+      "compressed_size": 555588,
+      "uncompressed_size": 555826,
+      "crc32": 4234330224,
+      "method": 8
+    },
+    "image_sha256": "74237aeca1d35518bbe3dc4472eedad734e6273686f10e7498edb8b206704c7b"
+  },
+  "37209": {
+    "answers": [
+      "innocent",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no, its a fruit smoothie ",
+      "no",
+      "grand cru  belgian wheat",
+      "no it is not",
+      "yes"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37209,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1044606811,
+      "compressed_size": 307250,
+      "uncompressed_size": 307250,
+      "crc32": 347363823,
+      "method": 8
+    },
+    "image_sha256": "4dedbe9b03e56a7e040d558aed3a6eb6ab0400b0cedf28327e02a92522fa44ad"
+  },
+  "38672": {
+    "answers": [
+      "psu",
+      "viking court",
+      "viking court",
+      "viking",
+      "in viking court",
+      "viking court",
+      "viking court",
+      "viking court",
+      "psu",
+      "viking court"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38672,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2912414983,
+      "compressed_size": 132820,
+      "uncompressed_size": 133478,
+      "crc32": 1949434904,
+      "method": 8
+    },
+    "image_sha256": "e0f1e2652b34bb15071c80336d61c2429d29e48d111a90c125d4b5769431ad46"
+  },
+  "37816": {
+    "answers": [
+      "1:20",
+      "1:20",
+      "1:20",
+      "1:20",
+      "1:20",
+      "1:20",
+      "1:20",
+      "1:20",
+      "1:20",
+      "1:20"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37816,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1932517840,
+      "compressed_size": 257485,
+      "uncompressed_size": 257711,
+      "crc32": 2508058013,
+      "method": 8
+    },
+    "image_sha256": "17b0bc30fe202effe2c6891ba0a81949d28458278039f8dec53c2a00e00e2a1c"
+  },
+  "36808": {
+    "answers": [
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36808,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2486836937,
+      "compressed_size": 368473,
+      "uncompressed_size": 369043,
+      "crc32": 1911238921,
+      "method": 8
+    },
+    "image_sha256": "5ddbd0bb82666e05dfb2cb2d48922e5e1eef8ff5a11f43b652ab6374e507e57f"
+  },
+  "35864": {
+    "answers": [
+      "google",
+      "16",
+      "16",
+      "16",
+      "16",
+      "16",
+      "16",
+      "16",
+      "16",
+      "16"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35864,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6797067068,
+      "compressed_size": 389140,
+      "uncompressed_size": 389315,
+      "crc32": 2786842990,
+      "method": 8
+    },
+    "image_sha256": "fb7160c177e00fb828f94ba20bbffd5495fc5ac82b1958fc4d3edf62a20a8903"
+  },
+  "35166": {
+    "answers": [
+      "q",
+      "q",
+      "q",
+      "22",
+      "q",
+      "q",
+      "q",
+      "q",
+      "q",
+      "q"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35166,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1835271732,
+      "compressed_size": 294687,
+      "uncompressed_size": 294728,
+      "crc32": 1645292941,
+      "method": 8
+    },
+    "image_sha256": "f98d651f7ee1d17e0a24d1f11548fd3066196fc201cf374032f09562c27711fe"
+  },
+  "36138": {
+    "answers": [
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "facebook",
+      "the school",
+      "facebook"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36138,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 808767131,
+      "compressed_size": 148909,
+      "uncompressed_size": 152868,
+      "crc32": 3007734380,
+      "method": 8
+    },
+    "image_sha256": "82ba419b6946e01819fdaf08cc981232d218a09a6beebfe40c7b964e1a834cb3"
+  },
+  "38928": {
+    "answers": [
+      "tabisque pampango",
+      "fabrique  pampango",
+      "tabique palpango",
+      "tabique pampango",
+      "tabique pampango",
+      "tabique pampango",
+      "warnings",
+      "tabique pampango",
+      "tabique panpango",
+      "tabique pampango"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38928,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 990036969,
+      "compressed_size": 691123,
+      "uncompressed_size": 691898,
+      "crc32": 1691094474,
+      "method": 8
+    },
+    "image_sha256": "49f97a572bd6ef37c6bbee2bb7abda63d245d92dd731a442d93131add4a63147"
+  },
+  "39358": {
+    "answers": [
+      "nike",
+      "spectrum eyecare",
+      "raf",
+      "spectrum",
+      "nike",
+      "spectrum",
+      "spectrum",
+      "spectrum",
+      "spectrum",
+      "spectrum eyecare"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39358,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4091846119,
+      "compressed_size": 125622,
+      "uncompressed_size": 127757,
+      "crc32": 1495934191,
+      "method": 8
+    },
+    "image_sha256": "5c009bce8b690a34f52eed685441f1cab74d389f00c5657299157f0bddda22d5"
+  },
+  "35543": {
+    "answers": [
+      "13",
+      "13",
+      "13",
+      "13",
+      "13",
+      "13",
+      "13",
+      "13",
+      "13",
+      "13"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35543,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4586545235,
+      "compressed_size": 471699,
+      "uncompressed_size": 471795,
+      "crc32": 2259306767,
+      "method": 8
+    },
+    "image_sha256": "4e071e8296d8b38ba1e22727e9ce550e95bbb5350c37f4129b3a64bb935c21d9"
+  },
+  "35453": {
+    "answers": [
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "eyes",
+      "answering does not require reading text in the image",
+      "eyes",
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "eyes"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35453,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4067314169,
+      "compressed_size": 837543,
+      "uncompressed_size": 838212,
+      "crc32": 3308532254,
+      "method": 8
+    },
+    "image_sha256": "86460fbbee3f518672d24a7ec9006562a7d09d7f09544d1bcc86d0cf2d2733a5"
+  },
+  "35085": {
+    "answers": [
+      "1 1/2 inches",
+      "2 cm",
+      "1.5\" ",
+      "20 cm",
+      "1.5",
+      "19",
+      "answering does not require reading text in the image",
+      "1.5",
+      "1.5",
+      "1 1/2"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35085,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3430512247,
+      "compressed_size": 306138,
+      "uncompressed_size": 306319,
+      "crc32": 521108932,
+      "method": 8
+    },
+    "image_sha256": "a29a270317518bf86831e53b010c85ffbcdb06c4e43079614f203338baa27351"
+  },
+  "38034": {
+    "answers": [
+      "nike",
+      "nike",
+      "nike",
+      "nike",
+      "nike",
+      "nike",
+      "nike",
+      "nike",
+      "nike",
+      "nike"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38034,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4102206466,
+      "compressed_size": 582483,
+      "uncompressed_size": 585347,
+      "crc32": 2503367081,
+      "method": 8
+    },
+    "image_sha256": "e70d3a2ccd34e7f286060c7cda9167ee1f8bcd2c9759d48d3cde8c3273f07633"
+  },
+  "39259": {
+    "answers": [
+      "12:28",
+      "9:00",
+      "unanswerable",
+      "12:28",
+      "12:28",
+      "11:10",
+      "12:28 pm",
+      "12:28pm",
+      "unanswerable",
+      "unanswerable"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39259,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5271053733,
+      "compressed_size": 304644,
+      "uncompressed_size": 304973,
+      "crc32": 941140822,
+      "method": 8
+    },
+    "image_sha256": "45d7e5bd7272a0a9d6b328e8fbb4919a58f68aec1ba9a8ca174b3d3750ff1eb8"
+  },
+  "36027": {
+    "answers": [
+      "gireau",
+      "gireau",
+      "gireau",
+      "gireau",
+      "gireau",
+      "gireau",
+      "gireau",
+      "gireau ",
+      "gireau",
+      "gireau"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36027,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1448186666,
+      "compressed_size": 274827,
+      "uncompressed_size": 275006,
+      "crc32": 1694770863,
+      "method": 8
+    },
+    "image_sha256": "b3dd52b20d8319239a0703d5aac23238f16038fc9f3ec4f2835f3a77e09d398a"
+  },
+  "36073": {
+    "answers": [
+      "taste",
+      "taste",
+      "taste",
+      "taste",
+      "taste",
+      "taste",
+      "taste",
+      "taste",
+      "taste",
+      "taste"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36073,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3125122682,
+      "compressed_size": 154544,
+      "uncompressed_size": 155613,
+      "crc32": 2645616796,
+      "method": 8
+    },
+    "image_sha256": "44414199f6ee8b796001c765d97e156e1dbb4e84505dcb80467eff166214c6c7"
+  },
+  "35696": {
+    "answers": [
+      "cn",
+      "nc",
+      "cn",
+      "6",
+      "nc",
+      "nc",
+      "nc",
+      "nc",
+      "nc",
+      "cn"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35696,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4559763341,
+      "compressed_size": 102325,
+      "uncompressed_size": 102364,
+      "crc32": 2155420589,
+      "method": 8
+    },
+    "image_sha256": "27ca7649b333d7e269f3dc4f5d6e7f4142d276c74a341c8fb52801cd66dfbce3"
+  },
+  "39143": {
+    "answers": [
+      "sharp",
+      "sharp",
+      "sharp",
+      "sharp",
+      "sharp",
+      "sharp",
+      "sharp",
+      "sharp",
+      "sharp",
+      "sharp"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39143,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2374156274,
+      "compressed_size": 239838,
+      "uncompressed_size": 240500,
+      "crc32": 1391704774,
+      "method": 8
+    },
+    "image_sha256": "f1812a2376bf9dd68a534c7ec566a2cfc3e716108d459d9c73294f7ca3565bd1"
+  },
+  "38351": {
+    "answers": [
+      "red",
+      "red",
+      "red",
+      "tell the truth",
+      "red",
+      "red",
+      "chocolate peanut butter",
+      "red",
+      "red",
+      "red"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38351,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1512094848,
+      "compressed_size": 148657,
+      "uncompressed_size": 148762,
+      "crc32": 1832697544,
+      "method": 8
+    },
+    "image_sha256": "b8fa9796c524b009b18759f41635a50a8622421bf4190e2b098146e2aee1a77e"
+  },
+  "39292": {
+    "answers": [
+      "wolnut",
+      "wolnut",
+      "smooch",
+      "wolnute",
+      "answering does not require reading text in the image",
+      "walnut",
+      "walnut",
+      "unanswerable",
+      "wolnut",
+      "proposal"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39292,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2276182317,
+      "compressed_size": 114817,
+      "uncompressed_size": 115141,
+      "crc32": 3624914348,
+      "method": 8
+    },
+    "image_sha256": "2a144239ab14e42a828c949dd8e9c8407fcd92fe539d8318da00f91e933e9e91"
+  },
+  "37539": {
+    "answers": [
+      "relieves fatigue",
+      "relieves fatigue",
+      "relieves fatigue",
+      "relieves fatigue",
+      "relieves fatigue",
+      "relieves fatihue",
+      "relieves fatigue",
+      "relieves fatigue",
+      "relieves fatigue",
+      "relieves fatigue "
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37539,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3932748488,
+      "compressed_size": 412600,
+      "uncompressed_size": 412727,
+      "crc32": 1465889612,
+      "method": 8
+    },
+    "image_sha256": "8d13fc34bff5785273df98e8f6df9799958d5cc7922a11cfaa2f65b8e3fe18c4"
+  },
+  "38898": {
+    "answers": [
+      "mort subite",
+      "mort subite natural ",
+      "mort subite",
+      "mort subite",
+      "mort subite",
+      "mort subite",
+      "mort subite",
+      "mort subite",
+      "mort subite",
+      "mort subite"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38898,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6472401710,
+      "compressed_size": 504202,
+      "uncompressed_size": 504212,
+      "crc32": 3367683077,
+      "method": 8
+    },
+    "image_sha256": "c8bed17ba050fe400297394a73f673b2bc63056431e8e5e97c8fbfc96fdfd4c8"
+  },
+  "38397": {
+    "answers": [
+      "8j54993",
+      "8j54993",
+      "athya",
+      "8j54993",
+      "8j54992",
+      "8j54993",
+      "8j54993",
+      "8j54993",
+      "8j54993",
+      "8j54993"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38397,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5770888131,
+      "compressed_size": 159736,
+      "uncompressed_size": 159953,
+      "crc32": 4238425878,
+      "method": 8
+    },
+    "image_sha256": "881af5b9f04516801ca127edf44783e90e8ab735eaff002a9479ed5784cd7dab"
+  },
+  "37097": {
+    "answers": [
+      "225",
+      "225",
+      "225",
+      "225",
+      "225",
+      "225",
+      "225",
+      "225",
+      "225",
+      "225"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37097,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5556269206,
+      "compressed_size": 387363,
+      "uncompressed_size": 387467,
+      "crc32": 912977424,
+      "method": 8
+    },
+    "image_sha256": "ac8b327545e9426351b6962d77d9f4757d66d2d003f60875d2a1f0b168bbf3a2"
+  },
+  "38948": {
+    "answers": [
+      "vader",
+      "vader",
+      "vader",
+      "vader",
+      "vader",
+      "vader",
+      "vader",
+      "vader",
+      "vader",
+      "vader"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38948,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "offset": 397660894,
+      "compressed_size": 94041,
+      "uncompressed_size": 94313,
+      "crc32": 4208735001,
+      "method": 8
+    },
+    "image_sha256": "844de62b482b77bb9b126f49cd30bd14a9c4552568f112d70ce99230fb21ac88"
+  },
+  "37671": {
+    "answers": [
+      "people",
+      "people in the world",
+      "people in the world",
+      "people",
+      "it is people.",
+      "people",
+      "people",
+      "people",
+      "people",
+      "people"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37671,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3541936771,
+      "compressed_size": 332975,
+      "uncompressed_size": 332976,
+      "crc32": 4216380882,
+      "method": 8
+    },
+    "image_sha256": "c01835602564f8d3db99f4e379b7fb898eab0f60ee53edf3fefef4b3ad6a2270"
+  },
+  "35434": {
+    "answers": [
+      "culture",
+      "culture",
+      "culture",
+      "culture",
+      "culture",
+      "culture",
+      "culture",
+      "culture",
+      "culture",
+      "culture"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35434,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6308690192,
+      "compressed_size": 118374,
+      "uncompressed_size": 118527,
+      "crc32": 283542618,
+      "method": 8
+    },
+    "image_sha256": "77eb052e1f8945fb4795bde0bf1765bb3bc7f7ff8d8e19471c5daf31e83beceb"
+  },
+  "35630": {
+    "answers": [
+      "a1a",
+      "a1a",
+      "a1a",
+      "a1a",
+      "a1a",
+      "a1a",
+      "a1a",
+      "a1a",
+      "a1a",
+      "a1a"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35630,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6785004383,
+      "compressed_size": 841197,
+      "uncompressed_size": 842173,
+      "crc32": 3453308462,
+      "method": 8
+    },
+    "image_sha256": "6cff0af9183f653cdd8920f60e3d57c70c95ca554399945c4d067e1db783ddfa"
+  },
+  "37589": {
+    "answers": [
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "white",
+      "answering does not require reading text in the image",
+      "white",
+      "answering does not require reading text in the image",
+      "answering does not require reading text in the image",
+      "google",
+      "unanswerable",
+      "white"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37589,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1521959094,
+      "compressed_size": 148271,
+      "uncompressed_size": 148285,
+      "crc32": 1463131353,
+      "method": 8
+    },
+    "image_sha256": "60466a83cc31d16b2e3b97649820b2fb8b9272c772f4eb562cba5c334b332389"
+  },
+  "35002": {
+    "answers": [
+      "macy's",
+      "macy's",
+      "macy's",
+      "macys",
+      "macy's",
+      "macy's",
+      "macy's",
+      "steel",
+      "macy's",
+      "macy's"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35002,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2566394567,
+      "compressed_size": 140042,
+      "uncompressed_size": 140065,
+      "crc32": 3014808076,
+      "method": 8
+    },
+    "image_sha256": "7afa911a0a693c72703074d6c475f4d3e0f48921a102d610f2ba82e2e51509da"
+  },
+  "35654": {
+    "answers": [
+      "02/23/2015",
+      "2015",
+      "23 02 2015",
+      "23 02 2015",
+      "2/23/15",
+      "2/23/15",
+      "23 02 2015",
+      "feb. 02, 2015",
+      "02/23/2015",
+      "2015"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35654,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6246720791,
+      "compressed_size": 165720,
+      "uncompressed_size": 166300,
+      "crc32": 3533902543,
+      "method": 8
+    },
+    "image_sha256": "04158583aee76b9e38699dcd58d36663fd98303b49d30ffecbfadede94ebc51a"
+  },
+  "36271": {
+    "answers": [
+      "via",
+      "via",
+      "via",
+      "via",
+      "via rail canada",
+      "via",
+      "via rail canada ",
+      "rail canada",
+      "rail canada",
+      "via rail canada"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36271,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3583364121,
+      "compressed_size": 269933,
+      "uncompressed_size": 270050,
+      "crc32": 908863626,
+      "method": 8
+    },
+    "image_sha256": "20d2b36f959a3dc220f619afea75ff0b55287af4cd08dfbc6f7e7a87adfe3462"
+  },
+  "37136": {
+    "answers": [
+      "sony",
+      "sony",
+      "sony",
+      "sony",
+      "sony",
+      "sony",
+      "sony",
+      "sony",
+      "sony",
+      "sony"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37136,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5354283967,
+      "compressed_size": 78141,
+      "uncompressed_size": 78504,
+      "crc32": 3620397877,
+      "method": 8
+    },
+    "image_sha256": "2f4270c4782b3e160f94d3d0f057c4d1172e9add59fb82046533d46cead749a3"
+  },
+  "38506": {
+    "answers": [
+      "2005",
+      "2005",
+      "2005",
+      "2005",
+      "2005",
+      "2005",
+      "2005",
+      "2005",
+      "2005",
+      "2005"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38506,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6505533778,
+      "compressed_size": 111573,
+      "uncompressed_size": 111594,
+      "crc32": 2116101882,
+      "method": 8
+    },
+    "image_sha256": "3d009c0aa13611afc3995d8905bb247a8835b2a6449fd928498d7d9c9766b0bb"
+  },
+  "37888": {
+    "answers": [
+      "windows 7",
+      "windows",
+      "windows 7 professional",
+      "windows7",
+      "windows 7 professional ",
+      "windows 7",
+      "windows 7",
+      "windows 7",
+      "dell",
+      "windows 7 professional"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37888,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1913238081,
+      "compressed_size": 74788,
+      "uncompressed_size": 75523,
+      "crc32": 3863473925,
+      "method": 8
+    },
+    "image_sha256": "2decc082d611f239ef2da419eda4ae709e4853e58767d7894c647f1320c22c59"
+  },
+  "39338": {
+    "answers": [
+      "m",
+      "m",
+      "11",
+      "11",
+      "m",
+      "m",
+      "m",
+      "11",
+      "m",
+      "m"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39338,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3683321133,
+      "compressed_size": 138121,
+      "uncompressed_size": 138176,
+      "crc32": 3876108041,
+      "method": 8
+    },
+    "image_sha256": "f4738a9ad083fa199604033e792484e61c5e8663af0c40ff8a0ecb03d7ced713"
+  },
+  "34863": {
+    "answers": [
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 34863,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3483846117,
+      "compressed_size": 203365,
+      "uncompressed_size": 205810,
+      "crc32": 2417028724,
+      "method": 8
+    },
+    "image_sha256": "57f677b4be70ae088b2b00eb2baf8254762305fcf3f3115ace22afc1591f256e"
+  },
+  "35991": {
+    "answers": [
+      "wofl bad",
+      "wofi bad",
+      "wofl bad",
+      "wofl bad",
+      "wofibad",
+      "wofl bad",
+      "wofi bad",
+      "wofi bad",
+      "wofi bad",
+      "unanswerable"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35991,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4479938338,
+      "compressed_size": 725515,
+      "uncompressed_size": 725810,
+      "crc32": 70629517,
+      "method": 8
+    },
+    "image_sha256": "4b78c45b26d3b4f323b8551981e9bf686f0b23fab9bcbb2c69ec895c0b8e2c07"
+  },
+  "34741": {
+    "answers": [
+      "unanswerable",
+      "206",
+      "olivetti",
+      "olivetti underwood",
+      "olivetti underwood",
+      "olivetti",
+      "olivetti",
+      "unanswerable",
+      "marke",
+      "underwood"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 34741,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2699800232,
+      "compressed_size": 321981,
+      "uncompressed_size": 322488,
+      "crc32": 1870988487,
+      "method": 8
+    },
+    "image_sha256": "2a60c8166eecc92d9b9ce84584a9a8ffbe238cf9ca812d9d36f309260fd87443"
+  },
+  "36234": {
+    "answers": [
+      "fontana",
+      "fontama",
+      "senf antonia",
+      "jenuta sant antonio ",
+      "unanswerable",
+      "jenula sanf antonio",
+      "tenula sant ankaio",
+      "tenuta sanf antonio",
+      "tenuta sant antonio",
+      "fontana"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36234,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6334265114,
+      "compressed_size": 626489,
+      "uncompressed_size": 627067,
+      "crc32": 3695795455,
+      "method": 8
+    },
+    "image_sha256": "0b86a1a6ba4f921531fddeeb2b06d4d6610aefa16c703ae9832b79785d709c9a"
+  },
+  "35020": {
+    "answers": [
+      "unanswerable",
+      "new",
+      "new",
+      "unanswerable",
+      "not a question",
+      "unanswerable",
+      "red",
+      "new",
+      "no",
+      "not a question"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35020,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5023917893,
+      "compressed_size": 203453,
+      "uncompressed_size": 203699,
+      "crc32": 4053117214,
+      "method": 8
+    },
+    "image_sha256": "fe7f6eeb034101883085b50babd511a854766a2043416b4b635bc0e0958c7b7a"
+  },
+  "37806": {
+    "answers": [
+      "aig general insurance ",
+      "aig",
+      "aig",
+      "aig general insurance",
+      "general insurance",
+      "aig general",
+      "general",
+      "aig",
+      "aig",
+      "aig general insurance"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37806,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3732121398,
+      "compressed_size": 635913,
+      "uncompressed_size": 636136,
+      "crc32": 3781864293,
+      "method": 8
+    },
+    "image_sha256": "eec275b236d6bfed70d8bc1d231e8643236e7cab3129ec437f44873163101ffc"
+  },
+  "39370": {
+    "answers": [
+      "six",
+      "6",
+      "six",
+      "six",
+      "six",
+      "six",
+      "six",
+      "six",
+      "six",
+      "six"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39370,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1744885237,
+      "compressed_size": 324584,
+      "uncompressed_size": 325139,
+      "crc32": 3372219212,
+      "method": 8
+    },
+    "image_sha256": "4040ac38c8b27a351994196213325607ceee99eb76091b7486c37ee08bcc7d5e"
+  },
+  "38240": {
+    "answers": [
+      "bus lane",
+      "bus lane",
+      "bus lane",
+      "bus lane",
+      "bus lane",
+      "bus lane",
+      "bus lane",
+      "bus lane",
+      "bus lane",
+      "bus lane"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38240,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5562873715,
+      "compressed_size": 213323,
+      "uncompressed_size": 213339,
+      "crc32": 1524775199,
+      "method": 8
+    },
+    "image_sha256": "c6c1fbd551b7062759b754a27201ad630a49d58fed9bb55eb639952433f8d045"
+  },
+  "37008": {
+    "answers": [
+      "coca-cola",
+      "coca cola",
+      "coca cola ",
+      "coca-cola",
+      "coca cola",
+      "coca cola",
+      "coca cola",
+      "cocacola",
+      "coca-cola",
+      "coca cola"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37008,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4159243070,
+      "compressed_size": 590022,
+      "uncompressed_size": 591322,
+      "crc32": 1868851389,
+      "method": 8
+    },
+    "image_sha256": "26bffc18c91a91c124f7132c015096b3ff15da9b0782342af3b5f39b3f0f2c64"
+  },
+  "36512": {
+    "answers": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36512,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4582734419,
+      "compressed_size": 322631,
+      "uncompressed_size": 322643,
+      "crc32": 572330316,
+      "method": 8
+    },
+    "image_sha256": "9a37e00fb11210a93cf3a7b40f5e3ef282a3e40fbe71889fd7c7e59e6ddf22be"
+  },
+  "38359": {
+    "answers": [
+      "800",
+      "800",
+      "100",
+      "800",
+      "800",
+      "3",
+      "800",
+      "800",
+      "800",
+      "800"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38359,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2362995865,
+      "compressed_size": 52269,
+      "uncompressed_size": 52372,
+      "crc32": 603088887,
+      "method": 8
+    },
+    "image_sha256": "9c3f04c76d8c25116ae195fc3d9698ae378c408ce5d97df7ac1c196dc4fcdce1"
+  },
+  "37315": {
+    "answers": [
+      "open",
+      "open data",
+      "open data",
+      "open data",
+      "open data",
+      "open data",
+      "open",
+      "open",
+      "open",
+      "open data"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37315,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "offset": 684702205,
+      "compressed_size": 160894,
+      "uncompressed_size": 160999,
+      "crc32": 1278464295,
+      "method": 8
+    },
+    "image_sha256": "be39b000a357916e995d623bfa240f01555e13674215b9847891ad3f85bae256"
+  },
+  "34763": {
+    "answers": [
+      "stix",
+      "stix",
+      "stix",
+      "stix",
+      "stix",
+      "stix",
+      "stik",
+      "pringles",
+      "pringles ",
+      "pringles stix"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 34763,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3524347396,
+      "compressed_size": 299768,
+      "uncompressed_size": 299846,
+      "crc32": 3961406987,
+      "method": 8
+    },
+    "image_sha256": "94f96eb9a29412eba6cb54bb4e2542b3adad15eeb87adf61740386083d54a1aa"
+  },
+  "37996": {
+    "answers": [
+      "sight & sound music software, inc",
+      "sight & sound music software, inc",
+      "sight&sound",
+      "sight & sound",
+      "sight & sound music software, inc",
+      "music software, inc",
+      "sight and sound music software, inc.",
+      "sight & sound music software, inc",
+      "sight & sound music software, inc.",
+      "sight&sound"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37996,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6806928853,
+      "compressed_size": 375338,
+      "uncompressed_size": 375884,
+      "crc32": 3514589884,
+      "method": 8
+    },
+    "image_sha256": "ad2fad08f17a17e762634ae44cfa2a64759c35ab4ded8014a5fa4908e14630fa"
+  },
+  "34760": {
+    "answers": [
+      "mike lee",
+      "mike lee",
+      "senator mike lee",
+      "mike lee",
+      "mike lee",
+      "mike lee",
+      "mike lee",
+      "mike lee",
+      "mike lee",
+      "mike lee"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 34760,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2718398521,
+      "compressed_size": 291401,
+      "uncompressed_size": 292017,
+      "crc32": 304073892,
+      "method": 8
+    },
+    "image_sha256": "43986a8a89e9a6c1961bbd446dea8868a1b84ce4825a26dd405ac87dda212fe2"
+  },
+  "39465": {
+    "answers": [
+      "pyrex",
+      "pyrex",
+      "pyrex ",
+      "pyrex",
+      "pyrex",
+      "pyrex",
+      "pyrex",
+      "pyrex",
+      "pyrex",
+      "pyrex"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39465,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "offset": 247359722,
+      "compressed_size": 136913,
+      "uncompressed_size": 137520,
+      "crc32": 4110767075,
+      "method": 8
+    },
+    "image_sha256": "83f7e4d5adf0a20c553062da89a4e6f58f1bc497a1a6b22a88074926a7a41fbf"
+  },
+  "37032": {
+    "answers": [
+      "unnaer",
+      "unna'er",
+      "unnaer",
+      "unnaer",
+      "unna'er",
+      "fuhrung mit turmbesteigung",
+      "unnaer",
+      "unnaer",
+      "unnaer",
+      "unnaer"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37032,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2875558414,
+      "compressed_size": 825804,
+      "uncompressed_size": 825996,
+      "crc32": 2016243715,
+      "method": 8
+    },
+    "image_sha256": "40a040ad102923945bea757f958d703279c46b1a8895ae9ac7b7a44b22e53cb3"
+  },
+  "37659": {
+    "answers": [
+      "crossing",
+      "crossing",
+      "crossing",
+      "crossing",
+      "crossing",
+      "crossing",
+      "crossing",
+      "crossing",
+      "crossing",
+      "crossing"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37659,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5553741680,
+      "compressed_size": 95562,
+      "uncompressed_size": 96153,
+      "crc32": 2912230463,
+      "method": 8
+    },
+    "image_sha256": "effb43e3d3180670ca6f816bb1280ccdfb9fdd133b8f4dee91128d5152bcfa63"
+  },
+  "35431": {
+    "answers": [
+      "2011",
+      "2011",
+      "2011",
+      "2011",
+      "2011",
+      "2011",
+      "2011",
+      "17",
+      "2011",
+      "2011"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35431,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1742420840,
+      "compressed_size": 50987,
+      "uncompressed_size": 54280,
+      "crc32": 768438071,
+      "method": 8
+    },
+    "image_sha256": "c4f318fa1f1b625a708ffdda153415fbf6e803373ae1dd7e825c3bf74d89567e"
+  },
+  "38386": {
+    "answers": [
+      "vorwerk",
+      "vorwerk",
+      "vorwerk",
+      "vorwerk",
+      "vorwerk",
+      "vorwerk",
+      "vorwerk",
+      "vorwerk",
+      "vorwerk",
+      "vorwerk"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38386,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2327314096,
+      "compressed_size": 20106,
+      "uncompressed_size": 31025,
+      "crc32": 537948598,
+      "method": 8
+    },
+    "image_sha256": "0c4b96afc0fb14ec7f4cb00c57775c40b5e238debfdc7b6446cb37ad2affe91c"
+  },
+  "38301": {
+    "answers": [
+      "oscar",
+      "oscar",
+      "oscar",
+      "oscar",
+      "oscar",
+      "oscar",
+      "oscar",
+      "oscar",
+      "oscar",
+      "oscar"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38301,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6180480794,
+      "compressed_size": 195977,
+      "uncompressed_size": 196600,
+      "crc32": 2066974437,
+      "method": 8
+    },
+    "image_sha256": "ef9d66f4d4b24592dad42c9448bffdfb10a447a9bbb4529b0fb95ff65792474b"
+  },
+  "38003": {
+    "answers": [
+      "dept of traffic",
+      "dept of traffic",
+      "traffic",
+      "department of traffic",
+      "traffic",
+      "department of traffic",
+      "dept of traffic",
+      "kitten",
+      "traffic",
+      "dept of traffic"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38003,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5559375796,
+      "compressed_size": 338929,
+      "uncompressed_size": 339298,
+      "crc32": 3415500397,
+      "method": 8
+    },
+    "image_sha256": "fbd68f22dc362aac922d92d3175716679ee166d413de40d73a5c3937d6d65020"
+  },
+  "36397": {
+    "answers": [
+      "chamberlain",
+      "chamberlain",
+      "chamberlain",
+      "chamberlain",
+      "chamberlain",
+      "chamberlain",
+      "chamberlain",
+      "chamberlain",
+      "chamberlain",
+      "chamberlain"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36397,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2504880137,
+      "compressed_size": 143179,
+      "uncompressed_size": 143197,
+      "crc32": 3193353609,
+      "method": 8
+    },
+    "image_sha256": "cc5eead88b8142d10ae15055a41be01e532a16d408a32a84829bfc86267cd34e"
+  },
+  "39314": {
+    "answers": [
+      "peggy goldman",
+      "peggy goldman",
+      "peggy goldman",
+      "peggy goldman",
+      "peggy goldman",
+      "peggy goldman",
+      "peggy goldman",
+      "peggy goldman",
+      "peggy goldman",
+      "peggy goldman"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39314,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3277976194,
+      "compressed_size": 886206,
+      "uncompressed_size": 1060537,
+      "crc32": 4246599115,
+      "method": 8
+    },
+    "image_sha256": "2de57c34e1f081ee42d57c9f0cc6c574e87ea0a0d47b2fd58199e8d0783fcb2f"
+  },
+  "37978": {
+    "answers": [
+      "no",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes, jennifer aaker and andy smith ",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37978,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3139890324,
+      "compressed_size": 39471,
+      "uncompressed_size": 42766,
+      "crc32": 2375568302,
+      "method": 8
+    },
+    "image_sha256": "f7da28205f1087382b4c2be7152dc10b5beb3ad39090fa74a034b6d7a6f46958"
+  },
+  "36748": {
+    "answers": [
+      "sony ericsson ",
+      "sony ericsson ",
+      "sony ericcson",
+      "sony ericsson",
+      "sony ericsson ",
+      "sony",
+      "sony ericsson",
+      "sony erickson",
+      "sony",
+      "ou.com"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36748,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2485407828,
+      "compressed_size": 205422,
+      "uncompressed_size": 205468,
+      "crc32": 2190550448,
+      "method": 8
+    },
+    "image_sha256": "8a1a412a930a8b0a72dff831dbc1a53ffe32187d4658816f7a8653bd543701d4"
+  },
+  "35992": {
+    "answers": [
+      "d",
+      "d",
+      "d",
+      "d",
+      "d",
+      "d",
+      "d",
+      "d",
+      "t",
+      "y"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35992,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6839581835,
+      "compressed_size": 164393,
+      "uncompressed_size": 164466,
+      "crc32": 2881832944,
+      "method": 8
+    },
+    "image_sha256": "afa936fbb6f5406afaf3188b6fb55af8fa1891d72a1e65612cb9c7989b80b140"
+  },
+  "37229": {
+    "answers": [
+      "stop",
+      "stop",
+      "stop",
+      "stop",
+      "stop",
+      "stop",
+      "to stop",
+      "stop",
+      "stop",
+      "stop hammertime"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37229,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5012205599,
+      "compressed_size": 1123460,
+      "uncompressed_size": 1126137,
+      "crc32": 513920371,
+      "method": 8
+    },
+    "image_sha256": "8d73778f72edce474a90d5f8b4104c298585461d2c371997dd778fd44664abde"
+  },
+  "37831": {
+    "answers": [
+      "24",
+      "24",
+      "24",
+      "24",
+      "24",
+      "24",
+      "24",
+      "24",
+      "24",
+      "24"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37831,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4775954750,
+      "compressed_size": 152624,
+      "uncompressed_size": 153240,
+      "crc32": 2862087380,
+      "method": 8
+    },
+    "image_sha256": "de52d1e081935bd59f346e24178de83fb4ac5315dc806b0288157e054296817a"
+  },
+  "38786": {
+    "answers": [
+      "dhl",
+      "dhl",
+      "dhl",
+      "dh;",
+      "dhl",
+      "dhl",
+      "dhl",
+      "cafe",
+      "dhl",
+      "dhl"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38786,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3489612784,
+      "compressed_size": 630525,
+      "uncompressed_size": 632112,
+      "crc32": 2482658672,
+      "method": 8
+    },
+    "image_sha256": "cf04397252062a8fe6d10f791115f30f428306f3bcf24ed59cee36e16820b619"
+  },
+  "35838": {
+    "answers": [
+      "xii",
+      "xii",
+      "12",
+      "12",
+      "xii",
+      "xii",
+      "xii",
+      "xii",
+      "xii",
+      "xii"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35838,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5979247962,
+      "compressed_size": 1157794,
+      "uncompressed_size": 1157941,
+      "crc32": 3043670489,
+      "method": 8
+    },
+    "image_sha256": "94cc3cdeb80298cf30d368213c1120e64dcd41249436a071582d26eae14b0985"
+  },
+  "36261": {
+    "answers": [
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "yes",
+      "no",
+      "yes",
+      "yes",
+      "yes",
+      "unanswerable"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36261,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1109371255,
+      "compressed_size": 611279,
+      "uncompressed_size": 611831,
+      "crc32": 74740158,
+      "method": 8
+    },
+    "image_sha256": "9b1f8e5f979c0f1580ed358b2e6f3c617e79976494200d1973beec2a09240e6c"
+  },
+  "35382": {
+    "answers": [
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30",
+      "30"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35382,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5541532911,
+      "compressed_size": 200745,
+      "uncompressed_size": 200909,
+      "crc32": 707244152,
+      "method": 8
+    },
+    "image_sha256": "7fff69ba82a53829f3cce3381574719f239a6c1a23908ce094c25f0531def604"
+  },
+  "37365": {
+    "answers": [
+      "10 fluid ounces ",
+      "10 fluid ounces",
+      "10 fl oz",
+      "10 fl oz",
+      "10 oz",
+      "10 gl oz",
+      "10 fl. oz.",
+      "10 fl oz",
+      "10 fl oz",
+      "10 fl oz"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37365,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1437124544,
+      "compressed_size": 271999,
+      "uncompressed_size": 272033,
+      "crc32": 3611813941,
+      "method": 8
+    },
+    "image_sha256": "44ffb5f9354bad5e7b110229fae5c3afc7309e4d8525c76dd40fd73dd2e8f1b6"
+  },
+  "39550": {
+    "answers": [
+      "young dubliners",
+      "jesse russell, ronald cohn",
+      "jesse russel and ronald cohn",
+      "jesse russell, ronald cohn",
+      "jesse russell, ronald cohn",
+      "jesse russell, ronald cohn",
+      "jesse russell, ronald cohn",
+      "jesse russell, ronald cohn",
+      "jesse russel, ronald cohn",
+      "jesse russell, ronald cohn"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 39550,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 955786473,
+      "compressed_size": 209902,
+      "uncompressed_size": 210076,
+      "crc32": 144746071,
+      "method": 8
+    },
+    "image_sha256": "e9836579bb65aef89ae26624d744529ba8afe7658ec427ea3881bc40571f7775"
+  },
+  "34954": {
+    "answers": [
+      "w. lawrence ave",
+      "w. lawrence ave",
+      "w lawrence ave",
+      "w. lawrence ave",
+      "unanswerable",
+      "colts",
+      "w lawrence ave",
+      "w. laurence ave.",
+      "unanswerable",
+      "w lawrence ave"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 34954,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2467254367,
+      "compressed_size": 181350,
+      "uncompressed_size": 181938,
+      "crc32": 1123356610,
+      "method": 8
+    },
+    "image_sha256": "96fdf0967c27f4efc5cbced68c9610e62be8702bee83c972e35a2333a7261835"
+  },
+  "35748": {
+    "answers": [
+      "hamilton watch",
+      "hamilton watch",
+      "hamilton",
+      "clos de loyse chateau des jacques bourgogne",
+      "hamilton watch",
+      "himilton watch",
+      "hamilton watch",
+      "hamilton watch",
+      "hamilton watch",
+      "hamilton watch"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35748,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6244533895,
+      "compressed_size": 235110,
+      "uncompressed_size": 237247,
+      "crc32": 3678744174,
+      "method": 8
+    },
+    "image_sha256": "2f99739070721df7ee9f4664279354a58fb3a52555f0b4f46ee6948828dc202c"
+  },
+  "37717": {
+    "answers": [
+      "ginger",
+      "ginger",
+      "ginger",
+      "ginger",
+      "ginger",
+      "ginger",
+      "ginger",
+      "sixger",
+      "ginger",
+      "ginger"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37717,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3539877666,
+      "compressed_size": 247437,
+      "uncompressed_size": 247445,
+      "crc32": 911471963,
+      "method": 8
+    },
+    "image_sha256": "404502a7592df6f016f61b5d507b9c790674eb9758c3aa44f8958dd480e5a769"
+  },
+  "37017": {
+    "answers": [
+      "keo",
+      "keo",
+      "keo",
+      "keo",
+      "keo",
+      "keo",
+      "keo",
+      "keo",
+      "keo",
+      "cyprus exclusive"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37017,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1281230341,
+      "compressed_size": 271129,
+      "uncompressed_size": 271134,
+      "crc32": 4289768078,
+      "method": 8
+    },
+    "image_sha256": "e81d1a3020472426de82e7e99751eb8d676748af3de63b0e41e960dff7da53ac"
+  },
+  "38667": {
+    "answers": [
+      "bulletin",
+      "bulletin",
+      "bulletin",
+      "bulletin",
+      "bulletin",
+      "buletin",
+      "bulletin",
+      "bulletin",
+      "buletin",
+      "bulletin"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38667,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1603870207,
+      "compressed_size": 130332,
+      "uncompressed_size": 131417,
+      "crc32": 726131862,
+      "method": 8
+    },
+    "image_sha256": "c0d461f2d25f1c15c7c2c77b003bca1d060d9bc98c81b4694b3439abcaf4a954"
+  },
+  "35741": {
+    "answers": [
+      "desmond",
+      "desmond",
+      "desmond",
+      "desmond",
+      "desmond",
+      "desmond ",
+      "desmond",
+      "desmond",
+      "desmond",
+      "desmond"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35741,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4564219177,
+      "compressed_size": 623238,
+      "uncompressed_size": 623254,
+      "crc32": 1766806456,
+      "method": 8
+    },
+    "image_sha256": "0382f67914f96375ed3bb6df4991140460b22ad7f0b0de94fb78d83beffac85f"
+  },
+  "35462": {
+    "answers": [
+      "estrella galicia beer",
+      "estrella galicia",
+      "estrella",
+      "beer with food.",
+      "estrella galicia",
+      "estrella galicia",
+      "estrella galicia",
+      "exagetra damenta buena",
+      "beer",
+      "estrella galicia"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 35462,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1348508990,
+      "compressed_size": 370295,
+      "uncompressed_size": 378532,
+      "crc32": 1041367743,
+      "method": 8
+    },
+    "image_sha256": "7682ecb35207b0f27222d12f8ed09ada9109211571531301fc0adf302fd530fc"
+  },
+  "37404": {
+    "answers": [
+      "panasonic",
+      "panasonic",
+      "panasonic",
+      "panasonic",
+      "panasonic",
+      "panasonic",
+      "panasonic",
+      "panasonic",
+      "panasonic",
+      "panasonic"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37404,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6880095353,
+      "compressed_size": 394652,
+      "uncompressed_size": 394648,
+      "crc32": 3505205079,
+      "method": 8
+    },
+    "image_sha256": "340a801670827f643e5907599788eee3392652b0ac925cb1898ed9477179f326"
+  },
+  "36025": {
+    "answers": [
+      "yes",
+      "yes",
+      "yes",
+      "unanswerable",
+      "unanswerable",
+      "unanswerable",
+      "no",
+      "no",
+      "unanswerable",
+      "unanswerable"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36025,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 2701413688,
+      "compressed_size": 292889,
+      "uncompressed_size": 292914,
+      "crc32": 1269139193,
+      "method": 8
+    },
+    "image_sha256": "21b899e8c561e17138cc5ff361a25474176e88c06bb23c880e4eb40c0f61250a"
+  },
+  "34663": {
+    "answers": [
+      "coronita",
+      "coronito",
+      "coronita ",
+      "corona",
+      "corona",
+      "bubba gump",
+      "coronita ",
+      "coronita extra",
+      "coronita extra",
+      "coronita"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 34663,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1139302868,
+      "compressed_size": 251180,
+      "uncompressed_size": 251572,
+      "crc32": 3675657762,
+      "method": 8
+    },
+    "image_sha256": "11902a2f53489fdadd7c00085a898e5f01f93e124b5fc4b9905cfd53eefe0e1c"
+  },
+  "34951": {
+    "answers": [
+      "skylar",
+      "sklar ",
+      "skylar",
+      "mary jane",
+      "skylar",
+      "skylar",
+      "skylar",
+      "unanswerable",
+      "skylar",
+      "skylar"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 34951,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 5422298299,
+      "compressed_size": 194728,
+      "uncompressed_size": 194739,
+      "crc32": 1199240134,
+      "method": 8
+    },
+    "image_sha256": "4f251dc700245ec2a6e1ea79d94c2b14a900fd75a241be6c5c4022d76c32f11a"
+  },
+  "38598": {
+    "answers": [
+      "am it. build it. live",
+      "am it. built it. live",
+      "am it. built it. live",
+      "am it. build it. live",
+      "am it. build it, live",
+      "am it. build it. live",
+      "am it. build it, live",
+      "am it. build it. live",
+      "build it",
+      "am it. build it. live"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38598,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 4650186398,
+      "compressed_size": 314366,
+      "uncompressed_size": 314969,
+      "crc32": 742542392,
+      "method": 8
+    },
+    "image_sha256": "a6176816cc1dfc1575753163b221417d50b524bd7c14195e509aee80a49b70b3"
+  },
+  "36943": {
+    "answers": [
+      "7",
+      "7",
+      "7",
+      "7",
+      "7",
+      "7",
+      "team work",
+      "7",
+      "7",
+      "7"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 36943,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3755894356,
+      "compressed_size": 548925,
+      "uncompressed_size": 549217,
+      "crc32": 635795926,
+      "method": 8
+    },
+    "image_sha256": "5f59e0d791e4be0a29527f2c63992edbf0c9080faf1c0be7158eb8523cd6e2a1"
+  },
+  "37629": {
+    "answers": [
+      "root brew",
+      "root brew",
+      "root brew",
+      "root",
+      "root brew",
+      "root",
+      "root brew",
+      "root",
+      "root",
+      "root brew"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 37629,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 6545702769,
+      "compressed_size": 184347,
+      "uncompressed_size": 184461,
+      "crc32": 1824717621,
+      "method": 8
+    },
+    "image_sha256": "8a997973765ea936061aba61706c84689845f3b5fac83a054967ba465175a33a"
+  },
+  "34838": {
+    "answers": [
+      "29",
+      "29",
+      "29",
+      "29",
+      "29",
+      "29",
+      "29",
+      "29",
+      "29",
+      "29"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 34838,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 3917429487,
+      "compressed_size": 136856,
+      "uncompressed_size": 136917,
+      "crc32": 3295539370,
+      "method": 8
+    },
+    "image_sha256": "0b269829d55f8e19af48e61edba152a6dcb9364ffefa2ef3f59756dfcbf823a7"
+  },
+  "38417": {
+    "answers": [
+      "davison's auto service",
+      "davison's auto service",
+      "davison's auto service",
+      "davison's auto service",
+      "davison's auto service",
+      "augusta's",
+      "davison's auto service",
+      "davison's",
+      "davisons",
+      "davison's auto service"
+    ],
+    "source": "/data/wbb/data/textvqa/TextVQA_0.5.1_val.json",
+    "source_split": "official_val",
+    "source_question_id": 38417,
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": "/data/wbb/data/textvqa/train_val_images.zip",
+    "image_archive_entry": {
+      "remote": true,
+      "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "header_offset": 1604158571,
+      "compressed_size": 427667,
+      "uncompressed_size": 428139,
+      "crc32": 1779468217,
+      "method": 8
+    },
+    "image_sha256": "c17c8b7b58da96069d907ed61246b747f1183cbaf9889135b867f90fa8d7085c"
+  }
+}

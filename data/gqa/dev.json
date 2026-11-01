@@ -1,0 +1,402 @@
+[
+  {
+    "task": "gqa",
+    "ordinal": 0,
+    "global_ordinal": 40,
+    "group_ordinal": 0,
+    "question_id": "141031234",
+    "image_id": "2395695",
+    "image_path": "/data/wbb/data/GQA/images/2395695.jpg",
+    "group_id": "gqa:0:2395695",
+    "prompt_text": "Is the man to the left or to the right of the person the shrubs are behind of?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "b6c535bc021df836ad073de4111defa9f0e79c083770a7d0e881629e12de7e39",
+    "image_rgb_sha256": "b5ddc21cedccac78b3f04680553cdac09b3a3cee5c5b4dfdd1c1ff7d0db0425a",
+    "image_size": [
+      500,
+      334
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 1,
+    "global_ordinal": 41,
+    "group_ordinal": 1,
+    "question_id": "03600063",
+    "image_id": "2414326",
+    "image_path": "/data/wbb/data/GQA/images/2414326.jpg",
+    "group_id": "gqa:1:2414326",
+    "prompt_text": "What is the device in front of the building?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "a8858497474a37261090e5bd24ac356b5e514ec46cc5c1e04a6ca9442a3a5066",
+    "image_rgb_sha256": "d2f908808a89caf2d938362096f65541687fe6eb422625fb7d55cbf99c4f736d",
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 2,
+    "global_ordinal": 42,
+    "group_ordinal": 2,
+    "question_id": "07328878",
+    "image_id": "2358665",
+    "image_path": "/data/wbb/data/GQA/images/2358665.jpg",
+    "group_id": "gqa:2:2358665",
+    "prompt_text": "Is the girl to the left of the frisbee that looks oval?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "8abbaa7abfa10bc1823c65ff806315d3d2a136b135112bfc3edc5fcd0962af9d",
+    "image_rgb_sha256": "28d8c998d4e3b3d71a2f9dff1775c7bbaab5fa2e15c3cc3078229c6907e0b230",
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 3,
+    "global_ordinal": 43,
+    "group_ordinal": 3,
+    "question_id": "18318424",
+    "image_id": "2318908",
+    "image_path": "/data/wbb/data/GQA/images/2318908.jpg",
+    "group_id": "gqa:3:2318908",
+    "prompt_text": "Do you see any cucumbers to the right of the bread on the left of the image?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "4ff7e1a562d7f5e44dbf8efc47ba8529d7ce2b30ea7e40ef1fafb92f1e80260b",
+    "image_rgb_sha256": "e57b3656a4bf7f6f23a97e6217d3cf1abcb1ea935aa7a4813cc350ffd0feab8d",
+    "image_size": [
+      500,
+      386
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 4,
+    "global_ordinal": 44,
+    "group_ordinal": 4,
+    "question_id": "13758504",
+    "image_id": "2316209",
+    "image_path": "/data/wbb/data/GQA/images/2316209.jpg",
+    "group_id": "gqa:4:2316209",
+    "prompt_text": "Which side is the box on?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "866d59d9564a209132667ae9e110d3de5120c96fa1be8424674c95b635697bb7",
+    "image_rgb_sha256": "cadc75b26732bf264260ffe05d840574dd9076cde7372c744e2f0c08badf4c41",
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 5,
+    "global_ordinal": 45,
+    "group_ordinal": 5,
+    "question_id": "02802312",
+    "image_id": "1669",
+    "image_path": "/data/wbb/data/GQA/images/1669.jpg",
+    "group_id": "gqa:5:1669",
+    "prompt_text": "Are there both cups and computers in this picture?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "d8949e23d9dcb20e493d3049043ef0a4c55b691930a627df45eb85374df7b38b",
+    "image_rgb_sha256": "a2a8aaf01ac3117053b11d567c9ccd75436e5fbc3e7b0a156cd49475b5ea74ea",
+    "image_size": [
+      800,
+      600
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 6,
+    "global_ordinal": 46,
+    "group_ordinal": 6,
+    "question_id": "14754942",
+    "image_id": "2317677",
+    "image_path": "/data/wbb/data/GQA/images/2317677.jpg",
+    "group_id": "gqa:6:2317677",
+    "prompt_text": "Is the person to the right of the woman wearing a cap?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "8f8f5adc6f53adea92431cb7a3fc8594dc45719b19eca8e6239b609569602cd5",
+    "image_rgb_sha256": "3e3d3d3bba730a2df0da3992a5c698faeeb042f871247d6f7857cb12389715fe",
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 7,
+    "global_ordinal": 47,
+    "group_ordinal": 7,
+    "question_id": "04429921",
+    "image_id": "2319927",
+    "image_path": "/data/wbb/data/GQA/images/2319927.jpg",
+    "group_id": "gqa:7:2319927",
+    "prompt_text": "On which side of the image is the bike?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "c3c9018995e6f2c75e8f7e98fc87adf9e97eda3da416c9d05ecb0a927bbb5108",
+    "image_rgb_sha256": "894ba8c4c7943bc5e7cbff226fa9c371df959d81ed02f0c1b95e624641450bd8",
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 8,
+    "global_ordinal": 48,
+    "group_ordinal": 8,
+    "question_id": "02704690",
+    "image_id": "2330915",
+    "image_path": "/data/wbb/data/GQA/images/2330915.jpg",
+    "group_id": "gqa:8:2330915",
+    "prompt_text": "Is the outfit black?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "cd6ae503ad28692975ebb36906ec2ea97c11c00f2595e46d89bea007123ed3f4",
+    "image_rgb_sha256": "794259cc7e830c56d1bba19c339397483c3365bc3df985eb8804994a5cd25c83",
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 9,
+    "global_ordinal": 49,
+    "group_ordinal": 9,
+    "question_id": "17750918",
+    "image_id": "2366401",
+    "image_path": "/data/wbb/data/GQA/images/2366401.jpg",
+    "group_id": "gqa:9:2366401",
+    "prompt_text": "Does the dirty bowl look brown?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "2462da518a9bc0d0d652370e8e6ef39411f15e064dcad800899c7820a2b7eeb7",
+    "image_rgb_sha256": "a79ac511094082ac1d373a531e1c011a72df904429e2e35aca28d9295d09027d",
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 10,
+    "global_ordinal": 50,
+    "group_ordinal": 10,
+    "question_id": "05249324",
+    "image_id": "2384131",
+    "image_path": "/data/wbb/data/GQA/images/2384131.jpg",
+    "group_id": "gqa:10:2384131",
+    "prompt_text": "Which piece of furniture is in the photo?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "dfb2826b6a9da2e2e97cca9acbc6427ba543598f3b9b31371035599b1740621e",
+    "image_rgb_sha256": "a382ac824dd5a5514c37ef3cf2e1218e8282c8fa282da8ed4373c8393a9b4c83",
+    "image_size": [
+      500,
+      333
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 11,
+    "global_ordinal": 51,
+    "group_ordinal": 11,
+    "question_id": "07341201",
+    "image_id": "2405006",
+    "image_path": "/data/wbb/data/GQA/images/2405006.jpg",
+    "group_id": "gqa:11:2405006",
+    "prompt_text": "Which place is it?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "224cd1580330ca7a883d045ad7f4d37c2380fd47c4c9429d3d2fe0056c4f379e",
+    "image_rgb_sha256": "29310f20a1af4b6c57913db6268699debe5e072c5d5d71757c91a02f9fb392d6",
+    "image_size": [
+      375,
+      500
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 12,
+    "global_ordinal": 52,
+    "group_ordinal": 12,
+    "question_id": "051063392",
+    "image_id": "2376925",
+    "image_path": "/data/wbb/data/GQA/images/2376925.jpg",
+    "group_id": "gqa:12:2376925",
+    "prompt_text": "Is the man to the right or to the left of the train on the right side?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "17e5ec459ab0a253c767182c410b9e11310dee3a07ff4463d17c2784ff7a6231",
+    "image_rgb_sha256": "9eb578a7daa638e391466860218193cdd352160567bb059be46c1a3f040204b7",
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 13,
+    "global_ordinal": 53,
+    "group_ordinal": 13,
+    "question_id": "10914735",
+    "image_id": "1432",
+    "image_path": "/data/wbb/data/GQA/images/1432.jpg",
+    "group_id": "gqa:13:1432",
+    "prompt_text": "The people are wearing what?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "3f084642a215e4922bf6e111955b27ac27e4418b48b0b1edb6100416eef9ea8e",
+    "image_rgb_sha256": "5e3cd10b3ff2da6106723c576f00f15bc3da6f2f7f860c57f5ba9fa3247bf676",
+    "image_size": [
+      800,
+      600
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 14,
+    "global_ordinal": 54,
+    "group_ordinal": 14,
+    "question_id": "07478645",
+    "image_id": "1110",
+    "image_path": "/data/wbb/data/GQA/images/1110.jpg",
+    "group_id": "gqa:14:1110",
+    "prompt_text": "Is there a cabinet or a chair that is made of metal?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "6018732f5bf90722a258281dbbe20c64e6e6cfb9091fa3361f81c5938c0f8217",
+    "image_rgb_sha256": "ce3056822ae982fc1669eed27af2ca3b50cb58945b43e6d97c5a9952e3e332d5",
+    "image_size": [
+      800,
+      600
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 15,
+    "global_ordinal": 55,
+    "group_ordinal": 15,
+    "question_id": "13676632",
+    "image_id": "2415204",
+    "image_path": "/data/wbb/data/GQA/images/2415204.jpg",
+    "group_id": "gqa:15:2415204",
+    "prompt_text": "Who is holding the vegetable on the fork?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "b2db6a33d8017305c85db340221bc202554572a188086db2a9859f116fb10021",
+    "image_rgb_sha256": "244b77a082b31af494aba8b84c4ce1b363e341fc9464289401196ef0f6b0da71",
+    "image_size": [
+      333,
+      500
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 16,
+    "global_ordinal": 56,
+    "group_ordinal": 16,
+    "question_id": "13188550",
+    "image_id": "2413052",
+    "image_path": "/data/wbb/data/GQA/images/2413052.jpg",
+    "group_id": "gqa:16:2413052",
+    "prompt_text": "Does the trash can have a different color than the floor?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "5fc02affdb9b64e74879db7e56e05f60c0598b30488247a2d08e6ee9321de648",
+    "image_rgb_sha256": "2ee655c1fa82be60de274e218146e2adfdc258edd621796d1af4c318d9c7d442",
+    "image_size": [
+      500,
+      375
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 17,
+    "global_ordinal": 57,
+    "group_ordinal": 17,
+    "question_id": "1274341",
+    "image_id": "1593102",
+    "image_path": "/data/wbb/data/GQA/images/1593102.jpg",
+    "group_id": "gqa:17:1593102",
+    "prompt_text": "Does the apple look green or white?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "c3419faede5158e0c8e04e9b89e8e46fbd8eef906180e1af7ef55f149a443aaf",
+    "image_rgb_sha256": "11c986eb89ae2388eb687a55c7fdd7c45ed7b349ab38e42d83013a6bf99c90aa",
+    "image_size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 18,
+    "global_ordinal": 58,
+    "group_ordinal": 18,
+    "question_id": "11356206",
+    "image_id": "1592565",
+    "image_path": "/data/wbb/data/GQA/images/1592565.jpg",
+    "group_id": "gqa:18:1592565",
+    "prompt_text": "Is the butter knife on the left side or on the right?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "07b49e5bfb2ac97fa469d1e38a58878f1e0753d420659bc47127d4048d75eabe",
+    "image_rgb_sha256": "9d57287ea542b8735cc59a0fa363837c1c93a4be325f171b32d7775c79c51c3b",
+    "image_size": [
+      1024,
+      685
+    ]
+  },
+  {
+    "task": "gqa",
+    "ordinal": 19,
+    "global_ordinal": 59,
+    "group_ordinal": 19,
+    "question_id": "111030814",
+    "image_id": "2400651",
+    "image_path": "/data/wbb/data/GQA/images/2400651.jpg",
+    "group_id": "gqa:19:2400651",
+    "prompt_text": "Are there spoons or bowls in the picture?\nAnswer the question using a single word or phrase.",
+    "system_prompt": "You are a helpful assistant.",
+    "history_reuse_required": false,
+    "fresh_to_project": true,
+    "image_sha256": "4a20ae5b5fd71809e49aed9cdacee40c63790634966d86aab6c563272aa82a80",
+    "image_rgb_sha256": "35052cfc065255fdd2e7910ddd4f99c87047f19aa5ce29e87ec576927f207df5",
+    "image_size": [
+      500,
+      375
+    ]
+  }
+]

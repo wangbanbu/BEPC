@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "config_sha256": "f94c36d51a3f59a034d632d700cadc3d58885f662a4d32eac494d1e8b76a78e8",
+  "expected_main_requests": 600,
+  "expected_development_requests": 120,
+  "main_requires_development_integrity_check": true,
+  "no_threshold_selection": true
+}

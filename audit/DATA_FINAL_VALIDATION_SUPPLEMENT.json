@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scienceqa_official_question_hint_choices_prompt_matches": 120,
+  "frozen_runtime_and_gold_hashes_unchanged": true,
+  "manifest_sha256": "465da833301766a338e33a7891db871d0b72544fe09a262a433df50fa01c52e3",
+  "historical_provenance_canonical_supplement": "audit/DATA_HISTORICAL_OVERLAP_SUPPLEMENT.json",
+  "historical_provenance_canonical_supplement_sha256": "da27d239e03c3d5c9d4e6457bb7e900b7cc6805e3a5661397dae3cca6cee1522",
+  "model_or_judge_calls": 0
+}

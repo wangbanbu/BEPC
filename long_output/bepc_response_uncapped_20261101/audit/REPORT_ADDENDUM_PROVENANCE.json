@@ -1,0 +1,6 @@
+{
+  "initial_delivery_sha256": "615ede79a687a564903db361978c85fdc9b62d6f996bb462d84c67ab0735fecf",
+  "original_report_sha256": "76d2a9b0401ea28caa30929a98e89e2135f405a2c2d7555559240a55b5dda5ca",
+  "final_report_sha256": "5ba3b5ed62ffee9452811adf783ae30424ef8b654a7912d5a9108f59d7d356c1",
+  "reason": "append independent execution/manipulation accounting only; unchanged scores/statistics"
+}

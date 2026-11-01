@@ -1,0 +1,14 @@
+{
+  "evaluator_sha256": "a1cc46dd8d4c8aa629e9a2529eee922597f061887f853b4014fced4279e880bc",
+  "original_evaluator_sha256": "1f491b0f1dba0a148b5a65ddc574c73c76878c098c967fc1f45fc08ba2a83fc3",
+  "parent_long_evaluator_sha256": "c5e17666135bc1d4263ca5e5d132418d8a721fd35d5c8b792557b691bf3d2072",
+  "quality_protocol_sha256": "2825f9a02cd9be989a671735ce9a6a9d5630443c9092cae6a36ae8e94925c812",
+  "frozen_before_any_single_pass_official_score": true,
+  "parser": "terminal_final_answer_v1",
+  "no_gold_assisted_extraction": true,
+  "single_pass_only": true,
+  "repetitions": 1,
+  "parser_function_AST_identical_to_parent": true,
+  "selector_gate_AST_identical_to_parent": true,
+  "created_utc": "2026-11-01T02:44:05.590761+00:00"
+}

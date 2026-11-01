@@ -1,0 +1,75 @@
+{
+  "status": "exact_boundary_correction_only",
+  "implementation_sha256": "5bbe7f490ac82ce750c5f33a95dbc27936688e1d356589a016a23c63c534c76f",
+  "original_FP64_diagnostic": {
+    "task": "scienceqa",
+    "method": "bepc_no_response_cap",
+    "baseline": "margin_no_response_cap",
+    "conditions": [
+      {
+        "metric": "accuracy",
+        "difference": 0.010000000000000009,
+        "bound_type": "one_sided_95_lower",
+        "bound": -0.020000000000000018,
+        "permitted_decline": 0.02,
+        "proxy_pass": false
+      }
+    ],
+    "automatic_proxy_pass": false,
+    "scope": "predeclared fixed-pilot automatic-metric diagnostic; not human factual quality guarantee",
+    "zero_discordance_bootstrap_can_be_degenerate": true
+  },
+  "reviewed_diagnostic": {
+    "task": "scienceqa",
+    "method": "bepc_no_response_cap",
+    "baseline": "margin_no_response_cap",
+    "conditions": [
+      {
+        "metric": "accuracy",
+        "difference": 0.010000000000000009,
+        "bound_type": "one_sided_95_lower",
+        "bound": -0.02,
+        "permitted_decline": 0.02,
+        "proxy_pass": true,
+        "exact_bound_fraction": "-1/50",
+        "exact_paired_count_quantile": "-2",
+        "boundary_review": "same frozen draws; integer paired correct counts; unchanged linear percentile"
+      }
+    ],
+    "automatic_proxy_pass": true,
+    "scope": "predeclared fixed-pilot automatic-metric diagnostic; not human factual quality guarantee",
+    "zero_discordance_bootstrap_can_be_degenerate": true,
+    "raw_FP64_before_boundary_review": {
+      "task": "scienceqa",
+      "method": "bepc_no_response_cap",
+      "baseline": "margin_no_response_cap",
+      "conditions": [
+        {
+          "metric": "accuracy",
+          "difference": 0.010000000000000009,
+          "bound_type": "one_sided_95_lower",
+          "bound": -0.020000000000000018,
+          "permitted_decline": 0.02,
+          "proxy_pass": false
+        }
+      ],
+      "automatic_proxy_pass": false,
+      "scope": "predeclared fixed-pilot automatic-metric diagnostic; not human factual quality guarantee",
+      "zero_discordance_bootstrap_can_be_degenerate": true
+    }
+  },
+  "exact_count_quantile": "-2",
+  "exact_accuracy_bound": "-1/50",
+  "exact_predeclared_limit": "-1/50",
+  "bootstrap_draw_sha256": "8ea230a890f5035c70470252d5ccbd3276611e2fd6c46ae52535c8a519b1d4dc",
+  "original_report_delivery_sha256": "a326ee1364989ba38f8985c5f7b7d9123f321b3165633251359f64210b93df6c",
+  "pre_correction_sha256": {
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/audit/STATISTICAL_ANALYSIS.json": "e1a11c5a9718f1822640db12b7557c7326de525e57e5f32cc2a78ce6f8de3be5",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/reports/FULL_EXPERIMENT_REPORT.md": "8640d6100d24d98c4427a30879f9a277d28a03582661e0ea09c7e3df9b2a882f"
+  },
+  "post_correction_sha256": {
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/audit/STATISTICAL_ANALYSIS.json": "34cdbfecc908827e6f3041a347ecf187b9d0c917ed09038c464772a69e88bd0b",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/reports/FULL_EXPERIMENT_REPORT.md": "21594ce3b838dc25ddc7380ed3f76a758ce7ac722969d8be5663a489afabdbf0"
+  },
+  "inference_scorer_analyzer_and_all_metric_values_unchanged": true
+}

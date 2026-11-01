@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "preserved_prior_files": 137,
+  "byte_identical_prior_copies": 17,
+  "mismatches": [],
+  "source_files_frozen": 20,
+  "cpu_tests": 8,
+  "randomized_selection_cases": 4000,
+  "asymmetric_bound_cases": 20000,
+  "actual_fp32_readout_cases": 500,
+  "no_gpu_run": true
+}

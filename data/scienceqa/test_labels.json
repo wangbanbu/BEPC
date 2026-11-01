@@ -1,0 +1,1735 @@
+{
+  "6391": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "Salt Lake City",
+      "Saint Louis",
+      "Olympia",
+      "Cheyenne"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6391",
+    "source_row": 1278,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "7d32aec9e2ee0ec44d33956ae5fdde0761091f3e5922fd662a1a9bab112a32cf"
+  },
+  "21044": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "Atlanta",
+      "Frankfort",
+      "New Orleans",
+      "Baton Rouge"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "21044",
+    "source_row": 4206,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b6375a98615a847cbe4a3753531d3760686150c11de2bdee530e9a55099c25a4"
+  },
+  "8371": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "the surroundings . . . each battery",
+      "each battery . . . the surroundings"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "8371",
+    "source_row": 1675,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "2f46fc436873fa667f688efa1a1e4f92a6ef935bad051a420b00fe4bee7fb80b"
+  },
+  "13263": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Anchorage",
+      "Los Angeles",
+      "Helena",
+      "Honolulu"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "13263",
+    "source_row": 2650,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "9caaf0c1cf82d5f9ae056688a8a4dd2ded30ee0be1912b6ad7892b011a3b84ab"
+  },
+  "10307": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "South America",
+      "North America",
+      "Asia",
+      "Antarctica"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "10307",
+    "source_row": 2045,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "062f6cb5ae4c53a70e275f3ceb263f09a8b9bcb58e8ed762b881815518b580a7"
+  },
+  "4340": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "flexible",
+      "yellow",
+      "fuzzy"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "4340",
+    "source_row": 876,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b563c25635c3e136e4b8b07d6eead830e511947b50fd7a9dce918bf4dfe56e69"
+  },
+  "9750": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Maryland",
+      "Washington, D.C.",
+      "Virginia",
+      "New York"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "9750",
+    "source_row": 1941,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "c246298f5581f499cbe9514e94f2ea994bfd46319c06fbb5a8e2eefe66ae4676"
+  },
+  "8090": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "red salamander",
+      "koala"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "8090",
+    "source_row": 1626,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "1d74e8e9d9117837b61efbb474ad2e4712387c1f0e68c04f34a5e2323ea406c8"
+  },
+  "14865": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "an elementary substance",
+      "a compound"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "14865",
+    "source_row": 2969,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "0f2869e173bbcc6e72f5a1b3cc6891bfe7c3a9346a6697b972fd24c685f68d69"
+  },
+  "3327": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "attract",
+      "repel"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "3327",
+    "source_row": 656,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "4208cdf907e58809ba9a951886d526d15c95b61a25ad28e2ede57729cc74aee1"
+  },
+  "20734": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Texas",
+      "Oklahoma",
+      "Virginia",
+      "Georgia"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "20734",
+    "source_row": 4141,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "03773f7e3fc1e6bc05f8894d381e49eb344b163cffd1b725013c33a7ea19119e"
+  },
+  "11715": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "no",
+      "yes"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "11715",
+    "source_row": 2352,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "7b7f605a16d470e550250261a99d8ac43feecfd6e745cf41b956963557a4fc6f"
+  },
+  "14112": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Juneau",
+      "Dover",
+      "Salt Lake City",
+      "Atlanta"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "14112",
+    "source_row": 2807,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "ccf66d150428bf6ce761871266bf7db91ce93c2bf24fba0a60afc639de5d6fcc"
+  },
+  "14270": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "repel",
+      "attract"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "14270",
+    "source_row": 2840,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "250ef1723fd9f7aaa83e5e524c5f07e9b87ea6297b109b882778d9a9441f9b6e"
+  },
+  "10283": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "The magnitude of the magnetic force is the same in both pairs.",
+      "The magnitude of the magnetic force is greater in Pair 1.",
+      "The magnitude of the magnetic force is greater in Pair 2."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "10283",
+    "source_row": 2039,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "70865b55975cbec7cd09caaa66fe445a03eb75cf22cfc748d4a5241feb7fb3c1"
+  },
+  "10523": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "The magnitude of the magnetic force is smaller in Pair 2.",
+      "The magnitude of the magnetic force is the same in both pairs.",
+      "The magnitude of the magnetic force is smaller in Pair 1."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "10523",
+    "source_row": 2092,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "6083d0f48349d6909d0c727e8f60b1daf6fab6cd496dfc9005083bf9de80aeef"
+  },
+  "15279": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "oxygen",
+      "bromomethane",
+      "methane"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "15279",
+    "source_row": 3045,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "bde3765afebfa765284496df9b048e9ba590d3502ed8103b24d88a2b806f2041"
+  },
+  "16319": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "weather",
+      "climate"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "16319",
+    "source_row": 3256,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "c1e697cb06b84e9793e704c65d3baa4ad0d185ac08c86a9fd7296de305e1e895"
+  },
+  "6387": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Australia",
+      "Asia",
+      "Antarctica"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6387",
+    "source_row": 1277,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "13e494817eb0808402b752ce96b95ffdd1a00ab2c2867c722f8e9ccca4e7a62f"
+  },
+  "17319": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Solomon Islands",
+      "Australia",
+      "Nauru",
+      "Papua New Guinea"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "17319",
+    "source_row": 3475,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "69b62454bd565bc36ce32100647723b74e7daf34890d8cf33c8efe2e79ba7a0a"
+  },
+  "16868": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "West Virginia",
+      "Maryland",
+      "Washington, D.C.",
+      "Massachusetts"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "16868",
+    "source_row": 3390,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "9fc44479cf78349dcefdd312d25723012210ebad239986b955889238c50e3094"
+  },
+  "21192": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Africa",
+      "South America",
+      "North America",
+      "Asia"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "21192",
+    "source_row": 4235,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "84b216971f748410909d6083527005f57a15ed7bb3e64bdb1f7527e3d6bfa229"
+  },
+  "17078": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "bison",
+      "salmon"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "17078",
+    "source_row": 3427,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "8dce6c38bc13df23db5dc6ed6db792695ec2d2c37dd3b0502afdf4b74a2e49bb"
+  },
+  "18454": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "each vial . . . the surroundings",
+      "the surroundings . . . each vial"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "18454",
+    "source_row": 3714,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "0302d59d4c491fe1af878f97db07502890a3c7526fa3e4591382b2b0f0f11184"
+  },
+  "14694": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "3/4",
+      "0/4",
+      "2/4",
+      "1/4",
+      "4/4"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "14694",
+    "source_row": 2929,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "6cd6cfa03b2ec9a8a3ee06185e0b50e0ae5afdddce543b58dd4e681eaadd0e8d"
+  },
+  "11955": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "the Southern Ocean",
+      "the Indian Ocean",
+      "the Atlantic Ocean",
+      "the Pacific Ocean"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "11955",
+    "source_row": 2407,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "ba3d2f8ac792ae4eb6597752b2666d4e380d79466e89942da2af476cc963d946"
+  },
+  "9003": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "glass",
+      "cotton"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "9003",
+    "source_row": 1795,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "278f9b8249a2f37c96a118669755bcd190133b472a0ef5bd954f81fffed0ea15"
+  },
+  "15024": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "the Indian Ocean",
+      "the Pacific Ocean",
+      "the Arctic Ocean",
+      "the Atlantic Ocean"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "15024",
+    "source_row": 2997,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "dbb56e4f868dc1c1c62a7656cd9e52310e7f49c81f065f5542910327649ff8b7"
+  },
+  "15457": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Solution A",
+      "neither; their concentrations are the same",
+      "Solution B"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "15457",
+    "source_row": 3073,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "27803f044334fe6dc1fd9db42b7c3e4291d19abf643a72b3d769df218529abda"
+  },
+  "1009": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "neither; the samples have the same temperature",
+      "sample B",
+      "sample A"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "1009",
+    "source_row": 210,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "3612e0e375a72d3c23337fa816a0ddf5040f049f5c40fdf5293e43f456f2c3cf"
+  },
+  "11060": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Kylie can trade her almonds for Rosa's tomatoes.",
+      "Rosa can trade her tomatoes for Kylie's broccoli.",
+      "Rosa can trade her tomatoes for Kylie's carrots.",
+      "Kylie can trade her broccoli for Rosa's oranges."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "11060",
+    "source_row": 2213,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "231302c9e4a2659ce8186d5820adfabccb9a7eaf3f7127a8664f0d8d36f1d99f"
+  },
+  "2845": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Python bivittatus",
+      "Python reticulatus",
+      "Sciurus vulgaris"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "2845",
+    "source_row": 560,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "93c34c2adbd2c9b65e23629a86c926275b6f61d5df7f3fe406d45227bd99ddb8"
+  },
+  "2165": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "The strength of the magnetic force is the same in both pairs.",
+      "The magnetic force is weaker in Pair 2.",
+      "The magnetic force is weaker in Pair 1."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "2165",
+    "source_row": 427,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "4b30f599af80a120a406b6826c309e23cc4cf744c2974b6622e2bdc7d3f18ae1"
+  },
+  "13503": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Montpelier",
+      "Wilmington",
+      "Burlington",
+      "Hartford"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "13503",
+    "source_row": 2695,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "a8a3762fc3795de816b5dad83dd8312949d2f06e172a42764fa0e93c18600a2b"
+  },
+  "2921": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "neither; their concentrations are the same",
+      "Solution A",
+      "Solution B"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "2921",
+    "source_row": 573,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "89c58842d2472a8657e04ef1b29b575f65da1b9e5b14f84c1bbd65406d547afc"
+  },
+  "17936": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "soft",
+      "fragile"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "17936",
+    "source_row": 3603,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "eb5d779c95b379128a9830e9d252d396c21c419ac122d9ac47c52eed396f5769"
+  },
+  "17979": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Honolulu",
+      "Buffalo",
+      "Annapolis",
+      "Saint Louis"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "17979",
+    "source_row": 3612,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f0ca2039fc0195c2ab381c87f443f66d04b2bf06dbccd3adf7d4f71b4c9c886b"
+  },
+  "17125": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Maria can trade her almonds for Ling's tomatoes.",
+      "Ling can trade her tomatoes for Maria's broccoli.",
+      "Ling can trade her tomatoes for Maria's carrots.",
+      "Maria can trade her broccoli for Ling's oranges."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "17125",
+    "source_row": 3437,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "a9c9013bcd3129387e1d5f335366ffdbb4f6f6cf8899881cd3c5f71bcaa71c80"
+  },
+  "21070": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Europe",
+      "Africa",
+      "Asia",
+      "North America"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "21070",
+    "source_row": 4213,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "76b69fba1cad54109f96e0ee49b6e73b9a3d8db9875c7a4bac6e4c3b03311747"
+  },
+  "16725": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "New York City",
+      "Louisville",
+      "Tulsa",
+      "Oklahoma City"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "16725",
+    "source_row": 3353,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "1223e56e32fc1d903ada255f6754eeeb5c48c843e04bf79f69aec769b21cf67c"
+  },
+  "20176": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Utah",
+      "Minnesota",
+      "Kentucky",
+      "Mississippi"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "20176",
+    "source_row": 4037,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "01903afa8448946cc78eda3b7b99482235e4358570197611bb5a82281071dc12"
+  },
+  "19122": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Milwaukee",
+      "Raleigh",
+      "Boise",
+      "Jackson"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "19122",
+    "source_row": 3824,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "559f31012a1ffbb2cdfa42071c4251f2bf4289003848ef3e26f8265ce619f09c"
+  },
+  "7059": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "bouncy",
+      "opaque"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "7059",
+    "source_row": 1415,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "e3c8945d0d7adb229f9112b986187a0874d16fcfaeb7f97980ac4b77becb325c"
+  },
+  "18687": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "European green toad",
+      "great white shark"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "18687",
+    "source_row": 3748,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b6f57cdb6b06680925e3e1c3a1a2b6c09b99450f1a83d713dc0d821b28e5f28e"
+  },
+  "5389": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "Pennsylvania",
+      "Vermont",
+      "Rhode Island",
+      "New Jersey"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "5389",
+    "source_row": 1070,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "55d10a52c65fc3a70b12067d4c9a7635f1775eba125b798ac282488a2a7f28ae"
+  },
+  "16744": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "South Carolina",
+      "Massachusetts",
+      "New Jersey",
+      "Georgia"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "16744",
+    "source_row": 3360,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b186694ea077e3f36c28176a216b54578ccc2a415e0abfe390d342d7fedb39b8"
+  },
+  "2343": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Arianna can trade her tomatoes for Clarence's sandwich.",
+      "Arianna can trade her tomatoes for Clarence's broccoli.",
+      "Clarence can trade his broccoli for Arianna's oranges.",
+      "Clarence can trade his almonds for Arianna's tomatoes."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "2343",
+    "source_row": 455,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "6111c494cdf258a4948e23909301221d48f31c608b481376d22210582356c779"
+  },
+  "17464": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Solomon Islands",
+      "Kiribati",
+      "the Federated States of Micronesia",
+      "the Marshall Islands"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "17464",
+    "source_row": 3505,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "4c2bf71c7a08a99c617efc769100199987af00a2bf0bf1d5d11888bfc71bd02c"
+  },
+  "10614": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "commensal",
+      "parasitic",
+      "mutualistic"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "10614",
+    "source_row": 2119,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "4e2c5a317db13090f427286cf765924053c38fe4269235e161ca861cfd9f9e54"
+  },
+  "15810": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "an elementary substance",
+      "a compound"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "15810",
+    "source_row": 3151,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "d5919f2bd0cf1c9fbbea0b081657105f7bf7d480fc618b3ad1d531ad60f826cc"
+  },
+  "5694": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Providence",
+      "Trenton",
+      "Jersey City",
+      "Concord"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "5694",
+    "source_row": 1124,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "961c27d0038aeb21b7ebd246fb3deb214f42dcef5fe665a8feebb803f612394f"
+  },
+  "6717": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Santa Fe",
+      "Denver",
+      "Boise",
+      "Colorado Springs"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6717",
+    "source_row": 1342,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "36b3c0d24ed73c5b03df1ed23f5dc2a96f77cc869699ac748ff5bf90e63be14e"
+  },
+  "1043": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "It makes its own food.",
+      "It eats another living thing."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "1043",
+    "source_row": 214,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f474968baad94aa4bca04aebdc12b6fd58f2fc01530f3b0b0d35197ab02b4c1f"
+  },
+  "6685": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "Carson City",
+      "Fayetteville",
+      "Jefferson City",
+      "Little Rock"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6685",
+    "source_row": 1334,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "11825cc9be76a35394a03a554f412e2495ab20f5bc2747a7e3181f20f1c31752"
+  },
+  "20542": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "stretchy",
+      "hard",
+      "fragile"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "20542",
+    "source_row": 4103,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "6ede623bb64abd17cdadbf0b4ee44cf716dc849e07760b289c8c77d29c718f28"
+  },
+  "10616": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Delaware",
+      "Georgia",
+      "Indiana",
+      "Maryland"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "10616",
+    "source_row": 2120,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "7af83aea6d1094c4bafdeafd2cda6b2fb96246a8dc2ba99c01f3b74d83ecf8ec"
+  },
+  "13643": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "blue",
+      "scratchy"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "13643",
+    "source_row": 2714,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "2f01c48a5a4600c6922c93687499ca40271f7936ad9c3313534fd56cab745c00"
+  },
+  "17228": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "each greenhouse . . . the surroundings",
+      "the surroundings . . . each greenhouse"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "17228",
+    "source_row": 3460,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "143f2256b5a6a14a76545cc18e9fa6bb70934dbc509c73dbe2b2228eec4f0d88"
+  },
+  "7531": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Cuba",
+      "Haiti",
+      "Trinidad and Tobago",
+      "Grenada"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "7531",
+    "source_row": 1515,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "d78f97be9712227c08e41815ab2025884ecf8e5cb33eb8bbb7b90b50ea7de5c7"
+  },
+  "4084": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Marvin can trade his tomatoes for Ken's broccoli.",
+      "Ken can trade his broccoli for Marvin's oranges.",
+      "Ken can trade his almonds for Marvin's tomatoes.",
+      "Marvin can trade his tomatoes for Ken's sandwich."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "4084",
+    "source_row": 809,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "8fc568e8428d3116fe51fd838aeff59fe3f12eace9cbb7c700846ae96dbb6f93"
+  },
+  "4851": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Sphodromantis viridis",
+      "Spirobranchus giganteus",
+      "Macropus giganteus"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "4851",
+    "source_row": 968,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "4a9a77adeb16062d83ac8b2c0d4db0aa0a548237bdbe4b96fa822c4f9e444bb9"
+  },
+  "6338": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Montpelier",
+      "Harrisburg",
+      "Burlington",
+      "Boston"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6338",
+    "source_row": 1267,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "2a51fd41bd6954307c6fa15c87227509f5d9bfeeccc15e756c5a4d930bc8f01f"
+  },
+  "1951": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "North America",
+      "Europe",
+      "Australia",
+      "South America"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "1951",
+    "source_row": 389,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "15968c4ae30e96e8debe877cbc17d5429827c99d2f2066f7bff8d423436b448f"
+  },
+  "3455": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "Las Vegas",
+      "Reno",
+      "Cheyenne",
+      "Carson City"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "3455",
+    "source_row": 684,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f8eee718dcc75a9414b60ddba658e2f0c9ada012801d07c373f60d52ade50352"
+  },
+  "16723": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "an elementary substance",
+      "a compound"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "16723",
+    "source_row": 3352,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f35f5fecb4375aa22fbe195cb3b1b1dc9ef86f100eca917a475ca45eb4bd5693"
+  },
+  "11181": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Massachusetts",
+      "Ohio",
+      "Indiana",
+      "New Hampshire"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "11181",
+    "source_row": 2237,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "7da39c7740ff14192ff1f907ea2b4d7a8cc50bb5485a668ce3a69f9499a10a04"
+  },
+  "14096": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Rob can trade his tomatoes for Carrie's broccoli.",
+      "Carrie can trade her broccoli for Rob's oranges.",
+      "Carrie can trade her almonds for Rob's tomatoes.",
+      "Rob can trade his tomatoes for Carrie's sandwich."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "14096",
+    "source_row": 2802,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f499c41f028b8a2f591e4f47608b82da66968eca4fdb5253da8e94ad941d3a09"
+  },
+  "6145": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "North Dakota",
+      "Maine",
+      "Iowa",
+      "Kansas"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6145",
+    "source_row": 1224,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f445ff5055753aa99f5c19a6017ee8c3e150132dc58dc1eaef97ddf574fb5b52"
+  },
+  "16731": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "sample A",
+      "sample B",
+      "neither; the samples have the same temperature"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "16731",
+    "source_row": 3356,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "5300b32d6650d921e95200282e5b9f846820a056600c981537b90974cdbf1e37"
+  },
+  "12397": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "Haiti",
+      "the Dominican Republic",
+      "Cuba",
+      "The Bahamas"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "12397",
+    "source_row": 2490,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b687303f4af8dbe99390140fd050fc463ffa4d5e28d3c45418e263294ec7c636"
+  },
+  "6326": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Ohio",
+      "Nevada",
+      "Maine",
+      "Delaware"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6326",
+    "source_row": 1262,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "7a629edaf00a404e771bf6b828b66ea012a22ea06e070c6e6431bc97c1a9f10a"
+  },
+  "18288": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Iowa",
+      "Arizona",
+      "Kansas",
+      "Delaware"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "18288",
+    "source_row": 3679,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "2da7f018d21aadbfb6791f39ef5e845b123590bc32c73141e4d9d6f65ae81df5"
+  },
+  "10569": {
+    "answer_index": 3,
+    "answer_letter": "D",
+    "choices": [
+      "Australia",
+      "North America",
+      "South America",
+      "Asia"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "10569",
+    "source_row": 2108,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "1954e5384cb15ea700d596f4eb7ef3f3995a660382f401a43b4faa05506f2eae"
+  },
+  "1586": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Missouri",
+      "Michigan",
+      "Maine",
+      "Oregon"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "1586",
+    "source_row": 321,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "01a0ad8f99da67b41e471d936169d8c61f04c1ad4fb8433256225e78ea0ae27c"
+  },
+  "3773": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "The magnetic force is stronger in Pair 1.",
+      "The strength of the magnetic force is the same in both pairs.",
+      "The magnetic force is stronger in Pair 2."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "3773",
+    "source_row": 748,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "78600e71d70e45baa35ae5b8a363a70def7a05035eb9fb5ec88dd6f848b6bbc1"
+  },
+  "6964": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "logos (reason)",
+      "pathos (emotion)",
+      "ethos (character)"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6964",
+    "source_row": 1391,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "bc89ea115a460b3cd07a75b876ac0008613a873d0ec9856b1cf7f15d454fe04d"
+  },
+  "11772": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "The magnitude of the magnetic force is the same in both pairs.",
+      "The magnitude of the magnetic force is smaller in Pair 2.",
+      "The magnitude of the magnetic force is smaller in Pair 1."
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "11772",
+    "source_row": 2364,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "9b5f8e0c7ad61ec11d184b1f6af07546e4bd50406548ac38c30096944e7a15dd"
+  },
+  "7405": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "flamingo",
+      "cane toad"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "7405",
+    "source_row": 1483,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "5c90e5c834f87bb7e97729c7b6890fd1fe2d0b848c57ae7c19c5bb8b79310a09"
+  },
+  "3219": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "igneous",
+      "metamorphic",
+      "sedimentary"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "3219",
+    "source_row": 638,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "e7a9e861f5f32e3a2d71d512d4d7fbbe89cc530c90763762ef18747527403eea"
+  },
+  "5667": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Tucson",
+      "Charleston",
+      "Jackson",
+      "Billings"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "5667",
+    "source_row": 1119,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "619f006c693d475b2c6142cdb217295c50cb77833fb6d12e540f0da8c6f82dd5"
+  },
+  "21149": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Ohio",
+      "Indiana",
+      "Michigan",
+      "Iowa"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "21149",
+    "source_row": 4229,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "96e1882fc3bbc39f2a3d5180bb82bed8b16d312c872128ade3d1c89bc0586cfa"
+  },
+  "13392": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "repel",
+      "attract"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "13392",
+    "source_row": 2665,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "551fa60e225461f4efa7cea2f144e37ca6294c69d15987ce9991ac868197faa1"
+  },
+  "10271": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Europe",
+      "Australia",
+      "North America"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "10271",
+    "source_row": 2036,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b4b5284001549bd26b1e99375cf97454f41af49b1d94655bd1fdcc06a19dc404"
+  },
+  "11022": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "24 grams of water vapor per kilogram of air",
+      "13 grams of water vapor per kilogram of air",
+      "9 grams of water vapor per kilogram of air"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "11022",
+    "source_row": 2208,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "34c0a1255bbc651e89015e548d06f31370a8446faa4a65b68168a358cd141a5e"
+  },
+  "13461": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Europe",
+      "Africa",
+      "Asia",
+      "North America"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "13461",
+    "source_row": 2682,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "ffa8aef6bcf1ca6f167aa829fecebc6a0cc12fbfcd3b00ec9656c27cc9913dd2"
+  },
+  "6129": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "Utah",
+      "Montana",
+      "California",
+      "Idaho"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6129",
+    "source_row": 1220,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "a9c1e7d7e9b089bb898efa23d62960b2e7868067339caca0707b2c73bc4d504e"
+  },
+  "3654": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "Denver",
+      "Tallahassee",
+      "Tampa",
+      "Orlando"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "3654",
+    "source_row": 724,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "49e97be86cfad6995fb4a337c83dec843659d9a8fde3b5c0822ba3ea15497bd5"
+  },
+  "6323": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "a gas",
+      "a solid",
+      "a liquid"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6323",
+    "source_row": 1261,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "fab53d908d32de8e24037e4c48f50a32e82b42a5d1457f0ae1e567f719b5a669"
+  },
+  "4187": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Phoebastria nigripes",
+      "Ardea alba",
+      "Falco peregrinus"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "4187",
+    "source_row": 837,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f9da6ca5023aafdf4a0622c803a68c8f3453bcecbe2dff1e5f1770451ee4b35e"
+  },
+  "18284": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "the Pacific Ocean",
+      "the Atlantic Ocean",
+      "the Arctic Ocean",
+      "the Southern Ocean"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "18284",
+    "source_row": 3678,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "3321e3b535e5a9141716b265f8f5c493f4bcb4f0aa74a2f66c8eb6b2ab244737"
+  },
+  "14407": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "mandarinfish",
+      "green iguana",
+      "red-headed poison frog",
+      "water buffalo"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "14407",
+    "source_row": 2868,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "d0d2717132c8be5dfb8b83eb22d1272b92ae5e33d61209ae658e1d14da4a0ae7"
+  },
+  "19408": {
+    "answer_index": 1,
+    "answer_letter": "B",
+    "choices": [
+      "repel",
+      "attract"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "19408",
+    "source_row": 3888,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "954cad601956240acf8f9ca71316bf3c48357c7c90f4cd47734d96b33e554663"
+  },
+  "20600": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "a solid",
+      "a liquid"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "20600",
+    "source_row": 4115,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "50a0efdeb7cd504405f932c9d08c68087f4143105d811473cfce3c390e379f75"
+  },
+  "15923": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Nebraska",
+      "Iowa",
+      "Kansas",
+      "Missouri"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "15923",
+    "source_row": 3175,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "7be288bf2a906d5d25621ed3b09aca9fccb3405074735bb43826cfc557f40c5b"
+  },
+  "11120": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Delaware",
+      "West Virginia",
+      "Iowa",
+      "Alabama"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "11120",
+    "source_row": 2224,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "9a1fad9333dbf1433b79c1a7ccec1c749de6bdc6b280e4dad3a177e128cb5a99"
+  },
+  "12117": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "New Zealand",
+      "Palau",
+      "the Marshall Islands",
+      "Papua New Guinea"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "12117",
+    "source_row": 2439,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "64ab1120adf9698f79120b2d748735e8ae0df9b7ecfa7068a6412b1a1cbf9dfd"
+  },
+  "19922": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Portland",
+      "Hartford",
+      "Augusta",
+      "Athens"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "19922",
+    "source_row": 3986,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "72f38fa51df78449b548dfa79b27c4be4b2cea267770927748a89f6983a59067"
+  },
+  "3604": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Portland",
+      "Burlington",
+      "Augusta",
+      "Madison"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "3604",
+    "source_row": 716,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "f843e242ce30ea086aca981ccf89289b8a3a8810fbab6702e4468668dadf53df"
+  },
+  "6091": {
+    "answer_index": 0,
+    "answer_letter": "A",
+    "choices": [
+      "to the left than to the right",
+      "to the right than to the left"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "6091",
+    "source_row": 1208,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "a5a8457e2f72472f295d34eeabbe36fd6563f1b82a9a17fef49da76ea1ede2d0"
+  },
+  "19271": {
+    "answer_index": 2,
+    "answer_letter": "C",
+    "choices": [
+      "Topeka",
+      "Atlanta",
+      "Richmond",
+      "Nashville"
+    ],
+    "source": "/data/wbb/data/ScienceQA/data/test-00000-of-00001-f0e719df791966ff.parquet",
+    "source_split": "official_image_test",
+    "source_question_id": "19271",
+    "source_row": 3862,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "3aa3aa4f8c78caa2ed0122253eac1404c0a6a3456fdeea9851ac2c3a64066f3e"
+  }
+}

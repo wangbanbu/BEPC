@@ -1,0 +1,109 @@
+{
+  "status": "pass",
+  "files": [
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/chat_template.json",
+      "size_bytes": 1050,
+      "mtime_ns": 1773144114167082945,
+      "prior_sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/config.json",
+      "size_bytes": 1374,
+      "mtime_ns": 1773144114153082867,
+      "prior_sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/configuration.json",
+      "size_bytes": 78,
+      "mtime_ns": 1773144114174082985,
+      "prior_sha256": "4d48781a5e83989d77ec96075741c402903a81ceffbb6a265e29caec3ea1ab6d"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/generation_config.json",
+      "size_bytes": 216,
+      "mtime_ns": 1773144114165082934,
+      "prior_sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/merges.txt",
+      "size_bytes": 1671839,
+      "mtime_ns": 1773144114625085530,
+      "prior_sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/model-00001-of-00005.safetensors",
+      "size_bytes": 3900233256,
+      "mtime_ns": 1773145848997518890,
+      "prior_sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/model-00002-of-00005.safetensors",
+      "size_bytes": 3864726320,
+      "mtime_ns": 1773145327572379725,
+      "prior_sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/model-00003-of-00005.safetensors",
+      "size_bytes": 3864726424,
+      "mtime_ns": 1773145407753884450,
+      "prior_sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/model-00004-of-00005.safetensors",
+      "size_bytes": 3864733680,
+      "mtime_ns": 1773145503559414817,
+      "prior_sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/model-00005-of-00005.safetensors",
+      "size_bytes": 1089994880,
+      "mtime_ns": 1773144613312915385,
+      "prior_sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/model.safetensors.index.json",
+      "size_bytes": 57619,
+      "mtime_ns": 1773144114665085756,
+      "prior_sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/preprocessor_config.json",
+      "size_bytes": 350,
+      "mtime_ns": 1773144114595085361,
+      "prior_sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/tokenizer.json",
+      "size_bytes": 7031645,
+      "mtime_ns": 1773196360347183990,
+      "prior_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/tokenizer_config.json",
+      "size_bytes": 5702,
+      "mtime_ns": 1773144115121088330,
+      "prior_sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56"
+    },
+    {
+      "path": "/data/wbb/model/Qwen2.5-VL-7B-Instruct/vocab.json",
+      "size_bytes": 2776833,
+      "mtime_ns": 1773196360273184730,
+      "prior_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "path": "/data/wbb/model/ViSpec-Qwen2.5-VL-7B-Instruct/config.json",
+      "size_bytes": 703,
+      "mtime_ns": 1783149752921872035,
+      "prior_sha256": "2a38de29f84c26faeb92002338fa81834eb151c9330fd74c507458e8e153b94c"
+    },
+    {
+      "path": "/data/wbb/model/ViSpec-Qwen2.5-VL-7B-Instruct/model.safetensors",
+      "size_bytes": 3560061104,
+      "mtime_ns": 1783151228149692262,
+      "prior_sha256": "502226e558ec1348ce15fc1b00a0bd3a821c940c5b6b90601923ecb8ce4b1359"
+    }
+  ],
+  "prior_manifest": "/data/wbb/vispec-clean-benchmark-20261031/audit/MODEL_IDENTITY.json",
+  "full_weights_rehashed": false
+}

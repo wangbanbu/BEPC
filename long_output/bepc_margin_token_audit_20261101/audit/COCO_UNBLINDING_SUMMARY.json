@@ -1,0 +1,21 @@
+{
+  "n": 26,
+  "bepc_relations": {
+    "uncertain": 13,
+    "better": 6,
+    "worse": 5,
+    "tie": 2
+  },
+  "CHAIRi_by_relation": {
+    "degraded/uncertain": 7,
+    "improved/uncertain": 6,
+    "degraded/better": 4,
+    "improved/better": 2,
+    "degraded/worse": 5,
+    "improved/tie": 1,
+    "degraded/tie": 1
+  },
+  "review_sha256": "c32db12997b9ab2e7acf447d24a9191b34b31eb04dc15ba7506fb43284235abb",
+  "scope": "All26 unequal CHAIRi cases; metric-enriched selection, NOT prevalence estimate.",
+  "reviewer": "one blinded image-conditioned model-assisted review; NOT human Ground Truth; no formal agreement estimate"
+}

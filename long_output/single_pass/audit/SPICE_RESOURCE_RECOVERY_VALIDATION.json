@@ -1,0 +1,97 @@
+{
+  "status": "pass",
+  "created_utc": "2026-11-01T05:11:04.273957+00:00",
+  "validator_sha256": "6f44fc1a88c4bbe9ae6b2fabef5b3e103b5432201679582745580e19451b0fbe",
+  "independent_cpu_audit": true,
+  "no_gpu_or_java_execution": true,
+  "checks": [
+    {
+      "name": "successful_CPU_recovery_manifest_and_only_heap_change",
+      "passed": true,
+      "evidence": {
+        "recovery_manifest_sha256": "a1f4c6c47be77fa07ea95e364766481140402b63734ce4688534fb7829527242",
+        "recovery_source_sha256": "c9c02213482a27e38e8be6cff95e4a1543b0b769f66280d77bd3ef2279ce5c4d",
+        "actual_heap": "64G",
+        "command_changes": [
+          {
+            "index": 2,
+            "original": "-Xmx16G",
+            "recovery": "-Xmx64G"
+          }
+        ]
+      }
+    },
+    {
+      "name": "unchanged_official_JARs_wrapper_models_and_classpath",
+      "passed": true,
+      "evidence": {
+        "dependency_files": 23,
+        "actual_classpath_jars": 20,
+        "all_sha256_verified": true
+      }
+    },
+    {
+      "name": "preserved_failure_and_identical100_caption_input",
+      "passed": true,
+      "evidence": {
+        "archived_files": 11,
+        "archive_index_sha256": "d95529af2a9baead81f9d7549d8e02655e43619b847413ac752c1546501a6ef3",
+        "input_sha256": "32d03cdc7039f3ee5ede582c1416cae114e488826e08ea6dc4cc4f2567a37be5",
+        "input_ids": 100,
+        "old_failed_output_absent": true,
+        "fresh_cache_at_start": "source-and-runtime-attested, not independently observed in real time"
+      }
+    },
+    {
+      "name": "original4200_GPU_records_runtime_config_successful_metrics_unchanged",
+      "passed": true,
+      "evidence": {
+        "independent_pre_recovery_protected_files": 434,
+        "recovery_protected_files": 924,
+        "main_records": 4200,
+        "previously_successful_score_seals": 78,
+        "no_gpu_regeneration": true
+      }
+    },
+    {
+      "name": "complete_new_output_no_ignored_parse_and_sealed_log",
+      "passed": true,
+      "evidence": {
+        "output_sha256": "b0f84c553654ca0e53cc9919f5259d881725f76647914de823e70f3d95698a41",
+        "log_sha256": "9a2f4b4ab7b15f1e37687b57f3175750e54954ed67428af7bd3fa9e2e5e74964",
+        "output_ids": 100,
+        "undefined_All_f": 0,
+        "fatal_or_ignored_parse_log_matches": [],
+        "cache_persistence_warning_count": 95,
+        "cache_caption_length_warning_count": 95,
+        "planned_wrapper_heap_is_not_actual_producer_heap": true
+      }
+    },
+    {
+      "name": "same_official_scorer_output_to_final_scores_and_seals",
+      "passed": true,
+      "evidence": {
+        "main_score_seals": 35,
+        "recovered_method_score_seal_sha256": "a5039355a9dc2be53d8069f24e48822d2fa4c6d3b0745d39066ca30ccd708986",
+        "All_f_to_per_question_and_mean_verified": true,
+        "nominal_wrapper_command": "16G cache-hit plan only",
+        "actual_producer_command": "64G recorded in resource recovery manifest"
+      }
+    },
+    {
+      "name": "active_failure_scan_excludes_preserved_audit_archive",
+      "passed": true,
+      "evidence": {
+        "active_failure_files": 0,
+        "preserved_archived_metric_failures": 1,
+        "original_validator_failure_globs_exclude_audit_archive": true
+      }
+    }
+  ],
+  "limitations": [
+    "The audit independently checks preserved files, command differences, logs, IDs and score joins; it does not independently rerun Stanford parsing or certify every extracted scene graph.",
+    "Fresh-cache emptiness at start is attested by the sealed recovery implementation and recorded runtime state, not by a separate real-time observer.",
+    "The frozen official wrapper reports its nominal16G command on a cache hit; the resource manifest and preserved log/output identify the actual64G producer.",
+    "Long descriptions and automatic caption metrics retain their previously reported validity limitations."
+  ]
+}

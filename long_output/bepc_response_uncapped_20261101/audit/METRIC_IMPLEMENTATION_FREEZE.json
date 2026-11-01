@@ -1,0 +1,25 @@
+{
+  "status": "pre_quality_scoring_implementation_freeze",
+  "sources": {
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_response_uncapped_20261101/harness/evaluate_uncapped.py": "b719125f319e9062a425f5fe320259f2b1dd446a9462296e0d9a39ae261e262e",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_response_uncapped_20261101/harness/analyze_uncapped.py": "afdb70c26ad88c14f3402095b3efa3742cb192f48534e98d2441c7dc51fff473",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/evaluate_long.py": "a1cc46dd8d4c8aa629e9a2529eee922597f061887f853b4014fced4279e880bc",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/analyze_results.py": "6c811435411ee15c0e241070f9adea9cb0d4d595e853d1903eb862a38ed73154",
+    "/data/wbb/vispec-clean-benchmark-20261031/harness/evaluate_tasks.py": "1f491b0f1dba0a148b5a65ddc574c73c76878c098c967fc1f45fc08ba2a83fc3",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/evaluate_long.py": "c5e17666135bc1d4263ca5e5d132418d8a721fd35d5c8b792557b691bf3d2072"
+  },
+  "parser": "terminal_final_answer_v1 unchanged",
+  "tasks": [
+    "scienceqa",
+    "coco",
+    "textvqa"
+  ],
+  "methods": [
+    "strict_shared",
+    "bepc_cap4",
+    "bepc_no_response_cap"
+  ],
+  "spice_change": "Java maximum heap 16G -> 64G only; same official scorer/models/options",
+  "score_reuse": "only exact ordered sample corpus and exact raw output text; whole-corpus CIDEr DF preserved",
+  "no_test_quality_parameter_selection": true
+}

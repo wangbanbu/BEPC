@@ -1,0 +1,7 @@
+{
+  "initial_python_per_row_inventory": "stopped before any sample selection; duplicated multi-GB records made extraction slow",
+  "replacement": "native rg identity-only extraction, conservative generation-bearing file eligibility",
+  "reason": "bound audit cost without selecting by old quality or timing",
+  "initial_log": "audit/DATA_INVENTORY.log",
+  "replacement_log": "audit/DATA_FAST_INVENTORY.log"
+}

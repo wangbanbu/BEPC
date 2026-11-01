@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "phase": "main",
+  "tasks": {
+    "scienceqa": {
+      "records": 200,
+      "questions": 100,
+      "BEPC_historical_exact": 100,
+      "paired_inputs_exact": 100,
+      "outputs_changed": 87
+    },
+    "coco": {
+      "records": 200,
+      "questions": 100,
+      "BEPC_historical_exact": 100,
+      "paired_inputs_exact": 100,
+      "outputs_changed": 98
+    },
+    "textvqa": {
+      "records": 200,
+      "questions": 100,
+      "BEPC_historical_exact": 100,
+      "paired_inputs_exact": 100,
+      "outputs_changed": 91
+    }
+  },
+  "records": 600,
+  "prior_files_unchanged": 262,
+  "config_sha256": "a33d3450554a96ed8240678896894d0b9a0dd09f3974afbf72b9261e57171006",
+  "resources": [
+    {
+      "physical_gpu": "0",
+      "pid": 3156248,
+      "checks": 336,
+      "events": []
+    },
+    {
+      "physical_gpu": "1",
+      "pid": 3156249,
+      "checks": 339,
+      "events": []
+    }
+  ]
+}

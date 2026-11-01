@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "config_sha256": "5107de3135bd92baf3e9b8a42f62009f6aa88f3f285f25423d437a69ff873007",
+  "development_only_selection": true,
+  "test_outputs_inspected": false,
+  "repetitions": 1
+}

@@ -1,0 +1,243 @@
+{
+  "status": "actual_jar_control_flow_audited",
+  "created_utc": "2026-11-01T04:54:44.963474+00:00",
+  "jar": {
+    "path": "/data/wbb/ViSpec/ccfa-workfiles/experiments/lvspec-comparison/context-verifier/official-quality/cache/deps/pycocoevalcap/spice/spice-1.0.jar",
+    "sha256": "6c6a73ae6dd108667047c1818707590413934dcb9f1a62cef6469059b41b3d59"
+  },
+  "actual_bytecode_commands": [
+    {
+      "argv": [
+        "javap",
+        "-classpath",
+        "/data/wbb/ViSpec/ccfa-workfiles/experiments/lvspec-comparison/context-verifier/official-quality/cache/deps/pycocoevalcap/spice/spice-1.0.jar",
+        "-c",
+        "-p",
+        "edu.anu.spice.SpiceParser"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "6e781b8b5a08d0d747c8fa13fc8236be9a889f4597223403253b3c6f4b0c1a76",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "javap",
+        "-classpath",
+        "/data/wbb/ViSpec/ccfa-workfiles/experiments/lvspec-comparison/context-verifier/official-quality/cache/deps/pycocoevalcap/spice/spice-1.0.jar",
+        "-c",
+        "-p",
+        "edu.anu.spice.LmdbTupleDB"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "524f9dec43ad126101e72daa426d0ca8d23d54f53d520b57fbc216d3e3318046",
+      "stderr": ""
+    }
+  ],
+  "bytecode_output_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/audit/SPICE_CACHE_WARNING_AUDIT.javap.txt",
+  "bytecode_output_sha256": "d9564ebfbbfafc35e44f9974efe1fcc0c70fd7128b148000a4dd289fe17146b0",
+  "corroborating_source_sha256": {
+    "/data/wbb/ViSpec/ccfa-workfiles/experiments/vispec-relaxed-verifier-comparison/reference/SPICE/src/main/java/edu/anu/spice/SpiceParser.java": "cb46ca2738413d452a85d721e329281fb319e3e441840b58139e4bc4cadc1554",
+    "/data/wbb/ViSpec/ccfa-workfiles/experiments/vispec-relaxed-verifier-comparison/reference/SPICE/src/main/java/edu/anu/spice/LmdbTupleDB.java": "7c7d660fbc1cfc5433e12463e4eb0ddb6b07202c5d83c4efd70aafe631f41141"
+  },
+  "evidence": [
+    {
+      "method": "LmdbTupleDB.putTransaction",
+      "bytecode_offsets": "78..112 -> exception table115 LMDBException -> println151 -> goto154/56 -> continue next entry -> commit159",
+      "meaning": "Per-entry LMDB write exception only emits warning; it does not remove the in-memory tuple map or abort the caption."
+    },
+    {
+      "method": "SpiceParser.loadTuplesFromDB",
+      "bytecode_offsets": "175..205 parseAnnotation and newTuples.put; 214..224 optional db.putTransaction; 227..230 unconditional captionTuples.putAll(newTuples); 245..246 return captionTuples",
+      "meaning": "The parsed tuple map is merged in memory regardless of cache write outcome, then used by parseCaptions to build the scene graph."
+    }
+  ],
+  "limits": [
+    "This proves the particular cache-only warning does not itself discard caption tuples. It does not certify parser semantic accuracy.",
+    "OutOfMemoryError / Will ignore and continue / Could not score batched / NullPointerException are fatal validity indicators and must not be treated as cache-only warnings.",
+    "Success requires complete expected output IDs and absence of fatal parse/resource messages; Java exit0 alone is insufficient."
+  ],
+  "observed_logs": [
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/ar/official_scoring/spice/scorer.log",
+      "sha256": "d021f219e0dffd297c45865345d8766092a1a46ccf52781350ea363d26cd5ed2",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 20
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/bepc_algorithm/official_scoring/spice/scorer.log",
+      "sha256": "435836741d577fb436724ebb4a9867733f7886e9bcbade8640032abcce29b749",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 20
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/lvspec_ratio0/official_scoring/spice/scorer.log",
+      "sha256": "4b8df6dcd2f191a24930ec5d3b4263d6f601764585ef4da5db6ad1b37bf0732f",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 20
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/lvspec_ratio0.3/official_scoring/spice/scorer.log",
+      "sha256": "2d8ac4b3fe7fe0f7a478641eab04d019ea3f5200496918f942b09ff20e6ea09b",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 18
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/lvspec_ratio0.5/official_scoring/spice/scorer.log",
+      "sha256": "0e47367cfc18ca8ba67d46a682660628746f54329f5182e858affce3debd519b",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 18
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/lvspec_ratio0.7/official_scoring/spice/scorer.log",
+      "sha256": "b526856827524d2876a891f35f228531bbd145c15fe299fb2f7013fc532f1051",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 16
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/margin4_ccve/official_scoring/spice/scorer.log",
+      "sha256": "81a9fb8de666ba5a68e0bb1994971450bb481e220100b3e827ca3bde53565a82",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 20
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/strict_shared/official_scoring/spice/scorer.log",
+      "sha256": "066822dfe73eab08fc2f800c7b2ccc7e3961ef833f5bd288fff7ff344e0dc4ef",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 20
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/development/coco/vispec/official_scoring/spice/scorer.log",
+      "sha256": "ab9de129d064c999b3d1287541850a95b0a0ef37555f089eaa41823499a76a3a",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 20
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/ar/official_scoring/spice/scorer.log",
+      "sha256": "81c8b83affeba06b882dd36bddb6b5141e2426c0f81332e937d207ed6ba34877",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 100
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/bepc_algorithm/official_scoring/spice/scorer.log",
+      "sha256": "6d11176eaa783846a4e5a5bc287ced9137b980a0d0f39c7cc999fec2f1c713b2",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 100
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/lvspec_paper/official_scoring/spice/scorer.log",
+      "sha256": "0c14f9f53d7be1a2ab32a13d8b715f18c16736a115baa9c308c07045ac0c4378",
+      "counts": {
+        "OOM": 2,
+        "ignored_sentences": 1,
+        "score_batch_failure": 1,
+        "NullPointerException": 1,
+        "cache_write_warning": 0
+      },
+      "output_exists": false
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/margin4_ccve/official_scoring/spice/scorer.log",
+      "sha256": "c974122dc0d289af3f1da6dc86528872d437df0853fbd1427c48bd3508782c4a",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 100
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/strict_shared/official_scoring/spice/scorer.log",
+      "sha256": "761044c953870581085d16c3c0cbe2d2c2d221cc08b5effc2941fbbc395c3ea5",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 100
+      },
+      "output_exists": true
+    },
+    {
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/vispec/official_scoring/spice/scorer.log",
+      "sha256": "79cd558e2a2f7d8dba9121a49a238713246ffae916e4a5786aee7b242de36d64",
+      "counts": {
+        "OOM": 0,
+        "ignored_sentences": 0,
+        "score_batch_failure": 0,
+        "NullPointerException": 0,
+        "cache_write_warning": 100
+      },
+      "output_exists": true
+    }
+  ],
+  "no_GPU_calls": true,
+  "no_metric_or_source_mutation": true
+}

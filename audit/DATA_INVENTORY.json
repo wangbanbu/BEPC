@@ -1,0 +1,86 @@
+{
+  "stage": "prepare",
+  "seed": 2026103109,
+  "task_candidate_rows": {
+    "gqa": 105743,
+    "textvqa": 4308,
+    "scienceqa": 717,
+    "mme": 1187,
+    "coco": 3612
+  },
+  "task_candidate_image_groups": {
+    "gqa": 8317,
+    "textvqa": 2754,
+    "scienceqa": 717,
+    "mme": 1187,
+    "coco": 3612
+  },
+  "MME_categories": {
+    "artwork": 200,
+    "celebrity": 170,
+    "code_reasoning": 20,
+    "color": 30,
+    "commonsense_reasoning": 70,
+    "count": 30,
+    "existence": 30,
+    "landmark": 200,
+    "numerical_calculation": 20,
+    "OCR": 20,
+    "position": 30,
+    "posters": 147,
+    "scene": 200,
+    "text_translation": 20
+  },
+  "textvqa_archive": {
+    "path": "/data/wbb/data/textvqa/train_val_images.zip",
+    "bytes": 803471360,
+    "complete_local_members": 2973,
+    "status": "truncated_last_member",
+    "central_directory_required": false,
+    "official_remote_member_index": "/data/wbb/vispec-official-reproduction/reference/textvqa-author-zip-index.json",
+    "official_remote_index_sha256": "0e9f9b2fcd1e8932196d23f58a2906e8ae06c5f2239225acba588be463b3cbbc"
+  },
+  "history_sources": 20929,
+  "fresh_candidate_rows_before_explicit_reuse": {
+    "gqa": 105743,
+    "textvqa": 4308,
+    "scienceqa": 717,
+    "mme": 0,
+    "coco": 3612
+  },
+  "explicit_history_reuse_tasks": [
+    "mme"
+  ],
+  "prior_identity_counts": {
+    "mme": {
+      "questions": 6452,
+      "images": 8597
+    },
+    "gqa": {
+      "questions": 7017,
+      "images": 7673
+    },
+    "textvqa": {
+      "questions": 6227,
+      "images": 7523
+    },
+    "scienceqa": {
+      "questions": 7772,
+      "images": 7311
+    },
+    "coco": {
+      "questions": 6638,
+      "images": 9055
+    }
+  },
+  "prompts": {
+    "system": "You are a helpful assistant.",
+    "max_new_tokens": 128,
+    "qa_suffix": "Answer the question using a single word or phrase.",
+    "mme_suffix": "Please answer yes or no.",
+    "sqa_no_caption_lecture_solution": true,
+    "coco": "Describe this image in one concise sentence."
+  },
+  "labels_are_separate_from_model_inputs": true,
+  "old_quality_outputs_used_for_selection": false
+}

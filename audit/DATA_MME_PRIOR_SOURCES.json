@@ -1,0 +1,794 @@
+[
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/visual_margin-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "c54cd485b64e190bc19a0102741794613066a107c6c213e2d5ca5f52b7027d9d"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/ar-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "6e2581cd0c7918549b6ac5d332bead1dd3f63cbc461b8a7eb5d68a6bd815090e"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/ar-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "9efebf5b011ea6b98e6a4c756ee875b08fb48396b7507b288e3e9a56229e8cd4"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/visual_margin-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "56dd9776168c7988bd5e880c9b78c14e47792412ededdf57b5db701eccb5852e"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/margin-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "de78f70557c422115bcf46ae86d6edbc540efe6c252c215ee4ed2286f91882cb"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/lvspec-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "247a4214f343cb91c22ecc79bcb18dc57e85dcb5086f7c3d3c60910abcdf613f"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/margin-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "6249ba90927869dac4f4d6076092ca0c2f0dd1ef25b80a7b65ee10b0d1cbfb3e"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/vispec-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "71046c4258497c1d3949f43d367b1847c0fe57d7837d9cad0adfa0cd04b8553f"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/vispec-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "028c1ab6a3157ac97cd573bc59976b4e85f18c5c48b778eab6c37aa0083ee348"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/lvspec-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "0f7be04a0dc81f9f6d044d1d34a416eeb4adc774fd4cbd53b8c70e3d0f555b7b"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/fly-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "53a9e045848595834aa0cf556c87d1a51ab120738b2cdd1394d66771b54971bc"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/ar-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "2523a9e6596e80d1204414e57d2967d5db48b2c0686430ae9d23077fe2e3f835"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/ar-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "ebad7e721e36b64d49b8884a0c75c78c101ae09e02d63eb4d69013f3588b63cb"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/margin-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "d13f19ac8286e9ca32ef45479ec50545960f72de824bfb728049cc93f65f3311"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/lvspec-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "dca50a339aaf5ace89fac9bcc157d543c56204464e5e14d0160a9d0cc03af439"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/margin-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "9bf171150818d83050b1e60ae795daad1d19c2d77c79a01c30adc9561237dd21"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/fly-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "667b5793a2b30563c9a7a5ea6c10ce4275f382b8d4a5b88f03fcce0db6315629"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/vispec-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "534250badc19c6ec316fdbab5b8fa4d5c87c96e5fe59164f04f64f19766a8eab"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/vispec-t1-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "34a19ec61b4b59a6213b30b759557ab24d050fe1aacc718ca0e5b2879bc606d6"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/lvspec-t0-shard0.jsonl",
+    "image_groups": 594,
+    "rows": 1188,
+    "sha256": "c59702b3a9fea4607a07a7cfd86fa5b08989ded304e44617c7ad242ec735b900"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/vispec-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "f001c1d682867084b143a9bd4bf820afcb998018f50f9ca4913065a22ad08901"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/visual_margin-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "fdd650d8bbe3f6e5a71333c28bbb38cb328ab8860d8b5bd52d8bbc7d502da895"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/lvspec-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "02172c71d1d75ea93cd67366f708c687599d83bb7dc6aa23dc947ed380aded79"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/margin-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "ed86b5a1f7a11eb9e2afd54aba1f280751267b65874085a22aaab63267e4c109"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/visual_margin-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "5049db57c42d082ba492d77ee0c15612b2a8de996cbfaa13e4c475e1c7e72c50"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/ar-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "f901c7e24cfa08e068ad53e3bc275cde13f4d72ce5484c01449a93ae1e3739e3"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/lvspec-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "33075dfc413edd214040e20a69470bc90877120f7e25efe6f2048cf67dd1aa8c"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/margin-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "5880f6380f6f76feec69da16127eebacef9c7a46e37ff0303aacb529878ef638"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/vispec-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "553143504e60f2ae23b5deebaa1122f5b41abd396472364ace0f24afd3224580"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/results/mme/ar-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "722f01774e36088b2966cb7d7b3fe74fdb401317729b31fad75e8b8e183ae567"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/vispec-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "728b24ed2bd4bebbdd58f4b2672c6aa8a29abed5f2d61048896d2f85a0b25647"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/lvspec-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "fbaeb960f81c79af3b1c78a38006fc64ebbb8ea110c246cf5ee322c91b190322"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/margin-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "9f4b6a123d5076d8bae5b5a6d33448506f2afd44bb82e1b2ea2cbab562298aa9"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/ar-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "be33772cc6375b7c6ade146fed66d7a187d61ea470c4c6b2357a74f3b980c12d"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/fly-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "59829620844cb9c3c3a57f2702713f33e37e1f24975a428dac8380671490244f"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/lvspec-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "3bfff1df18936ec1c8e5c16b643d6bfd0b4a65ea0418049f70b55c1bb8af4711"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/fly-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "867864b60b77388c97c82e77f47d3ebc84d2574735b3199798a42e2bbfc243ff"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/margin-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "5314d6791fdb3b5f202eac33f82c99767bd8942f7d7bc690dcb466d7adcd711d"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/vispec-t0-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "547bcfab24f70f9d1bac69cd6f99e6207127c485dfc97f6e8bbfa126e451d671"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/results/mme/ar-t1-shard1.jsonl",
+    "image_groups": 593,
+    "rows": 1186,
+    "sha256": "14ae5705e59d6dc6c5a2a50bd4d39c936106a2e05456254f5e054a5aef1b51da"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/fly/official-fly-temperature-0.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "ded946f275acd7bc3efd35b89e1c1dd618b13cf930b8a60ff0f98d86588d787e"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/fly/official-fly-temperature-0.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "a7002785990a386ff9b29077fe87115585593312d3d66a7e17465bf6d10c6f15"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/fly/official-fly-temperature-1.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "5ddde74b83a5a0804c66b2a767c3941d51d725103c7e3ae7b1499997a97a6df1"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/fly/official-fly-temperature-1.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "3f014adbbf8f1586e60f0e22e04fb67321ee37200b85290805ece91181d9c1b2"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/lvspec/official-lvspec-temperature-0.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "fcdfd520afd5f0c64eb0c8b9194a939c121a2d9cb03321c8496f5be9a0832b0b"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/lvspec/official-lvspec-temperature-1.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "0ec09947333a16ac19499779a63c75a318ee2c35d2331455ce503d0f846e7112"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/lvspec/official-lvspec-temperature-1.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "3bcf6cd1fe5c14fe059a511d8198517eed523e6552fc00f921c8e3a4f93d20ec"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/lvspec/official-lvspec-temperature-0.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "328cd1f55016fa992d1d678124780954263d2ba4f926944799fed8e28072d585"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/margin/official-margin-temperature-0.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "08a116657379b03f65364ae8a208f1d980ce5d3eba5cec3a5f7533a254502911"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/margin/official-margin-temperature-1.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "42a04bb1d2fdc3c6c64b77122bcf56a4e94a11d636180abc4c33a2fa3adb240c"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/margin/official-margin-temperature-0.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "82fdbcf8ea48a55dab401ee7217029f42f00b9f410bd9630f736507c453782aa"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/margin/official-margin-temperature-1.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "2da6e15d6714f61bd3650a3644bb079b4742b88cdf2ac85568d76c46407da452"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/ar/official-ar-temperature-1.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "149623ef8e75b7c8911b7880a20e9304a3776d33301110ec29fc376a00948a9c"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/ar/official-ar-temperature-0.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "ccf0a029c64484354cbf2e043a9709f922d026e3708aa2465dd2a90f91a21151"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/ar/official-ar-temperature-1.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "bcbaf8b1cfb5cad1d43b875aa1c306d59badc8b11696f6c3b00813fa3ee72be3"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/ar/official-ar-temperature-0.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "f248aed1cc5457c34eda195f07a799102a8937d5f7c2505fc429f88137be7412"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/vispec/official-vispec-temperature-1.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "07fd6e98ce83cf0ada4c1014301d410fbb0422967e6d151fee13378e48f75e95"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/vispec/official-vispec-temperature-1.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "2358d2157b7b9aad6cac1c9981fa2e1d3cf1f21d7fb1fa4c921c04cbb259c01d"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/vispec/official-vispec-temperature-0.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "49c9dff0a3e739e106409f7e7b4d7c73a4ea011e7b961a78bf96ae4af5ac4492"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/verifier-comparison/results/mme/vispec/official-vispec-temperature-0.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "258ed2083c72da925551d208b724a9afcbf0c165afb421e9bdaf862752885c7c"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/results/mme/ar/official-ar-temperature-1.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "387937c5fb4267763a13c6607283c307c7adfb4ae47cebc7d89229b76ec6b086"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/results/mme/ar/official-ar-temperature-0.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "21197b26198bd6d9277fc4847d56c11b4a6478f9eae23ff3537330a31bde2fbd"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/results/mme/ar/official-ar-temperature-1.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "5ea3365d7d890f10576718db829f237f0e27068457262f4887b38255665f2a92"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/results/mme/ar/official-ar-temperature-0.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "ab66985c892df7fbc99c5682b3964d055297a20b0f546f1842ef4040d5f8714d"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/results/mme/vispec/official-vispec-temperature-1.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "2d1d33f86ee3bdeded95ade9326c116e7a37f37c2174082516a73b8bf7fdd0fd"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/results/mme/vispec/official-vispec-temperature-1.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "75d0344a3d627f0aa72eb32f647842760f5daf264b5ebfc80ca3c687530ea4b6"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/results/mme/vispec/official-vispec-temperature-0.0.jsonl.before-reorg.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "c2f15522e5b5a7ab9f0c240b56c236ec6f80100a5b215d714822889fef8439b1"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/results/mme/vispec/official-vispec-temperature-0.0.jsonl",
+    "image_groups": 99,
+    "rows": 99,
+    "sha256": "c28c1020f5d788feb3e8980d19c9448bc3ebb6e2e136ed58d528c31153d87480"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/qcm_ale/qwen25vl7b/mme/full_tau05.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "f29bfa3090dba4addb1ef230fadbc59a12487ac1d770488ad6d80052e3c6e63e"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/qcm_ale/qwen25vl3b/mme/full_tau05.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "dc4de4ba5ae617ef3714b718036040ed8edcbff814484f4a01c905d2b0814f48"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/qcm_ale/llava16vicuna7b/mme/full_tau05.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "34ea8955fec3c9f1e7c3eac5bbc88d1db8db594c3dd9e7b9f0087119ffd1236b"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/qcm_ale/llava16vicuna13b/mme/full_tau05.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "49169cd73656ed0bb70d3fef98d10bbd4a71ca20d2d551b5009d7b8c5b36e495"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/pld/qcm_ale/qwen25vl7b/mme/pld.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "a3cd812dc43ad2f3cf0c66ccaed662a6ad411c04670ca52b2259d240fdd3732e"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/pld/qcm_ale/qwen25vl3b/mme/pld.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "b0caf013f128c188877fb756ad1fa4da3d6c0cfdb26abd2383363642dac8e555"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/pld/qcm_ale/llava16vicuna7b/mme/pld.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "cba44be3137d929f0ad0e392c7bd8bb950da14ce9abc2fdf977a9a5c9ef7b627"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/pld/qcm_ale/llava16vicuna13b/mme/pld.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "4808d9e18d38efae9c63ac66c687eca0c46459a0f7a9e0cdcd801a23ebc24422"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/pld/ar_same_runtime/qcm_ale/qwen25vl7b/mme/pld.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "9839e0482a45c7ac143bb9d2f9605999f51169c577623d905568b0666868522d"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/pld/ar_same_runtime/qcm_ale/qwen25vl3b/mme/pld.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "8437f40a7c7c2706962b6e10a9a9b5e2115d4d9667b767c85bd7c3117020e83c"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/pld/ar_same_runtime/qcm_ale/llava16vicuna7b/mme/pld.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "b8d43dc308a082870c7fd4bb17c943d0f483cad17a8fd665994060495829f081"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/pld/ar_same_runtime/qcm_ale/llava16vicuna13b/mme/pld.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "7a7898f4cfde8907ff476949f60665af4d3e7f0b402e288603336b9e3f510b77"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/mars/qcm_ale/qwen25vl7b/mme/mars.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "9756da7292f286dc5e820b1938ed2db948054bcabc99a52ecb36e728d8c61680"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/mars/qcm_ale/qwen25vl3b/mme/mars.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "36f34493b3fa731d80909bf308ba1af9b2441d98bea5e3f56294e90dfb43617b"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/mars/qcm_ale/llava16vicuna7b/mme/mars.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "a5db4fb1c5dceb5be07d99e23b80bad9cce4d9bd7ea9cb63f448e9e1679bc15d"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_cvmspec_paper_aaai726/mars/qcm_ale/llava16vicuna13b/mme/mars.jsonl",
+    "image_groups": 99,
+    "rows": 100,
+    "sha256": "6b2c124502780b1fcb074b1543b5d7f83b2da00753fdf770871d95c8e5ce9390"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_mnv_gated_compare_3b_100/mme/mnv_gated.jsonl",
+    "image_groups": 50,
+    "rows": 100,
+    "sha256": "429046221a64d5f5cdfad282080e5b80c3299cca1773e4efed377e370d1d8795"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_mnv_gated_compare_3b_100/mme/vispec.jsonl",
+    "image_groups": 50,
+    "rows": 100,
+    "sha256": "aff58e8f04edfb50c0f3b8b1bfcc88fa9ef69a0c7f22de5a856649638d8c7312"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_mnv_gated_compare_3b_100/mme/lvspec.jsonl",
+    "image_groups": 50,
+    "rows": 100,
+    "sha256": "12c23890201b2510ee8b6770aadb11b798419c1e5af06ad7c11510dfa77050d8"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-visual_margin-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "fb431c3f25fd488f868c1d0068cfc7eb359d6b67998fed30074ad95be7f22566"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-vispec-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "f01c41b94766b16fab1215ea659f23eb7d86c8da216f824e54555a4f82ccc4e4"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-ar-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "4f92f1b29574312864a1f874fc56d022c05fef519bcf4d3931888311aaf73b5c"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-ar-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "d252fa19634bbc07d508d81ccec3f0a4f70e7a05e89363417b368245e1585ae0"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-margin-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "6a2ed08647b3ae842b70dfc6fef35847e029be177d82fa275dfbf3f6b8021b6c"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-vispec-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "7dcfa4bbf2d19e5979f55ac20065847714fe523d57a24f839edd7f8c3ba3f2cf"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-lvspec-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "4a176f11a74271c78d336a4c77b29c392a41fc0f1fda267f7701be9725d904a1"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-visual_margin-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "f703dd503d8d1e8bf54f0afbd1098abfbffd40b1e8b65ade4a791b908b01f9e3"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-vispec-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "3cd9ea990bcd97e07f2575f202ddf0d394232fd4cad16dc88f441ca30cebffea"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-visual_margin-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "00c55dfca54e436ecb3816803f0cd3528af1adcfb611eb6a73b7cd638e4f1325"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-visual_margin-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "65dfaf411551b21e386f990727fe154ad6caa7d3f545c7668e9624af6bc1f997"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-margin-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "360b068a9198360e70c3ea69acc229a3c8df1dd3a07670d6ea658daf44edebfe"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-lvspec-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "1d07de18ef4e1a5915a3d2a3256c481478ae062a88673e6ea460022c25f7a588"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-ar-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "5a7b591b0b6884f51e36a13872d084352821ba26c9e1d9b6770d40d26d6334cc"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-ar-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "0c365bd9a7308e4f968e2e3f3ba9be738d009b0d3f13c817de092fe4c53d03de"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-lvspec-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "fdeaab8eb19a6480a1f52cde85e8e13979d03dfc4a718761f9e2f1bdfd44dd31"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-vispec-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "a23fad661a471815e3ba861b0ce98639d2d26ff44ca817b15263c0c2603ea795"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-lvspec-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "d776d7495970b5b0adc1484bddcd22727afc51442e10db864db2604169817167"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-margin-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "9504ef4de776a5c5a1a6abfff0589fc38b996bd53aec2b32b71f8b919f9750eb"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/visual-margin-comparison/environment/mme-margin-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "95cedb163d2613e664e1fd3fe2bcb3eb16c3a3737635918ad494b3a241a56832"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/reference/contended-runs/mme-margin-t0-shard1/1792833560778192315/mme-margin-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "a719c8ec5395ae7681af384cbb8fcc93bac6ad3c6643df1aad7fac084bf1cf3a"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/reference/migrated-gpu1-runs/mme-ar-t0-shard1/mme-ar-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "76e06d49a3f47e929aae6c0ff96f158b6b85415bb7ff31d7d6060f41b392a000"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/reference/migrated-gpu1-runs/mme-vispec-t0-shard1/mme-vispec-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "5157c4985bfd3e07f43c87d9ab82e87fb4edb241aaea27a3763e8e1a27a7979b"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-fly-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "cf0ce03c48e321698eebd3288659b2fe99ebea46139ce66cce0a22683d69f2d5"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-vispec-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "9c53cba793bf5a932a95b68ebd169fec5269802367a8ba8d26b8ff15a5090b53"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-ar-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "1310b0bc7ecae8b08d62421d36245f78c6a00a58b71bda817b0bd7931f184af4"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-ar-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "aec89f8ffb87de8afd619ad8b4d2393823704f54f70fc2bc46367f3c53727a87"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-margin-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "02079098b09b983d140cd8f02f6024af477b2a1f1582c53cc18df88356ff01c3"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-vispec-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "d91691191ded301a74e855de5f09440080d327f62d4bea1d857bf43b854d2772"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-fly-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "5ce354d5c7750dd254d521e1f263d7c008371224dac53e1b2c5a23e40324712e"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-lvspec-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "0c4cbfa7e1b466566ffc1eb03f8aff7edc9676c192f52817a95494a6eb2fee8c"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-vispec-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "8c89d3c879d374dbe1fc206baffc8fd7c20caa53dba4100b123278f13ce4f0ec"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-margin-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "adb1ff52431bb16319178abca57e6a22592a904b5378bbbb89355e28aebe4b8a"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-lvspec-t0-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "3f6699e53e4bb2309650b9e47dd88434b204f286dde66bd5efd56382a366d5b6"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-ar-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "08e4e6d184e438371e566eb309186094ad24648a878767389c8bf976f352cbe5"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-ar-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "e55224c873f468800d2e23d6a2d19d912e3ec33d6868f15cbf1b378d7979fa99"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-fly-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "aae271e95c72ab7565a0afc90c9a88f8a8e49e388c90fd4697bb2c08c97ca5ea"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-lvspec-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "4a607acad00eda90339922b7feb9b61e1348f6c67808bd7649579e1966e7a1bf"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-vispec-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "b1977d18be6a53bd5df63d1c396debe25a0ad0a73d7d237deccb9fa32392a9b8"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-lvspec-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "6d7c271ee924657163f2d5b5d2752c8fac57dff14307a700ef2bc6c02147cc09"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-fly-t1-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "25a2f0100bedb14ca40e67162e076dec8fc0fe1e91a5752836cc6f2ea292ef18"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-margin-t0-shard1.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "1472740ec557cb588ed0c71ba24f72ae63f42a03214f9220c4c8a1fbe1855307"
+  },
+  {
+    "path": "/data/wbb/vispec-official-reproduction/dataset-metric-comparison/environment/mme-margin-t1-shard0.warmup.jsonl",
+    "image_groups": 1,
+    "rows": 3,
+    "sha256": "bc148407b5cc624e8194917cf08e6a4e24124a42df696cc0b58aecbdd2ae70af"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_smoke/mme_methods/mnv/smoke-mme-mnv-qwen25vl3b-temperature-0.0.jsonl",
+    "image_groups": 1,
+    "rows": 1,
+    "sha256": "961db0802219285e37c7267d703ce0b579c88f1f12f406c84ded841c207b0bd3"
+  },
+  {
+    "path": "/data/wbb/ViSpec/result_smoke/mme_methods/lvspec/smoke-mme-lvspec-qwen25vl3b-temperature-0.0.jsonl",
+    "image_groups": 1,
+    "rows": 1,
+    "sha256": "284f898028707e20cf0b885ea075fca1d5ce81c53076894b000b20977b85fc5e"
+  }
+]

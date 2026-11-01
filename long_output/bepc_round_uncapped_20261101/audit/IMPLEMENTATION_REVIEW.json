@@ -1,0 +1,97 @@
+{
+  "status": "pass",
+  "scope": "Independent read-only preflight implementation review; this is not a result-quality or statistical-success decision",
+  "reviewer": "/root/round_uncapped_audit",
+  "created_utc": "2026-11-01T08:29:47.318062+00:00",
+  "checks": [
+    {
+      "id": "minimal_algorithm_change",
+      "status": "pass",
+      "evidence": "Two frozen arms differ only by round_mismatch_budget=2 versus null and explicit no_round_cap=true. Both have no response cap and identical symmetric BEPC score parameters."
+    },
+    {
+      "id": "live_round_cap_removed",
+      "status": "pass",
+      "evidence": "NoRoundCapBEPC passes initialization-only round2 to NoResponseCapBEPC then sets self.round_budget=math.inf before any request forward or candidate decision. All runtime scanner accesses use this instance value."
+    },
+    {
+      "id": "no_hidden_round_gate",
+      "status": "pass",
+      "evidence": "budgeted_scan is the only operative per-round mismatch gate. ExperimentalBEPC exhausted fast path and observer retirement depend only on the already infinite response budget; they cannot activate."
+    },
+    {
+      "id": "score_and_native_decode_preserved",
+      "status": "pass",
+      "evidence": "All 26 inherited runtime source bytes equal the previous frozen manifest. The new class overrides only construction/statistics, leaving BEPC score, Target/Draft forward, native margins, EOS, branch scan, first-longest selection, KV commits and stopping code unchanged."
+    },
+    {
+      "id": "online_legal_ancestor_history",
+      "status": "pass",
+      "evidence": "Observer legal_paths covers the native tree. context(parent) uses committed history and real ancestors, not siblings or descendants; commit accepts arbitrary selected path length and contains no two-mismatch assumption."
+    },
+    {
+      "id": "tree_structural_bound",
+      "status": "pass",
+      "evidence": "cnets_ours topK_genrate first expands one Draft layer then iterates depth=3 further expansions: at most four Draft descendants plus root, and 29 selected Draft nodes plus root gives 30 Target query rows. Removing the cap does not deepen or widen the tree."
+    },
+    {
+      "id": "statistics_json_no_infinity",
+      "status": "pass",
+      "evidence": "Subclass final_stats overrides the inherited hardcoded round2 with null and explicit round_cap_enabled=false; response budget is also null. Unit lifecycle serializes stats with allow_nan=False."
+    },
+    {
+      "id": "critical_unit_tests",
+      "status": "pass",
+      "evidence": "Three CPU-only tests passed: actual inherited BEPC finite-margin gate accepts four mismatches in the new arm and only two in control; repeated commits preserve observer/lifecycle; EOS/visible boundary/first-longest and unselected branch rules; 10000 randomized independent scanner comparisons."
+    },
+    {
+      "id": "control_and_input_parity_plan",
+      "status": "pass",
+      "evidence": "Runner and validator compare control raw/visible tokens, acceptance lengths/paths and input identity with all previous dev/main controls. New paired methods use identical processed inputs and legal tree settings. No prior timing is substituted for a concurrent arm."
+    },
+    {
+      "id": "first_divergence_criterion",
+      "status": "pass",
+      "evidence": "Given identical common committed history, all paths with at most two accepted mismatches have unchanged accepted length. A first different selected path therefore must accept at least three mismatches in the new arm, even if it selects a different leaf. Validator asserts this on the first changed path."
+    },
+    {
+      "id": "generation_scoring_separation",
+      "status": "pass",
+      "evidence": "Pipeline waits for both GPU workers and checks no active GPU processes before validation/scoring; CPU official scoring is scheduled after both development and main generation."
+    },
+    {
+      "id": "historical_preservation",
+      "status": "pass",
+      "evidence": "All 232 paths in PRIOR_PRESERVATION.json independently rehashed unchanged; all 29 frozen active runtime hashes match current files. Frozen configuration and both arms reviewed before generation."
+    },
+    {
+      "id": "no_divergence_tail_validation",
+      "status": "pass",
+      "evidence": "Before launch, the validator was strengthened: if no zipped common path differs, it requires equal path-list lengths and equal raw_token_ids. Current validator source hash was already captured after this edit."
+    }
+  ],
+  "checks_passed": 13,
+  "blocking_findings": [],
+  "advisory_findings": [],
+  "preserved_prior_file_count": 232,
+  "inherited_source_count": 26,
+  "frozen_runtime_source_count": 29,
+  "source_sha256": {
+    "harness/round_uncapped_controller.py": "555d5d564555d60e3256a65f337fdd9419ad7ba7993972b64a0efa96ffc036a9",
+    "harness/run_round_uncapped.py": "ef66b6651691629453f1dddd07dd2644a564be77086196c99259ac94e8ad211b",
+    "harness/prepare_round_uncapped.py": "0cf79cc6cabfa47378197b9f711d1068101b7e260a5db9da462d539c1064c774",
+    "harness/validate_round_uncapped.py": "351070fe8e32703ef99b772115062f4044965e36411114cda6b7ddae7c336497",
+    "harness/run_round_uncapped_pipeline.py": "c41f281cdc4ea0be7aa772a85748bc655b7719b003d024fcac274190a78f4fbc",
+    "harness/uncapped_controller.py": "072df734bda294d5962170ebdf792484a8044c7eda4847040f79ccb9e02b4b8f",
+    "harness/refined_controller.py": "ea913766a7e223cc3f2fb224fb73bfafbd392401a2e374e01155b38a9f12e3b6",
+    "harness/speed_controller.py": "5de69957079f114a08b91d014147ba33be72ea90b2f8b881c9df1f1320091c9b",
+    "harness/bepc_experimental.py": "bfd8e46951c390cf08c15761d6b923262773e1456b57a36d306701ebc0b44534",
+    "harness/refined_observer.py": "bd1cffee198645238ac6c530c65e68a7faaf224a1a5e07de915c382ef8872efa",
+    "harness/speed_observer.py": "e86a61568bfe9bc00dac496abc7e5f8b14b5aa87eeff17f542838585329e97e2",
+    "tests/test_round_uncapped.py": "9d47ac4938216439df1532681ebad22ffd1dfb490deb4057c39a68c0f4724a82",
+    "EXPERIMENT_PROTOCOL.md": "5f0442f5b43b39863de5c7d90412a3e6b8631cb4db41049798b8dfd6d47441ba",
+    "configs/frozen_config.json": "f94c36d51a3f59a034d632d700cadc3d58885f662a4d32eac494d1e8b76a78e8",
+    "logs/unit_tests.log": "a5699484dbc009f758b2a59aa5a6e3d04c6167a02720204c4f15b07aeb850b43"
+  },
+  "runtime_results_status": "pending; development/main path counts, maximum accepted mismatches and parity remain to be checked on produced records"
+}

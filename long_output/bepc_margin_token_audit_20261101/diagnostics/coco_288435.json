@@ -1,0 +1,1539 @@
+{
+  "task": "coco",
+  "question_id": "288435",
+  "image_id": 288435,
+  "status": "valid",
+  "new_full_continuation_generated": false,
+  "diagnostic_only": true,
+  "first_path_divergence_round": 1,
+  "input_tensor_sha256": "b83a32781878e780c0fe96cacacfb115af3359f8d9cab898df5e0dae5cb933ff",
+  "image_sha256": "91d45b62059a1941375ce17723287a33bb0a9ce66bf41b452a805aaea0938d12",
+  "prompt_text": "Please provide a detailed description of the given image in about 100 to 160 words. Describe visible objects, attributes, actions, quantities, and spatial relations, and distinguish uncertainty from visible facts.",
+  "historical_BEPC_path_parity": true,
+  "prior_common_path_rounds_verified": 1,
+  "historical_Margin_same_tree_shadow_parity": true,
+  "committed_generated_tokens": 5,
+  "committed_generated_token_ids": [
+    785,
+    2168,
+    40155,
+    264,
+    32976
+  ],
+  "committed_prefix_text": "The image captures a vibrant",
+  "historical_bepc_path": {
+    "round": 1,
+    "row": 12,
+    "accepted_draft": 3,
+    "mismatches": 2,
+    "response_mismatches_before": 1,
+    "nodes": [
+      0,
+      2,
+      10,
+      25
+    ],
+    "tokens": [
+      92644,
+      3283,
+      6109,
+      11
+    ]
+  },
+  "historical_margin_path": {
+    "round": 1,
+    "row": 0,
+    "accepted_draft": 2,
+    "mismatches": 0,
+    "response_mismatches_before": 1,
+    "nodes": [
+      0,
+      1,
+      8
+    ],
+    "tokens": [
+      92644,
+      6109,
+      304
+    ]
+  },
+  "replayed_bepc_path": {
+    "round": 1,
+    "row": 12,
+    "accepted_draft": 3,
+    "mismatches": 2,
+    "response_mismatches_before": 1,
+    "nodes": [
+      0,
+      2,
+      10,
+      25
+    ],
+    "tokens": [
+      92644,
+      3283,
+      6109,
+      11
+    ]
+  },
+  "shadow_margin_path": {
+    "round": 1,
+    "row": 0,
+    "accepted_draft": 2,
+    "mismatches": 0,
+    "response_mismatches_before": 1,
+    "nodes": [
+      0,
+      1,
+      8
+    ],
+    "tokens": [
+      92644,
+      6109,
+      304
+    ]
+  },
+  "candidate_rows": [
+    [
+      92644,
+      6109,
+      304,
+      -1,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      2337,
+      -1,
+      -1
+    ],
+    [
+      92644,
+      8592,
+      6109,
+      -1,
+      -1
+    ],
+    [
+      92644,
+      15662,
+      6109,
+      -1,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      11,
+      17006,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      11,
+      16445,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      11,
+      8885,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      11,
+      22660,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      518,
+      264,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      518,
+      279,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      518,
+      458,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      315,
+      264,
+      -1
+    ],
+    [
+      92644,
+      3283,
+      6109,
+      11,
+      -1
+    ],
+    [
+      92644,
+      6109,
+      11,
+      4363,
+      304
+    ],
+    [
+      92644,
+      6109,
+      518,
+      3729,
+      11
+    ],
+    [
+      92644,
+      6109,
+      11,
+      448,
+      264
+    ],
+    [
+      92644,
+      6109,
+      11,
+      74548,
+      553
+    ]
+  ],
+  "retrieve_rows": [
+    [
+      0,
+      1,
+      8,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      9,
+      -1,
+      -1
+    ],
+    [
+      0,
+      3,
+      11,
+      -1,
+      -1
+    ],
+    [
+      0,
+      4,
+      12,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      14,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      17,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      18,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      19,
+      -1
+    ],
+    [
+      0,
+      1,
+      6,
+      21,
+      -1
+    ],
+    [
+      0,
+      1,
+      6,
+      22,
+      -1
+    ],
+    [
+      0,
+      1,
+      6,
+      23,
+      -1
+    ],
+    [
+      0,
+      1,
+      7,
+      24,
+      -1
+    ],
+    [
+      0,
+      2,
+      10,
+      25,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      13,
+      26
+    ],
+    [
+      0,
+      1,
+      6,
+      20,
+      27
+    ],
+    [
+      0,
+      1,
+      5,
+      15,
+      28
+    ],
+    [
+      0,
+      1,
+      5,
+      16,
+      29
+    ]
+  ],
+  "target_top1_rows": [
+    [
+      6109,
+      304,
+      458,
+      279
+    ],
+    [
+      6109,
+      304,
+      1128,
+      279
+    ],
+    [
+      6109,
+      6109,
+      304,
+      279
+    ],
+    [
+      6109,
+      6109,
+      13,
+      279
+    ],
+    [
+      6109,
+      304,
+      4363,
+      304
+    ],
+    [
+      6109,
+      304,
+      4363,
+      264
+    ],
+    [
+      6109,
+      304,
+      4363,
+      291
+    ],
+    [
+      6109,
+      304,
+      4363,
+      304
+    ],
+    [
+      6109,
+      304,
+      264,
+      89156
+    ],
+    [
+      6109,
+      304,
+      264,
+      19246
+    ],
+    [
+      6109,
+      304,
+      264,
+      15662
+    ],
+    [
+      6109,
+      304,
+      264,
+      3283
+    ],
+    [
+      6109,
+      6109,
+      13,
+      4363
+    ],
+    [
+      6109,
+      304,
+      4363,
+      304
+    ],
+    [
+      6109,
+      304,
+      264,
+      11
+    ],
+    [
+      6109,
+      304,
+      4363,
+      264
+    ],
+    [
+      6109,
+      304,
+      4363,
+      553
+    ]
+  ],
+  "native_margin_rows": [
+    [
+      0.0,
+      0.0,
+      18.875,
+      15.84375
+    ],
+    [
+      0.0,
+      9.375,
+      15.59375,
+      15.84375
+    ],
+    [
+      2.0,
+      0.0,
+      12.875,
+      15.84375
+    ],
+    [
+      0.25,
+      0.0,
+      12.8125,
+      15.84375
+    ],
+    [
+      0.0,
+      2.75,
+      10.125,
+      16.75
+    ],
+    [
+      0.0,
+      2.75,
+      2.625,
+      18.8125
+    ],
+    [
+      0.0,
+      2.75,
+      5.5,
+      24.3125
+    ],
+    [
+      0.0,
+      2.75,
+      4.25,
+      17.3125
+    ],
+    [
+      0.0,
+      1.625,
+      0.0,
+      13.125
+    ],
+    [
+      0.0,
+      1.625,
+      3.0,
+      13.21875
+    ],
+    [
+      0.0,
+      1.625,
+      0.875,
+      17.71875
+    ],
+    [
+      0.0,
+      2.125,
+      0.0,
+      14.125
+    ],
+    [
+      1.375,
+      0.0,
+      0.125,
+      15.96875
+    ],
+    [
+      0.0,
+      2.75,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.625,
+      8.625,
+      0.0
+    ],
+    [
+      0.0,
+      2.75,
+      3.75,
+      0.0
+    ],
+    [
+      0.0,
+      2.75,
+      2.875,
+      0.0
+    ]
+  ],
+  "shadow_margin_scan_rows": [
+    {
+      "row": 0,
+      "accepted_draft": 2,
+      "mismatches": 0
+    },
+    {
+      "row": 1,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 2,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 3,
+      "accepted_draft": 2,
+      "mismatches": 1
+    },
+    {
+      "row": 4,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 5,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 6,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 7,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 8,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 9,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 10,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 11,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 12,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 13,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 14,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 15,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 16,
+      "accepted_draft": 1,
+      "mismatches": 0
+    }
+  ],
+  "candidate_diagnostics": [
+    {
+      "parent": 0,
+      "target_token": 6109,
+      "draft_token": 3283,
+      "target_text": " scene",
+      "draft_text": " city",
+      "g": 1.375,
+      "m_U": -2.954836845397949,
+      "m_P": 3.355783462524414,
+      "m_R": 0.9846795201301575,
+      "delta": 0.5,
+      "score": 0.875,
+      "gate": true,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": true,
+      "margin_accept": false,
+      "bepc_accept": true,
+      "decision_relation": "rescue",
+      "production_bepc_visited": true,
+      "production_bepc_decision": true,
+      "production_reason": "bepc_accept",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": true,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          12,
+          1
+        ]
+      ],
+      "parent_absolute_position": 483,
+      "candidate_absolute_position": 484,
+      "candidate_generated_position": 6,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "336e0a28958e32d7c9525186d99b520146409972e591701481067bd0eaa3ad26",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        40155,
+        264,
+        32976,
+        92644
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image captures a vibrant nighttime"
+    },
+    {
+      "parent": 0,
+      "target_token": 6109,
+      "draft_token": 8592,
+      "target_text": " scene",
+      "draft_text": " street",
+      "g": 2.0,
+      "m_U": -2.763199806213379,
+      "m_P": 3.6584839820861816,
+      "m_R": 1.1199390888214111,
+      "delta": 0.5,
+      "score": 1.5,
+      "gate": true,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": true,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          2,
+          1
+        ]
+      ],
+      "parent_absolute_position": 483,
+      "candidate_absolute_position": 484,
+      "candidate_generated_position": 6,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "336e0a28958e32d7c9525186d99b520146409972e591701481067bd0eaa3ad26",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        40155,
+        264,
+        32976,
+        92644
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image captures a vibrant nighttime"
+    },
+    {
+      "parent": 0,
+      "target_token": 6109,
+      "draft_token": 15662,
+      "target_text": " scene",
+      "draft_text": " urban",
+      "g": 0.25,
+      "m_U": -0.9761656522750854,
+      "m_P": 2.310906410217285,
+      "m_R": -1.0817241668701172,
+      "delta": 0.4880828261375427,
+      "score": -0.23808282613754272,
+      "gate": true,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": true,
+      "margin_accept": true,
+      "bepc_accept": true,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": true,
+      "production_reason": "bound_accept",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          3,
+          1
+        ]
+      ],
+      "parent_absolute_position": 483,
+      "candidate_absolute_position": 484,
+      "candidate_generated_position": 6,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "336e0a28958e32d7c9525186d99b520146409972e591701481067bd0eaa3ad26",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        40155,
+        264,
+        32976,
+        92644
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image captures a vibrant nighttime"
+    },
+    {
+      "parent": 1,
+      "target_token": 304,
+      "draft_token": 11,
+      "target_text": " in",
+      "draft_text": ",",
+      "g": 2.75,
+      "m_U": 3.467268943786621,
+      "m_P": -5.319087028503418,
+      "m_R": 4.7230353355407715,
+      "delta": -0.5,
+      "score": 3.25,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          16,
+          2
+        ]
+      ],
+      "parent_absolute_position": 484,
+      "candidate_absolute_position": 485,
+      "candidate_generated_position": 7,
+      "parent_path": [
+        0,
+        1
+      ],
+      "legal_prefix_sha256": "070a371fe0dbcbd8a1a82930fc9b75daf8db1bebfc8c60b58c0ee13ed623adb3",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        40155,
+        264,
+        32976,
+        92644,
+        6109
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image captures a vibrant nighttime scene"
+    },
+    {
+      "parent": 1,
+      "target_token": 304,
+      "draft_token": 315,
+      "target_text": " in",
+      "draft_text": " of",
+      "g": 2.125,
+      "m_U": 3.134228467941284,
+      "m_P": -1.8870927095413208,
+      "m_R": 0.8634235262870789,
+      "delta": -0.5,
+      "score": 2.625,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          11,
+          2
+        ]
+      ],
+      "parent_absolute_position": 484,
+      "candidate_absolute_position": 485,
+      "candidate_generated_position": 7,
+      "parent_path": [
+        0,
+        1
+      ],
+      "legal_prefix_sha256": "070a371fe0dbcbd8a1a82930fc9b75daf8db1bebfc8c60b58c0ee13ed623adb3",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        40155,
+        264,
+        32976,
+        92644,
+        6109
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image captures a vibrant nighttime scene"
+    },
+    {
+      "parent": 1,
+      "target_token": 304,
+      "draft_token": 518,
+      "target_text": " in",
+      "draft_text": " at",
+      "g": 1.625,
+      "m_U": 1.8814916610717773,
+      "m_P": -0.27853959798812866,
+      "m_R": 0.14146503806114197,
+      "delta": -0.13926979899406433,
+      "score": 1.7642698287963867,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          14,
+          2
+        ]
+      ],
+      "parent_absolute_position": 484,
+      "candidate_absolute_position": 485,
+      "candidate_generated_position": 7,
+      "parent_path": [
+        0,
+        1
+      ],
+      "legal_prefix_sha256": "070a371fe0dbcbd8a1a82930fc9b75daf8db1bebfc8c60b58c0ee13ed623adb3",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        40155,
+        264,
+        32976,
+        92644,
+        6109
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image captures a vibrant nighttime scene"
+    },
+    {
+      "parent": 1,
+      "target_token": 304,
+      "draft_token": 2337,
+      "target_text": " in",
+      "draft_text": " during",
+      "g": 9.375,
+      "m_U": 4.064678192138672,
+      "m_P": 0.07063378393650055,
+      "m_R": 5.331377983093262,
+      "delta": 0.0,
+      "score": 9.375,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          1,
+          2
+        ]
+      ],
+      "parent_absolute_position": 484,
+      "candidate_absolute_position": 485,
+      "candidate_generated_position": 7,
+      "parent_path": [
+        0,
+        1
+      ],
+      "legal_prefix_sha256": "070a371fe0dbcbd8a1a82930fc9b75daf8db1bebfc8c60b58c0ee13ed623adb3",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        40155,
+        264,
+        32976,
+        92644,
+        6109
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image captures a vibrant nighttime scene"
+    },
+    {
+      "parent": 10,
+      "target_token": 13,
+      "draft_token": 11,
+      "target_text": ".",
+      "draft_text": ",",
+      "g": 0.125,
+      "m_U": 0.5619847774505615,
+      "m_P": -3.605185031890869,
+      "m_R": 3.243109703063965,
+      "delta": -0.28099238872528076,
+      "score": 0.40599238872528076,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": true,
+      "bepc_accept": true,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": true,
+      "production_reason": "bound_accept",
+      "shadow_margin_visited": false,
+      "selected_bepc_edge": true,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          12,
+          3
+        ]
+      ],
+      "parent_absolute_position": 485,
+      "candidate_absolute_position": 486,
+      "candidate_generated_position": 8,
+      "parent_path": [
+        0,
+        2,
+        10
+      ],
+      "legal_prefix_sha256": "263c8debe85e5f0a362265afd8000e059aecfdd3c4140469a055b3b4e232e272",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        40155,
+        264,
+        32976,
+        92644,
+        3283,
+        6109
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image captures a vibrant nighttime city scene"
+    }
+  ],
+  "production_bepc_visit_count": 8,
+  "shadow_margin_visit_count": 7,
+  "supplemental_full_scores": 8,
+  "stopped_before_divergent_tree_commit": true,
+  "used_future_continuation": false,
+  "new_label_generated": false,
+  "elapsed_seconds": 0.4064859291538596,
+  "model_calls": {
+    "vision": 1,
+    "target": 3,
+    "draft": 8
+  },
+  "extra_diagnostic_target_forwards": 0,
+  "loaded_original_sources_unchanged": true
+}

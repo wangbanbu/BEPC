@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "paired_questions": 300,
+  "same_inputs_verified": 300,
+  "path_flatten_verified_requests": 600,
+  "all_sources_unchanged": 14,
+  "alignment": "difflib.SequenceMatcher(autojunk=False), deterministic alignment, NOT minimum edit distance",
+  "attribution": "Output differences and chunk paths only; gate attribution requires same-prefix diagnostics.",
+  "tasks": {
+    "scienceqa": {
+      "n": 100,
+      "text_changed": 87,
+      "tokens_changed": 87,
+      "selection_path_changed": 87,
+      "bepc_cap_reached": 0,
+      "margin_cap_reached": 0,
+      "surface_answer_changed": 4,
+      "normalized_answer_changed": 4,
+      "improved": 2,
+      "degraded": 1,
+      "score_tie": 97,
+      "changed_answer_first_divergence_in_body": 4
+    },
+    "textvqa": {
+      "n": 100,
+      "text_changed": 91,
+      "tokens_changed": 91,
+      "selection_path_changed": 91,
+      "bepc_cap_reached": 0,
+      "margin_cap_reached": 0,
+      "surface_answer_changed": 19,
+      "normalized_answer_changed": 17,
+      "improved": 6,
+      "degraded": 5,
+      "score_tie": 89,
+      "changed_answer_first_divergence_in_body": 19
+    },
+    "coco": {
+      "n": 100,
+      "text_changed": 98,
+      "tokens_changed": 98,
+      "selection_path_changed": 98,
+      "bepc_cap_reached": 0,
+      "margin_cap_reached": 0
+    }
+  }
+}

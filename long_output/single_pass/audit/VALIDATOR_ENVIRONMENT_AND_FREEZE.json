@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-11-01T02:48:16.264963+00:00",
+  "initial_validation": {
+    "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/audit/PREFLIGHT_VALIDATION.json",
+    "sha256": "a4a4e3d3f661f5e9d2825da8b26ea4a55f77c66eb3539978da19b2e65b3d55c7",
+    "status": "No-Go",
+    "environment": {
+      "executable": "/home/wbb/miniconda3/bin/python",
+      "python": "3.13.11",
+      "pillow": "12.3.0"
+    },
+    "reason": "decoded RGB hash differs from the sealed Pillow12.0.0 preprocessing environment; original image byte hashes unchanged"
+  },
+  "authoritative_validation": {
+    "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/audit/PREFLIGHT_SPEC_VALIDATION.json",
+    "sha256": "b35eb62618d6e40c858063cfa199b77ee538e23589c3c0ea141eac71fd2dafe2",
+    "status": "pass",
+    "environment": {
+      "executable": "/data/wbb/miniconda3/envs/spec/bin/python",
+      "python": "3.10.19",
+      "pillow": "12.0.0"
+    }
+  },
+  "resolution": "Run the independent audit in the sealed inference/preparation spec environment. No image, input, gold, original result, or runtime file was modified.",
+  "validator_sha256": "0b4b5f3f2d11db5d3a830a1dc5e3f879a5d22eb7865e62580abe9f6e4380c486",
+  "test_sha256": "ba936da56b871c4ef810e52786264f8b242089a6cf91ced22c44a0bdb62a9244",
+  "validator_tests": {
+    "passed": 7,
+    "fixture_only": true
+  },
+  "source_inventory_sha256": "5ea895664b781975a14f5a4d64cd0852729182550a7ae985af8cf665f1dffb42"
+}

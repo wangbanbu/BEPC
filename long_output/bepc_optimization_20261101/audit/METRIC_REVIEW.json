@@ -1,0 +1,128 @@
+{
+  "status": "pass_with_stated_limits",
+  "review_stage": "development complete; main in progress; no final ranking reviewed",
+  "metric_freeze_sources_unchanged": {
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/harness/evaluate_experiment.py": true,
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/harness/analyze_experiment.py": true,
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/evaluate_long.py": true,
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/analyze_results.py": true,
+    "/data/wbb/vispec-clean-benchmark-20261031/harness/evaluate_tasks.py": true,
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/evaluate_long.py": true
+  },
+  "development_score_seals": [
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/coco/bepc_fast/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/coco/bepc_original/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/coco/bepc_rescue0625/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/coco/strict_shared/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/scienceqa/bepc_fast/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/scienceqa/bepc_original/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/scienceqa/bepc_rescue0625/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/scienceqa/strict_shared/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/textvqa/bepc_fast/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/textvqa/bepc_original/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/textvqa/bepc_rescue0625/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/metrics/development/textvqa/strict_shared/SCORING_SEAL.json",
+      "checks": {
+        "aggregate_sha256": true,
+        "per_question_sha256": true,
+        "score_provenance_sha256": true
+      }
+    }
+  ],
+  "prior_files_unchanged": true,
+  "prior_file_count": 137,
+  "parser_and_statistical_self_tests": "pass",
+  "gpu_or_metric_inference_executed_by_reviewer": false,
+  "conclusions": [
+    "whole ordered labeled corpus and raw output equality required for score reuse",
+    "new SPICE64 resource-only replacement; same scorer options",
+    "paired bootstrap uses unique physical image groups and common draws",
+    "one-sided noninferiority is exploratory automatic-proxy check; not human quality guarantee"
+  ],
+  "required_final_limitations": [
+    "fixed reference document frequency when bootstrapping stored CIDEr image scores",
+    "zero-discordance bootstrap degeneracy; cannot bound unseen rare regressions",
+    "one timed run cannot quantify repeated-run timing noise",
+    "development CPU scoring overlaps main GPU generation and may affect host contention",
+    "old data reused; no independent image generalization claim",
+    "official answer score does not evaluate reasoning explanations; caption metrics do not cover all facts or omissions"
+  ]
+}

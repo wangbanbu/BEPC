@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "artifacts_sha256": {
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/FULL_EXPERIMENT_REPORT.md": "0a48d1e99f9473d857aeae0b9a8ea82421bd7fab1cf9648f00768a33275f9e28",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/BENCHMARK_SUMMARY.csv": "5668c135714108268bfdb53b95cdceda517183904652b0df4f5305c71afb6c28",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/PAIRED_COMPARISONS.csv": "2cf6d54843e2bce856824a709fc41e0594b093d77ae0be917e320a7333937a28",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/HISTORICAL_PREVIOUS_SUMMARY.csv": "c52004a9fe9781ca9ff78fc6600d8b01d4bbe3ac18b272a6377c4370738a8b52",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/BENCHMARK_PERFORMANCE.pdf": "abaeabbb8c47b0673958d633f68220fea96862c5a68367bfa0daa611527dfbb2",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/BENCHMARK_QUALITY.pdf": "2c31a0943940e958804e5ab26aa86fcc3be94d7edb4b468da767d9eb024a445d",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/audit/STATISTICAL_ANALYSIS.json": "ad9457360a30b2f1809806b010951a4c6772a0fe0dc7d8592d069c259050e276"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "status": "pass",
+  "scope": "Independent source, raw-request, input, historical-control, resource and intervention checks; no metric execution",
+  "created_utc": "2026-11-01T08:47:54.790709+00:00",
+  "historical_control_exact": 360,
+  "prior_files_unchanged": 232,
+  "frozen_runtime_sources": 29,
+  "checked_image_files": 360,
+  "counts": {
+    "development": {
+      "scienceqa": {
+        "records": 40,
+        "control_exact": 20,
+        "counts": {
+          "changed_text": 1,
+          "over2responses": 1,
+          "first_divergences": 1,
+          "first_divergence_longer": 1
+        },
+        "no_cap_round_mismatch_histogram": {
+          "1": 184,
+          "0": 514,
+          "2": 35,
+          "3": 2
+        }
+      },
+      "coco": {
+        "records": 40,
+        "control_exact": 20,
+        "counts": {
+          "changed_text": 7,
+          "over2responses": 7,
+          "first_divergences": 7,
+          "first_divergence_longer": 6,
+          "first_divergence_same_length": 1
+        },
+        "no_cap_round_mismatch_histogram": {
+          "1": 326,
+          "0": 446,
+          "2": 69,
+          "3": 9
+        }
+      },
+      "textvqa": {
+        "records": 40,
+        "control_exact": 20,
+        "counts": {
+          "changed_text": 3,
+          "over2responses": 3,
+          "first_divergences": 3,
+          "first_divergence_longer": 2,
+          "first_divergence_same_length": 1
+        },
+        "no_cap_round_mismatch_histogram": {
+          "0": 549,
+          "2": 49,
+          "1": 184,
+          "3": 4
+        }
+      }
+    },
+    "main": {
+      "scienceqa": {
+        "records": 200,
+        "control_exact": 100,
+        "counts": {
+          "changed_text": 6,
+          "over2responses": 6,
+          "first_divergences": 6,
+          "first_divergence_longer": 6
+        },
+        "no_cap_round_mismatch_histogram": {
+          "1": 746,
+          "0": 2744,
+          "2": 122,
+          "3": 6
+        }
+      },
+      "coco": {
+        "records": 200,
+        "control_exact": 100,
+        "counts": {
+          "changed_text": 40,
+          "over2responses": 40,
+          "first_divergences": 40,
+          "first_divergence_longer": 25,
+          "first_divergence_same_length": 15
+        },
+        "no_cap_round_mismatch_histogram": {
+          "0": 2448,
+          "2": 475,
+          "1": 1710,
+          "3": 50,
+          "4": 4
+        }
+      },
+      "textvqa": {
+        "records": 200,
+        "control_exact": 100,
+        "counts": {
+          "changed_text": 30,
+          "over2responses": 30,
+          "first_divergences": 30,
+          "first_divergence_longer": 21,
+          "first_divergence_same_length": 9
+        },
+        "no_cap_round_mismatch_histogram": {
+          "0": 2215,
+          "1": 903,
+          "2": 219,
+          "3": 35
+        }
+      }
+    }
+  },
+  "request_sha256": {
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/development/development_scienceqa_shard0.jsonl": "b3c39b943de0232324299a34f865c4db6a9bd061fe5399292a588b1dfaeecefe",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/development/development_scienceqa_shard1.jsonl": "483b2abfc6ee3bde6397abf99bc6345c8378afa2ed7931fc25e349228b1a54a7",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/development/development_coco_shard0.jsonl": "6850e0d3687677d522244098464f5bd80cfa82eaafb21675ff180d91487daa7d",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/development/development_coco_shard1.jsonl": "6df98e8bdf62ff341ba8a14b45d0a1f2099d53f786a0110fe425cbbe9932fded",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/development/development_textvqa_shard0.jsonl": "1d376131663d32cb971247d8e19a35099f24ff8350d6ebde7bea1c0c2cad7ce1",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/development/development_textvqa_shard1.jsonl": "1447e33da7bd8513949097dd74f3d1075dfb2b75c2e71a3ff4af8c39fac373b7",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/main/main_scienceqa_shard0.jsonl": "9fd487a1ed2955e25c838b87fdc7dee32cbea1877444d9a89fe9c54f1881e8a1",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/main/main_scienceqa_shard1.jsonl": "b3402ab5e71308837cd8efc3b66881dbe4474a7834517900f39047de4b293b9f",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/main/main_coco_shard0.jsonl": "fe6d6471b97e99342aee3abdb155a27aa44732b0fee266d41d80f4e4f92849ce",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/main/main_coco_shard1.jsonl": "fcd2703583807f4e39cf2aa34b2e9f446c21ef8ee90a99efcdf882019f4a2087",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/main/main_textvqa_shard0.jsonl": "99ac07f06eed03f74e7be4858d58d3b0cd7c737f55065f4e3afd2477ba273792",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/results/main/main_textvqa_shard1.jsonl": "07ddaac18be2d27291aa4175e729ec29f5ad0bcbd316cc30a0bf2663c3e5ec45"
+  },
+  "metric_implementation_sources": 6
+}

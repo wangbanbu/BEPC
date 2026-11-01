@@ -1,0 +1,11 @@
+{
+  "primary_comparisons": [
+    "bepc_fast - bepc_original",
+    "bepc_rescue0625 - bepc_fast",
+    "bepc_rescue0625 - strict_shared"
+  ],
+  "additional_contextual_comparison": "bepc_original - strict_shared",
+  "reason": "Protocol already states original BEPC and rescue against Strict; include this baseline contrast in same Holm family for conservative correction. No parameter selection.",
+  "before_new_quality_scoring": true,
+  "all_four_reported_without_selection": true
+}

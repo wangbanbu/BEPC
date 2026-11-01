@@ -1,0 +1,1435 @@
+{
+  "task": "textvqa",
+  "question_id": "37336",
+  "image_id": "bc902e477f5afbd2",
+  "status": "valid",
+  "new_full_continuation_generated": false,
+  "diagnostic_only": true,
+  "first_path_divergence_round": 10,
+  "input_tensor_sha256": "8c672200f146b5e2c6cac2649989a04f00aac577cb3af7e8757b50c08e3eba7a",
+  "image_sha256": "d4294971a133c810edd69fd66d0aa4ea37c32eff09325164f925c0c895e51f1b",
+  "prompt_text": "what caffeinated drink is advertised on the sign in the middle of the wall?\n\nProvide a detailed explanation of about 100 to 160 words, using the image and the question to support your answer. Do not invent details that are not visible or supported by the question. End with exactly one final line in the format \"Final answer: <answer>\", replacing <answer> with a single word or short phrase. Put that final answer on a separate line, with no text after it.",
+  "historical_BEPC_path_parity": true,
+  "prior_common_path_rounds_verified": 10,
+  "historical_Margin_same_tree_shadow_parity": true,
+  "committed_generated_tokens": 44,
+  "committed_generated_token_ids": [
+    785,
+    2168,
+    4933,
+    264,
+    10799,
+    8056,
+    448,
+    5257,
+    10799,
+    27746,
+    7096,
+    323,
+    16720,
+    13,
+    576,
+    1841,
+    304,
+    279,
+    6149,
+    315,
+    279,
+    7002,
+    9355,
+    7690,
+    4909,
+    330,
+    82280,
+    8958,
+    1096,
+    14807,
+    429,
+    279,
+    6028,
+    5244,
+    315,
+    279,
+    32689,
+    374,
+    389,
+    10799,
+    11,
+    892,
+    374,
+    279
+  ],
+  "committed_prefix_text": "The image shows a coffee station with various coffee-making equipment and supplies. The sign in the middle of the wall clearly advertises \"Coffee!\" This indicates that the primary focus of the advertisement is on coffee, which is the",
+  "historical_bepc_path": {
+    "round": 10,
+    "row": 3,
+    "accepted_draft": 1,
+    "mismatches": 0,
+    "response_mismatches_before": 4,
+    "nodes": [
+      0,
+      3
+    ],
+    "tokens": [
+      1429,
+      4185
+    ]
+  },
+  "historical_margin_path": {
+    "round": 10,
+    "row": 3,
+    "accepted_draft": 2,
+    "mismatches": 1,
+    "response_mismatches_before": 4,
+    "nodes": [
+      0,
+      3,
+      9
+    ],
+    "tokens": [
+      1429,
+      4185,
+      38570
+    ]
+  },
+  "replayed_bepc_path": {
+    "round": 10,
+    "row": 3,
+    "accepted_draft": 1,
+    "mismatches": 0,
+    "response_mismatches_before": 4,
+    "nodes": [
+      0,
+      3
+    ],
+    "tokens": [
+      1429,
+      4185
+    ]
+  },
+  "shadow_margin_path": {
+    "round": 10,
+    "row": 3,
+    "accepted_draft": 2,
+    "mismatches": 1,
+    "response_mismatches_before": 4,
+    "nodes": [
+      0,
+      3,
+      9
+    ],
+    "tokens": [
+      1429,
+      4185,
+      38570
+    ]
+  },
+  "candidate_rows": [
+    [
+      1429,
+      16626,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      19684,
+      -1,
+      -1
+    ],
+    [
+      1429,
+      48650,
+      7027,
+      -1,
+      -1
+    ],
+    [
+      1429,
+      4185,
+      38570,
+      -1,
+      -1
+    ],
+    [
+      1429,
+      4185,
+      48650,
+      -1,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      48650,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      42350,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      323,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      943,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      20987,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      1985,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      657,
+      7027,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      657,
+      48650,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      657,
+      38570,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      657,
+      323,
+      -1
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      7027,
+      304
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      7027,
+      13
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      7027,
+      498
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      7027,
+      2500
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      7027,
+      429
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      7027,
+      1660
+    ],
+    [
+      1429,
+      38570,
+      15479,
+      38570,
+      15479
+    ]
+  ],
+  "retrieve_rows": [
+    [
+      0,
+      4,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      7,
+      -1,
+      -1
+    ],
+    [
+      0,
+      2,
+      8,
+      -1,
+      -1
+    ],
+    [
+      0,
+      3,
+      9,
+      -1,
+      -1
+    ],
+    [
+      0,
+      3,
+      10,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      12,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      13,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      15,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      16,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      17,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      18,
+      -1
+    ],
+    [
+      0,
+      1,
+      6,
+      19,
+      -1
+    ],
+    [
+      0,
+      1,
+      6,
+      20,
+      -1
+    ],
+    [
+      0,
+      1,
+      6,
+      21,
+      -1
+    ],
+    [
+      0,
+      1,
+      6,
+      22,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      11,
+      23
+    ],
+    [
+      0,
+      1,
+      5,
+      11,
+      24
+    ],
+    [
+      0,
+      1,
+      5,
+      11,
+      25
+    ],
+    [
+      0,
+      1,
+      5,
+      11,
+      26
+    ],
+    [
+      0,
+      1,
+      5,
+      11,
+      27
+    ],
+    [
+      0,
+      1,
+      5,
+      11,
+      28
+    ],
+    [
+      0,
+      1,
+      5,
+      14,
+      29
+    ]
+  ],
+  "target_top1_rows": [
+    [
+      4185,
+      25983,
+      7027,
+      7027
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      7027
+    ],
+    [
+      4185,
+      40847,
+      11136,
+      7027
+    ],
+    [
+      4185,
+      323,
+      15479,
+      7027
+    ],
+    [
+      4185,
+      323,
+      92771,
+      7027
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      7027
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      5411
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      315
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      7027
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      15479
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      5411
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      11136
+    ],
+    [
+      4185,
+      15479,
+      7027,
+      15479
+    ]
+  ],
+  "native_margin_rows": [
+    [
+      2.875,
+      13.40625,
+      18.3125,
+      18.3125
+    ],
+    [
+      2.25,
+      28.5,
+      14.46875,
+      18.3125
+    ],
+    [
+      5.8125,
+      12.90625,
+      12.9375,
+      18.3125
+    ],
+    [
+      0.0,
+      0.625,
+      33.5625,
+      18.3125
+    ],
+    [
+      0.0,
+      1.625,
+      15.8125,
+      18.3125
+    ],
+    [
+      2.25,
+      0.0,
+      10.25,
+      10.75
+    ],
+    [
+      2.25,
+      0.0,
+      4.75,
+      13.0
+    ],
+    [
+      2.25,
+      0.0,
+      4.625,
+      16.5625
+    ],
+    [
+      2.25,
+      0.0,
+      7.5,
+      17.75
+    ],
+    [
+      2.25,
+      0.0,
+      7.75,
+      14.1875
+    ],
+    [
+      2.25,
+      0.0,
+      8.875,
+      14.5625
+    ],
+    [
+      2.25,
+      13.375,
+      0.0,
+      13.6875
+    ],
+    [
+      2.25,
+      13.375,
+      11.0,
+      11.1875
+    ],
+    [
+      2.25,
+      13.375,
+      12.9375,
+      23.53125
+    ],
+    [
+      2.25,
+      13.375,
+      5.75,
+      15.796875
+    ],
+    [
+      2.25,
+      0.0,
+      0.0,
+      2.375
+    ],
+    [
+      2.25,
+      0.0,
+      0.0,
+      5.625
+    ],
+    [
+      2.25,
+      0.0,
+      0.0,
+      6.5
+    ],
+    [
+      2.25,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      2.25,
+      0.0,
+      0.0,
+      3.875
+    ],
+    [
+      2.25,
+      0.0,
+      0.0,
+      3.875
+    ],
+    [
+      2.25,
+      0.0,
+      12.125,
+      0.0
+    ]
+  ],
+  "shadow_margin_scan_rows": [
+    {
+      "row": 0,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 1,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 2,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 3,
+      "accepted_draft": 2,
+      "mismatches": 1
+    },
+    {
+      "row": 4,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 5,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 6,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 7,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 8,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 9,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 10,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 11,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 12,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 13,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 14,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 15,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 16,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 17,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 18,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 19,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 20,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 21,
+      "accepted_draft": 0,
+      "mismatches": 0
+    }
+  ],
+  "candidate_diagnostics": [
+    {
+      "parent": 0,
+      "target_token": 4185,
+      "draft_token": 16626,
+      "target_text": " common",
+      "draft_text": " commonly",
+      "g": 2.875,
+      "m_U": -0.025910675525665283,
+      "m_P": 0.07051651179790497,
+      "m_R": 2.80086612701416,
+      "delta": 0.012955337762832642,
+      "score": 2.8620445728302,
+      "gate": true,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": true,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "parent_absolute_position": 1165,
+      "candidate_absolute_position": 1166,
+      "candidate_generated_position": 45,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "4967b1569633909489bb4f0a046028db5a7f6ae256a0edcf90d0abe3facd1925",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        10799,
+        8056,
+        448,
+        5257,
+        10799,
+        27746,
+        7096,
+        323,
+        16720,
+        13,
+        576,
+        1841,
+        304,
+        279,
+        6149,
+        315,
+        279,
+        7002,
+        9355,
+        7690,
+        4909,
+        330,
+        82280,
+        8958,
+        1096,
+        14807,
+        429,
+        279,
+        6028,
+        5244,
+        315,
+        279,
+        32689,
+        374,
+        389,
+        10799,
+        11,
+        892,
+        374,
+        279,
+        1429
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a coffee station with various coffee-making equipment and supplies. The sign in the middle of the wall clearly advertises \"Coffee!\" This indicates that the primary focus of the advertisement is on coffee, which is the most"
+    },
+    {
+      "parent": 0,
+      "target_token": 4185,
+      "draft_token": 38570,
+      "target_text": " common",
+      "draft_text": " caffe",
+      "g": 2.25,
+      "m_U": -0.7547637224197388,
+      "m_P": -4.428414344787598,
+      "m_R": 7.503429889678955,
+      "delta": 0.0,
+      "score": 2.25,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          21,
+          1
+        ]
+      ],
+      "parent_absolute_position": 1165,
+      "candidate_absolute_position": 1166,
+      "candidate_generated_position": 45,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "4967b1569633909489bb4f0a046028db5a7f6ae256a0edcf90d0abe3facd1925",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        10799,
+        8056,
+        448,
+        5257,
+        10799,
+        27746,
+        7096,
+        323,
+        16720,
+        13,
+        576,
+        1841,
+        304,
+        279,
+        6149,
+        315,
+        279,
+        7002,
+        9355,
+        7690,
+        4909,
+        330,
+        82280,
+        8958,
+        1096,
+        14807,
+        429,
+        279,
+        6028,
+        5244,
+        315,
+        279,
+        32689,
+        374,
+        389,
+        10799,
+        11,
+        892,
+        374,
+        279,
+        1429
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a coffee station with various coffee-making equipment and supplies. The sign in the middle of the wall clearly advertises \"Coffee!\" This indicates that the primary focus of the advertisement is on coffee, which is the most"
+    },
+    {
+      "parent": 0,
+      "target_token": 4185,
+      "draft_token": 48650,
+      "target_text": " common",
+      "draft_text": " caffeine",
+      "g": 5.8125,
+      "m_U": -1.3422362804412842,
+      "m_P": -3.9516007900238037,
+      "m_R": 11.099845886230469,
+      "delta": 0.0,
+      "score": 5.8125,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          2,
+          1
+        ]
+      ],
+      "parent_absolute_position": 1165,
+      "candidate_absolute_position": 1166,
+      "candidate_generated_position": 45,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "4967b1569633909489bb4f0a046028db5a7f6ae256a0edcf90d0abe3facd1925",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        10799,
+        8056,
+        448,
+        5257,
+        10799,
+        27746,
+        7096,
+        323,
+        16720,
+        13,
+        576,
+        1841,
+        304,
+        279,
+        6149,
+        315,
+        279,
+        7002,
+        9355,
+        7690,
+        4909,
+        330,
+        82280,
+        8958,
+        1096,
+        14807,
+        429,
+        279,
+        6028,
+        5244,
+        315,
+        279,
+        32689,
+        374,
+        389,
+        10799,
+        11,
+        892,
+        374,
+        279,
+        1429
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a coffee station with various coffee-making equipment and supplies. The sign in the middle of the wall clearly advertises \"Coffee!\" This indicates that the primary focus of the advertisement is on coffee, which is the most"
+    },
+    {
+      "parent": 3,
+      "target_token": 323,
+      "draft_token": 38570,
+      "target_text": " and",
+      "draft_text": " caffe",
+      "g": 0.625,
+      "m_U": 4.343108177185059,
+      "m_P": -9.952372550964355,
+      "m_R": 6.33988094329834,
+      "delta": -0.5,
+      "score": 1.125,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": true,
+      "bepc_accept": false,
+      "decision_relation": "protection",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bepc_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": true,
+      "positions": [
+        [
+          3,
+          2
+        ]
+      ],
+      "parent_absolute_position": 1166,
+      "candidate_absolute_position": 1167,
+      "candidate_generated_position": 46,
+      "parent_path": [
+        0,
+        3
+      ],
+      "legal_prefix_sha256": "896306690efcccb676dae1e55332bd5196c0e967d0c6eba495580aff46f810aa",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        10799,
+        8056,
+        448,
+        5257,
+        10799,
+        27746,
+        7096,
+        323,
+        16720,
+        13,
+        576,
+        1841,
+        304,
+        279,
+        6149,
+        315,
+        279,
+        7002,
+        9355,
+        7690,
+        4909,
+        330,
+        82280,
+        8958,
+        1096,
+        14807,
+        429,
+        279,
+        6028,
+        5244,
+        315,
+        279,
+        32689,
+        374,
+        389,
+        10799,
+        11,
+        892,
+        374,
+        279,
+        1429,
+        4185
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a coffee station with various coffee-making equipment and supplies. The sign in the middle of the wall clearly advertises \"Coffee!\" This indicates that the primary focus of the advertisement is on coffee, which is the most common"
+    },
+    {
+      "parent": 3,
+      "target_token": 323,
+      "draft_token": 48650,
+      "target_text": " and",
+      "draft_text": " caffeine",
+      "g": 1.625,
+      "m_U": 3.380401134490967,
+      "m_P": -9.133306503295898,
+      "m_R": 7.500967025756836,
+      "delta": -0.5,
+      "score": 2.125,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          4,
+          2
+        ]
+      ],
+      "parent_absolute_position": 1166,
+      "candidate_absolute_position": 1167,
+      "candidate_generated_position": 46,
+      "parent_path": [
+        0,
+        3
+      ],
+      "legal_prefix_sha256": "896306690efcccb676dae1e55332bd5196c0e967d0c6eba495580aff46f810aa",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        10799,
+        8056,
+        448,
+        5257,
+        10799,
+        27746,
+        7096,
+        323,
+        16720,
+        13,
+        576,
+        1841,
+        304,
+        279,
+        6149,
+        315,
+        279,
+        7002,
+        9355,
+        7690,
+        4909,
+        330,
+        82280,
+        8958,
+        1096,
+        14807,
+        429,
+        279,
+        6028,
+        5244,
+        315,
+        279,
+        32689,
+        374,
+        389,
+        10799,
+        11,
+        892,
+        374,
+        279,
+        1429,
+        4185
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a coffee station with various coffee-making equipment and supplies. The sign in the middle of the wall clearly advertises \"Coffee!\" This indicates that the primary focus of the advertisement is on coffee, which is the most common"
+    }
+  ],
+  "production_bepc_visit_count": 5,
+  "shadow_margin_visit_count": 5,
+  "supplemental_full_scores": 5,
+  "stopped_before_divergent_tree_commit": true,
+  "used_future_continuation": false,
+  "new_label_generated": false,
+  "elapsed_seconds": 1.5491269994527102,
+  "model_calls": {
+    "vision": 1,
+    "target": 12,
+    "draft": 44
+  },
+  "extra_diagnostic_target_forwards": 0,
+  "loaded_original_sources_unchanged": true
+}

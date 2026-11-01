@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "frozen_before_generation": true,
+  "config_sha256": "722f40106ec3f0452f3b4cd239beda2cd12e03a8bcbd150cfee7839d8074d87f",
+  "expected_main_requests": 1200,
+  "expected_development_requests": 240,
+  "prior_sources_copied_byte_identically": true,
+  "prior_code_and_results_read_only": true
+}

@@ -1,0 +1,6 @@
+{
+  "requests": 2,
+  "seconds": 3.47825247887522,
+  "control_historical_parity": true,
+  "excluded_from_measurements": true
+}

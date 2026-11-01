@@ -1,0 +1,283 @@
+{
+  "status": "No-Go",
+  "requested_phase": "development",
+  "execution_and_data_integrity_status": "No-Go",
+  "strict_project_history_unseen_claim_status": "No-Go",
+  "independent_cpu_audit": true,
+  "gpu_or_checkpoint_loaded": false,
+  "judge_or_training": false,
+  "validator_sha256": "3132ed9a7b421d2dc4e7043847862b20d0ccaed4eb83fe3c0796f965f9ae7cc7",
+  "checks": [
+    {
+      "name": "fresh_source_and_readonly_adapter_provenance",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "upstream_head": "49a33ff0ca31e281b9dc8803fd6f3041c6c0e135",
+        "tracked_files": 97,
+        "adapter_sources": 12,
+        "clean_checkout_manifest_sha256": "ea7c7818a7709cf5d935608b53d9b6b812c2c8feb5cfc893782daca2544566ff",
+        "official_lvspec_commit": "84dde16ea16b39402552eb4eb95d26f9c5101d15",
+        "official_lvspec_sources": 5
+      }
+    },
+    {
+      "name": "development_configuration_and_checkpoint_identity",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "config_path": "/data/wbb/vispec-clean-benchmark-20261031/configs/design_config.json",
+        "sha256": "401b3b7d8c35d7bef76da7e422be1999df924f3a2f66f14192fcc4915e134133",
+        "runtime_sources": 16,
+        "tests": 5,
+        "model_files": 17,
+        "model_verification": "prior SHA identity plus current full stat tuple; no checkpoint rehash"
+      }
+    },
+    {
+      "name": "data_images_prompts_labels_history_and_groups",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "task_splits": {
+          "mme": {
+            "dev": {
+              "groups": 20,
+              "questions": 40,
+              "categories": {
+                "posters": 4,
+                "position": 2,
+                "celebrity": 4,
+                "color": 4,
+                "OCR": 4,
+                "existence": 2,
+                "commonsense_reasoning": 2,
+                "count": 4,
+                "numerical_calculation": 2,
+                "artwork": 2,
+                "landmark": 2,
+                "scene": 4,
+                "code_reasoning": 2,
+                "text_translation": 2
+              },
+              "historical_reuse_explicit": true
+            },
+            "test": {
+              "groups": 100,
+              "questions": 200,
+              "categories": {
+                "position": 14,
+                "text_translation": 14,
+                "celebrity": 14,
+                "numerical_calculation": 14,
+                "count": 14,
+                "commonsense_reasoning": 14,
+                "OCR": 14,
+                "scene": 16,
+                "existence": 14,
+                "posters": 14,
+                "landmark": 14,
+                "artwork": 14,
+                "code_reasoning": 14,
+                "color": 16
+              },
+              "historical_reuse_explicit": true
+            }
+          },
+          "gqa": {
+            "dev": {
+              "groups": 20,
+              "questions": 20,
+              "categories": null,
+              "historical_reuse_explicit": false
+            },
+            "test": {
+              "groups": 100,
+              "questions": 100,
+              "categories": null,
+              "historical_reuse_explicit": false
+            }
+          },
+          "textvqa": {
+            "dev": {
+              "groups": 20,
+              "questions": 20,
+              "categories": null,
+              "historical_reuse_explicit": false
+            },
+            "test": {
+              "groups": 100,
+              "questions": 100,
+              "categories": null,
+              "historical_reuse_explicit": false
+            }
+          },
+          "scienceqa": {
+            "dev": {
+              "groups": 20,
+              "questions": 20,
+              "categories": null,
+              "historical_reuse_explicit": false
+            },
+            "test": {
+              "groups": 100,
+              "questions": 100,
+              "categories": null,
+              "historical_reuse_explicit": false
+            }
+          },
+          "coco": {
+            "dev": {
+              "groups": 20,
+              "questions": 20,
+              "categories": null,
+              "historical_reuse_explicit": false
+            },
+            "test": {
+              "groups": 100,
+              "questions": 100,
+              "categories": null,
+              "historical_reuse_explicit": false
+            }
+          }
+        },
+        "history_source_files": 20929,
+        "historical_reuse_tasks": [
+          "mme"
+        ],
+        "data_manifest_sha256": "465da833301766a338e33a7891db871d0b72544fe09a262a433df50fa01c52e3",
+        "prior_identity_manifest_sha256": "b20a83eb2206e05b45e141c788aa5a32ae3671a6737e2957e66a95d0fd19bc40",
+        "parquet_supplement_sha256": "8f35304f867e4406c6cd3aa9a9ffc1bf9460b876ea9e91457f6a066ce54ad7fb",
+        "historical_source_bytes_rehashed": false,
+        "historical_erratum_sha256": "da27d239e03c3d5c9d4e6457bb7e900b7cc6805e3a5661397dae3cca6cee1522",
+        "canonical_nonMME_history_overlaps": 7,
+        "ignored_file_supplement_sha256": "1f800723490cb34321aa79ecb21382724e7e43e552aef9abe778f264eed0e7e9"
+      }
+    },
+    {
+      "name": "development_actual_imports_and_exclusive_gpu_logs",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": [
+        {
+          "shard": 0,
+          "imported_sources": 15,
+          "resource_checks": 448
+        },
+        {
+          "shard": 1,
+          "imported_sources": 15,
+          "resource_checks": 407
+        }
+      ]
+    },
+    {
+      "name": "development_complete_runtime_grid_and_native_semantics",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "measured_requests": 3240,
+        "warmup_requests": 90,
+        "result_sha256": {
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_mme_shard0.jsonl": "2400cba34b23e21e6f96d71ecd56f86ced222a58c18c1e5cce613c9141169b82",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_mme_shard1.jsonl": "23f5ad3a5e80cc11116d416356780e59b207d5fac4a281948a86d76649863fe1",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_gqa_shard0.jsonl": "6640d5dd2dcb465c8bd9c94cad2502551f34d19b407b8dc89195b43d38086d1a",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_gqa_shard1.jsonl": "65465473f2b1d812a12e6e281f855573fe76f2942fdca9986a967f2c40e45e44",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_textvqa_shard0.jsonl": "8bbf07eec051e87163f38360aae766c81105ad6aab08c9dee1ac6c75a9df0db8",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_textvqa_shard1.jsonl": "1a5c5aa9f9d798d8444b927e5c2208cfe54cd36fded016126c62535fb75d5cd1",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_scienceqa_shard0.jsonl": "5ef741a2a67e5c9a3e73e89a59789483935e0a5c73030db3abadf5292d0863d6",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_scienceqa_shard1.jsonl": "e58b5f966c3a09e1d947264273741ab2c430fe1f21c7ba4190f05680416bb3d7",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_coco_shard0.jsonl": "6a267962882fbb979b14f8e46e81b83554882ab84bb99a1065368f465d11ff59",
+          "/data/wbb/vispec-clean-benchmark-20261031/results/development/development_coco_shard1.jsonl": "910c762e90a07eace6f078c2b03462a38948721a86c18fc2226fd5c14dcee994"
+        },
+        "repeated_outputs_changed": 0,
+        "equivalence_differences": 0
+      }
+    },
+    {
+      "name": "development_official_metrics_and_score_seals",
+      "passed": false,
+      "required_for_execution_integrity": true,
+      "exception": "FileNotFoundError(2, 'No such file or directory')"
+    },
+    {
+      "name": "all_failures_retained_and_resolved",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "retained_failure_files": []
+      }
+    },
+    {
+      "name": "repeat_determinism_and_claimed_equivalence",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "repeat_differences": 0,
+        "equivalence_differences": 0
+      }
+    },
+    {
+      "name": "strict_project_unseen_image_claim",
+      "passed": false,
+      "required_for_execution_integrity": false,
+      "exception": "AssertionError('Strict all-project-unseen condition is No-Go; declared historical overlaps retained without resampling')"
+    }
+  ],
+  "evidence": {
+    "failure_files": [],
+    "strict_project_freshness_findings": [
+      {
+        "task": "mme",
+        "split": "dev",
+        "historical_image_groups": 20,
+        "total_groups": 20
+      },
+      {
+        "task": "mme",
+        "split": "test",
+        "historical_image_groups": 100,
+        "total_groups": 100
+      },
+      {
+        "task": "textvqa",
+        "split": "dev",
+        "historical_image_groups": 1,
+        "total_groups": 20
+      },
+      {
+        "task": "textvqa",
+        "split": "test",
+        "historical_image_groups": 3,
+        "total_groups": 100
+      },
+      {
+        "task": "coco",
+        "split": "dev",
+        "historical_image_groups": 1,
+        "total_groups": 20
+      },
+      {
+        "task": "coco",
+        "split": "test",
+        "historical_image_groups": 2,
+        "total_groups": 100
+      }
+    ],
+    "repeat_differences": [],
+    "equivalence_differences": []
+  },
+  "warnings": [
+    "MME history reuse is explicitly authorized; this is not an unseen-image generalization claim.",
+    "Historical exclusion sources are19.43GB/20929files: preserved source SHA entries and chosen-ID exclusions checked; all historical bytes are not rehashed in this invocation.",
+    "Seven non-MME historical image aliases are disclosed in the immutable reporting erratum; COCO test98/100 and TextVQA test97/100 have no recorded project history. No images are resampled."
+  ],
+  "limitations": [
+    "MME history reuse limits unseen-image generalization.",
+    "Seven additional non-MME aliases are historically seen; the strict all-project-unseen claim remains No-Go.",
+    "20/100-image subsets and automatic metrics do not establish population noninferiority or human factual safety.",
+    "Checkpoint bytes use a preserved prior SHA manifest plus current stat tuple; this audit does not rehash all checkpoint shards.",
+    "Production ancestry correctness relies on sealed source, CPU contracts and explicit small GPU parity; full hidden-state replay is not rerun.",
+    "This validator audits the delivered bootstrap inputs/draw seals; a second implementation of every confidence interval is not claimed."
+  ]
+}

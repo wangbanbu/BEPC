@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-11-01T05:16:00.968265+00:00",
+  "purpose": "Integrate the evidence-based interpretation, GQA formatting limitation and negative results",
+  "source_sha256": "36da7fb6badbc78257f6262690e43fd053a669bb8d3126388d629e9a61462453",
+  "previous_report_sha256": "117a7735dfbc4b82d3880409e1d284d1f6db1aa3f58281b60eb7aa8b1cec84f6",
+  "previous_delivery_manifest_sha256": "88b3e404dd7984f72598fcd391bf83d451a5ca53ef7e9762bf8fed6e7c50d0d6",
+  "previous_delivery_manifest": {
+    "status": "completed",
+    "repetitions": 1,
+    "main_requests": 4200,
+    "created_utc": "2026-11-01T05:11:28.094336+00:00",
+    "files": {
+      "reports/FULL_EXPERIMENT_REPORT.md": "117a7735dfbc4b82d3880409e1d284d1f6db1aa3f58281b60eb7aa8b1cec84f6",
+      "reports/BENCHMARK_REPORT.md": "2fdba06b177fe5ab6788d69609f921355d259b9b0dff8cfd98aabfce344981e0",
+      "audit/FINAL_DELIVERY_VALIDATION.json": "bdb44a4abec0bb4b7f5e71f744ea03e7c6813d041a160600b2a8f3de3a2ad0e0",
+      "audit/STATISTICAL_ANALYSIS.json": "ed7bc1719c0973c9a1e06295c0934184d89ff4d41c5ed392cb4ef04b5cb814dd",
+      "audit/ORIGINAL_RUN_INVENTORY.json": "5ea895664b781975a14f5a4d64cd0852729182550a7ae985af8cf665f1dffb42",
+      "audit/AR_STRICT_OUTPUT_COMPARISON.json": "aa4aec52ff555507b136bf89698c7bc6f44c5be200ebfa0059871c8c12a7351a",
+      "reports/SPICE_RESOURCE_RECOVERY.md": "70a463e4ff3d7e513a447096ecfe7f14bd104a6423c07dc67314f38ac8a69f95",
+      "audit/SPICE_RESOURCE_RECOVERY.json": "a1f4c6c47be77fa07ea95e364766481140402b63734ce4688534fb7829527242",
+      "audit/SPICE_RESOURCE_RECOVERY_VALIDATION.json": "edbe2e78d22c0e2e9968937a2bdcca4cc360be898a436229a8a5047f5298466e"
+    },
+    "original_primary_results_unchanged": true,
+    "postprocessing": {
+      "purpose": "Disclose the failed official-scoring attempt and audited resource-only recovery",
+      "source_sha256": "c42cd44b61fd1573c4b4c6107502a3772ac76e3894f5e784993d9a1489aeb6fd",
+      "timestamp_utc": "2026-11-01T05:11:28.159216+00:00",
+      "original_compiler_report_sha256": "8cc3364495533b50b936865e0a1d87338388a53aa33aa6154d93bb3a1a3deb57",
+      "original_compiler_manifest_sha256": "2717ee9e59702846242b2bbecef716c4e2ffda8a0bc744e8082c9bdd430a7d15",
+      "original_compiler_manifest": {
+        "status": "completed",
+        "repetitions": 1,
+        "main_requests": 4200,
+        "created_utc": "2026-11-01T05:11:28.094336+00:00",
+        "files": {
+          "reports/FULL_EXPERIMENT_REPORT.md": "8cc3364495533b50b936865e0a1d87338388a53aa33aa6154d93bb3a1a3deb57",
+          "reports/BENCHMARK_REPORT.md": "2fdba06b177fe5ab6788d69609f921355d259b9b0dff8cfd98aabfce344981e0",
+          "audit/FINAL_DELIVERY_VALIDATION.json": "bdb44a4abec0bb4b7f5e71f744ea03e7c6813d041a160600b2a8f3de3a2ad0e0",
+          "audit/STATISTICAL_ANALYSIS.json": "ed7bc1719c0973c9a1e06295c0934184d89ff4d41c5ed392cb4ef04b5cb814dd",
+          "audit/ORIGINAL_RUN_INVENTORY.json": "5ea895664b781975a14f5a4d64cd0852729182550a7ae985af8cf665f1dffb42",
+          "audit/AR_STRICT_OUTPUT_COMPARISON.json": "aa4aec52ff555507b136bf89698c7bc6f44c5be200ebfa0059871c8c12a7351a"
+        },
+        "original_primary_results_unchanged": true
+      },
+      "numerical_tables_and_primary_results_unchanged": true
+    }
+  },
+  "added_document_sha256": {
+    "reports/RESULT_INTERPRETATION.md": "2a97c1074c3444cb6ff6300b882414fd9f1b7998c4a369a6d3aac30f5b1c4469",
+    "audit/GQA_FORMAT_DIAGNOSTIC.json": "1a550151e4af77b7113fd8c998f72284a49921362fe24eacf3603c0078dd6ce9",
+    "audit/GQA_FORMAT_DIAGNOSTIC.md": "7587aec2148d79269f0d9322972c491942b7083073c62ba0d1a94d6be3b28ba5"
+  },
+  "primary_tables_metrics_configuration_and_inference_unchanged": true,
+  "original_report_body_retained": true,
+  "merged_report_sha256": "72fee7e1835377f864bbd01aa3852b60cd9a82c51f62185a5e2421c98e619da4"
+}

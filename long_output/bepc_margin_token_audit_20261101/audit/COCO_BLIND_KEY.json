@@ -1,0 +1,210 @@
+[
+  {
+    "case_id": "coco_pair_000",
+    "question_id": "136572",
+    "image_id": 136572,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_001",
+    "question_id": "136642",
+    "image_id": 136642,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_002",
+    "question_id": "167122",
+    "image_id": 167122,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_003",
+    "question_id": "199403",
+    "image_id": 199403,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_004",
+    "question_id": "200567",
+    "image_id": 200567,
+    "A": "bepc",
+    "B": "margin",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_005",
+    "question_id": "202913",
+    "image_id": 202913,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_006",
+    "question_id": "202923",
+    "image_id": 202923,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_007",
+    "question_id": "205183",
+    "image_id": 205183,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_008",
+    "question_id": "23117",
+    "image_id": 23117,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_009",
+    "question_id": "252573",
+    "image_id": 252573,
+    "A": "bepc",
+    "B": "margin",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_010",
+    "question_id": "282224",
+    "image_id": 282224,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_011",
+    "question_id": "28377",
+    "image_id": 28377,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_012",
+    "question_id": "289260",
+    "image_id": 289260,
+    "A": "bepc",
+    "B": "margin",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_013",
+    "question_id": "298699",
+    "image_id": 298699,
+    "A": "bepc",
+    "B": "margin",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_014",
+    "question_id": "301837",
+    "image_id": 301837,
+    "A": "bepc",
+    "B": "margin",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_015",
+    "question_id": "314370",
+    "image_id": 314370,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_016",
+    "question_id": "317244",
+    "image_id": 317244,
+    "A": "bepc",
+    "B": "margin",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_017",
+    "question_id": "35738",
+    "image_id": 35738,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_018",
+    "question_id": "358664",
+    "image_id": 358664,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_019",
+    "question_id": "3716",
+    "image_id": 3716,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_020",
+    "question_id": "431570",
+    "image_id": 431570,
+    "A": "bepc",
+    "B": "margin",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_021",
+    "question_id": "497438",
+    "image_id": 497438,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_022",
+    "question_id": "49984",
+    "image_id": 49984,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_023",
+    "question_id": "535602",
+    "image_id": 535602,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_024",
+    "question_id": "537574",
+    "image_id": 537574,
+    "A": "bepc",
+    "B": "margin",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  },
+  {
+    "case_id": "coco_pair_025",
+    "question_id": "578314",
+    "image_id": 578314,
+    "A": "margin",
+    "B": "bepc",
+    "selection": "all official CHAIRi unequal cases; no sign filtering"
+  }
+]

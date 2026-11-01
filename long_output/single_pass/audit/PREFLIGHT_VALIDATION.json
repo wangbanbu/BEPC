@@ -1,0 +1,99 @@
+{
+  "status": "No-Go",
+  "requested_phase": "preflight",
+  "execution_and_data_integrity_status": "No-Go",
+  "strict_project_history_unseen_claim_status": "No-Go",
+  "independent_cpu_audit": true,
+  "gpu_or_checkpoint_loaded": false,
+  "judge_or_training": false,
+  "validator_sha256": "0b4b5f3f2d11db5d3a830a1dc5e3f879a5d22eb7865e62580abe9f6e4380c486",
+  "pinned_long_validator_sha256": "b9fc98d6070b067ba468d91731e0ee842981e549ab2669ab62d9ff4cc18c331a",
+  "checks": [
+    {
+      "name": "preserved_original_run_and_label_blind_inventory",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "reusable_repeat0": 1003,
+        "missing_repeat0": 77,
+        "main_started": false,
+        "old_files": 133,
+        "all_old_file_sha_verified": true
+      }
+    },
+    {
+      "name": "fresh_official_sources_and_readonly_originals",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "upstream_head": "49a33ff0ca31e281b9dc8803fd6f3041c6c0e135",
+        "tracked_files": 97,
+        "adapter_sources": 12,
+        "clean_checkout_manifest_sha256": "ea7c7818a7709cf5d935608b53d9b6b812c2c8feb5cfc893782daca2544566ff",
+        "official_lvspec_commit": "84dde16ea16b39402552eb4eb95d26f9c5101d15",
+        "official_lvspec_sources": 5,
+        "base_validator_sha256": "3132ed9a7b421d2dc4e7043847862b20d0ccaed4eb83fe3c0796f965f9ae7cc7",
+        "short_configuration_sha256": "5c582799d4b0098ed8334fc5e80f753c73896783f406c93f07c3c6c57e47b188",
+        "same_clean_checkout_reused": true
+      }
+    },
+    {
+      "name": "development_configuration",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "sha256": "bd5162ccb589a61ebd576f13978e6d7a0996e91d7e27c23997349f703f0ee5a0",
+        "runtime_sources": 17,
+        "original_runtime_byte_identical": 16,
+        "repetitions": 1,
+        "warmups": 1,
+        "max_new_tokens": 512
+      }
+    },
+    {
+      "name": "exact_same_inputs_and_official_labels",
+      "passed": false,
+      "required_for_execution_integrity": true,
+      "exception": "AssertionError('decoded RGB image identity')"
+    },
+    {
+      "name": "failures_retained",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "retained_failure_files": []
+      }
+    },
+    {
+      "name": "strict_shared_native_equivalence",
+      "passed": true,
+      "required_for_execution_integrity": true,
+      "evidence": {
+        "repeat_run_reproducibility": "not_assessed_single_pass",
+        "equivalence_differences": 0,
+        "original_small_GPU_parity_inherited": true
+      }
+    },
+    {
+      "name": "project_history_unseen_claim",
+      "passed": true,
+      "required_for_execution_integrity": false,
+      "evidence": {
+        "status": "no_known_overlap"
+      }
+    }
+  ],
+  "evidence": {
+    "failure_files": [],
+    "strict_project_freshness_findings": []
+  },
+  "warnings": [],
+  "limitations": [
+    "Only one measured request per method/question; run-to-run timing variability and repeat determinism are not assessed.",
+    "5000 confidence intervals concern paired image/group sampling, not independent repeated timing runs.",
+    "Development reuse spans original and resumed sessions; source measurements and preprocessing differences remain explicit.",
+    "Long QA answer accuracy does not verify explanation truthfulness; automatic caption metrics are not human factual Ground Truth.",
+    "Same existing images as the short-output cohort, including all declared historical overlaps; no unseen-image generalization claim.",
+    "Token/call/MAT point estimates and grouped bootstrap draws/Holm correction are independently checked; every interval is not independently reimplemented."
+  ]
+}

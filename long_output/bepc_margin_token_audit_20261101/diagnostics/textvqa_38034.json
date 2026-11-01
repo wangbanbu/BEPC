@@ -1,0 +1,1468 @@
+{
+  "task": "textvqa",
+  "question_id": "38034",
+  "image_id": "21947330165b5c88",
+  "status": "valid",
+  "new_full_continuation_generated": false,
+  "diagnostic_only": true,
+  "first_path_divergence_round": 5,
+  "input_tensor_sha256": "7ff79f64f8e7d0edbdaf8fe2c9df6a31ded466e7df932da9a67865dfb6a6f85e",
+  "image_sha256": "e70d3a2ccd34e7f286060c7cda9167ee1f8bcd2c9759d48d3cde8c3273f07633",
+  "prompt_text": "what brand is his cleats?\n\nProvide a detailed explanation of about 100 to 160 words, using the image and the question to support your answer. Do not invent details that are not visible or supported by the question. End with exactly one final line in the format \"Final answer: <answer>\", replacing <answer> with a single word or short phrase. Put that final answer on a separate line, with no text after it.",
+  "historical_BEPC_path_parity": true,
+  "prior_common_path_rounds_verified": 5,
+  "historical_Margin_same_tree_shadow_parity": true,
+  "committed_generated_tokens": 17,
+  "committed_generated_token_ids": [
+    785,
+    2168,
+    4933,
+    264,
+    19507,
+    2781,
+    304,
+    264,
+    46441,
+    28931,
+    11,
+    12233,
+    264,
+    4158,
+    13794,
+    448,
+    6303
+  ],
+  "committed_prefix_text": "The image shows a baseball player in a pitching stance, wearing a white uniform with blue",
+  "historical_bepc_path": {
+    "round": 5,
+    "row": 10,
+    "accepted_draft": 3,
+    "mismatches": 0,
+    "response_mismatches_before": 2,
+    "nodes": [
+      0,
+      3,
+      12,
+      21
+    ],
+    "tokens": [
+      58470,
+      323,
+      264,
+      6303
+    ]
+  },
+  "historical_margin_path": {
+    "round": 5,
+    "row": 9,
+    "accepted_draft": 3,
+    "mismatches": 2,
+    "response_mismatches_before": 2,
+    "nodes": [
+      0,
+      2,
+      9,
+      20
+    ],
+    "tokens": [
+      58470,
+      11,
+      323,
+      264
+    ]
+  },
+  "replayed_bepc_path": {
+    "round": 5,
+    "row": 10,
+    "accepted_draft": 3,
+    "mismatches": 0,
+    "response_mismatches_before": 2,
+    "nodes": [
+      0,
+      3,
+      12,
+      21
+    ],
+    "tokens": [
+      58470,
+      323,
+      264,
+      6303
+    ]
+  },
+  "shadow_margin_path": {
+    "round": 5,
+    "row": 9,
+    "accepted_draft": 3,
+    "mismatches": 2,
+    "response_mismatches_before": 2,
+    "nodes": [
+      0,
+      2,
+      9,
+      20
+    ],
+    "tokens": [
+      58470,
+      11,
+      323,
+      264
+    ]
+  },
+  "candidate_rows": [
+    [
+      58470,
+      13,
+      5301,
+      -1,
+      -1
+    ],
+    [
+      58470,
+      13,
+      2014,
+      -1,
+      -1
+    ],
+    [
+      58470,
+      11,
+      892,
+      -1,
+      -1
+    ],
+    [
+      58470,
+      11,
+      2670,
+      -1,
+      -1
+    ],
+    [
+      58470,
+      323,
+      279,
+      -1,
+      -1
+    ],
+    [
+      58470,
+      323,
+      6303,
+      -1,
+      -1
+    ],
+    [
+      58470,
+      13,
+      576,
+      2781,
+      -1
+    ],
+    [
+      58470,
+      13,
+      576,
+      2168,
+      -1
+    ],
+    [
+      58470,
+      13,
+      576,
+      3842,
+      -1
+    ],
+    [
+      58470,
+      11,
+      323,
+      264,
+      -1
+    ],
+    [
+      58470,
+      323,
+      264,
+      6303,
+      -1
+    ],
+    [
+      58470,
+      13,
+      1260,
+      374,
+      -1
+    ],
+    [
+      58470,
+      13,
+      576,
+      11299,
+      1862
+    ],
+    [
+      58470,
+      11,
+      323,
+      279,
+      12426
+    ],
+    [
+      58470,
+      11,
+      323,
+      279,
+      2062
+    ],
+    [
+      58470,
+      13,
+      4354,
+      198,
+      18724
+    ],
+    [
+      58470,
+      13,
+      4354,
+      11,
+      279
+    ]
+  ],
+  "retrieve_rows": [
+    [
+      0,
+      1,
+      7,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      8,
+      -1,
+      -1
+    ],
+    [
+      0,
+      2,
+      10,
+      -1,
+      -1
+    ],
+    [
+      0,
+      2,
+      11,
+      -1,
+      -1
+    ],
+    [
+      0,
+      3,
+      13,
+      -1,
+      -1
+    ],
+    [
+      0,
+      3,
+      14,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      4,
+      16,
+      -1
+    ],
+    [
+      0,
+      1,
+      4,
+      17,
+      -1
+    ],
+    [
+      0,
+      1,
+      4,
+      18,
+      -1
+    ],
+    [
+      0,
+      2,
+      9,
+      20,
+      -1
+    ],
+    [
+      0,
+      3,
+      12,
+      21,
+      -1
+    ],
+    [
+      0,
+      1,
+      6,
+      24,
+      -1
+    ],
+    [
+      0,
+      1,
+      4,
+      15,
+      25
+    ],
+    [
+      0,
+      2,
+      9,
+      19,
+      26
+    ],
+    [
+      0,
+      2,
+      9,
+      19,
+      27
+    ],
+    [
+      0,
+      1,
+      5,
+      22,
+      28
+    ],
+    [
+      0,
+      1,
+      5,
+      23,
+      29
+    ]
+  ],
+  "target_top1_rows": [
+    [
+      323,
+      576,
+      11299,
+      11299
+    ],
+    [
+      323,
+      576,
+      279,
+      11299
+    ],
+    [
+      323,
+      264,
+      13230,
+      11299
+    ],
+    [
+      323,
+      264,
+      264,
+      11299
+    ],
+    [
+      323,
+      264,
+      11931,
+      11299
+    ],
+    [
+      323,
+      264,
+      38986,
+      11299
+    ],
+    [
+      323,
+      576,
+      11299,
+      594
+    ],
+    [
+      323,
+      576,
+      11299,
+      1558
+    ],
+    [
+      323,
+      576,
+      11299,
+      594
+    ],
+    [
+      323,
+      264,
+      264,
+      6303
+    ],
+    [
+      323,
+      264,
+      6303,
+      2062
+    ],
+    [
+      323,
+      576,
+      374,
+      12233
+    ],
+    [
+      323,
+      576,
+      11299,
+      1862
+    ],
+    [
+      323,
+      264,
+      264,
+      11299
+    ],
+    [
+      323,
+      264,
+      264,
+      11299
+    ],
+    [
+      323,
+      576,
+      11,
+      19357
+    ],
+    [
+      323,
+      576,
+      11,
+      279
+    ]
+  ],
+  "native_margin_rows": [
+    [
+      2.0,
+      1.875,
+      17.015625,
+      16.1875
+    ],
+    [
+      2.0,
+      8.75,
+      16.5,
+      16.1875
+    ],
+    [
+      1.0,
+      2.5,
+      18.6875,
+      16.1875
+    ],
+    [
+      1.0,
+      1.0,
+      18.0625,
+      16.1875
+    ],
+    [
+      0.0,
+      5.0,
+      15.671875,
+      16.1875
+    ],
+    [
+      0.0,
+      4.625,
+      15.3125,
+      16.1875
+    ],
+    [
+      2.0,
+      0.0,
+      2.25,
+      19.5
+    ],
+    [
+      2.0,
+      0.0,
+      8.125,
+      16.5625
+    ],
+    [
+      2.0,
+      0.0,
+      9.125,
+      17.125
+    ],
+    [
+      1.0,
+      0.625,
+      0.0,
+      17.046875
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      20.03125
+    ],
+    [
+      2.0,
+      3.625,
+      0.0,
+      15.6015625
+    ],
+    [
+      2.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.625,
+      4.375,
+      0.5
+    ],
+    [
+      1.0,
+      0.625,
+      4.375,
+      2.9375
+    ],
+    [
+      2.0,
+      3.5,
+      29.125,
+      34.3125
+    ],
+    [
+      2.0,
+      3.5,
+      0.0,
+      0.0
+    ]
+  ],
+  "shadow_margin_scan_rows": [
+    {
+      "row": 0,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 1,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 2,
+      "accepted_draft": 1,
+      "mismatches": 1
+    },
+    {
+      "row": 3,
+      "accepted_draft": 2,
+      "mismatches": 2
+    },
+    {
+      "row": 4,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 5,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 6,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 7,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 8,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 9,
+      "accepted_draft": 3,
+      "mismatches": 2
+    },
+    {
+      "row": 10,
+      "accepted_draft": 3,
+      "mismatches": 0
+    },
+    {
+      "row": 11,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 12,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 13,
+      "accepted_draft": 2,
+      "mismatches": 2
+    },
+    {
+      "row": 14,
+      "accepted_draft": 2,
+      "mismatches": 2
+    },
+    {
+      "row": 15,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 16,
+      "accepted_draft": 0,
+      "mismatches": 0
+    }
+  ],
+  "candidate_diagnostics": [
+    {
+      "parent": 0,
+      "target_token": 323,
+      "draft_token": 11,
+      "target_text": " and",
+      "draft_text": ",",
+      "g": 1.0,
+      "m_U": 0.44768989086151123,
+      "m_P": -0.3898758888244629,
+      "m_R": 0.9123483896255493,
+      "delta": -0.19493794441223145,
+      "score": 1.1949379444122314,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": true,
+      "bepc_accept": false,
+      "decision_relation": "protection",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bepc_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": true,
+      "positions": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "parent_absolute_position": 1240,
+      "candidate_absolute_position": 1241,
+      "candidate_generated_position": 18,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "247de01ee1295fd2aeddfc2c3476ff0e279d75acccca4bcbaa2c3212fbfeddad",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        19507,
+        2781,
+        304,
+        264,
+        46441,
+        28931,
+        11,
+        12233,
+        264,
+        4158,
+        13794,
+        448,
+        6303,
+        58470
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a baseball player in a pitching stance, wearing a white uniform with blue accents"
+    },
+    {
+      "parent": 0,
+      "target_token": 323,
+      "draft_token": 13,
+      "target_text": " and",
+      "draft_text": ".",
+      "g": 2.0,
+      "m_U": 0.6367753744125366,
+      "m_P": 1.3116086721420288,
+      "m_R": -0.08895313739776611,
+      "delta": 0.0,
+      "score": 2.0,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          1
+        ]
+      ],
+      "parent_absolute_position": 1240,
+      "candidate_absolute_position": 1241,
+      "candidate_generated_position": 18,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "247de01ee1295fd2aeddfc2c3476ff0e279d75acccca4bcbaa2c3212fbfeddad",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        19507,
+        2781,
+        304,
+        264,
+        46441,
+        28931,
+        11,
+        12233,
+        264,
+        4158,
+        13794,
+        448,
+        6303,
+        58470
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a baseball player in a pitching stance, wearing a white uniform with blue accents"
+    },
+    {
+      "parent": 2,
+      "target_token": 264,
+      "draft_token": 323,
+      "target_text": " a",
+      "draft_text": " and",
+      "g": 0.625,
+      "m_U": -1.1212852001190186,
+      "m_P": -2.199420928955078,
+      "m_R": 3.9425318241119385,
+      "delta": 0.0,
+      "score": 0.625,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": true,
+      "bepc_accept": true,
+      "decision_relation": "same",
+      "production_bepc_visited": false,
+      "production_bepc_decision": null,
+      "production_reason": null,
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": true,
+      "positions": [
+        [
+          9,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          2
+        ]
+      ],
+      "parent_absolute_position": 1241,
+      "candidate_absolute_position": 1242,
+      "candidate_generated_position": 19,
+      "parent_path": [
+        0,
+        2
+      ],
+      "legal_prefix_sha256": "cf5cbaabb654d27950b824ee4a29d5a1411a13618252573a0b839c97dead80c7",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        19507,
+        2781,
+        304,
+        264,
+        46441,
+        28931,
+        11,
+        12233,
+        264,
+        4158,
+        13794,
+        448,
+        6303,
+        58470,
+        11
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a baseball player in a pitching stance, wearing a white uniform with blue accents,"
+    },
+    {
+      "parent": 2,
+      "target_token": 264,
+      "draft_token": 892,
+      "target_text": " a",
+      "draft_text": " which",
+      "g": 2.5,
+      "m_U": 1.157905101776123,
+      "m_P": 0.9028264284133911,
+      "m_R": 0.49340128898620605,
+      "delta": 0.0,
+      "score": 2.5,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": false,
+      "production_bepc_decision": null,
+      "production_reason": null,
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          2,
+          2
+        ]
+      ],
+      "parent_absolute_position": 1241,
+      "candidate_absolute_position": 1242,
+      "candidate_generated_position": 19,
+      "parent_path": [
+        0,
+        2
+      ],
+      "legal_prefix_sha256": "cf5cbaabb654d27950b824ee4a29d5a1411a13618252573a0b839c97dead80c7",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        19507,
+        2781,
+        304,
+        264,
+        46441,
+        28931,
+        11,
+        12233,
+        264,
+        4158,
+        13794,
+        448,
+        6303,
+        58470,
+        11
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a baseball player in a pitching stance, wearing a white uniform with blue accents,"
+    },
+    {
+      "parent": 2,
+      "target_token": 264,
+      "draft_token": 2670,
+      "target_text": " a",
+      "draft_text": " including",
+      "g": 1.0,
+      "m_U": 3.174394130706787,
+      "m_P": 1.977091670036316,
+      "m_R": -4.122689247131348,
+      "delta": 0.0,
+      "score": 1.0,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": true,
+      "bepc_accept": true,
+      "decision_relation": "same",
+      "production_bepc_visited": false,
+      "production_bepc_decision": null,
+      "production_reason": null,
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          3,
+          2
+        ]
+      ],
+      "parent_absolute_position": 1241,
+      "candidate_absolute_position": 1242,
+      "candidate_generated_position": 19,
+      "parent_path": [
+        0,
+        2
+      ],
+      "legal_prefix_sha256": "cf5cbaabb654d27950b824ee4a29d5a1411a13618252573a0b839c97dead80c7",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        19507,
+        2781,
+        304,
+        264,
+        46441,
+        28931,
+        11,
+        12233,
+        264,
+        4158,
+        13794,
+        448,
+        6303,
+        58470,
+        11
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a baseball player in a pitching stance, wearing a white uniform with blue accents,"
+    },
+    {
+      "parent": 3,
+      "target_token": 264,
+      "draft_token": 279,
+      "target_text": " a",
+      "draft_text": " the",
+      "g": 5.0,
+      "m_U": -1.9970951080322266,
+      "m_P": 3.730590343475342,
+      "m_R": 3.3393890857696533,
+      "delta": 0.5,
+      "score": 4.5,
+      "gate": true,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": true,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          4,
+          2
+        ]
+      ],
+      "parent_absolute_position": 1241,
+      "candidate_absolute_position": 1242,
+      "candidate_generated_position": 19,
+      "parent_path": [
+        0,
+        3
+      ],
+      "legal_prefix_sha256": "c28d278fa3be072712496ad61ccfa2000f0276c92650508cbe983b480fbf7595",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        19507,
+        2781,
+        304,
+        264,
+        46441,
+        28931,
+        11,
+        12233,
+        264,
+        4158,
+        13794,
+        448,
+        6303,
+        58470,
+        323
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a baseball player in a pitching stance, wearing a white uniform with blue accents and"
+    },
+    {
+      "parent": 3,
+      "target_token": 264,
+      "draft_token": 6303,
+      "target_text": " a",
+      "draft_text": " blue",
+      "g": 4.625,
+      "m_U": 2.392866849899292,
+      "m_P": -1.6160171031951904,
+      "m_R": 3.9141221046447754,
+      "delta": -0.5,
+      "score": 5.125,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          5,
+          2
+        ]
+      ],
+      "parent_absolute_position": 1241,
+      "candidate_absolute_position": 1242,
+      "candidate_generated_position": 19,
+      "parent_path": [
+        0,
+        3
+      ],
+      "legal_prefix_sha256": "c28d278fa3be072712496ad61ccfa2000f0276c92650508cbe983b480fbf7595",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        4933,
+        264,
+        19507,
+        2781,
+        304,
+        264,
+        46441,
+        28931,
+        11,
+        12233,
+        264,
+        4158,
+        13794,
+        448,
+        6303,
+        58470,
+        323
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image shows a baseball player in a pitching stance, wearing a white uniform with blue accents and"
+    }
+  ],
+  "production_bepc_visit_count": 4,
+  "shadow_margin_visit_count": 7,
+  "supplemental_full_scores": 7,
+  "stopped_before_divergent_tree_commit": true,
+  "used_future_continuation": false,
+  "new_label_generated": false,
+  "elapsed_seconds": 1.5197189012542367,
+  "model_calls": {
+    "vision": 1,
+    "target": 7,
+    "draft": 24
+  },
+  "extra_diagnostic_target_forwards": 0,
+  "loaded_original_sources_unchanged": true
+}

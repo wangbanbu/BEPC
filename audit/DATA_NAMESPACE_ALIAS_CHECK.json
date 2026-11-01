@@ -1,0 +1,70 @@
+{
+  "status": "completed",
+  "additional_selected_alias_matches": [
+    {
+      "task": "textvqa",
+      "split": "dev",
+      "question_id": "38921",
+      "image_id": "473535e08285a342",
+      "reasons": [
+        "prefixed_image_alias"
+      ]
+    },
+    {
+      "task": "textvqa",
+      "split": "test",
+      "question_id": "38948",
+      "image_id": "04ef980e5caff21f",
+      "reasons": [
+        "prefixed_image_alias"
+      ]
+    },
+    {
+      "task": "textvqa",
+      "split": "test",
+      "question_id": "37315",
+      "image_id": "70fbac7e1cf4c585",
+      "reasons": [
+        "prefixed_image_alias"
+      ]
+    },
+    {
+      "task": "textvqa",
+      "split": "test",
+      "question_id": "39465",
+      "image_id": "e76545f5fae2e38e",
+      "reasons": [
+        "prefixed_image_alias"
+      ]
+    },
+    {
+      "task": "coco",
+      "split": "dev",
+      "question_id": "185487",
+      "image_id": "185487",
+      "reasons": [
+        "prefixed_image_alias"
+      ]
+    },
+    {
+      "task": "coco",
+      "split": "test",
+      "question_id": "199403",
+      "image_id": "199403",
+      "reasons": [
+        "prefixed_image_alias"
+      ]
+    },
+    {
+      "task": "coco",
+      "split": "test",
+      "question_id": "49984",
+      "image_id": "49984",
+      "reasons": [
+        "prefixed_image_alias"
+      ]
+    }
+  ],
+  "known_prefix_normalization_diagnostic_only": true,
+  "frozen_inputs_not_modified": true
+}

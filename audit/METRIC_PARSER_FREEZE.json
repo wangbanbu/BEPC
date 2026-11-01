@@ -1,0 +1,52 @@
+{
+  "status": "frozen_before_first_quality_scoring",
+  "created_utc": "2026-10-31T13:13:02.357653+00:00",
+  "evaluator_path": "/data/wbb/vispec-clean-benchmark-20261031/harness/evaluate_tasks.py",
+  "evaluator_sha256": "1f491b0f1dba0a148b5a65ddc574c73c76878c098c967fc1f45fc08ba2a83fc3",
+  "new_evaluator_sha256": "1f491b0f1dba0a148b5a65ddc574c73c76878c098c967fc1f45fc08ba2a83fc3",
+  "old_evaluator_sha256": "e57683cf7f4cd3717023fc8ab548d4bec494349cf071dad1b48c11b8bd2da331",
+  "new_test_path": "/data/wbb/vispec-clean-benchmark-20261031/tests/test_scienceqa_parser_boundary.py",
+  "new_test_sha256": "ddf77bcaaef6f5c28adb4a7413cee953d68b01e857a7063c4553297d27dc8346",
+  "design_config_sha256": "401b3b7d8c35d7bef76da7e422be1999df924f3a2f66f14192fcc4915e134133",
+  "reason": "Format-only ScienceQA explicit-letter boundary correction: a/A followed by an ordinary word must not parse as option A.",
+  "source_change_scope": "Only explicit option-marker regex/readout and explanatory comment; original task metrics and all generation code unchanged.",
+  "fixed_rule": "Explicit letter must be paired-parenthesized/bracketed or followed by punctuation/end-of-line; bare letters retain casefold; invalid and uncertain remain score0 in full denominator.",
+  "fixed_limitations": [
+    "The answer is A because ... without a delimiter is invalid, even when A was intended as an option.",
+    "The answer is a lion. and The answer is A lion. are invalid; no semantic or learned extraction.",
+    "An unambiguous formatted letter does not establish reasoning correctness."
+  ],
+  "existing_metric_tests_passed": 9,
+  "new_format_boundary_tests_passed": 4,
+  "development_quality_scoring_started": false,
+  "benchmark_QA_generation_outputs_inspected": false,
+  "quality_or_latency_results_used_to_choose_rule": false,
+  "gpu_generation_already_running": true,
+  "frozen_runtime_source_sha256": {
+    "run_benchmark.py": "439be31ad88f0d46e07bbad17dce432024e7ef1069d9e4e2b4f69c7acc5ffcb0",
+    "resources.py": "1251cbf5de19abfbc09c4c6b7e8076354a132fdf0a04e4f6cb1bfff848352307",
+    "compact_logits.py": "e92c9bfaa73537d3c5aad48fabbee7741c127f0488d283a4e1358e421cafdbb3",
+    "online_controller.py": "c60248ddd72e42f1eb6be1a24e527077cd7e6cf438fb9e0ffa415777655adc82",
+    "epcc_online.py": "d4f1d6fdc27890653e139090ae0d20f68a3832cbb1f69e7f93544333e9574698",
+    "visual_online.py": "ced9733b3cc14574278f700fb4ad9d1de4ac324d06a9fb9fbc4a089621957db2",
+    "optimized_visual.py": "9f5adb9e2487d07baac06a99ae0c6eb3c6a0924a2efc456144c82c5d0b67645b",
+    "refined_controller.py": "ea913766a7e223cc3f2fb224fb73bfafbd392401a2e374e01155b38a9f12e3b6",
+    "refined_math.py": "ec8f151a765226e68b1def995e8754527019731f8a5a67f4ee99a9076fa43f32",
+    "refined_observer.py": "bd1cffee198645238ac6c530c65e68a7faaf224a1a5e07de915c382ef8872efa",
+    "speed_controller.py": "5de69957079f114a08b91d014147ba33be72ea90b2f8b881c9df1f1320091c9b",
+    "speed_math.py": "b8fd4d20d58a0246724312874966d49194c635134b048c6cccac40a4d886af25",
+    "speed_observer.py": "e86a61568bfe9bc00dac496abc7e5f8b14b5aa87eeff17f542838585329e97e2",
+    "terminal_update.py": "efc7f305489b5e5b0fe3ed1bc59885efbeaea52618936b340f164dfed38c4304",
+    "bounds.py": "caabfde7cac71948ec681e71d1bc6f23057650a84d14eb7a840aa3a07af85e09",
+    "lvspec_controller.py": "4ab570d9f9acdb3014ec20491533c2f8a9771825784bac15e989c5aa2fbf27f0"
+  },
+  "unchanged_original_five_test_sha256": {
+    "tests/test_lvspec_controller.py": "0b4517490171b9753e1f91506606f01db998eb4f951363fbaa58fc13d37b7f2f",
+    "tests/test_lvspec_math.py": "761c70efe8525f117f8322f124eb65013d04f77f1499a34ac2c9b8c5e990c0ca",
+    "tests/test_refined_math.py": "fd9d991efea3d3b5fb675cff6146a14f7e465fbbce9b57cca95dabe9419479ca",
+    "tests/test_runner_contract.py": "5e46c65552d9b187ebc1c1607ebb99e230bbaa215ef9aec66f73ce445b145ae4",
+    "tests/test_task_metrics.py": "7f13d8b1a44a6d11efd499d7785abae1ac638bcfb089ed9f0b5a01dfcda4cd11"
+  },
+  "runtime_or_existing_sealed_test_modified": false,
+  "no_further_evaluator_edits_after_this_freeze": true
+}

@@ -1,0 +1,61 @@
+{
+  "status": "failed",
+  "controller_pid": 3123408,
+  "started_utc": "2026-11-01T02:49:11.447804+00:00",
+  "repetitions": 1,
+  "max_new_tokens": 512,
+  "development_requests": 1080,
+  "main_requests": 4200,
+  "reused_development_repeat0": 1003,
+  "new_development_requests": 77,
+  "stages": [
+    {
+      "stage": "development",
+      "shard": 0,
+      "exit_code": 0,
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/development_shard0.log"
+    },
+    {
+      "stage": "development",
+      "shard": 1,
+      "exit_code": 0,
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/development_shard1.log"
+    },
+    {
+      "stage": "development_selection",
+      "exit_code": 0,
+      "seconds": 683.9465191364288,
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/development_selection.log"
+    },
+    {
+      "stage": "main_freeze",
+      "exit_code": 0,
+      "seconds": 0.03789806365966797,
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/main_freeze.log"
+    },
+    {
+      "stage": "main",
+      "shard": 0,
+      "exit_code": 0,
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/main_shard0.log"
+    },
+    {
+      "stage": "main",
+      "shard": 1,
+      "exit_code": 0,
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/main_shard1.log"
+    },
+    {
+      "stage": "final_analysis",
+      "exit_code": 1,
+      "seconds": 1373.2629466056824,
+      "log": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/final_analysis.log"
+    }
+  ],
+  "updated_utc": "2026-11-01T04:47:04.026287+00:00",
+  "stage": "final_analysis",
+  "stage_elapsed_seconds": 4865.162582397461,
+  "active_gpu_children": [],
+  "error": "RuntimeError('final_analysis failed: /data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/final_analysis.log')",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/run_pipeline.py\", line 48, in main\n    cpu('final_analysis',['harness/analyze_results.py','--stage','all'])\n  File \"/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/run_pipeline.py\", line 20, in cpu\n    if process.returncode:raise RuntimeError(label+' failed: '+str(log))\nRuntimeError: final_analysis failed: /data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/logs/final_analysis.log\n"
+}

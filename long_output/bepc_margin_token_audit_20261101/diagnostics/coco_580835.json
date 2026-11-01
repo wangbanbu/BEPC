@@ -1,0 +1,1171 @@
+{
+  "task": "coco",
+  "question_id": "580835",
+  "image_id": 580835,
+  "status": "valid",
+  "new_full_continuation_generated": false,
+  "diagnostic_only": true,
+  "first_path_divergence_round": 2,
+  "input_tensor_sha256": "9fcd676a04e0a774876bf1c4d0e7f208b0fbb8054187d3d695f8a874c7a23bb7",
+  "image_sha256": "7ae3c3a242de50d5b04700c1aa270c214119c60fab54635bc7d2aa21f09c3b17",
+  "prompt_text": "Please provide a detailed description of the given image in about 100 to 160 words. Describe visible objects, attributes, actions, quantities, and spatial relations, and distinguish uncertainty from visible facts.",
+  "historical_BEPC_path_parity": true,
+  "prior_common_path_rounds_verified": 2,
+  "historical_Margin_same_tree_shadow_parity": true,
+  "committed_generated_tokens": 9,
+  "committed_generated_token_ids": [
+    785,
+    2168,
+    70749,
+    264,
+    32976,
+    78176,
+    1968,
+    304,
+    279
+  ],
+  "committed_prefix_text": "The image showcases a vibrant broccoli head in the",
+  "historical_bepc_path": {
+    "round": 2,
+    "row": 6,
+    "accepted_draft": 4,
+    "mismatches": 1,
+    "response_mismatches_before": 3,
+    "nodes": [
+      0,
+      2,
+      9,
+      18,
+      24
+    ],
+    "tokens": [
+      4126,
+      11,
+      22865,
+      553,
+      264
+    ]
+  },
+  "historical_margin_path": {
+    "round": 2,
+    "row": 6,
+    "accepted_draft": 3,
+    "mismatches": 0,
+    "response_mismatches_before": 3,
+    "nodes": [
+      0,
+      2,
+      9,
+      18
+    ],
+    "tokens": [
+      4126,
+      11,
+      22865,
+      553
+    ]
+  },
+  "replayed_bepc_path": {
+    "round": 2,
+    "row": 6,
+    "accepted_draft": 4,
+    "mismatches": 1,
+    "response_mismatches_before": 3,
+    "nodes": [
+      0,
+      2,
+      9,
+      18,
+      24
+    ],
+    "tokens": [
+      4126,
+      11,
+      22865,
+      553,
+      264
+    ]
+  },
+  "shadow_margin_path": {
+    "round": 2,
+    "row": 6,
+    "accepted_draft": 3,
+    "mismatches": 0,
+    "response_mismatches_before": 3,
+    "nodes": [
+      0,
+      2,
+      9,
+      18
+    ],
+    "tokens": [
+      4126,
+      11,
+      22865,
+      553
+    ]
+  },
+  "candidate_rows": [
+    [
+      4126,
+      315,
+      279,
+      -1,
+      -1
+    ],
+    [
+      4126,
+      315,
+      458,
+      -1,
+      -1
+    ],
+    [
+      4126,
+      11,
+      448,
+      -1,
+      -1
+    ],
+    [
+      4126,
+      11,
+      738,
+      -1,
+      -1
+    ],
+    [
+      4126,
+      315,
+      264,
+      2480,
+      -1
+    ],
+    [
+      4126,
+      6430,
+      315,
+      264,
+      -1
+    ],
+    [
+      4126,
+      11,
+      22865,
+      553,
+      264
+    ],
+    [
+      4126,
+      13,
+      151645,
+      198,
+      18724
+    ],
+    [
+      4126,
+      6430,
+      11,
+      22865,
+      553
+    ],
+    [
+      4126,
+      315,
+      1128,
+      7952,
+      311
+    ],
+    [
+      4126,
+      315,
+      264,
+      57267,
+      11
+    ],
+    [
+      4126,
+      6430,
+      13,
+      151645,
+      198
+    ]
+  ],
+  "retrieve_rows": [
+    [
+      0,
+      1,
+      7,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      8,
+      -1,
+      -1
+    ],
+    [
+      0,
+      2,
+      10,
+      -1,
+      -1
+    ],
+    [
+      0,
+      2,
+      11,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      5,
+      17,
+      -1
+    ],
+    [
+      0,
+      3,
+      14,
+      23,
+      -1
+    ],
+    [
+      0,
+      2,
+      9,
+      18,
+      24
+    ],
+    [
+      0,
+      4,
+      15,
+      22,
+      25
+    ],
+    [
+      0,
+      3,
+      12,
+      19,
+      26
+    ],
+    [
+      0,
+      1,
+      6,
+      20,
+      27
+    ],
+    [
+      0,
+      1,
+      5,
+      16,
+      28
+    ],
+    [
+      0,
+      3,
+      13,
+      21,
+      29
+    ]
+  ],
+  "target_top1_rows": [
+    [
+      11,
+      279,
+      4034,
+      18724
+    ],
+    [
+      11,
+      279,
+      15789,
+      18724
+    ],
+    [
+      11,
+      22865,
+      1181,
+      18724
+    ],
+    [
+      11,
+      22865,
+      2348,
+      18724
+    ],
+    [
+      11,
+      279,
+      13551,
+      13551
+    ],
+    [
+      11,
+      11,
+      264,
+      13551
+    ],
+    [
+      11,
+      22865,
+      553,
+      57267
+    ],
+    [
+      11,
+      576,
+      198,
+      18724
+    ],
+    [
+      11,
+      11,
+      22865,
+      553
+    ],
+    [
+      11,
+      279,
+      7952,
+      311
+    ],
+    [
+      11,
+      279,
+      13551,
+      13551
+    ],
+    [
+      11,
+      11,
+      576,
+      198
+    ]
+  ],
+  "native_margin_rows": [
+    [
+      2.75,
+      0.0,
+      18.4375,
+      86.875
+    ],
+    [
+      2.75,
+      5.125,
+      12.96875,
+      86.875
+    ],
+    [
+      0.0,
+      0.5,
+      16.0625,
+      86.875
+    ],
+    [
+      0.0,
+      4.5,
+      17.1875,
+      86.875
+    ],
+    [
+      2.75,
+      1.0,
+      10.4375,
+      12.3125
+    ],
+    [
+      8.5,
+      2.75,
+      0.0,
+      14.390625
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.25
+    ],
+    [
+      4.375,
+      19.234375,
+      0.0,
+      0.0
+    ],
+    [
+      8.5,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.75,
+      4.75,
+      0.0,
+      0.0
+    ],
+    [
+      2.75,
+      1.0,
+      0.375,
+      1.625
+    ],
+    [
+      8.5,
+      2.625,
+      19.92578125,
+      0.0
+    ]
+  ],
+  "shadow_margin_scan_rows": [
+    {
+      "row": 0,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 1,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 2,
+      "accepted_draft": 2,
+      "mismatches": 1
+    },
+    {
+      "row": 3,
+      "accepted_draft": 1,
+      "mismatches": 0
+    },
+    {
+      "row": 4,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 5,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 6,
+      "accepted_draft": 3,
+      "mismatches": 0
+    },
+    {
+      "row": 7,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 8,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 9,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 10,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 11,
+      "accepted_draft": 0,
+      "mismatches": 0
+    }
+  ],
+  "candidate_diagnostics": [
+    {
+      "parent": 0,
+      "target_token": 11,
+      "draft_token": 13,
+      "target_text": ",",
+      "draft_text": ".",
+      "g": 4.375,
+      "m_U": 0.17643868923187256,
+      "m_P": 3.0395524501800537,
+      "m_R": 1.1243607997894287,
+      "delta": 0.0,
+      "score": 4.375,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          7,
+          1
+        ]
+      ],
+      "parent_absolute_position": 464,
+      "candidate_absolute_position": 465,
+      "candidate_generated_position": 10,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "e6b026f4ef51452236b3f72f952d60a9cdcb32d350d96e8bebd590670e9702c5",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        70749,
+        264,
+        32976,
+        78176,
+        1968,
+        304,
+        279,
+        4126
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image showcases a vibrant broccoli head in the center"
+    },
+    {
+      "parent": 0,
+      "target_token": 11,
+      "draft_token": 315,
+      "target_text": ",",
+      "draft_text": " of",
+      "g": 2.75,
+      "m_U": -1.0380069017410278,
+      "m_P": 4.674424171447754,
+      "m_R": -0.9317176342010498,
+      "delta": 0.5,
+      "score": 2.25,
+      "gate": true,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": true,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "parent_absolute_position": 464,
+      "candidate_absolute_position": 465,
+      "candidate_generated_position": 10,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "e6b026f4ef51452236b3f72f952d60a9cdcb32d350d96e8bebd590670e9702c5",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        70749,
+        264,
+        32976,
+        78176,
+        1968,
+        304,
+        279,
+        4126
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image showcases a vibrant broccoli head in the center"
+    },
+    {
+      "parent": 0,
+      "target_token": 11,
+      "draft_token": 6430,
+      "target_text": ",",
+      "draft_text": " stage",
+      "g": 8.5,
+      "m_U": 3.4800949096679688,
+      "m_P": 6.184492588043213,
+      "m_R": -1.1945743560791016,
+      "delta": 0.0,
+      "score": 8.5,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          5,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "parent_absolute_position": 464,
+      "candidate_absolute_position": 465,
+      "candidate_generated_position": 10,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "e6b026f4ef51452236b3f72f952d60a9cdcb32d350d96e8bebd590670e9702c5",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        70749,
+        264,
+        32976,
+        78176,
+        1968,
+        304,
+        279,
+        4126
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image showcases a vibrant broccoli head in the center"
+    },
+    {
+      "parent": 2,
+      "target_token": 22865,
+      "draft_token": 448,
+      "target_text": " surrounded",
+      "draft_text": " with",
+      "g": 0.5,
+      "m_U": -0.8196583986282349,
+      "m_P": -0.6499684453010559,
+      "m_R": 2.0075008869171143,
+      "delta": 0.0,
+      "score": 0.5,
+      "gate": false,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": false,
+      "margin_accept": true,
+      "bepc_accept": true,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": true,
+      "production_reason": "visual_bound_accept",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          2,
+          2
+        ]
+      ],
+      "parent_absolute_position": 465,
+      "candidate_absolute_position": 466,
+      "candidate_generated_position": 11,
+      "parent_path": [
+        0,
+        2
+      ],
+      "legal_prefix_sha256": "4eba6904fd9f7a3336999c3219f069016dc9607f8fee681c17af120092839227",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        70749,
+        264,
+        32976,
+        78176,
+        1968,
+        304,
+        279,
+        4126,
+        11
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image showcases a vibrant broccoli head in the center,"
+    },
+    {
+      "parent": 2,
+      "target_token": 22865,
+      "draft_token": 738,
+      "target_text": " surrounded",
+      "draft_text": " set",
+      "g": 4.5,
+      "m_U": 2.441230297088623,
+      "m_P": -0.9816979169845581,
+      "m_R": 3.0282695293426514,
+      "delta": -0.49084895849227905,
+      "score": 4.990849018096924,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          3,
+          2
+        ]
+      ],
+      "parent_absolute_position": 465,
+      "candidate_absolute_position": 466,
+      "candidate_generated_position": 11,
+      "parent_path": [
+        0,
+        2
+      ],
+      "legal_prefix_sha256": "4eba6904fd9f7a3336999c3219f069016dc9607f8fee681c17af120092839227",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        70749,
+        264,
+        32976,
+        78176,
+        1968,
+        304,
+        279,
+        4126,
+        11
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image showcases a vibrant broccoli head in the center,"
+    },
+    {
+      "parent": 18,
+      "target_token": 57267,
+      "draft_token": 264,
+      "target_text": " lush",
+      "draft_text": " a",
+      "g": 1.25,
+      "m_U": -3.2556493282318115,
+      "m_P": 2.468751907348633,
+      "m_R": 1.9449515342712402,
+      "delta": 0.5,
+      "score": 0.75,
+      "gate": true,
+      "available": true,
+      "protection_component": false,
+      "rescue_component": true,
+      "margin_accept": false,
+      "bepc_accept": true,
+      "decision_relation": "rescue",
+      "production_bepc_visited": true,
+      "production_bepc_decision": true,
+      "production_reason": "bepc_accept",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": true,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          6,
+          4
+        ]
+      ],
+      "parent_absolute_position": 467,
+      "candidate_absolute_position": 468,
+      "candidate_generated_position": 13,
+      "parent_path": [
+        0,
+        2,
+        9,
+        18
+      ],
+      "legal_prefix_sha256": "ec8deea3426457e9477c0db7855b6b0c2fa3e1e377dee41fbdd89b76a1173295",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785,
+        2168,
+        70749,
+        264,
+        32976,
+        78176,
+        1968,
+        304,
+        279,
+        4126,
+        11,
+        22865,
+        553
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe image showcases a vibrant broccoli head in the center, surrounded by"
+    }
+  ],
+  "production_bepc_visit_count": 6,
+  "shadow_margin_visit_count": 6,
+  "supplemental_full_scores": 6,
+  "stopped_before_divergent_tree_commit": true,
+  "used_future_continuation": false,
+  "new_label_generated": false,
+  "elapsed_seconds": 0.4439056059345603,
+  "model_calls": {
+    "vision": 1,
+    "target": 4,
+    "draft": 12
+  },
+  "extra_diagnostic_target_forwards": 0,
+  "loaded_original_sources_unchanged": true
+}

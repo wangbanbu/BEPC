@@ -1,0 +1,152 @@
+{
+  "status": "pass",
+  "created_utc": "2026-11-01T02:46:06.803948+00:00",
+  "runtime_entry": {
+    "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/run_single_pass.py",
+    "sha256": "72da55712828d6d62bcd18bde6e7b6dd3ef7e9c76b811c8a55081bb6e83fc05d"
+  },
+  "inherited_core": {
+    "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/run_benchmark.py",
+    "sha256": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a"
+  },
+  "unmodified_parent_sources": {
+    "run_benchmark.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/run_benchmark.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/run_benchmark.py",
+      "sha256": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a",
+      "symlink": true,
+      "parent_sha256": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a"
+    },
+    "resources.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/resources.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/resources.py",
+      "sha256": "1251cbf5de19abfbc09c4c6b7e8076354a132fdf0a04e4f6cb1bfff848352307",
+      "symlink": true,
+      "parent_sha256": "1251cbf5de19abfbc09c4c6b7e8076354a132fdf0a04e4f6cb1bfff848352307"
+    },
+    "compact_logits.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/compact_logits.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/compact_logits.py",
+      "sha256": "e92c9bfaa73537d3c5aad48fabbee7741c127f0488d283a4e1358e421cafdbb3",
+      "symlink": true,
+      "parent_sha256": "e92c9bfaa73537d3c5aad48fabbee7741c127f0488d283a4e1358e421cafdbb3"
+    },
+    "online_controller.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/online_controller.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/online_controller.py",
+      "sha256": "c60248ddd72e42f1eb6be1a24e527077cd7e6cf438fb9e0ffa415777655adc82",
+      "symlink": true,
+      "parent_sha256": "c60248ddd72e42f1eb6be1a24e527077cd7e6cf438fb9e0ffa415777655adc82"
+    },
+    "epcc_online.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/epcc_online.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/epcc_online.py",
+      "sha256": "d4f1d6fdc27890653e139090ae0d20f68a3832cbb1f69e7f93544333e9574698",
+      "symlink": true,
+      "parent_sha256": "d4f1d6fdc27890653e139090ae0d20f68a3832cbb1f69e7f93544333e9574698"
+    },
+    "visual_online.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/visual_online.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/visual_online.py",
+      "sha256": "ced9733b3cc14574278f700fb4ad9d1de4ac324d06a9fb9fbc4a089621957db2",
+      "symlink": true,
+      "parent_sha256": "ced9733b3cc14574278f700fb4ad9d1de4ac324d06a9fb9fbc4a089621957db2"
+    },
+    "optimized_visual.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/optimized_visual.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/optimized_visual.py",
+      "sha256": "9f5adb9e2487d07baac06a99ae0c6eb3c6a0924a2efc456144c82c5d0b67645b",
+      "symlink": true,
+      "parent_sha256": "9f5adb9e2487d07baac06a99ae0c6eb3c6a0924a2efc456144c82c5d0b67645b"
+    },
+    "refined_controller.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/refined_controller.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/refined_controller.py",
+      "sha256": "ea913766a7e223cc3f2fb224fb73bfafbd392401a2e374e01155b38a9f12e3b6",
+      "symlink": true,
+      "parent_sha256": "ea913766a7e223cc3f2fb224fb73bfafbd392401a2e374e01155b38a9f12e3b6"
+    },
+    "refined_math.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/refined_math.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/refined_math.py",
+      "sha256": "ec8f151a765226e68b1def995e8754527019731f8a5a67f4ee99a9076fa43f32",
+      "symlink": true,
+      "parent_sha256": "ec8f151a765226e68b1def995e8754527019731f8a5a67f4ee99a9076fa43f32"
+    },
+    "refined_observer.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/refined_observer.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/refined_observer.py",
+      "sha256": "bd1cffee198645238ac6c530c65e68a7faaf224a1a5e07de915c382ef8872efa",
+      "symlink": true,
+      "parent_sha256": "bd1cffee198645238ac6c530c65e68a7faaf224a1a5e07de915c382ef8872efa"
+    },
+    "speed_controller.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/speed_controller.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/speed_controller.py",
+      "sha256": "5de69957079f114a08b91d014147ba33be72ea90b2f8b881c9df1f1320091c9b",
+      "symlink": true,
+      "parent_sha256": "5de69957079f114a08b91d014147ba33be72ea90b2f8b881c9df1f1320091c9b"
+    },
+    "speed_math.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/speed_math.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/speed_math.py",
+      "sha256": "b8fd4d20d58a0246724312874966d49194c635134b048c6cccac40a4d886af25",
+      "symlink": true,
+      "parent_sha256": "b8fd4d20d58a0246724312874966d49194c635134b048c6cccac40a4d886af25"
+    },
+    "speed_observer.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/speed_observer.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/speed_observer.py",
+      "sha256": "e86a61568bfe9bc00dac496abc7e5f8b14b5aa87eeff17f542838585329e97e2",
+      "symlink": true,
+      "parent_sha256": "e86a61568bfe9bc00dac496abc7e5f8b14b5aa87eeff17f542838585329e97e2"
+    },
+    "terminal_update.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/terminal_update.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/terminal_update.py",
+      "sha256": "efc7f305489b5e5b0fe3ed1bc59885efbeaea52618936b340f164dfed38c4304",
+      "symlink": true,
+      "parent_sha256": "efc7f305489b5e5b0fe3ed1bc59885efbeaea52618936b340f164dfed38c4304"
+    },
+    "bounds.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/bounds.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/bounds.py",
+      "sha256": "caabfde7cac71948ec681e71d1bc6f23057650a84d14eb7a840aa3a07af85e09",
+      "symlink": true,
+      "parent_sha256": "caabfde7cac71948ec681e71d1bc6f23057650a84d14eb7a840aa3a07af85e09"
+    },
+    "lvspec_controller.py": {
+      "new_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/lvspec_controller.py",
+      "frozen_parent_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/lvspec_controller.py",
+      "sha256": "4ab570d9f9acdb3014ec20491533c2f8a9771825784bac15e989c5aa2fbf27f0",
+      "symlink": true,
+      "parent_sha256": "4ab570d9f9acdb3014ec20491533c2f8a9771825784bac15e989c5aa2fbf27f0"
+    }
+  },
+  "unchanged_generation_methods_ast_sha256": {
+    "restore": "2d28a7059e82c37022335a8b9ef2361d14e7009853e624ec174a269cd464b0a6",
+    "inputs": "1a5ff82721174272da0b7646f3585e33169476e84ab4513d4ccdcfef6ce6d9b1",
+    "serial_ar": "d302cf988b3de3bf1360d8d5256503dcb9ab7e13e39b0d03c25db4c95aafb1a1",
+    "generate": "831e024035dc64c09fd5108da1e1aa3fc1aea0bfca53d2bb9ba6e8b4fbc5edd5",
+    "verify_checkout": "1f2ec626fc361d703ea6c5b6e6f38ba0a9f5cd59159512b079911727efac450c"
+  },
+  "modifications": [
+    "core.ROOT redirected to single_pass workspace",
+    "core.write metadata writer permits byte-identical immutable metadata on resume; conflicts fail",
+    "Runtime.__init__ inherited then adds entrypoint metadata",
+    "Runtime.run overridden only for single-repeat scheduling, repeat0 evidence reuse, and missing-key resume"
+  ],
+  "generation_attention_kv_stop_and_timing_implementations": "direct inheritance without overriding generate/inputs/serial_ar/restore/verify_checkout",
+  "new_target_forwards_per_request": 0,
+  "reused_development_rule": "all persisted parent repeat0 rows, without output/quality filtering; source rows immutable",
+  "row_normalization": "only config_sha256; measurement_origin and single_pass_provenance are additive; original config+canonical row SHA+file SHA+line retained",
+  "warmups": "no new model load or warmup for fully imported tasks; once per method for each task/shard with missing measurements; old warmup and repeat1/2 costs remain separate historical costs",
+  "partial_question_inputs": "new session reprocesses identical immutable image+prompt and records its own actual preprocessing time; old and new preprocessing sessions are never forced numerically equal",
+  "scheduler": "repeat0 seed unchanged; physical GPU group_ordinal%2; all methods at every selected question exactly once",
+  "tests": {
+    "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/tests/test_single_pass_accounting.py",
+    "sha256": "70b3bef353005823fb61c23ef5c6660aa0da6d9a14f79ea6d555a70f16cff438",
+    "distinct_tests": 5,
+    "result": "passed"
+  }
+}

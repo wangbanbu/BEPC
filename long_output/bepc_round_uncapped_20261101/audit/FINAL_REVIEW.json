@@ -1,0 +1,142 @@
+{
+  "status": "pass",
+  "reviewer": "/root/round_uncapped_audit",
+  "created_utc": "2026-11-01T08:51:59.123436+00:00",
+  "scope": "Independent final implementation/data/metric-provenance/numeric/report review; no inference or official metric reruns",
+  "checks_passed": 16,
+  "checks": [
+    {
+      "id": "frozen_single_policy_change",
+      "status": "pass",
+      "evidence": "Only round_mismatch_budget 2 versus null/no_round_cap differs; all symmetric BEPC scoring, models, inputs, prompts, tree and stopping settings are frozen. No training or test threshold search."
+    },
+    {
+      "id": "completed_request_grid",
+      "status": "pass",
+      "evidence": "600 main requests and 120 development requests, two methods over 100/20 frozen groups per task, one pass, both arms timed concurrently in the same run schedule."
+    },
+    {
+      "id": "same_original_inputs",
+      "status": "pass",
+      "evidence": "Both methods have identical processed inputs, prompts and image metadata per question; independently hashed all 360 image files. Each task/split contains unique physical image SHA per group."
+    },
+    {
+      "id": "historical_control_parity",
+      "status": "pass",
+      "evidence": "360/360 previous BEPC controls reproduce raw and visible tokens, accepted lengths, selected native paths and inputs exactly. Historical timing was not used in new contrasts."
+    },
+    {
+      "id": "actual_cap_removal",
+      "status": "pass",
+      "evidence": "No-cap branch records round budget null, no row/response budget bindings, retained observer and zero additional Target forwards. Main selected >2 rounds: SQA6/3618, COCO54/4687, TextVQA35/3372. Max selected mismatch counts3/4/3."
+    },
+    {
+      "id": "native_tree_path_and_commit_invariants",
+      "status": "pass",
+      "evidence": "Each verification uses30 native Target query rows; paths contain at most four Draft descendants plus root. All mismatch totals equal selected-path commit sums; only selected path commits. All first path differences require new accepted mismatch count>=3."
+    },
+    {
+      "id": "runtime_cleanup_resources",
+      "status": "pass",
+      "evidence": "Zero live request controllers/logits at completion; vision1/request, Target calls=rounds+prefill; resource logs contain no foreign GPU interference. All generation exited before official CPU scoring."
+    },
+    {
+      "id": "sealed_metric_provenance",
+      "status": "pass",
+      "evidence": "12 dev/main score seals validated:6 exact ordered whole-corpus reuses,6 new official evaluations. No GPU outputs regenerated for scoring. Both new COCO SPICE runs used64G resource ceiling with unchanged scorer and no skipped sentence/Java scoring failure."
+    },
+    {
+      "id": "summary_and_statistical_arithmetic",
+      "status": "pass",
+      "evidence": "Independent checker imports no experiment analyzer or scorer. Recomputed6 summary rows,42 paired metric rows,546 feature-counter rows and5000 paired image bootstrap draw hashes/CI/p/relative changes/NI bounds:3589 numeric comparisons passed."
+    },
+    {
+      "id": "all_output_changes_preserved",
+      "status": "pass",
+      "evidence": "All76 changed main outputs (6 SQA,40 COCO,30 TextVQA) retained with exact paired text, image path and prompt; all76 first-divergence cases retained. No quality or harm filtering."
+    },
+    {
+      "id": "quality_transitions_and_failures",
+      "status": "pass",
+      "evidence": "SQA85 correct-correct,14 wrong-wrong,1 correct-wrong; TextVQA2 degraded,98 tied; COCO SPICE22 down18 up60 equal,CHAIRs1 worse99 equal,CHAIRi3 worse97 equal. TextVQA extraction failures3->4 retained/score0; all requests untruncated."
+    },
+    {
+      "id": "posthoc_tie_mechanism_audit",
+      "status": "pass",
+      "evidence": "Supplemental helper is purely descriptive over all600 requests and changes no scoring/statistical rule. First divergence had equal accepted length but earlier leaf in15COCO and9TextVQA cases; genuine first length gain6SQA/25COCO/21TextVQA. All match independent native-path counts."
+    },
+    {
+      "id": "report_append_provenance",
+      "status": "pass",
+      "evidence": "Original report generator seal remains unchanged; append provenance links original and current report SHA, helper/effect SHA, and preserves all7 other originally generated artifacts."
+    },
+    {
+      "id": "report_numeric_and_visual_artifact_consistency",
+      "status": "pass",
+      "evidence": "Current Chinese report tables and prose checked against independently recomputed CSV values, quality transitions, NI results and supplemental path counts. PDF files valid:3 performance pages and2 quality pages; canonical plotted values are frozen CSVs."
+    },
+    {
+      "id": "claim_scope_and_decision",
+      "status": "pass",
+      "evidence": "All throughput/MAT/request-time paired95% intervals include zero change. Point quality decreases are reported, but not upgraded to proven general quality degradation. All three predeclared automatic NI gates remain not established; human caption review and timing repeatability remain unestablished."
+    },
+    {
+      "id": "prior_and_source_preservation",
+      "status": "pass",
+      "evidence": "232 prior files unchanged;29 frozen runtime hashes, test source hashes and6 frozen metric/statistical source hashes unchanged at final review. This reviewer modified only audit files."
+    }
+  ],
+  "blocking_findings": [],
+  "artifact_consistency_pass": true,
+  "experiment_result": "No reliable speed advantage or quality-preserving gain established by this one-pass reused-image pilot",
+  "recommendation": "Keep existing round2 implementation as baseline; do not promote fully uncapped BEPC to a quality-preserving faster default",
+  "human_caption_ground_truth_status": "pending",
+  "independent_numeric_comparisons": 3589,
+  "historical_controls_exact": 360,
+  "score_seal_count": 12,
+  "exact_whole_corpus_reuse_count": 6,
+  "changed_output_pairs": 76,
+  "artifact_sha256": {
+    "reports/FULL_EXPERIMENT_REPORT.md": "7a1103c8ceb769d0ada1bc1d92dfe0d81d30c19bd75e3cd6fea5e4cafdeefc17",
+    "reports/BENCHMARK_SUMMARY.csv": "019e107838a56f5ff8a3a73e450612eb3232d51156723ebba4ca241e9734a163",
+    "reports/PAIRED_COMPARISONS.csv": "b6e942803511bf8d243eb66b2870362e91edcdb60c3896e2d2d17da619c430de",
+    "reports/FEATURE_COST_COUNTERS.csv": "3972d5aaad12b9e24602ef5e317b1adf58feb04212dc491ef9929a30bf7c9327",
+    "reports/CHANGED_OUTPUT_PAIRS.jsonl": "faa3893b139609258beea54d551446ba4601b48c7beb9e2348c0df95432da4ac",
+    "reports/BENCHMARK_PERFORMANCE.pdf": "716996bed23a4ab3c99f656f8c3d79202c6065fffb0a4509d0ec9459a1ed5eaa",
+    "reports/BENCHMARK_QUALITY.pdf": "054dff8a4090cac48a39380daeeb2c655cb7c7791c224e9a10808c3a3db2edb4",
+    "audit/STATISTICAL_ANALYSIS.json": "54fd147b1fcefaba26604a2e61ed1bc0cae168d67901b1d40dd4c39f037cbcb5",
+    "audit/REPORT_DELIVERY.json": "2cad5152ef36090b4950b8cb40554e5893397f0496a12c8478f2fea9a8b9867d",
+    "audit/ROUND_LIMIT_EFFECT.json": "480bc9202c54e4dc4d1ede68a20a0ce743e6cbfdb8c0053d1d07f1f36ef67835",
+    "audit/REPORT_ADDENDUM_PROVENANCE.json": "44eb3444d86eaca52d490015d39e4d71ae2fe5f58cb38e2e9f7a57d6384bb71b",
+    "harness/analyze_round_limit_effect.py": "ed5d1de4877cdf7ad09773a59789e04d9ce4130f15f5296d674bb5c9b18e364c",
+    "audit/INDEPENDENT_RUNTIME_CHECK.json": "09c9f385040642b237289188f243950f2f24fb2ba1ba859621488baa21122d41",
+    "audit/INDEPENDENT_NUMERIC_CHECK.json": "2a1c4faf675560e1d985ff4fc83a0ca04d4ce8bff21207fbf714e56b3c3e1936",
+    "audit/independent_numeric_check.py": "b5cc6c0ed6f842bfed5e5b9165c2f8475adaa49537d4acca92027c8b85c6aeac"
+  },
+  "score_seals_sha256": {
+    "metrics/development/coco/bepc_no_mismatch_caps/SCORING_SEAL.json": "5a6fb38c6a55e7dbb89d3aeb073690bf9c7ef2a8196fc736facd25c833e81a4f",
+    "metrics/development/coco/bepc_round2/SCORING_SEAL.json": "9852f24ad31c9967014e36825277af78570bb254ab796fea3c71baad5d6098a9",
+    "metrics/development/scienceqa/bepc_no_mismatch_caps/SCORING_SEAL.json": "4d8bddc82e5b3a7a8de92387a833f281a4eb9df6e3793d93b5fc4de6c15775b8",
+    "metrics/development/scienceqa/bepc_round2/SCORING_SEAL.json": "9fd0ed4da54586fee3660952f9e06c75059f8b7caa991aca2f38ee1ed7343839",
+    "metrics/development/textvqa/bepc_no_mismatch_caps/SCORING_SEAL.json": "0694f52415297f9b7160b0c97237045225ec2dfedc38faf52c37d74654cf3af9",
+    "metrics/development/textvqa/bepc_round2/SCORING_SEAL.json": "822802a2d4849141a9617af3cbf9794e58720392ee032669131b3f76bf5d4646",
+    "metrics/main/coco/bepc_no_mismatch_caps/SCORING_SEAL.json": "f72e191726096e2ea478d407454af12cf5d3ce425423148bc9ea4598efd6fc4e",
+    "metrics/main/coco/bepc_round2/SCORING_SEAL.json": "d70c0f08adc4e26c164d975da8bfda6c9fef2fb897431d81ebaa7d8933af1d96",
+    "metrics/main/scienceqa/bepc_no_mismatch_caps/SCORING_SEAL.json": "a827b07ad477ce5fbb6a8ec55a0f60a27ec1cc25fdff3d837afc9eff78da1102",
+    "metrics/main/scienceqa/bepc_round2/SCORING_SEAL.json": "f517a8fe694658a2e13e3add6a63e67760025cb924cf10a65b05d7c8559286b6",
+    "metrics/main/textvqa/bepc_no_mismatch_caps/SCORING_SEAL.json": "6c8f7a8c06e62c89dfd0780095a67401528a107f9cce294cf3603cced165dd28",
+    "metrics/main/textvqa/bepc_round2/SCORING_SEAL.json": "b76dcf5aa1bce47d8f0275b68fe5c46fb5753c31c7dca79fd25921e991937ad1"
+  },
+  "metric_source_sha256": {
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/harness/evaluate_round_uncapped.py": "7d6abbf5aacaedbc8e36f8097b9efd16bfd3884bb9ce9360bfb43c24fa6458be",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_round_uncapped_20261101/harness/analyze_round_uncapped.py": "57b335e39e684e548e61b5f82d28d45ddc67e0085380b65cff05ce90e259f7b0",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/evaluate_long.py": "a1cc46dd8d4c8aa629e9a2529eee922597f061887f853b4014fced4279e880bc",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/analyze_results.py": "6c811435411ee15c0e241070f9adea9cb0d4d595e853d1903eb862a38ed73154",
+    "/data/wbb/vispec-clean-benchmark-20261031/harness/evaluate_tasks.py": "1f491b0f1dba0a148b5a65ddc574c73c76878c098c967fc1f45fc08ba2a83fc3",
+    "/data/wbb/vispec-clean-benchmark-20261031/long_output/harness/evaluate_long.py": "c5e17666135bc1d4263ca5e5d132418d8a721fd35d5c8b792557b691bf3d2072"
+  },
+  "prior_preservation_manifest_sha256": "00620ff90708384c1338624c060541ff06de029cdda06907498cfff0ed848ef5",
+  "runtime_check_sha256": "09c9f385040642b237289188f243950f2f24fb2ba1ba859621488baa21122d41",
+  "numeric_check_sha256": "2a1c4faf675560e1d985ff4fc83a0ca04d4ce8bff21207fbf714e56b3c3e1936",
+  "final_delivery_note": "Integrating owner will seal these stable reviewed artifacts and review files in FINAL_DELIVERY.json; no circular dependency required."
+}

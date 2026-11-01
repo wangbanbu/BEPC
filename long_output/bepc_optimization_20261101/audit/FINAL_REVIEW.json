@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "reviewer_role": "independent read-only implementation/data/statistics reviewer",
+  "no_gpu_or_official_scoring_run": true,
+  "checks": {
+    "final_artifacts_sha256": 14,
+    "score_seals": 24,
+    "score_provenance_and_reuse_seals": "pass",
+    "summary_rows_recomputed_from_raw": 12,
+    "independently_recomputed_point_metrics": 164,
+    "independently_recomputed_ci_bounds": 328,
+    "paired_comparisons_recomputed": 168,
+    "noninferiority_diagnostics_recomputed": 12,
+    "all_changed_pairs_exported": 20,
+    "report_local_links_checked": 1,
+    "critical_report_limitations_present": true,
+    "pdf_readability": [
+      {
+        "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/BENCHMARK_PERFORMANCE.pdf",
+        "pages": 3,
+        "extractable_text": true
+      },
+      {
+        "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_optimization_20261101/reports/BENCHMARK_QUALITY.pdf",
+        "pages": 2,
+        "extractable_text": true
+      }
+    ],
+    "old_files_unchanged": 137,
+    "frozen_generation_sources_unchanged": 20,
+    "frozen_metric_sources_unchanged": 6
+  },
+  "interpretation": {
+    "engineering": "exact observed outputs and small measured latency reduction; repeat-run robustness not established",
+    "rescue": "20 changed trajectories; no reliable throughput/latency/MAT gain over fast; not justified as default upgrade",
+    "quality": "rescue relative to Strict fails to establish prespecified noninferiority on ScienceQA and TextVQA; automatic COCO checks pass with no human guarantee",
+    "ground_truth": "not single-event harmful labels or human factual ground truth"
+  },
+  "final_manifest_sha256": "21c1259d54391d3e7decf38282f102c550cef57f682af0986274ad9435ae19de",
+  "report_sha256": "2bbbcb62f8e8f5ededcf1d5f8767d6ef6e08d4437e14ef86a58c07c18541a85b",
+  "manifest_authority_note": "audit/REPORT_DELIVERY.json is the retained intermediate analyzer manifest before final report addendum; its FULL report SHA is superseded by verified audit/FINAL_DELIVERY.json. All other intermediate entries match."
+}

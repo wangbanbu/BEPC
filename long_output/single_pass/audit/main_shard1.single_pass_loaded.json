@@ -1,0 +1,106 @@
+{
+  "config_sha256": "5107de3135bd92baf3e9b8a42f62009f6aa88f3f285f25423d437a69ff873007",
+  "runner_sha256": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a",
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "executable": "/data/wbb/miniconda3/envs/spec/bin/python",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "physical_gpu": "1",
+  "gpu": "NVIDIA L20",
+  "target_dtype": "torch.bfloat16",
+  "model_class": "vispec.model.spec_model_ours",
+  "attention_class": "Qwen2_5_VLSdpaAttention",
+  "phase": "main",
+  "source_sha256": {
+    "run_benchmark.py": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a",
+    "resources.py": "1251cbf5de19abfbc09c4c6b7e8076354a132fdf0a04e4f6cb1bfff848352307",
+    "compact_logits.py": "e92c9bfaa73537d3c5aad48fabbee7741c127f0488d283a4e1358e421cafdbb3",
+    "online_controller.py": "c60248ddd72e42f1eb6be1a24e527077cd7e6cf438fb9e0ffa415777655adc82",
+    "epcc_online.py": "d4f1d6fdc27890653e139090ae0d20f68a3832cbb1f69e7f93544333e9574698",
+    "visual_online.py": "ced9733b3cc14574278f700fb4ad9d1de4ac324d06a9fb9fbc4a089621957db2",
+    "optimized_visual.py": "9f5adb9e2487d07baac06a99ae0c6eb3c6a0924a2efc456144c82c5d0b67645b",
+    "refined_controller.py": "ea913766a7e223cc3f2fb224fb73bfafbd392401a2e374e01155b38a9f12e3b6",
+    "refined_math.py": "ec8f151a765226e68b1def995e8754527019731f8a5a67f4ee99a9076fa43f32",
+    "refined_observer.py": "bd1cffee198645238ac6c530c65e68a7faaf224a1a5e07de915c382ef8872efa",
+    "speed_controller.py": "5de69957079f114a08b91d014147ba33be72ea90b2f8b881c9df1f1320091c9b",
+    "speed_math.py": "b8fd4d20d58a0246724312874966d49194c635134b048c6cccac40a4d886af25",
+    "speed_observer.py": "e86a61568bfe9bc00dac496abc7e5f8b14b5aa87eeff17f542838585329e97e2",
+    "terminal_update.py": "efc7f305489b5e5b0fe3ed1bc59885efbeaea52618936b340f164dfed38c4304",
+    "bounds.py": "caabfde7cac71948ec681e71d1bc6f23057650a84d14eb7a840aa3a07af85e09",
+    "lvspec_controller.py": "4ab570d9f9acdb3014ec20491533c2f8a9771825784bac15e989c5aa2fbf27f0",
+    "run_single_pass.py": "72da55712828d6d62bcd18bde6e7b6dd3ef7e9c76b811c8a55081bb6e83fc05d"
+  },
+  "loaded_vispec_sources": {
+    "vispec": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vispec.model": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vispec.model.choices": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/choices.py",
+      "sha256": "4bf7701b2a105d85d15a3d85f224b3034b247dadefa01cdd354b2cfcab0e6fd8"
+    },
+    "vispec.model.configs": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/configs.py",
+      "sha256": "3d39912bf9ed1227243983929c5c1019765570b76c239ef33fcf323f196e6d51"
+    },
+    "vispec.model.utils_c": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/utils_c.py",
+      "sha256": "bd070a88ca3a6aa8ed4e5325513d19c372fecfa6ff02d47d245dcd7cec8cf837"
+    },
+    "vispec.model.cnets_ours": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/cnets_ours.py",
+      "sha256": "bc2fd29bb7629fe0662f4f4cca7e228a2994c5980f8778141ca5f46c0384481d"
+    },
+    "vispec.model.kv_cache": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/kv_cache.py",
+      "sha256": "9aec69340145363886de151e405bfef1e8a99502e8d987d761429c0f3e01e43d"
+    },
+    "vispec.model.modeling_llama_kv": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/modeling_llama_kv.py",
+      "sha256": "9cda75a6a5f4ae6b919d9fdff0e5192ff6497c816559ea644c3b8d27391d88f1"
+    },
+    "vispec.model.modeling_llava_kv": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/modeling_llava_kv.py",
+      "sha256": "2c3ff56f54c19248e05fb353c51e66f0d3815ef321cf77923a30dd16dc631667"
+    },
+    "vispec.model.modeling_llava_next_kv": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/modeling_llava_next_kv.py",
+      "sha256": "a807813e6fbed4b444eb73c3ae7d8295c544b4e8b95f6fdb3b7a22f70556f2bb"
+    },
+    "vispec.model.modeling_mixtral_kv": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/modeling_mixtral_kv.py",
+      "sha256": "d44c3f91076ca3f0e7ac53d1c51b8d0b0d4f8df6940a9cbc449062d3e5bdebc1"
+    },
+    "vispec.model.modeling_qwen2_5_vl_kv": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/modeling_qwen2_5_vl_kv.py",
+      "sha256": "718467d847a8a69bb9533d866bb41b23041de870a63c71e6f2a9d0c9ff39dfc1"
+    },
+    "vispec.model.modeling_qwen2_kv": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/modeling_qwen2_kv.py",
+      "sha256": "9c7112fdc2d011c56545c964ae8271a31c90df060d56416fc60d42735d51a4a6"
+    },
+    "vispec.model.utils": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/utils.py",
+      "sha256": "72d284de3f6457aca501f6ca6ca795bfda34a54546c52bb332e6bc7122f42430"
+    },
+    "vispec.model.spec_model_ours": {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/model/spec_model_ours.py",
+      "sha256": "8f4990c59efa7af5b941c6272554f7108e4e0525f7481641d0fe17af91f79f1c"
+    }
+  },
+  "processor_settings": {
+    "use_fast": false,
+    "min_pixels": 200704,
+    "max_pixels": 1003520
+  },
+  "AR_memory_includes_idle_loaded_Draft": true,
+  "native_target_KV_capacity": 4096,
+  "native_max_length_is_round_limit_not_total_context_cap": true,
+  "single_pass_runtime_entry_sha256": "72da55712828d6d62bcd18bde6e7b6dd3ef7e9c76b811c8a55081bb6e83fc05d",
+  "single_pass_runtime_entry_path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/harness/run_single_pass.py",
+  "inherited_generation_core_sha256": "a8ffa14bcef3eda7f9436945b13f24c820d7897fc34bfb89fc9c4369f14f899a"
+}

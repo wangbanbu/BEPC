@@ -1,0 +1,1031 @@
+{
+  "status": "pass",
+  "phase": "development",
+  "tasks": {
+    "scienceqa": {
+      "questions": 20,
+      "records": 80,
+      "original_fast_exact_parity": 20,
+      "exhausted_fast_rounds": {
+        "bepc_fast": 495,
+        "bepc_rescue0625": 510
+      },
+      "raw_rounds": {
+        "bepc_fast": 744,
+        "bepc_rescue0625": 731
+      },
+      "historical_comparisons": [
+        {
+          "task": "scienceqa",
+          "question_id": "13456",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "13456",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "4865",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "4865",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "9811",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "9811",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "9134",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "9134",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "5801",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "5801",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "20189",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "20189",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "3629",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "3629",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "18344",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "18344",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "5049",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "5049",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "18722",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "18722",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "12587",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "12587",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "16881",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "16881",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "2186",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "2186",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "10017",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "10017",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "9784",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "9784",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "9783",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "9783",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "15044",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "15044",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "6502",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "6502",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "20145",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "20145",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "2828",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "scienceqa",
+          "question_id": "2828",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        }
+      ]
+    },
+    "coco": {
+      "questions": 20,
+      "records": 80,
+      "original_fast_exact_parity": 20,
+      "exhausted_fast_rounds": {
+        "bepc_fast": 790,
+        "bepc_rescue0625": 785
+      },
+      "raw_rounds": {
+        "bepc_fast": 948,
+        "bepc_rescue0625": 941
+      },
+      "historical_comparisons": [
+        {
+          "task": "coco",
+          "question_id": "109434",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "109434",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "556545",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "556545",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "214184",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "214184",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "559440",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "559440",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "156282",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "156282",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "419371",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "419371",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "528905",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "528905",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "365094",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "365094",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "323356",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "323356",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "234902",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "234902",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "488219",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "488219",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "185487",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "185487",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "50443",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "50443",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "25603",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "25603",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "19888",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "19888",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "148444",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "148444",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "365325",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "365325",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "492469",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "492469",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "16521",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "16521",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "415020",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "coco",
+          "question_id": "415020",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        }
+      ]
+    },
+    "textvqa": {
+      "questions": 20,
+      "records": 80,
+      "original_fast_exact_parity": 20,
+      "exhausted_fast_rounds": {
+        "bepc_fast": 434,
+        "bepc_rescue0625": 434
+      },
+      "raw_rounds": {
+        "bepc_fast": 651,
+        "bepc_rescue0625": 651
+      },
+      "historical_comparisons": [
+        {
+          "task": "textvqa",
+          "question_id": "39282",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "39282",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "36381",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "36381",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "37997",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "37997",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "39043",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "39043",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "34807",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "34807",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "35022",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "35022",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "39152",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "39152",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38163",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38163",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38699",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38699",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38038",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38038",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "34991",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "34991",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38906",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38906",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "36162",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "36162",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "34956",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "34956",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "35616",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "35616",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "39047",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "39047",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "34848",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "34848",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38921",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38921",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38940",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "38940",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "37059",
+          "method": "strict_shared",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        },
+        {
+          "task": "textvqa",
+          "question_id": "37059",
+          "method": "bepc_original",
+          "prior_input_equal": true,
+          "prior_raw_tokens_equal": true,
+          "prior_visible_tokens_equal": true
+        }
+      ]
+    }
+  },
+  "records": 240,
+  "old_files_unchanged": 137,
+  "frozen_runtime_files_verified": 20,
+  "historical_input_mismatches": 0,
+  "historical_visible_output_differences": 0,
+  "resource_checks": [
+    {
+      "physical_gpu": "0",
+      "pid": 3144533,
+      "checks": 147,
+      "events": []
+    },
+    {
+      "physical_gpu": "1",
+      "pid": 3144532,
+      "checks": 156,
+      "events": []
+    }
+  ],
+  "config_sha256": "722f40106ec3f0452f3b4cd239beda2cd12e03a8bcbd150cfee7839d8074d87f"
+}

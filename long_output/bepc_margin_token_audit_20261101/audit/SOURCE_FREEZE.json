@@ -1,0 +1,61 @@
+{
+  "parent": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101",
+  "files": [
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/configs/frozen_config.json",
+      "sha256": "a33d3450554a96ed8240678896894d0b9a0dd09f3974afbf72b9261e57171006"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/audit/FINAL_DELIVERY.json",
+      "sha256": "114a5321496da5e14a9d3f7a324951553615d02e3fa9d1e78354d87a821c322e"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/results/main/main_scienceqa_shard0.jsonl",
+      "sha256": "d5b916314085070de4d6ab4f1b6db6ae8b4eb6ffbd3b4bb4e5d54350875af75a"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/results/main/main_textvqa_shard1.jsonl",
+      "sha256": "89982b342c465f17de7218b0b0e3f9981be873e385ce5a497a7706ee48938c3c"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/results/main/main_scienceqa_shard1.jsonl",
+      "sha256": "e2eb0072a9d85ff3bc029b4c24e5aef027784e76b8f30e89405f2b240ef9182a"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/results/main/main_coco_shard0.jsonl",
+      "sha256": "c1c27cf680ad1415dc8d1d99a23abe86c073fbd972ad6dc7969306fbbbafcf06"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/results/main/main_coco_shard1.jsonl",
+      "sha256": "bb24c73a707b505a7b2838facaeaf2c2961993b00676631fcc4ce405ee649bec"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/results/main/main_textvqa_shard0.jsonl",
+      "sha256": "390ca6baf662d18c600f3120c496ac0578c78a395a30bd94f2c5ab10a2676e32"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/metrics/main/coco/bepc_no_response_cap/per_question_scores.json",
+      "sha256": "7756b3ad91b773168ba21a34051e3f9a951fc7cc24290e371fe7adaaae65774f"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/metrics/main/coco/margin_no_response_cap/per_question_scores.json",
+      "sha256": "ff4dd7fd6951562525e64811d315dc0a042316a63bd75c78c76a374e1fad81f1"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/metrics/main/scienceqa/bepc_no_response_cap/per_question_scores.json",
+      "sha256": "7b4045dd76e7096bd910ebd0098f9e3878f5a33db2792431a7f07e237573ea44"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/metrics/main/scienceqa/margin_no_response_cap/per_question_scores.json",
+      "sha256": "c947d322920ac81baa5599f488dcc10cbcfb175c4f1feadf6191706d8a38f45c"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/metrics/main/textvqa/bepc_no_response_cap/per_question_scores.json",
+      "sha256": "ad31d5fe241ff745c9786be354a342eb295a87dc374c91b33f2018d4e0fe86c4"
+    },
+    {
+      "path": "/data/wbb/vispec-clean-benchmark-20261031/long_output/bepc_vs_margin_20261101/metrics/main/textvqa/margin_no_response_cap/per_question_scores.json",
+      "sha256": "d50b2f4f437414254a5bdb9694b016c1ebd3689db66da2952c3af56cfa4ee458"
+    }
+  ]
+}

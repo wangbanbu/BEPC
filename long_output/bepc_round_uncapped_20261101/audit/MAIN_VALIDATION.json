@@ -1,0 +1,3311 @@
+{
+  "status": "pass",
+  "phase": "main",
+  "tasks": {
+    "scienceqa": {
+      "records": 200,
+      "questions": 100,
+      "BEPC_historical_exact": 100,
+      "paired_inputs_exact": 100,
+      "outputs_changed": 6,
+      "first_divergent_paths": [
+        {
+          "question_id": "21192",
+          "round": 6,
+          "old": {
+            "round": 6,
+            "row": 0,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 5,
+            "nodes": [
+              0,
+              1,
+              11
+            ],
+            "tokens": [
+              9124,
+              13042,
+              13230
+            ]
+          },
+          "new": {
+            "round": 6,
+            "row": 8,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 5,
+            "nodes": [
+              0,
+              1,
+              9,
+              22
+            ],
+            "tokens": [
+              9124,
+              13042,
+              374,
+              264
+            ]
+          }
+        },
+        {
+          "question_id": "16744",
+          "round": 25,
+          "old": {
+            "round": 25,
+            "row": 18,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              1,
+              7
+            ],
+            "tokens": [
+              16246,
+              279,
+              52901
+            ]
+          },
+          "new": {
+            "round": 25,
+            "row": 18,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              1,
+              7,
+              24
+            ],
+            "tokens": [
+              16246,
+              279,
+              52901,
+              2266
+            ]
+          }
+        },
+        {
+          "question_id": "11181",
+          "round": 12,
+          "old": {
+            "round": 12,
+            "row": 11,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              2,
+              9,
+              15
+            ],
+            "tokens": [
+              10984,
+              11,
+              323,
+              432
+            ]
+          },
+          "new": {
+            "round": 12,
+            "row": 11,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              2,
+              9,
+              15,
+              28
+            ],
+            "tokens": [
+              10984,
+              11,
+              323,
+              432,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "5667",
+          "round": 19,
+          "old": {
+            "round": 19,
+            "row": 10,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 10,
+            "nodes": [
+              0,
+              1,
+              10,
+              24
+            ],
+            "tokens": [
+              97927,
+              40014,
+              13,
+              576
+            ]
+          },
+          "new": {
+            "round": 19,
+            "row": 13,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 10,
+            "nodes": [
+              0,
+              1,
+              9,
+              22,
+              28
+            ],
+            "tokens": [
+              97927,
+              40014,
+              382,
+              785,
+              3405
+            ]
+          }
+        },
+        {
+          "question_id": "10271",
+          "round": 7,
+          "old": {
+            "round": 7,
+            "row": 8,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              8
+            ],
+            "tokens": [
+              1555,
+              304,
+              279
+            ]
+          },
+          "new": {
+            "round": 7,
+            "row": 15,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              8,
+              18
+            ],
+            "tokens": [
+              1555,
+              304,
+              279,
+              1879
+            ]
+          }
+        },
+        {
+          "question_id": "19922",
+          "round": 17,
+          "old": {
+            "round": 17,
+            "row": 4,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              1,
+              4,
+              17
+            ],
+            "tokens": [
+              10984,
+              13,
+              576,
+              6722
+            ]
+          },
+          "new": {
+            "round": 17,
+            "row": 14,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              1,
+              4,
+              15,
+              28
+            ],
+            "tokens": [
+              10984,
+              13,
+              576,
+              1584,
+              315
+            ]
+          }
+        }
+      ],
+      "no_cap_over_two_rounds": 6,
+      "no_cap_over_two_responses": 6,
+      "no_cap_max_mismatches_per_round": 3
+    },
+    "coco": {
+      "records": 200,
+      "questions": 100,
+      "BEPC_historical_exact": 100,
+      "paired_inputs_exact": 100,
+      "outputs_changed": 40,
+      "first_divergent_paths": [
+        {
+          "question_id": "167122",
+          "round": 38,
+          "old": {
+            "round": 38,
+            "row": 2,
+            "accepted_draft": 2,
+            "mismatches": 0,
+            "response_mismatches_before": 30,
+            "nodes": [
+              0,
+              1,
+              11
+            ],
+            "tokens": [
+              11,
+              22561,
+              432
+            ]
+          },
+          "new": {
+            "round": 38,
+            "row": 12,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 30,
+            "nodes": [
+              0,
+              3,
+              15,
+              26
+            ],
+            "tokens": [
+              11,
+              892,
+              1231,
+              387
+            ]
+          }
+        },
+        {
+          "question_id": "318618",
+          "round": 37,
+          "old": {
+            "round": 37,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 22,
+            "nodes": [
+              0,
+              1,
+              9,
+              18
+            ],
+            "tokens": [
+              279,
+              14024,
+              13,
+              576
+            ]
+          },
+          "new": {
+            "round": 37,
+            "row": 11,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 22,
+            "nodes": [
+              0,
+              1,
+              9,
+              18,
+              25
+            ],
+            "tokens": [
+              279,
+              14024,
+              13,
+              576,
+              6171
+            ]
+          }
+        },
+        {
+          "question_id": "27226",
+          "round": 49,
+          "old": {
+            "round": 49,
+            "row": 13,
+            "accepted_draft": 2,
+            "mismatches": 0,
+            "response_mismatches_before": 30,
+            "nodes": [
+              0,
+              1,
+              6
+            ],
+            "tokens": [
+              264,
+              11340,
+              4445
+            ]
+          },
+          "new": {
+            "round": 49,
+            "row": 16,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 30,
+            "nodes": [
+              0,
+              2,
+              12,
+              26
+            ],
+            "tokens": [
+              264,
+              19300,
+              323,
+              84769
+            ]
+          }
+        },
+        {
+          "question_id": "97754",
+          "round": 34,
+          "old": {
+            "round": 34,
+            "row": 7,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 24,
+            "nodes": [
+              0,
+              1,
+              5,
+              16
+            ],
+            "tokens": [
+              1235,
+              291,
+              12884,
+              11
+            ]
+          },
+          "new": {
+            "round": 34,
+            "row": 13,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 24,
+            "nodes": [
+              0,
+              1,
+              5,
+              14,
+              25
+            ],
+            "tokens": [
+              1235,
+              291,
+              12884,
+              13,
+              576
+            ]
+          }
+        },
+        {
+          "question_id": "124952",
+          "round": 28,
+          "old": {
+            "round": 28,
+            "row": 16,
+            "accepted_draft": 4,
+            "mismatches": 2,
+            "response_mismatches_before": 27,
+            "nodes": [
+              0,
+              4,
+              19,
+              27,
+              29
+            ],
+            "tokens": [
+              11,
+              7842,
+              264,
+              5796,
+              315
+            ]
+          },
+          "new": {
+            "round": 28,
+            "row": 15,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 27,
+            "nodes": [
+              0,
+              2,
+              14,
+              25,
+              28
+            ],
+            "tokens": [
+              11,
+              8241,
+              264,
+              6514,
+              315
+            ]
+          }
+        },
+        {
+          "question_id": "494404",
+          "round": 21,
+          "old": {
+            "round": 21,
+            "row": 13,
+            "accepted_draft": 4,
+            "mismatches": 2,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              2,
+              14,
+              20,
+              27
+            ],
+            "tokens": [
+              1909,
+              315,
+              279,
+              25026,
+              11
+            ]
+          },
+          "new": {
+            "round": 21,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              2,
+              14,
+              20,
+              26
+            ],
+            "tokens": [
+              1909,
+              315,
+              279,
+              25026,
+              13
+            ]
+          }
+        },
+        {
+          "question_id": "457717",
+          "round": 25,
+          "old": {
+            "round": 25,
+            "row": 14,
+            "accepted_draft": 4,
+            "mismatches": 2,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              2,
+              11,
+              17,
+              26
+            ],
+            "tokens": [
+              264,
+              3100,
+              19187,
+              13,
+              576
+            ]
+          },
+          "new": {
+            "round": 25,
+            "row": 13,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              2,
+              11,
+              16,
+              25
+            ],
+            "tokens": [
+              264,
+              3100,
+              19187,
+              11,
+              892
+            ]
+          }
+        },
+        {
+          "question_id": "341409",
+          "round": 19,
+          "old": {
+            "round": 19,
+            "row": 6,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 15,
+            "nodes": [
+              0,
+              4,
+              15,
+              22
+            ],
+            "tokens": [
+              525,
+              389,
+              279,
+              11321
+            ]
+          },
+          "new": {
+            "round": 19,
+            "row": 13,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 15,
+            "nodes": [
+              0,
+              2,
+              11,
+              20,
+              29
+            ],
+            "tokens": [
+              525,
+              3143,
+              279,
+              11321,
+              11
+            ]
+          }
+        },
+        {
+          "question_id": "358664",
+          "round": 49,
+          "old": {
+            "round": 49,
+            "row": 10,
+            "accepted_draft": 2,
+            "mismatches": 1,
+            "response_mismatches_before": 29,
+            "nodes": [
+              0,
+              3,
+              17
+            ],
+            "tokens": [
+              388,
+              304,
+              279
+            ]
+          },
+          "new": {
+            "round": 49,
+            "row": 12,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 29,
+            "nodes": [
+              0,
+              1,
+              9,
+              26
+            ],
+            "tokens": [
+              388,
+              34228,
+              304,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "145751",
+          "round": 32,
+          "old": {
+            "round": 32,
+            "row": 3,
+            "accepted_draft": 2,
+            "mismatches": 0,
+            "response_mismatches_before": 24,
+            "nodes": [
+              0,
+              1,
+              11
+            ],
+            "tokens": [
+              3015,
+              11,
+              40119
+            ]
+          },
+          "new": {
+            "round": 32,
+            "row": 7,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 24,
+            "nodes": [
+              0,
+              2,
+              12,
+              21
+            ],
+            "tokens": [
+              3015,
+              476,
+              264,
+              7027
+            ]
+          }
+        },
+        {
+          "question_id": "533013",
+          "round": 13,
+          "old": {
+            "round": 13,
+            "row": 13,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 8,
+            "nodes": [
+              0,
+              2,
+              10,
+              23
+            ],
+            "tokens": [
+              2163,
+              279,
+              24230,
+              13
+            ]
+          },
+          "new": {
+            "round": 13,
+            "row": 17,
+            "accepted_draft": 4,
+            "mismatches": 4,
+            "response_mismatches_before": 8,
+            "nodes": [
+              0,
+              2,
+              10,
+              21,
+              27
+            ],
+            "tokens": [
+              2163,
+              279,
+              24230,
+              323,
+              19142
+            ]
+          }
+        },
+        {
+          "question_id": "28377",
+          "round": 3,
+          "old": {
+            "round": 3,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 2,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              2,
+              13,
+              21,
+              28
+            ],
+            "tokens": [
+              18035,
+              7513,
+              6290,
+              13,
+              576
+            ]
+          },
+          "new": {
+            "round": 3,
+            "row": 9,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              9,
+              17,
+              25
+            ],
+            "tokens": [
+              18035,
+              6290,
+              11,
+              4363,
+              304
+            ]
+          }
+        },
+        {
+          "question_id": "58329",
+          "round": 23,
+          "old": {
+            "round": 23,
+            "row": 7,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 12,
+            "nodes": [
+              0,
+              3,
+              12,
+              22
+            ],
+            "tokens": [
+              11,
+              25777,
+              2884,
+              13
+            ]
+          },
+          "new": {
+            "round": 23,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 12,
+            "nodes": [
+              0,
+              3,
+              12,
+              21,
+              28
+            ],
+            "tokens": [
+              11,
+              25777,
+              2884,
+              11,
+              323
+            ]
+          }
+        },
+        {
+          "question_id": "332096",
+          "round": 27,
+          "old": {
+            "round": 27,
+            "row": 11,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 12,
+            "nodes": [
+              0,
+              1,
+              9,
+              23
+            ],
+            "tokens": [
+              374,
+              6176,
+              11,
+              323
+            ]
+          },
+          "new": {
+            "round": 27,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 12,
+            "nodes": [
+              0,
+              1,
+              9,
+              21
+            ],
+            "tokens": [
+              374,
+              6176,
+              11,
+              448
+            ]
+          }
+        },
+        {
+          "question_id": "269058",
+          "round": 15,
+          "old": {
+            "round": 15,
+            "row": 8,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 4,
+            "nodes": [
+              0,
+              1,
+              6
+            ],
+            "tokens": [
+              27555,
+              11,
+              22561
+            ]
+          },
+          "new": {
+            "round": 15,
+            "row": 8,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 4,
+            "nodes": [
+              0,
+              1,
+              6,
+              21
+            ],
+            "tokens": [
+              27555,
+              11,
+              22561,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "398067",
+          "round": 42,
+          "old": {
+            "round": 42,
+            "row": 6,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 26,
+            "nodes": [
+              0,
+              1,
+              8,
+              18
+            ],
+            "tokens": [
+              1182,
+              518,
+              279,
+              11067
+            ]
+          },
+          "new": {
+            "round": 42,
+            "row": 16,
+            "accepted_draft": 4,
+            "mismatches": 4,
+            "response_mismatches_before": 26,
+            "nodes": [
+              0,
+              2,
+              11,
+              20,
+              29
+            ],
+            "tokens": [
+              1182,
+              11,
+              10693,
+              369,
+              264
+            ]
+          }
+        },
+        {
+          "question_id": "39081",
+          "round": 23,
+          "old": {
+            "round": 23,
+            "row": 11,
+            "accepted_draft": 4,
+            "mismatches": 2,
+            "response_mismatches_before": 6,
+            "nodes": [
+              0,
+              1,
+              5,
+              12,
+              24
+            ],
+            "tokens": [
+              9396,
+              323,
+              12884,
+              11,
+              323
+            ]
+          },
+          "new": {
+            "round": 23,
+            "row": 8,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 6,
+            "nodes": [
+              0,
+              1,
+              5,
+              10,
+              21
+            ],
+            "tokens": [
+              9396,
+              323,
+              12884,
+              13,
+              576
+            ]
+          }
+        },
+        {
+          "question_id": "385194",
+          "round": 2,
+          "old": {
+            "round": 2,
+            "row": 10,
+            "accepted_draft": 3,
+            "mismatches": 0,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              9,
+              25
+            ],
+            "tokens": [
+              5098,
+              13,
+              758,
+              279
+            ]
+          },
+          "new": {
+            "round": 2,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              5,
+              15,
+              27
+            ],
+            "tokens": [
+              5098,
+              13,
+              576,
+              8622,
+              5244
+            ]
+          }
+        },
+        {
+          "question_id": "225494",
+          "round": 22,
+          "old": {
+            "round": 22,
+            "row": 11,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 15,
+            "nodes": [
+              0,
+              1,
+              10,
+              21
+            ],
+            "tokens": [
+              374,
+              304,
+              2524,
+              315
+            ]
+          },
+          "new": {
+            "round": 22,
+            "row": 16,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 15,
+            "nodes": [
+              0,
+              1,
+              9,
+              22,
+              28
+            ],
+            "tokens": [
+              374,
+              304,
+              279,
+              34346,
+              315
+            ]
+          }
+        },
+        {
+          "question_id": "525763",
+          "round": 22,
+          "old": {
+            "round": 22,
+            "row": 10,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 9,
+            "nodes": [
+              0,
+              1,
+              9,
+              20
+            ],
+            "tokens": [
+              10063,
+              15134,
+              11,
+              16445
+            ]
+          },
+          "new": {
+            "round": 22,
+            "row": 17,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 9,
+            "nodes": [
+              0,
+              1,
+              9,
+              17,
+              28
+            ],
+            "tokens": [
+              10063,
+              15134,
+              11,
+              323,
+              264
+            ]
+          }
+        },
+        {
+          "question_id": "431570",
+          "round": 13,
+          "old": {
+            "round": 13,
+            "row": 20,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 7,
+            "nodes": [
+              0,
+              1,
+              11,
+              28
+            ],
+            "tokens": [
+              11,
+              16445,
+              5257,
+              24434
+            ]
+          },
+          "new": {
+            "round": 13,
+            "row": 19,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 7,
+            "nodes": [
+              0,
+              1,
+              9,
+              27
+            ],
+            "tokens": [
+              11,
+              16445,
+              49019,
+              323
+            ]
+          }
+        },
+        {
+          "question_id": "298699",
+          "round": 27,
+          "old": {
+            "round": 27,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 0,
+            "response_mismatches_before": 19,
+            "nodes": [
+              0,
+              3,
+              13,
+              23
+            ],
+            "tokens": [
+              460,
+              1189,
+              576,
+              13702
+            ]
+          },
+          "new": {
+            "round": 27,
+            "row": 15,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 19,
+            "nodes": [
+              0,
+              1,
+              9,
+              20,
+              29
+            ],
+            "tokens": [
+              460,
+              1,
+              448,
+              264,
+              49164
+            ]
+          }
+        },
+        {
+          "question_id": "33638",
+          "round": 16,
+          "old": {
+            "round": 16,
+            "row": 16,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              1,
+              9,
+              22
+            ],
+            "tokens": [
+              323,
+              702,
+              264,
+              6319
+            ]
+          },
+          "new": {
+            "round": 16,
+            "row": 16,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              1,
+              9,
+              22,
+              28
+            ],
+            "tokens": [
+              323,
+              702,
+              264,
+              6319,
+              11
+            ]
+          }
+        },
+        {
+          "question_id": "525373",
+          "round": 30,
+          "old": {
+            "round": 30,
+            "row": 2,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 21,
+            "nodes": [
+              0,
+              1,
+              12
+            ],
+            "tokens": [
+              66061,
+              11,
+              25244
+            ]
+          },
+          "new": {
+            "round": 30,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 21,
+            "nodes": [
+              0,
+              1,
+              7,
+              21
+            ],
+            "tokens": [
+              66061,
+              11,
+              323,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "118260",
+          "round": 30,
+          "old": {
+            "round": 30,
+            "row": 5,
+            "accepted_draft": 2,
+            "mismatches": 1,
+            "response_mismatches_before": 18,
+            "nodes": [
+              0,
+              1,
+              12
+            ],
+            "tokens": [
+              11,
+              448,
+              1181
+            ]
+          },
+          "new": {
+            "round": 30,
+            "row": 17,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 18,
+            "nodes": [
+              0,
+              3,
+              18,
+              28
+            ],
+            "tokens": [
+              11,
+              323,
+              432,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "317244",
+          "round": 37,
+          "old": {
+            "round": 37,
+            "row": 14,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 28,
+            "nodes": [
+              0,
+              2,
+              14
+            ],
+            "tokens": [
+              576,
+              8084,
+              6109
+            ]
+          },
+          "new": {
+            "round": 37,
+            "row": 14,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 28,
+            "nodes": [
+              0,
+              2,
+              14,
+              28
+            ],
+            "tokens": [
+              576,
+              8084,
+              6109,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "358982",
+          "round": 1,
+          "old": {
+            "round": 1,
+            "row": 3,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              4,
+              14
+            ],
+            "tokens": [
+              42778,
+              37569,
+              11,
+              448
+            ]
+          },
+          "new": {
+            "round": 1,
+            "row": 8,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              4,
+              9,
+              21
+            ],
+            "tokens": [
+              42778,
+              37569,
+              11,
+              4363,
+              304
+            ]
+          }
+        },
+        {
+          "question_id": "301837",
+          "round": 30,
+          "old": {
+            "round": 30,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 20,
+            "nodes": [
+              0,
+              2,
+              10,
+              21
+            ],
+            "tokens": [
+              2524,
+              6945,
+              11,
+              18860
+            ]
+          },
+          "new": {
+            "round": 30,
+            "row": 4,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 20,
+            "nodes": [
+              0,
+              1,
+              5,
+              16
+            ],
+            "tokens": [
+              2524,
+              89085,
+              11,
+              323
+            ]
+          }
+        },
+        {
+          "question_id": "410428",
+          "round": 18,
+          "old": {
+            "round": 18,
+            "row": 7,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              1,
+              8,
+              17
+            ],
+            "tokens": [
+              4158,
+              22875,
+              323,
+              264
+            ]
+          },
+          "new": {
+            "round": 18,
+            "row": 10,
+            "accepted_draft": 4,
+            "mismatches": 4,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              1,
+              9,
+              18,
+              24
+            ],
+            "tokens": [
+              4158,
+              22875,
+              11,
+              323,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "136642",
+          "round": 19,
+          "old": {
+            "round": 19,
+            "row": 12,
+            "accepted_draft": 3,
+            "mismatches": 0,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              1,
+              4,
+              18
+            ],
+            "tokens": [
+              13794,
+              11,
+              374,
+              34228
+            ]
+          },
+          "new": {
+            "round": 19,
+            "row": 11,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              2,
+              9,
+              23
+            ],
+            "tokens": [
+              13794,
+              448,
+              2518,
+              323
+            ]
+          }
+        },
+        {
+          "question_id": "443583",
+          "round": 2,
+          "old": {
+            "round": 2,
+            "row": 3,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 1,
+            "nodes": [
+              0,
+              1,
+              2,
+              13
+            ],
+            "tokens": [
+              16359,
+              88,
+              3082,
+              448
+            ]
+          },
+          "new": {
+            "round": 2,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 1,
+            "nodes": [
+              0,
+              1,
+              2,
+              10,
+              25
+            ],
+            "tokens": [
+              16359,
+              88,
+              3082,
+              11,
+              448
+            ]
+          }
+        },
+        {
+          "question_id": "580835",
+          "round": 13,
+          "old": {
+            "round": 13,
+            "row": 15,
+            "accepted_draft": 4,
+            "mismatches": 1,
+            "response_mismatches_before": 15,
+            "nodes": [
+              0,
+              1,
+              4,
+              15,
+              27
+            ],
+            "tokens": [
+              6008,
+              594,
+              47161,
+              13,
+              576
+            ]
+          },
+          "new": {
+            "round": 13,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 15,
+            "nodes": [
+              0,
+              1,
+              4,
+              14,
+              24
+            ],
+            "tokens": [
+              6008,
+              594,
+              47161,
+              323,
+              2820
+            ]
+          }
+        },
+        {
+          "question_id": "298628",
+          "round": 26,
+          "old": {
+            "round": 26,
+            "row": 13,
+            "accepted_draft": 4,
+            "mismatches": 0,
+            "response_mismatches_before": 9,
+            "nodes": [
+              0,
+              1,
+              10,
+              22,
+              28
+            ],
+            "tokens": [
+              279,
+              45166,
+              13,
+              576,
+              24650
+            ]
+          },
+          "new": {
+            "round": 26,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 9,
+            "nodes": [
+              0,
+              1,
+              9,
+              20,
+              27
+            ],
+            "tokens": [
+              279,
+              45166,
+              323,
+              7842,
+              264
+            ]
+          }
+        },
+        {
+          "question_id": "30925",
+          "round": 18,
+          "old": {
+            "round": 18,
+            "row": 15,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 8,
+            "nodes": [
+              0,
+              1,
+              11,
+              26
+            ],
+            "tokens": [
+              576,
+              14590,
+              3082,
+              374
+            ]
+          },
+          "new": {
+            "round": 18,
+            "row": 17,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 8,
+            "nodes": [
+              0,
+              1,
+              9,
+              22,
+              28
+            ],
+            "tokens": [
+              576,
+              14590,
+              4573,
+              5646,
+              12408
+            ]
+          }
+        },
+        {
+          "question_id": "136572",
+          "round": 18,
+          "old": {
+            "round": 18,
+            "row": 17,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 9,
+            "nodes": [
+              0,
+              1,
+              9,
+              21
+            ],
+            "tokens": [
+              803,
+              16830,
+              2884,
+              11
+            ]
+          },
+          "new": {
+            "round": 18,
+            "row": 16,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 9,
+            "nodes": [
+              0,
+              1,
+              9,
+              22,
+              28
+            ],
+            "tokens": [
+              803,
+              16830,
+              2884,
+              323,
+              264
+            ]
+          }
+        },
+        {
+          "question_id": "215356",
+          "round": 2,
+          "old": {
+            "round": 2,
+            "row": 6,
+            "accepted_draft": 4,
+            "mismatches": 2,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              2,
+              5,
+              18
+            ],
+            "tokens": [
+              311,
+              387,
+              264,
+              8353,
+              3082
+            ]
+          },
+          "new": {
+            "round": 2,
+            "row": 4,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              2,
+              5,
+              16
+            ],
+            "tokens": [
+              311,
+              387,
+              264,
+              8353,
+              9290
+            ]
+          }
+        },
+        {
+          "question_id": "288202",
+          "round": 42,
+          "old": {
+            "round": 42,
+            "row": 11,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 27,
+            "nodes": [
+              0,
+              1,
+              8,
+              23
+            ],
+            "tokens": [
+              6109,
+              374,
+              19300,
+              11
+            ]
+          },
+          "new": {
+            "round": 42,
+            "row": 10,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 27,
+            "nodes": [
+              0,
+              1,
+              8,
+              22
+            ],
+            "tokens": [
+              6109,
+              374,
+              19300,
+              323
+            ]
+          }
+        },
+        {
+          "question_id": "20470",
+          "round": 33,
+          "old": {
+            "round": 33,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 22,
+            "nodes": [
+              0,
+              1,
+              12,
+              25
+            ],
+            "tokens": [
+              13,
+              576,
+              6109,
+              374
+            ]
+          },
+          "new": {
+            "round": 33,
+            "row": 8,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 22,
+            "nodes": [
+              0,
+              3,
+              17,
+              24
+            ],
+            "tokens": [
+              13,
+              2619,
+              374,
+              264
+            ]
+          }
+        },
+        {
+          "question_id": "537053",
+          "round": 5,
+          "old": {
+            "round": 5,
+            "row": 10,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 4,
+            "nodes": [
+              0,
+              2,
+              11,
+              23
+            ],
+            "tokens": [
+              6249,
+              5961,
+              11,
+              448
+            ]
+          },
+          "new": {
+            "round": 5,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 4,
+            "nodes": [
+              0,
+              1,
+              8,
+              22
+            ],
+            "tokens": [
+              6249,
+              448,
+              264,
+              10078
+            ]
+          }
+        },
+        {
+          "question_id": "253964",
+          "round": 4,
+          "old": {
+            "round": 4,
+            "row": 12,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              1,
+              5,
+              14
+            ],
+            "tokens": [
+              279,
+              39305,
+              13,
+              576
+            ]
+          },
+          "new": {
+            "round": 4,
+            "row": 15,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              1,
+              6,
+              20,
+              29
+            ],
+            "tokens": [
+              279,
+              39305,
+              11,
+              16380,
+              264
+            ]
+          }
+        }
+      ],
+      "no_cap_over_two_rounds": 54,
+      "no_cap_over_two_responses": 40,
+      "no_cap_max_mismatches_per_round": 4
+    },
+    "textvqa": {
+      "records": 200,
+      "questions": 100,
+      "BEPC_historical_exact": 100,
+      "paired_inputs_exact": 100,
+      "outputs_changed": 30,
+      "first_divergent_paths": [
+        {
+          "question_id": "39071",
+          "round": 4,
+          "old": {
+            "round": 4,
+            "row": 16,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              6,
+              23
+            ],
+            "tokens": [
+              21393,
+              13,
+              1084,
+              374
+            ]
+          },
+          "new": {
+            "round": 4,
+            "row": 16,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              6,
+              23,
+              28
+            ],
+            "tokens": [
+              21393,
+              13,
+              1084,
+              374,
+              264
+            ]
+          }
+        },
+        {
+          "question_id": "38860",
+          "round": 16,
+          "old": {
+            "round": 16,
+            "row": 4,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 8,
+            "nodes": [
+              0,
+              2,
+              7,
+              17
+            ],
+            "tokens": [
+              304,
+              279,
+              9589,
+              7297
+            ]
+          },
+          "new": {
+            "round": 16,
+            "row": 13,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 8,
+            "nodes": [
+              0,
+              1,
+              4,
+              11,
+              27
+            ],
+            "tokens": [
+              304,
+              9589,
+              11,
+              892,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "38279",
+          "round": 29,
+          "old": {
+            "round": 29,
+            "row": 8,
+            "accepted_draft": 2,
+            "mismatches": 0,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              1,
+              9
+            ],
+            "tokens": [
+              6993,
+              323,
+              279
+            ]
+          },
+          "new": {
+            "round": 29,
+            "row": 10,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              3,
+              16,
+              24
+            ],
+            "tokens": [
+              6993,
+              304,
+              279,
+              3639
+            ]
+          }
+        },
+        {
+          "question_id": "35554",
+          "round": 14,
+          "old": {
+            "round": 14,
+            "row": 10,
+            "accepted_draft": 2,
+            "mismatches": 1,
+            "response_mismatches_before": 4,
+            "nodes": [
+              0,
+              1,
+              9
+            ],
+            "tokens": [
+              17387,
+              264,
+              501
+            ]
+          },
+          "new": {
+            "round": 14,
+            "row": 16,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 4,
+            "nodes": [
+              0,
+              1,
+              12,
+              28
+            ],
+            "tokens": [
+              17387,
+              264,
+              4911,
+              323
+            ]
+          }
+        },
+        {
+          "question_id": "35305",
+          "round": 5,
+          "old": {
+            "round": 5,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 2,
+            "response_mismatches_before": 1,
+            "nodes": [
+              0,
+              1,
+              5,
+              14,
+              26
+            ],
+            "tokens": [
+              1424,
+              374,
+              21633,
+              518,
+              220
+            ]
+          },
+          "new": {
+            "round": 5,
+            "row": 11,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 1,
+            "nodes": [
+              0,
+              1,
+              5,
+              14,
+              25
+            ],
+            "tokens": [
+              1424,
+              374,
+              21633,
+              518,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "37209",
+          "round": 17,
+          "old": {
+            "round": 17,
+            "row": 2,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 6,
+            "nodes": [
+              0,
+              1,
+              11
+            ],
+            "tokens": [
+              6319,
+              11,
+              62144
+            ]
+          },
+          "new": {
+            "round": 17,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 6,
+            "nodes": [
+              0,
+              2,
+              12,
+              23
+            ],
+            "tokens": [
+              6319,
+              2518,
+              1894,
+              11
+            ]
+          }
+        },
+        {
+          "question_id": "38672",
+          "round": 5,
+          "old": {
+            "round": 5,
+            "row": 10,
+            "accepted_draft": 3,
+            "mismatches": 0,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              3,
+              16,
+              25
+            ],
+            "tokens": [
+              5473,
+              13,
+              576,
+              1841
+            ]
+          },
+          "new": {
+            "round": 5,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              10,
+              22
+            ],
+            "tokens": [
+              5473,
+              7407,
+              2878,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "39358",
+          "round": 18,
+          "old": {
+            "round": 18,
+            "row": 17,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 7,
+            "nodes": [
+              0,
+              1,
+              7,
+              18
+            ],
+            "tokens": [
+              33144,
+              12426,
+              14807,
+              429
+            ]
+          },
+          "new": {
+            "round": 18,
+            "row": 17,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 7,
+            "nodes": [
+              0,
+              1,
+              7,
+              18,
+              29
+            ],
+            "tokens": [
+              33144,
+              12426,
+              14807,
+              429,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "35543",
+          "round": 8,
+          "old": {
+            "round": 8,
+            "row": 5,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              2,
+              12,
+              17
+            ],
+            "tokens": [
+              18,
+              389,
+              279,
+              1182
+            ]
+          },
+          "new": {
+            "round": 8,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              2,
+              13,
+              20,
+              27
+            ],
+            "tokens": [
+              18,
+              389,
+              806,
+              36112,
+              11
+            ]
+          }
+        },
+        {
+          "question_id": "35453",
+          "round": 1,
+          "old": {
+            "round": 1,
+            "row": 5,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              6,
+              18
+            ],
+            "tokens": [
+              8896,
+              374,
+              3691,
+              323
+            ]
+          },
+          "new": {
+            "round": 1,
+            "row": 14,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              6,
+              17,
+              29
+            ],
+            "tokens": [
+              8896,
+              374,
+              3691,
+              448,
+              264
+            ]
+          }
+        },
+        {
+          "question_id": "39259",
+          "round": 2,
+          "old": {
+            "round": 2,
+            "row": 16,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              8,
+              23
+            ],
+            "tokens": [
+              21511,
+              11,
+              71350,
+              553
+            ]
+          },
+          "new": {
+            "round": 2,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              1,
+              7,
+              21
+            ],
+            "tokens": [
+              21511,
+              11,
+              323,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "38351",
+          "round": 8,
+          "old": {
+            "round": 8,
+            "row": 13,
+            "accepted_draft": 4,
+            "mismatches": 1,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              10,
+              23,
+              29
+            ],
+            "tokens": [
+              11,
+              11689,
+              304,
+              279,
+              2266
+            ]
+          },
+          "new": {
+            "round": 8,
+            "row": 11,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              9,
+              21,
+              27
+            ],
+            "tokens": [
+              11,
+              11689,
+              2878,
+              279,
+              2266
+            ]
+          }
+        },
+        {
+          "question_id": "38397",
+          "round": 22,
+          "old": {
+            "round": 22,
+            "row": 15,
+            "accepted_draft": 3,
+            "mismatches": 0,
+            "response_mismatches_before": 10,
+            "nodes": [
+              0,
+              5,
+              19,
+              28
+            ],
+            "tokens": [
+              374,
+              2697,
+              369,
+              279
+            ]
+          },
+          "new": {
+            "round": 22,
+            "row": 12,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 10,
+            "nodes": [
+              0,
+              1,
+              9,
+              25
+            ],
+            "tokens": [
+              374,
+              9681,
+              304,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "38948",
+          "round": 17,
+          "old": {
+            "round": 17,
+            "row": 13,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 12,
+            "nodes": [
+              0,
+              1,
+              6,
+              17
+            ],
+            "tokens": [
+              594,
+              3668,
+              11,
+              2670
+            ]
+          },
+          "new": {
+            "round": 17,
+            "row": 15,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 12,
+            "nodes": [
+              0,
+              3,
+              14,
+              22,
+              29
+            ],
+            "tokens": [
+              594,
+              9688,
+              11,
+              2670,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "35630",
+          "round": 23,
+          "old": {
+            "round": 23,
+            "row": 7,
+            "accepted_draft": 2,
+            "mismatches": 1,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              2,
+              12
+            ],
+            "tokens": [
+              9589,
+              13,
+              1096
+            ]
+          },
+          "new": {
+            "round": 23,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              2,
+              13,
+              21
+            ],
+            "tokens": [
+              9589,
+              13,
+              1084,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "35654",
+          "round": 28,
+          "old": {
+            "round": 28,
+            "row": 4,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              2,
+              13
+            ],
+            "tokens": [
+              57005,
+              4419,
+              315
+            ]
+          },
+          "new": {
+            "round": 28,
+            "row": 14,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              2,
+              12,
+              26
+            ],
+            "tokens": [
+              57005,
+              4419,
+              304,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "36271",
+          "round": 23,
+          "old": {
+            "round": 23,
+            "row": 16,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 10,
+            "nodes": [
+              0,
+              2,
+              9,
+              21
+            ],
+            "tokens": [
+              12481,
+              13,
+              576,
+              1841
+            ]
+          },
+          "new": {
+            "round": 23,
+            "row": 16,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 10,
+            "nodes": [
+              0,
+              2,
+              9,
+              21,
+              29
+            ],
+            "tokens": [
+              12481,
+              13,
+              576,
+              1841,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "34741",
+          "round": 37,
+          "old": {
+            "round": 37,
+            "row": 13,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 15,
+            "nodes": [
+              0,
+              4,
+              16
+            ],
+            "tokens": [
+              448,
+              1467,
+              389
+            ]
+          },
+          "new": {
+            "round": 37,
+            "row": 13,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 15,
+            "nodes": [
+              0,
+              4,
+              16,
+              26
+            ],
+            "tokens": [
+              448,
+              1467,
+              389,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "35020",
+          "round": 27,
+          "old": {
+            "round": 27,
+            "row": 11,
+            "accepted_draft": 2,
+            "mismatches": 1,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              5,
+              21
+            ],
+            "tokens": [
+              11,
+              714,
+              279
+            ]
+          },
+          "new": {
+            "round": 27,
+            "row": 15,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              2,
+              15,
+              26
+            ],
+            "tokens": [
+              11,
+              773,
+              432,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "37315",
+          "round": 8,
+          "old": {
+            "round": 8,
+            "row": 15,
+            "accepted_draft": 3,
+            "mismatches": 0,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              2,
+              13,
+              28
+            ],
+            "tokens": [
+              4171,
+              11,
+              892,
+              374
+            ]
+          },
+          "new": {
+            "round": 8,
+            "row": 14,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 2,
+            "nodes": [
+              0,
+              4,
+              19,
+              27
+            ],
+            "tokens": [
+              4171,
+              5610,
+              279,
+              1467
+            ]
+          }
+        },
+        {
+          "question_id": "37659",
+          "round": 24,
+          "old": {
+            "round": 24,
+            "row": 12,
+            "accepted_draft": 4,
+            "mismatches": 2,
+            "response_mismatches_before": 8,
+            "nodes": [
+              0,
+              1,
+              6,
+              14,
+              27
+            ],
+            "tokens": [
+              5636,
+              13,
+              576,
+              9362,
+              315
+            ]
+          },
+          "new": {
+            "round": 24,
+            "row": 6,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 8,
+            "nodes": [
+              0,
+              1,
+              6,
+              13,
+              21
+            ],
+            "tokens": [
+              5636,
+              13,
+              576,
+              1841,
+              374
+            ]
+          }
+        },
+        {
+          "question_id": "35431",
+          "round": 20,
+          "old": {
+            "round": 20,
+            "row": 3,
+            "accepted_draft": 2,
+            "mismatches": 0,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              4,
+              14
+            ],
+            "tokens": [
+              11,
+              438,
+              432
+            ]
+          },
+          "new": {
+            "round": 20,
+            "row": 9,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 11,
+            "nodes": [
+              0,
+              2,
+              11,
+              20
+            ],
+            "tokens": [
+              11,
+              892,
+              374,
+              279
+            ]
+          }
+        },
+        {
+          "question_id": "36397",
+          "round": 12,
+          "old": {
+            "round": 12,
+            "row": 10,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              1,
+              6,
+              16
+            ],
+            "tokens": [
+              16150,
+              1,
+              1614,
+              11
+            ]
+          },
+          "new": {
+            "round": 12,
+            "row": 7,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              1,
+              8,
+              20
+            ],
+            "tokens": [
+              16150,
+              1,
+              448,
+              330
+            ]
+          }
+        },
+        {
+          "question_id": "37978",
+          "round": 19,
+          "old": {
+            "round": 19,
+            "row": 4,
+            "accepted_draft": 2,
+            "mismatches": 1,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              1,
+              10
+            ],
+            "tokens": [
+              975,
+              13,
+              1096
+            ]
+          },
+          "new": {
+            "round": 19,
+            "row": 14,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 3,
+            "nodes": [
+              0,
+              1,
+              8,
+              22
+            ],
+            "tokens": [
+              975,
+              13,
+              576,
+              9362
+            ]
+          }
+        },
+        {
+          "question_id": "36748",
+          "round": 29,
+          "old": {
+            "round": 29,
+            "row": 4,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              2,
+              7
+            ],
+            "tokens": [
+              7611,
+              13,
+              576
+            ]
+          },
+          "new": {
+            "round": 29,
+            "row": 4,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              2,
+              7,
+              17
+            ],
+            "tokens": [
+              7611,
+              13,
+              576,
+              4540
+            ]
+          }
+        },
+        {
+          "question_id": "35382",
+          "round": 23,
+          "old": {
+            "round": 23,
+            "row": 11,
+            "accepted_draft": 3,
+            "mismatches": 1,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              1,
+              9,
+              23
+            ],
+            "tokens": [
+              374,
+              9355,
+              9434,
+              323
+            ]
+          },
+          "new": {
+            "round": 23,
+            "row": 17,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 13,
+            "nodes": [
+              0,
+              1,
+              9,
+              22,
+              29
+            ],
+            "tokens": [
+              374,
+              9355,
+              9434,
+              11,
+              18860
+            ]
+          }
+        },
+        {
+          "question_id": "37717",
+          "round": 8,
+          "old": {
+            "round": 8,
+            "row": 4,
+            "accepted_draft": 2,
+            "mismatches": 2,
+            "response_mismatches_before": 1,
+            "nodes": [
+              0,
+              1,
+              9
+            ],
+            "tokens": [
+              386,
+              13,
+              576
+            ]
+          },
+          "new": {
+            "round": 8,
+            "row": 5,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 1,
+            "nodes": [
+              0,
+              1,
+              9,
+              19
+            ],
+            "tokens": [
+              386,
+              13,
+              576,
+              2311
+            ]
+          }
+        },
+        {
+          "question_id": "38667",
+          "round": 24,
+          "old": {
+            "round": 24,
+            "row": 13,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 14,
+            "nodes": [
+              0,
+              1,
+              10,
+              25
+            ],
+            "tokens": [
+              429,
+              374,
+              13570,
+              14975
+            ]
+          },
+          "new": {
+            "round": 24,
+            "row": 15,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 14,
+            "nodes": [
+              0,
+              1,
+              9,
+              22,
+              27
+            ],
+            "tokens": [
+              429,
+              374,
+              16626,
+              1483,
+              304
+            ]
+          }
+        },
+        {
+          "question_id": "35462",
+          "round": 0,
+          "old": {
+            "round": 0,
+            "row": 12,
+            "accepted_draft": 3,
+            "mismatches": 0,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              2,
+              12,
+              21
+            ],
+            "tokens": [
+              785,
+              2168,
+              70749,
+              264
+            ]
+          },
+          "new": {
+            "round": 0,
+            "row": 8,
+            "accepted_draft": 3,
+            "mismatches": 3,
+            "response_mismatches_before": 0,
+            "nodes": [
+              0,
+              1,
+              4,
+              17
+            ],
+            "tokens": [
+              785,
+              32689,
+              374,
+              369
+            ]
+          }
+        },
+        {
+          "question_id": "38417",
+          "round": 20,
+          "old": {
+            "round": 20,
+            "row": 14,
+            "accepted_draft": 3,
+            "mismatches": 2,
+            "response_mismatches_before": 6,
+            "nodes": [
+              0,
+              2,
+              11,
+              13
+            ],
+            "tokens": [
+              16688,
+              13,
+              576,
+              2168
+            ]
+          },
+          "new": {
+            "round": 20,
+            "row": 14,
+            "accepted_draft": 4,
+            "mismatches": 3,
+            "response_mismatches_before": 6,
+            "nodes": [
+              0,
+              2,
+              11,
+              13,
+              27
+            ],
+            "tokens": [
+              16688,
+              13,
+              576,
+              2168,
+              374
+            ]
+          }
+        }
+      ],
+      "no_cap_over_two_rounds": 35,
+      "no_cap_over_two_responses": 30,
+      "no_cap_max_mismatches_per_round": 3
+    }
+  },
+  "records": 600,
+  "prior_files_unchanged": 232,
+  "config_sha256": "f94c36d51a3f59a034d632d700cadc3d58885f662a4d32eac494d1e8b76a78e8",
+  "resources": [
+    {
+      "physical_gpu": "0",
+      "pid": 3159388,
+      "checks": 341,
+      "events": []
+    },
+    {
+      "physical_gpu": "1",
+      "pid": 3159389,
+      "checks": 342,
+      "events": []
+    }
+  ]
+}

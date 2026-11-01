@@ -1,0 +1,829 @@
+{
+  "task": "textvqa",
+  "question_id": "38898",
+  "image_id": "8de8a2b786a447c3",
+  "status": "valid",
+  "new_full_continuation_generated": false,
+  "diagnostic_only": true,
+  "first_path_divergence_round": 0,
+  "input_tensor_sha256": "40ade97433ae47b51977d5a8c7505e7daeb9a7f6ec6aea47195fae3e7ef67e62",
+  "image_sha256": "c8bed17ba050fe400297394a73f673b2bc63056431e8e5e97c8fbfc96fdfd4c8",
+  "prompt_text": "what is the name of the wine on the right?\n\nProvide a detailed explanation of about 100 to 160 words, using the image and the question to support your answer. Do not invent details that are not visible or supported by the question. End with exactly one final line in the format \"Final answer: <answer>\", replacing <answer> with a single word or short phrase. Put that final answer on a separate line, with no text after it.",
+  "historical_BEPC_path_parity": true,
+  "prior_common_path_rounds_verified": 0,
+  "historical_Margin_same_tree_shadow_parity": true,
+  "committed_generated_tokens": 0,
+  "committed_generated_token_ids": [],
+  "committed_prefix_text": "",
+  "historical_bepc_path": {
+    "round": 0,
+    "row": 0,
+    "accepted_draft": 0,
+    "mismatches": 0,
+    "response_mismatches_before": 0,
+    "nodes": [
+      0
+    ],
+    "tokens": [
+      785
+    ]
+  },
+  "historical_margin_path": {
+    "round": 0,
+    "row": 0,
+    "accepted_draft": 1,
+    "mismatches": 1,
+    "response_mismatches_before": 0,
+    "nodes": [
+      0,
+      2
+    ],
+    "tokens": [
+      785,
+      2168
+    ]
+  },
+  "replayed_bepc_path": {
+    "round": 0,
+    "row": 0,
+    "accepted_draft": 0,
+    "mismatches": 0,
+    "response_mismatches_before": 0,
+    "nodes": [
+      0
+    ],
+    "tokens": [
+      785
+    ]
+  },
+  "shadow_margin_path": {
+    "round": 0,
+    "row": 0,
+    "accepted_draft": 1,
+    "mismatches": 1,
+    "response_mismatches_before": 0,
+    "nodes": [
+      0,
+      2
+    ],
+    "tokens": [
+      785,
+      2168
+    ]
+  },
+  "candidate_rows": [
+    [
+      785,
+      2168,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      785,
+      1590,
+      9434,
+      -1,
+      -1
+    ],
+    [
+      785,
+      1590,
+      949,
+      -1,
+      -1
+    ],
+    [
+      785,
+      1590,
+      330,
+      -1,
+      -1
+    ],
+    [
+      785,
+      1590,
+      2168,
+      61891,
+      -1
+    ],
+    [
+      785,
+      1590,
+      1590,
+      2168,
+      -1
+    ],
+    [
+      785,
+      1590,
+      1590,
+      1590,
+      -1
+    ],
+    [
+      785,
+      1590,
+      2168,
+      374,
+      279
+    ],
+    [
+      785,
+      1590,
+      2168,
+      4933,
+      279
+    ],
+    [
+      785,
+      1590,
+      16486,
+      304,
+      279
+    ],
+    [
+      785,
+      1590,
+      2168,
+      304,
+      279
+    ],
+    [
+      785,
+      1590,
+      2392,
+      304,
+      279
+    ],
+    [
+      785,
+      1590,
+      2168,
+      389,
+      279
+    ],
+    [
+      785,
+      1590,
+      16486,
+      389,
+      279
+    ],
+    [
+      785,
+      1590,
+      1509,
+      304,
+      279
+    ]
+  ],
+  "retrieve_rows": [
+    [
+      0,
+      2,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      8,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      9,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      10,
+      -1,
+      -1
+    ],
+    [
+      0,
+      1,
+      3,
+      15,
+      -1
+    ],
+    [
+      0,
+      1,
+      4,
+      16,
+      -1
+    ],
+    [
+      0,
+      1,
+      4,
+      17,
+      -1
+    ],
+    [
+      0,
+      1,
+      3,
+      11,
+      22
+    ],
+    [
+      0,
+      1,
+      3,
+      12,
+      23
+    ],
+    [
+      0,
+      1,
+      5,
+      18,
+      24
+    ],
+    [
+      0,
+      1,
+      3,
+      13,
+      25
+    ],
+    [
+      0,
+      1,
+      6,
+      20,
+      26
+    ],
+    [
+      0,
+      1,
+      3,
+      14,
+      27
+    ],
+    [
+      0,
+      1,
+      5,
+      19,
+      28
+    ],
+    [
+      0,
+      1,
+      7,
+      21,
+      29
+    ]
+  ],
+  "target_top1_rows": [
+    [
+      13078,
+      4933,
+      27512,
+      27512
+    ],
+    [
+      13078,
+      4226,
+      16486,
+      27512
+    ],
+    [
+      13078,
+      4226,
+      315,
+      27512
+    ],
+    [
+      13078,
+      4226,
+      71437,
+      27512
+    ],
+    [
+      13078,
+      4226,
+      4933,
+      2326
+    ],
+    [
+      13078,
+      4226,
+      4226,
+      4933
+    ],
+    [
+      13078,
+      4226,
+      4226,
+      4226
+    ],
+    [
+      13078,
+      4226,
+      4933,
+      264
+    ],
+    [
+      13078,
+      4226,
+      4933,
+      2326
+    ],
+    [
+      13078,
+      4226,
+      389,
+      279
+    ],
+    [
+      13078,
+      4226,
+      4933,
+      279
+    ],
+    [
+      13078,
+      4226,
+      304,
+      279
+    ],
+    [
+      13078,
+      4226,
+      4933,
+      279
+    ],
+    [
+      13078,
+      4226,
+      389,
+      279
+    ],
+    [
+      13078,
+      4226,
+      389,
+      279
+    ]
+  ],
+  "native_margin_rows": [
+    [
+      0.75,
+      18.0,
+      16.78125,
+      16.78125
+    ],
+    [
+      9.3125,
+      7.5625,
+      14.78125,
+      16.78125
+    ],
+    [
+      9.3125,
+      8.375,
+      17.3125,
+      16.78125
+    ],
+    [
+      9.3125,
+      10.5,
+      16.21875,
+      16.78125
+    ],
+    [
+      9.3125,
+      1.625,
+      4.125,
+      17.875
+    ],
+    [
+      9.3125,
+      14.5,
+      4.25,
+      12.375
+    ],
+    [
+      9.3125,
+      14.5,
+      6.25,
+      12.953125
+    ],
+    [
+      9.3125,
+      1.625,
+      5.25,
+      5.125
+    ],
+    [
+      9.3125,
+      1.625,
+      0.0,
+      6.125
+    ],
+    [
+      9.3125,
+      3.25,
+      3.75,
+      0.0
+    ],
+    [
+      9.3125,
+      1.625,
+      3.875,
+      0.0
+    ],
+    [
+      9.3125,
+      8.1875,
+      0.0,
+      0.0
+    ],
+    [
+      9.3125,
+      1.625,
+      1.75,
+      0.0
+    ],
+    [
+      9.3125,
+      3.25,
+      0.0,
+      0.0
+    ],
+    [
+      9.3125,
+      9.125,
+      1.25,
+      0.0
+    ]
+  ],
+  "shadow_margin_scan_rows": [
+    {
+      "row": 0,
+      "accepted_draft": 1,
+      "mismatches": 1
+    },
+    {
+      "row": 1,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 2,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 3,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 4,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 5,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 6,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 7,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 8,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 9,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 10,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 11,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 12,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 13,
+      "accepted_draft": 0,
+      "mismatches": 0
+    },
+    {
+      "row": 14,
+      "accepted_draft": 0,
+      "mismatches": 0
+    }
+  ],
+  "candidate_diagnostics": [
+    {
+      "parent": 0,
+      "target_token": 13078,
+      "draft_token": 1590,
+      "target_text": " wine",
+      "draft_text": " final",
+      "g": 9.3125,
+      "m_U": 7.379478454589844,
+      "m_P": -1.1219013929367065,
+      "m_R": 3.0417184829711914,
+      "delta": -0.5,
+      "score": 9.8125,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": false,
+      "bepc_accept": false,
+      "decision_relation": "same",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bound_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": false,
+      "positions": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "parent_absolute_position": 1116,
+      "candidate_absolute_position": 1117,
+      "candidate_generated_position": 1,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "45481dda52c55b4f4115e289c30cd03d59027a9e9b5976a0763870a23814812c",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe"
+    },
+    {
+      "parent": 0,
+      "target_token": 13078,
+      "draft_token": 2168,
+      "target_text": " wine",
+      "draft_text": " image",
+      "g": 0.75,
+      "m_U": 2.8470535278320312,
+      "m_P": -0.8541386127471924,
+      "m_R": -1.3209165334701538,
+      "delta": -0.4270693063735962,
+      "score": 1.1770693063735962,
+      "gate": true,
+      "available": true,
+      "protection_component": true,
+      "rescue_component": false,
+      "margin_accept": true,
+      "bepc_accept": false,
+      "decision_relation": "protection",
+      "production_bepc_visited": true,
+      "production_bepc_decision": false,
+      "production_reason": "bepc_reject",
+      "shadow_margin_visited": true,
+      "selected_bepc_edge": false,
+      "selected_margin_edge": true,
+      "positions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "parent_absolute_position": 1116,
+      "candidate_absolute_position": 1117,
+      "candidate_generated_position": 1,
+      "parent_path": [
+        0
+      ],
+      "legal_prefix_sha256": "45481dda52c55b4f4115e289c30cd03d59027a9e9b5976a0763870a23814812c",
+      "legal_prefix_last_64_tokens": [
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151655,
+        151653,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        785
+      ],
+      "legal_prefix_tail": "<|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|image_pad|><|vision_end|><|im_end|>\n<|im_start|>assistant\nThe"
+    }
+  ],
+  "production_bepc_visit_count": 2,
+  "shadow_margin_visit_count": 2,
+  "supplemental_full_scores": 2,
+  "stopped_before_divergent_tree_commit": true,
+  "used_future_continuation": false,
+  "new_label_generated": false,
+  "elapsed_seconds": 1.1012664744630456,
+  "model_calls": {
+    "vision": 1,
+    "target": 2,
+    "draft": 4
+  },
+  "extra_diagnostic_target_forwards": 0,
+  "loaded_original_sources_unchanged": true
+}

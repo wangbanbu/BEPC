@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "report_date_asia_shanghai": "2026-11-01",
+  "created_utc": "2026-11-01T01:09:21.028387+00:00",
+  "files": {
+    "reports/FULL_EXPERIMENT_REPORT.md": "b0199be72f61454235d3432152148ca5eb7a0464503a78f9e241460ba8e024d5",
+    "reports/BENCHMARK_REPORT.md": "3a4539a9c13c1dd4b9904d66c85a60610b5d0c574c84511b4d78443715e474cf",
+    "reports/LVSPEC_IMPLEMENTATION_AUDIT.md": "ff83640f4d0a9641422ebfd94726b668e8400e3c41c1ce8830c666ed0ef812ca",
+    "audit/STATISTICAL_ANALYSIS.json": "7aaa4a1b22d8b5d3be22b627697611c4b71ab733e12ae3054a2f44fc5f7bb572",
+    "audit/FINAL_DELIVERY_VALIDATION.json": "0cc0ca466d58917dc1be8acb1d4783d9bdb05c0770bf4883cff7a898e885e940",
+    "audit/AR_STRICT_OUTPUT_COMPARISON.json": "1bc0df0d083a2c407c37eba9459a837223a433a2560d13c00ece639359a85fc9",
+    "audit/AR_STRICT_OUTPUT_COMPARISON.md": "00b1d28f4f7f31b5726da6fbab457102c39f0b452d56b879aac9fa893bc700bb"
+  },
+  "no_inference_rerun": true,
+  "primary_statistical_outputs_unchanged": true,
+  "interpretation_does_not_change_metrics_thresholds_or_labels": true,
+  "caveats": [
+    "AR/native output difference causes unresolved",
+    "all-project-unseen claim No-Go",
+    "no population noninferiority or human factual-safety claim"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-01",
+  "status": "pass",
+  "python": "Python 3.10.19",
+  "test_scope": "Existing CPU test modules, isolated by process; official scoring dependencies were available in the original local workspace. No GPU inference or new benchmark results.",
+  "test_modules": 21,
+  "tests_passed": 160,
+  "modules": [
+    {
+      "module": "./test_lvspec_controller.py",
+      "tests": 5,
+      "seconds": 0.016,
+      "status": "pass"
+    },
+    {
+      "module": "./test_lvspec_math.py",
+      "tests": 7,
+      "seconds": 0.065,
+      "status": "pass"
+    },
+    {
+      "module": "./test_refined_math.py",
+      "tests": 19,
+      "seconds": 0.059,
+      "status": "pass"
+    },
+    {
+      "module": "./test_runner_contract.py",
+      "tests": 7,
+      "seconds": 0.223,
+      "status": "pass"
+    },
+    {
+      "module": "./test_scienceqa_parser_boundary.py",
+      "tests": 4,
+      "seconds": 0.002,
+      "status": "pass"
+    },
+    {
+      "module": "./test_task_metrics.py",
+      "tests": 9,
+      "seconds": 0.319,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/test_long_output_accounting.py",
+      "tests": 6,
+      "seconds": 0.158,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/test_long_quality.py",
+      "tests": 10,
+      "seconds": 0.025,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/test_long_validator.py",
+      "tests": 8,
+      "seconds": 0.192,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/test_lvspec_controller.py",
+      "tests": 5,
+      "seconds": 0.014,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/test_lvspec_math.py",
+      "tests": 7,
+      "seconds": 0.065,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/test_refined_math.py",
+      "tests": 19,
+      "seconds": 0.057,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/test_runner_contract.py",
+      "tests": 7,
+      "seconds": 0.257,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/single_pass/test_long_quality.py",
+      "tests": 10,
+      "seconds": 0.025,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/single_pass/test_single_pass_accounting.py",
+      "tests": 5,
+      "seconds": 0.005,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/single_pass/test_single_pass_statistics.py",
+      "tests": 5,
+      "seconds": 0.033,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/single_pass/test_single_validator.py",
+      "tests": 7,
+      "seconds": 0.098,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/bepc_optimization_20261101/test_bepc_experimental.py",
+      "tests": 8,
+      "seconds": 0.456,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/bepc_response_uncapped_20261101/test_uncapped.py",
+      "tests": 6,
+      "seconds": 0.114,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/bepc_round_uncapped_20261101/test_round_uncapped.py",
+      "tests": 3,
+      "seconds": 0.097,
+      "status": "pass"
+    },
+    {
+      "module": "long_output/bepc_vs_margin_20261101/test_margin_control.py",
+      "tests": 3,
+      "seconds": 0.007,
+      "status": "pass"
+    }
+  ],
+  "snapshot_source_files_verified": 977,
+  "python_files_parsed": 225,
+  "pinned_clean_submodules": 2,
+  "materialized_absolute_symlinks": 16,
+  "excluded_file_check": "No model weights, images, generated results, metric caches or run logs in staged snapshot."
+}

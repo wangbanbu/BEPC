@@ -1,0 +1,78 @@
+{
+  "scope": "allchanged",
+  "requested": 276,
+  "available": 276,
+  "missing": [],
+  "status_counts": {
+    "valid": 276
+  },
+  "total_prefix_replay_seconds": 284.15860699117184,
+  "model_forward_counts": {
+    "target": 3426,
+    "draft": 12600,
+    "vision": 276
+  },
+  "note": "model_forward_counts count repeated original prefill/tree for prefix audit; supplemental BEPC readouts add no Target forward. Pilot49 is enriched and never a prevalence estimator.",
+  "by_task": {
+    "scienceqa": {
+      "n": 87,
+      "first_tree_flip_types": {
+        "rescue": 34,
+        "protection": 51,
+        "protection+rescue": 2
+      },
+      "winner_related_flip_types": {
+        "rescue": 34,
+        "protection": 53
+      },
+      "first_visible_attribution": {
+        "direct_rescue_Draft_committed": 30,
+        "direct_protection_Target_retained": 40,
+        "direct_protection_alternative_token": 9,
+        "descendant_gate_changes_earlier_ancestor_selection": 7,
+        "direct_rescue_alternative_comparison": 1
+      }
+    },
+    "textvqa": {
+      "n": 91,
+      "first_tree_flip_types": {
+        "protection": 54,
+        "rescue": 30,
+        "protection+rescue": 7
+      },
+      "winner_related_flip_types": {
+        "protection": 57,
+        "rescue": 31,
+        "protection+rescue": 3
+      },
+      "first_visible_attribution": {
+        "direct_protection_Target_retained": 49,
+        "direct_rescue_Draft_committed": 17,
+        "direct_rescue_alternative_comparison": 4,
+        "direct_protection_alternative_token+direct_rescue_alternative_comparison": 1,
+        "descendant_gate_changes_earlier_ancestor_selection": 12,
+        "direct_protection_alternative_token": 8
+      }
+    },
+    "coco": {
+      "n": 98,
+      "first_tree_flip_types": {
+        "rescue": 37,
+        "protection": 58,
+        "protection+rescue": 3
+      },
+      "winner_related_flip_types": {
+        "rescue": 38,
+        "protection": 59,
+        "protection+rescue": 1
+      },
+      "first_visible_attribution": {
+        "direct_rescue_Draft_committed": 26,
+        "descendant_gate_changes_earlier_ancestor_selection": 22,
+        "direct_protection_Target_retained": 37,
+        "direct_protection_alternative_token": 9,
+        "direct_rescue_alternative_comparison": 4
+      }
+    }
+  }
+}

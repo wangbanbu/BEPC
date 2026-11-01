@@ -1,0 +1,222 @@
+{
+  "141031234": {
+    "answer": "left",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "141031234",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b6c535bc021df836ad073de4111defa9f0e79c083770a7d0e881629e12de7e39"
+  },
+  "03600063": {
+    "answer": "computer",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "03600063",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "a8858497474a37261090e5bd24ac356b5e514ec46cc5c1e04a6ca9442a3a5066"
+  },
+  "07328878": {
+    "answer": "yes",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "07328878",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "8abbaa7abfa10bc1823c65ff806315d3d2a136b135112bfc3edc5fcd0962af9d"
+  },
+  "18318424": {
+    "answer": "yes",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "18318424",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "4ff7e1a562d7f5e44dbf8efc47ba8529d7ce2b30ea7e40ef1fafb92f1e80260b"
+  },
+  "13758504": {
+    "answer": "left",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "13758504",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "866d59d9564a209132667ae9e110d3de5120c96fa1be8424674c95b635697bb7"
+  },
+  "02802312": {
+    "answer": "no",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "02802312",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "d8949e23d9dcb20e493d3049043ef0a4c55b691930a627df45eb85374df7b38b"
+  },
+  "14754942": {
+    "answer": "no",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "14754942",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "8f8f5adc6f53adea92431cb7a3fc8594dc45719b19eca8e6239b609569602cd5"
+  },
+  "04429921": {
+    "answer": "left",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "04429921",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "c3c9018995e6f2c75e8f7e98fc87adf9e97eda3da416c9d05ecb0a927bbb5108"
+  },
+  "02704690": {
+    "answer": "yes",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "02704690",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "cd6ae503ad28692975ebb36906ec2ea97c11c00f2595e46d89bea007123ed3f4"
+  },
+  "17750918": {
+    "answer": "yes",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "17750918",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "2462da518a9bc0d0d652370e8e6ef39411f15e064dcad800899c7820a2b7eeb7"
+  },
+  "05249324": {
+    "answer": "sofa",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "05249324",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "dfb2826b6a9da2e2e97cca9acbc6427ba543598f3b9b31371035599b1740621e"
+  },
+  "07341201": {
+    "answer": "beach",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "07341201",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "224cd1580330ca7a883d045ad7f4d37c2380fd47c4c9429d3d2fe0056c4f379e"
+  },
+  "051063392": {
+    "answer": "left",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "051063392",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "17e5ec459ab0a253c767182c410b9e11310dee3a07ff4463d17c2784ff7a6231"
+  },
+  "10914735": {
+    "answer": "shorts",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "10914735",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "3f084642a215e4922bf6e111955b27ac27e4418b48b0b1edb6100416eef9ea8e"
+  },
+  "07478645": {
+    "answer": "yes",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "07478645",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "6018732f5bf90722a258281dbbe20c64e6e6cfb9091fa3361f81c5938c0f8217"
+  },
+  "13676632": {
+    "answer": "woman",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "13676632",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "b2db6a33d8017305c85db340221bc202554572a188086db2a9859f116fb10021"
+  },
+  "13188550": {
+    "answer": "no",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "13188550",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "5fc02affdb9b64e74879db7e56e05f60c0598b30488247a2d08e6ee9321de648"
+  },
+  "1274341": {
+    "answer": "white",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "1274341",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "c3419faede5158e0c8e04e9b89e8e46fbd8eef906180e1af7ef55f149a443aaf"
+  },
+  "11356206": {
+    "answer": "right",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "11356206",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "07b49e5bfb2ac97fa469d1e38a58878f1e0753d420659bc47127d4048d75eabe"
+  },
+  "111030814": {
+    "answer": "yes",
+    "source": "/data/wbb/data/GQA/questions/val_balanced_questions.json",
+    "source_split": "val_balanced",
+    "source_question_id": "111030814",
+    "source_row": null,
+    "source_parquet": null,
+    "image_archive": null,
+    "image_archive_entry": null,
+    "image_sha256": "4a20ae5b5fd71809e49aed9cdacee40c63790634966d86aab6c563272aa82a80"
+  }
+}

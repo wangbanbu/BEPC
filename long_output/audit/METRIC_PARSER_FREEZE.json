@@ -1,8 +1,0 @@
-{
-  "evaluator_sha256": "c5e17666135bc1d4263ca5e5d132418d8a721fd35d5c8b792557b691bf3d2072",
-  "original_evaluator_sha256": "1f491b0f1dba0a148b5a65ddc574c73c76878c098c967fc1f45fc08ba2a83fc3",
-  "quality_protocol_sha256": "981d8c7407e42f422a087eb124b9db8b5b1d779a05c472ea17253f54faf2707c",
-  "frozen_before_any_long_official_score": true,
-  "parser": "terminal_final_answer_v1",
-  "no_gold_assisted_extraction": true
-}

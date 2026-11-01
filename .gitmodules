@@ -1,6 +1,0 @@
-[submodule "vispec"]
-	path = upstream/ViSpec
-	url = https://github.com/KangJialiang/ViSpec.git
-[submodule "lvspec"]
-	path = reference/LVSpec
-	url = https://github.com/zju-jiyicheng/LVSpec.git

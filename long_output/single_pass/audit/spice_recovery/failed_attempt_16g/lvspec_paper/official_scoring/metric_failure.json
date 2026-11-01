@@ -1,6 +1,0 @@
-{
-  "task": "coco",
-  "exception": "CalledProcessError(1, ['java', '-XX:ActiveProcessorCount=8', '-Xmx16G', '-cp', '/data/wbb/ViSpec/ccfa-workfiles/experiments/context-evidence-autoresearch/cache/spice-models/*:/data/wbb/ViSpec/ccfa-workfiles/experiments/lvspec-comparison/context-verifier/official-quality/cache/deps/pycocoevalcap/spice/spice-1.0.jar:/data/wbb/ViSpec/ccfa-workfiles/experiments/lvspec-comparison/context-verifier/official-quality/cache/deps/pycocoevalcap/spice/lib/*', 'edu.anu.spice.SpiceScorer', '/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/lvspec_paper/official_scoring/spice/input.json', '-cache', '/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/lvspec_paper/official_scoring/spice/cache', '-out', '/data/wbb/vispec-clean-benchmark-20261031/long_output/single_pass/metrics/main/coco/lvspec_paper/official_scoring/spice/output.json', '-subset', '-silent', '-threads', '1'])",
-  "input_sha256": "e9d086f2007fba6b88079bf28f48ea85f7619013736a889d60bcc609316a7096",
-  "substitute_metric_used": false
-}

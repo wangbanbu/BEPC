@@ -1,7 +1,0 @@
-{
-  "official_test_pid_source": "/data/wbb/vispec-clean-benchmark-20261031/upstream/ViSpec/vispec/data/scienceqa/pid_splits.json",
-  "official_test_pid_source_sha256": "85c7820b9f136e572579a01dab2c77a7f8140b59211e421fa5182491d45ee3a7",
-  "unambiguous_prior_row_aliases": 100,
-  "additional_overlaps": [],
-  "inputs_unchanged": true
-}

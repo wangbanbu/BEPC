@@ -1,8 +1,0 @@
-{
-  "all_generation_exited": true,
-  "no_GPU_pids": true,
-  "main_records": 600,
-  "development_records": 120,
-  "official_CPU_scoring_overlaps_GPU": false,
-  "created_utc": "2026-11-01T08:06:50.368500+00:00"
-}

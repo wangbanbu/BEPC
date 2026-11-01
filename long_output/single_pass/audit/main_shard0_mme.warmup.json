@@ -1,7 +1,0 @@
-{
-  "requests": 7,
-  "seconds": 15.92345128301531,
-  "lifecycle_checked_every_request": true,
-  "one_warmup_per_method": true,
-  "resumed_partial_task": false
-}

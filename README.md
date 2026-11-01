@@ -1,6 +1,6 @@
 # BEPC
 
-从 `/data/wbb/vispec-clean-benchmark-20261031` 整理的源码快照，日期为 2026-11-01。包含保持原样的官方 ViSpec、外置 BEPC 控制器、五任务基准框架，以及长输出和 mismatch 预算消融的独立版本。
+从 `/data/wbb/vispec-clean-benchmark-20261031` 保持原样的官方 ViSpec、外置 BEPC 控制器、五任务基准框架，以及长输出和 mismatch 预算消融的独立版本。
 
 ## 下载
 
